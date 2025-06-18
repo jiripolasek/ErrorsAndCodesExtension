@@ -15,6 +15,7 @@
 		<EnableMsixTooling>true</EnableMsixTooling>
 		<AssemblyName>JPSoftworks.ErrorsAndCodes</AssemblyName>
 		<Nullable>enable</Nullable>
+		<GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
 	</PropertyGroup>
 
 	<ItemGroup>
