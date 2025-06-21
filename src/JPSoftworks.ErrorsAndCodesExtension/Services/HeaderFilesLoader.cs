@@ -10,9 +10,9 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Windows.Storage;
 using JPSoftworks.CommandPalette.Extensions.Toolkit.Logging;
 using JPSoftworks.ErrorsAndCodes.Models;
+using Windows.Storage;
 
 namespace JPSoftworks.ErrorsAndCodes.Services;
 
@@ -25,7 +25,7 @@ internal static class HeaderFilesLoader
         try
         {
             // Get the folder
-            StorageFolder folder = await StorageFolder.GetFolderFromPathAsync(dirPath);
+            StorageFolder folder = await StorageFolder.GetFolderFromPathAsync(dirPath)!;
 
             // Get all JSON files in the directory
             IReadOnlyList<StorageFile> jsonFiles = await folder.GetFilesAsync()!;
@@ -38,7 +38,7 @@ internal static class HeaderFilesLoader
                 try
                 {
                     string jsonContent = await FileIO.ReadTextAsync(file)!;
-                    var headerFile = JsonSerializer.Deserialize<HeaderFile>(jsonContent);
+                    var headerFile = JsonSerializer.Deserialize(jsonContent, SourceGenerationContext.Default.HeaderFile!);
 
                     if (headerFile == null)
                     {
