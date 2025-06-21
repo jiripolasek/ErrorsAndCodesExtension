@@ -37,8 +37,8 @@ internal sealed partial class ErrorListItem : ListItem
     private static IEnumerable<IContextItem> BuildCommands(ErrorCodeWithSource entry)
     {
         yield return new CommandContextItem(new CopyTextCommand(entry.ErrorCode.Id) { Name = "Copy symbolic name" });
-        yield return new CommandContextItem(new CopyTextCommand(entry.ErrorCode.HexCode) { Name = "Copy hex Value" });
-        yield return new CommandContextItem(new CopyTextCommand(entry.ErrorCode.DecimalCode.ToString(CultureInfo.InvariantCulture)) { Name = "Copy decimal Value" });
+        yield return new CommandContextItem(new CopyTextCommand(entry.ErrorCode.HexCode) { Name = "Copy hex value" });
+        yield return new CommandContextItem(new CopyTextCommand(entry.ErrorCode.DecimalCode.ToString(CultureInfo.InvariantCulture)) { Name = "Copy decimal value" });
         yield return new CommandContextItem(new CopyTextCommand(entry.ErrorCode.Message) { Name = "Copy message" });
     }
 
