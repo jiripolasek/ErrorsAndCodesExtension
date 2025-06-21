@@ -25,7 +25,7 @@ public sealed partial class ErrorsAndCodesCommandsProvider : CommandProvider
 
         this.Id = "JPSoftworks.CmdPal.ErrorsAndCodes";
         this.DisplayName = Strings.ErrorsAndCodesPage_Title!;
-        this.Icon = IconHelpers.FromRelativePath("Assets\\StoreLogo.png")!;
+        this.Icon = Icons.ErrorsCodesIconLarge;
         this.Settings = this._settingsManager.Settings;
 
         this._commands =

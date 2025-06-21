@@ -4,7 +4,6 @@
 // 
 // ------------------------------------------------------------
 
-using Microsoft.CommandPalette.Extensions;
 using Microsoft.CommandPalette.Extensions.Toolkit;
 
 namespace JPSoftworks.ErrorsAndCodes.Helpers;
@@ -15,6 +14,7 @@ internal static class Icons
 
     public static IconInfo MessageGroup { get; } = IconHelpers.FromRelativePath("Assets\\Icons\\BookOfErrors20.png");
 
-    public static IconInfo ErrorsCodesIcon { get; }
-        = IconHelpers.FromRelativePath("Assets\\Square44x44Logo.scale-100.png");
+    public static IconInfo ErrorsCodesIcon { get; } = IconHelpers.FromRelativePath("Assets\\Square44x44Logo.altform-unplated_targetsize-20.png");
+
+    public static IconInfo ErrorsCodesIconLarge { get; } = IconHelpers.FromRelativePath("Assets\\Square44x44Logo.altform-unplated_targetsize-48.png");
 }

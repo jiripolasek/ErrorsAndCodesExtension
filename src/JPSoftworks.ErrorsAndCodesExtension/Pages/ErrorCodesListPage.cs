@@ -23,7 +23,7 @@ internal sealed partial class ErrorCodesListPage : AsyncDynamicListPage, IDispos
 {
     private readonly ListItem _empty = new(new NoOpCommand())
     {
-        Icon = Icons.ErrorsCodesIcon,
+        Icon = Icons.ErrorsCodesIconLarge,
         Title = "Enter error or status code number to search"
     };
 
@@ -31,7 +31,7 @@ internal sealed partial class ErrorCodesListPage : AsyncDynamicListPage, IDispos
 
     private readonly ListItem _nothingFound = new(new NoOpCommand())
     {
-        Icon = Icons.ErrorsCodesIcon,
+        Icon = Icons.ErrorsCodesIconLarge,
         Title = "It's so empty here",
         Subtitle = "No result matched the input query"
     };
