@@ -1,0 +1,426 @@
+{
+  "HeaderFileName": "bthdef.h",
+  "ErrorCodes": [
+    {
+      "Id": "BTH_ERROR_SUCCESS",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNKNOWN_HCI_COMMAND",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_NO_CONNECTION",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_HARDWARE_FAILURE",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_PAGE_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_AUTHENTICATION_FAILURE",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_KEY_MISSING",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_MEMORY_FULL",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_CONNECTION_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_MAX_NUMBER_OF_CONNECTIONS",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_MAX_NUMBER_OF_SCO_CONNECTIONS",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_ACL_CONNECTION_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_COMMAND_DISALLOWED",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_HOST_REJECTED_LIMITED_RESOURCES",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_HOST_REJECTED_SECURITY_REASONS",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_HOST_REJECTED_PERSONAL_DEVICE",
+      "Message": "",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_HOST_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNSUPPORTED_FEATURE_OR_PARAMETER",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_INVALID_HCI_PARAMETER",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_REMOTE_USER_ENDED_CONNECTION",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_REMOTE_LOW_RESOURCES",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_REMOTE_POWERING_OFF",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_LOCAL_HOST_TERMINATED_CONNECTION",
+      "Message": "",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_REPEATED_ATTEMPTS",
+      "Message": "",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_PAIRING_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UKNOWN_LMP_PDU",
+      "Message": "",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNSUPPORTED_REMOTE_FEATURE",
+      "Message": "",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_SCO_OFFSET_REJECTED",
+      "Message": "",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_SCO_INTERVAL_REJECTED",
+      "Message": "",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_SCO_AIRMODE_REJECTED",
+      "Message": "",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_INVALID_LMP_PARAMETERS",
+      "Message": "",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNSPECIFIED_ERROR",
+      "Message": "",
+      "DecimalCode": 31,
+      "HexCode": "0x1f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNSUPPORTED_LMP_PARM_VALUE",
+      "Message": "",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_ROLE_CHANGE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_LMP_RESPONSE_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_LMP_TRANSACTION_COLLISION",
+      "Message": "",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_LMP_PDU_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_ENCRYPTION_MODE_NOT_ACCEPTABLE",
+      "Message": "",
+      "DecimalCode": 37,
+      "HexCode": "0x25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNIT_KEY_NOT_USED",
+      "Message": "",
+      "DecimalCode": 38,
+      "HexCode": "0x26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_QOS_IS_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 39,
+      "HexCode": "0x27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_INSTANT_PASSED",
+      "Message": "",
+      "DecimalCode": 40,
+      "HexCode": "0x28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_PAIRING_WITH_UNIT_KEY_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 41,
+      "HexCode": "0x29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_DIFFERENT_TRANSACTION_COLLISION",
+      "Message": "",
+      "DecimalCode": 42,
+      "HexCode": "0x2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_QOS_UNACCEPTABLE_PARAMETER",
+      "Message": "",
+      "DecimalCode": 44,
+      "HexCode": "0x2c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_QOS_REJECTED",
+      "Message": "",
+      "DecimalCode": 45,
+      "HexCode": "0x2d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_CHANNEL_CLASSIFICATION_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 46,
+      "HexCode": "0x2e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_INSUFFICIENT_SECURITY",
+      "Message": "",
+      "DecimalCode": 47,
+      "HexCode": "0x2f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_PARAMETER_OUT_OF_MANDATORY_RANGE",
+      "Message": "",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_ROLE_SWITCH_PENDING",
+      "Message": "",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_RESERVED_SLOT_VIOLATION",
+      "Message": "",
+      "DecimalCode": 52,
+      "HexCode": "0x34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_ROLE_SWITCH_FAILED",
+      "Message": "",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_EXTENDED_INQUIRY_RESPONSE_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_SECURE_SIMPLE_PAIRING_NOT_SUPPORTED_BY_HOST",
+      "Message": "",
+      "DecimalCode": 55,
+      "HexCode": "0x37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_HOST_BUSY_PAIRING",
+      "Message": "",
+      "DecimalCode": 56,
+      "HexCode": "0x38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_CONTROLLER_BUSY",
+      "Message": "",
+      "DecimalCode": 58,
+      "HexCode": "0x3a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNACCEPTABLE_CONNECTION_INTERVAL",
+      "Message": "",
+      "DecimalCode": 59,
+      "HexCode": "0x3b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_DIRECTED_ADVERTISING_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 60,
+      "HexCode": "0x3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_CONNECTION_FAILED_TO_BE_ESTABLISHED",
+      "Message": "",
+      "DecimalCode": 62,
+      "HexCode": "0x3e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_MAC_CONNECTION_FAILED",
+      "Message": "",
+      "DecimalCode": 63,
+      "HexCode": "0x3f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BTH_ERROR_UNSPECIFIED",
+      "Message": "",
+      "DecimalCode": 255,
+      "HexCode": "0xff",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

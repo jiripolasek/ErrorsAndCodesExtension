@@ -1,0 +1,104 @@
+{
+  "HeaderFileName": "portabledevice.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_WPD_DEVICE_ALREADY_OPENED",
+      "Message": "",
+      "DecimalCode": -2144731135,
+      "HexCode": "0x802a0001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_DEVICE_NOT_OPEN",
+      "Message": "",
+      "DecimalCode": -2144731134,
+      "HexCode": "0x802a0002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_OBJECT_ALREADY_ATTACHED_TO_DEVICE",
+      "Message": "",
+      "DecimalCode": -2144731133,
+      "HexCode": "0x802a0003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_OBJECT_NOT_ATTACHED_TO_DEVICE",
+      "Message": "",
+      "DecimalCode": -2144731132,
+      "HexCode": "0x802a0004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_OBJECT_NOT_COMMITED",
+      "Message": "",
+      "DecimalCode": -2144731131,
+      "HexCode": "0x802a0005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_DEVICE_IS_HUNG",
+      "Message": "",
+      "DecimalCode": -2144731130,
+      "HexCode": "0x802a0006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_SMS_INVALID_RECIPIENT",
+      "Message": "",
+      "DecimalCode": -2144731036,
+      "HexCode": "0x802a0064",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_SMS_INVALID_MESSAGE_BODY",
+      "Message": "",
+      "DecimalCode": -2144731035,
+      "HexCode": "0x802a0065",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_SMS_SERVICE_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2144731034,
+      "HexCode": "0x802a0066",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_SERVICE_ALREADY_OPENED",
+      "Message": "",
+      "DecimalCode": -2144730936,
+      "HexCode": "0x802a00c8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_SERVICE_NOT_OPEN",
+      "Message": "",
+      "DecimalCode": -2144730935,
+      "HexCode": "0x802a00c9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_OBJECT_ALREADY_ATTACHED_TO_SERVICE",
+      "Message": "",
+      "DecimalCode": -2144730934,
+      "HexCode": "0x802a00ca",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_OBJECT_NOT_ATTACHED_TO_SERVICE",
+      "Message": "",
+      "DecimalCode": -2144730933,
+      "HexCode": "0x802a00cb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_WPD_SERVICE_BAD_PARAMETER_ORDER",
+      "Message": "",
+      "DecimalCode": -2144730932,
+      "HexCode": "0x802a00cc",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

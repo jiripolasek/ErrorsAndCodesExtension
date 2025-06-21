@@ -1,0 +1,790 @@
+{
+  "HeaderFileName": "msdrmerror.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_DRM_INVALID_LICENSE",
+      "Message": "",
+      "DecimalCode": -2147168512,
+      "HexCode": "0x8004cf00",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INFO_NOT_IN_LICENSE",
+      "Message": "",
+      "DecimalCode": -2147168511,
+      "HexCode": "0x8004cf01",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_LICENSE_SIGNATURE",
+      "Message": "",
+      "DecimalCode": -2147168510,
+      "HexCode": "0x8004cf02",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ENCRYPTION_NOT_PERMITTED",
+      "Message": "",
+      "DecimalCode": -2147168508,
+      "HexCode": "0x8004cf04",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_RIGHT_NOT_GRANTED",
+      "Message": "",
+      "DecimalCode": -2147168507,
+      "HexCode": "0x8004cf05",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_VERSION",
+      "Message": "",
+      "DecimalCode": -2147168506,
+      "HexCode": "0x8004cf06",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_ENCODING_TYPE",
+      "Message": "",
+      "DecimalCode": -2147168505,
+      "HexCode": "0x8004cf07",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_NUMERICAL_VALUE",
+      "Message": "",
+      "DecimalCode": -2147168504,
+      "HexCode": "0x8004cf08",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_ALGORITHM_TYPE",
+      "Message": "",
+      "DecimalCode": -2147168503,
+      "HexCode": "0x8004cf09",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ENV_NOT_LOADED",
+      "Message": "",
+      "DecimalCode": -2147168502,
+      "HexCode": "0x8004cf0a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ENV_CANNOT_LOAD",
+      "Message": "",
+      "DecimalCode": -2147168501,
+      "HexCode": "0x8004cf0b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_TOO_MANY_LOADED_ENVIRONMENTS",
+      "Message": "",
+      "DecimalCode": -2147168500,
+      "HexCode": "0x8004cf0c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INCOMPATIBLE_OBJECTS",
+      "Message": "",
+      "DecimalCode": -2147168498,
+      "HexCode": "0x8004cf0e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_LIB_FAIL",
+      "Message": "",
+      "DecimalCode": -2147168497,
+      "HexCode": "0x8004cf0f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ENABLING_PRINCIPAL_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147168496,
+      "HexCode": "0x8004cf10",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INFO_NOT_PRESENT",
+      "Message": "",
+      "DecimalCode": -2147168495,
+      "HexCode": "0x8004cf11",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BAD_GET_INFO_QUERY",
+      "Message": "",
+      "DecimalCode": -2147168494,
+      "HexCode": "0x8004cf12",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_KEY_TYPE_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147168493,
+      "HexCode": "0x8004cf13",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_CRYPTO_OPERATION_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147168492,
+      "HexCode": "0x8004cf14",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_CLOCK_ROLL_BACK_DETECTED",
+      "Message": "",
+      "DecimalCode": -2147168491,
+      "HexCode": "0x8004cf15",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_QUERY_REPORTS_NO_RESULTS",
+      "Message": "",
+      "DecimalCode": -2147168490,
+      "HexCode": "0x8004cf16",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_UNEXPECTED_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2147168489,
+      "HexCode": "0x8004cf17",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_VALIDITY_TIME_VIOLATED",
+      "Message": "",
+      "DecimalCode": -2147168488,
+      "HexCode": "0x8004cf18",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BROKEN_CERT_CHAIN",
+      "Message": "",
+      "DecimalCode": -2147168487,
+      "HexCode": "0x8004cf19",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_POLICY_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2147168485,
+      "HexCode": "0x8004cf1b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_MANIFEST_POLICY_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2147183860,
+      "HexCode": "0x8004930c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_REVOKED_LICENSE",
+      "Message": "",
+      "DecimalCode": -2147168484,
+      "HexCode": "0x8004cf1c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_REVOKED_ISSUER",
+      "Message": "",
+      "DecimalCode": -2147168483,
+      "HexCode": "0x8004cf1d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_REVOKED_PRINCIPAL",
+      "Message": "",
+      "DecimalCode": -2147168482,
+      "HexCode": "0x8004cf1e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_REVOKED_RESOURCE",
+      "Message": "",
+      "DecimalCode": -2147168481,
+      "HexCode": "0x8004cf1f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_REVOKED_MODULE",
+      "Message": "",
+      "DecimalCode": -2147168480,
+      "HexCode": "0x8004cf20",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_CONTENT_NOT_IN_EUL",
+      "Message": "",
+      "DecimalCode": -2147168479,
+      "HexCode": "0x8004cf21",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_ACCESS_PRINCIPAL_NOT_ENABLING",
+      "Message": "",
+      "DecimalCode": -2147168478,
+      "HexCode": "0x8004cf22",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_ACCESS_UNSATISFIED",
+      "Message": "",
+      "DecimalCode": -2147168477,
+      "HexCode": "0x8004cf23",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_INDICATED_PRINCIPAL_MISSING",
+      "Message": "",
+      "DecimalCode": -2147168476,
+      "HexCode": "0x8004cf24",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_MACHINE_NOT_FOUND_IN_GROUP_IDENTITY",
+      "Message": "",
+      "DecimalCode": -2147168475,
+      "HexCode": "0x8004cf25",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_LIB_UNSUPPORTED_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2147168474,
+      "HexCode": "0x8004cf26",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_REVOCATION_LIST_STALE",
+      "Message": "",
+      "DecimalCode": -2147168473,
+      "HexCode": "0x8004cf27",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_NO_APPLICABLE_REVOCATION_LIST",
+      "Message": "",
+      "DecimalCode": -2147168472,
+      "HexCode": "0x8004cf28",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_HANDLE",
+      "Message": "",
+      "DecimalCode": -2147168468,
+      "HexCode": "0x8004cf2c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_INTERVALTIME_VIOLATED",
+      "Message": "",
+      "DecimalCode": -2147168465,
+      "HexCode": "0x8004cf2f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_NO_SATISFIED_RIGHTS_GROUP",
+      "Message": "",
+      "DecimalCode": -2147168464,
+      "HexCode": "0x8004cf30",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_SPECIFIED_WORK_MISSING",
+      "Message": "",
+      "DecimalCode": -2147168463,
+      "HexCode": "0x8004cf31",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NO_MORE_DATA",
+      "Message": "",
+      "DecimalCode": -2147168461,
+      "HexCode": "0x8004cf33",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_LICENSEACQUISITIONFAILED",
+      "Message": "",
+      "DecimalCode": -2147168460,
+      "HexCode": "0x8004cf34",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ID_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147168459,
+      "HexCode": "0x8004cf35",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_TOO_MANY_CERTS",
+      "Message": "",
+      "DecimalCode": -2147168458,
+      "HexCode": "0x8004cf36",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NO_DPURL_FOUND",
+      "Message": "",
+      "DecimalCode": -2147168457,
+      "HexCode": "0x8004cf37",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ALREADY_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": -2147168456,
+      "HexCode": "0x8004cf38",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_GROUPID_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2147168455,
+      "HexCode": "0x8004cf39",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_RECORD_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147168454,
+      "HexCode": "0x8004cf3a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NO_CONNECT",
+      "Message": "",
+      "DecimalCode": -2147168453,
+      "HexCode": "0x8004cf3b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NO_LICENSE",
+      "Message": "",
+      "DecimalCode": -2147168452,
+      "HexCode": "0x8004cf3c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NEEDS_MACHINE_ACTIVATION",
+      "Message": "",
+      "DecimalCode": -2147168451,
+      "HexCode": "0x8004cf3d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NEEDS_GROUPIDENTITY_ACTIVATION",
+      "Message": "",
+      "DecimalCode": -2147168450,
+      "HexCode": "0x8004cf3e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ACTIVATIONFAILED",
+      "Message": "",
+      "DecimalCode": -2147168448,
+      "HexCode": "0x8004cf40",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ABORTED",
+      "Message": "",
+      "DecimalCode": -2147168447,
+      "HexCode": "0x8004cf41",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_OUT_OF_QUOTA",
+      "Message": "",
+      "DecimalCode": -2147168446,
+      "HexCode": "0x8004cf42",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_AUTHENTICATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147168445,
+      "HexCode": "0x8004cf43",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_SERVER_ERROR",
+      "Message": "",
+      "DecimalCode": -2147168444,
+      "HexCode": "0x8004cf44",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INSTALLATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147168443,
+      "HexCode": "0x8004cf45",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_HID_CORRUPTED",
+      "Message": "",
+      "DecimalCode": -2147168442,
+      "HexCode": "0x8004cf46",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_SERVER_RESPONSE",
+      "Message": "",
+      "DecimalCode": -2147168441,
+      "HexCode": "0x8004cf47",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_SERVICE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147168440,
+      "HexCode": "0x8004cf48",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_USE_DEFAULT",
+      "Message": "",
+      "DecimalCode": -2147168439,
+      "HexCode": "0x8004cf49",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_SERVER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147168438,
+      "HexCode": "0x8004cf4a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_EMAIL",
+      "Message": "",
+      "DecimalCode": -2147168437,
+      "HexCode": "0x8004cf4b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_VALIDITYTIME_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2147168436,
+      "HexCode": "0x8004cf4c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_OUTDATED_MODULE",
+      "Message": "",
+      "DecimalCode": -2147168435,
+      "HexCode": "0x8004cf4d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_SERVICE_MOVED",
+      "Message": "",
+      "DecimalCode": -2147168421,
+      "HexCode": "0x8004cf5b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_SERVICE_GONE",
+      "Message": "",
+      "DecimalCode": -2147168420,
+      "HexCode": "0x8004cf5c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_AD_ENTRY_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147168419,
+      "HexCode": "0x8004cf5d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NOT_A_CHAIN",
+      "Message": "",
+      "DecimalCode": -2147168418,
+      "HexCode": "0x8004cf5e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_REQUEST_DENIED",
+      "Message": "",
+      "DecimalCode": -2147168417,
+      "HexCode": "0x8004cf5f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2147168434,
+      "HexCode": "0x8004cf4e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_METADATA_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2147168433,
+      "HexCode": "0x8004cf4f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_REVOCATIONINFO_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2147168432,
+      "HexCode": "0x8004cf50",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_TIMEINFO",
+      "Message": "",
+      "DecimalCode": -2147168431,
+      "HexCode": "0x8004cf51",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_RIGHT_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2147168430,
+      "HexCode": "0x8004cf52",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_BIND_NTLM_FAIL",
+      "Message": "",
+      "DecimalCode": -2147168429,
+      "HexCode": "0x8004cf53",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_ISSUANCELICENSE_TEMPLATE",
+      "Message": "",
+      "DecimalCode": -2147168428,
+      "HexCode": "0x8004cf54",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_KEY_LENGTH",
+      "Message": "",
+      "DecimalCode": -2147168427,
+      "HexCode": "0x8004cf55",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_EXPIRED_OFFICIAL_ISSUANCELICENSE_TEMPLATE",
+      "Message": "",
+      "DecimalCode": -2147168425,
+      "HexCode": "0x8004cf57",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_CLIENT_LICENSOR_CERTIFICATE",
+      "Message": "",
+      "DecimalCode": -2147168424,
+      "HexCode": "0x8004cf58",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_HID_INVALID",
+      "Message": "",
+      "DecimalCode": -2147168423,
+      "HexCode": "0x8004cf59",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_EMAIL_NOT_VERIFIED",
+      "Message": "",
+      "DecimalCode": -2147168422,
+      "HexCode": "0x8004cf5a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_DEBUGGER_DETECTED",
+      "Message": "",
+      "DecimalCode": -2147168416,
+      "HexCode": "0x8004cf60",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_LOCKBOX_TYPE",
+      "Message": "",
+      "DecimalCode": -2147168400,
+      "HexCode": "0x8004cf70",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_LOCKBOX_PATH",
+      "Message": "",
+      "DecimalCode": -2147168399,
+      "HexCode": "0x8004cf71",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_REGISTRY_PATH",
+      "Message": "",
+      "DecimalCode": -2147168398,
+      "HexCode": "0x8004cf72",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NO_AES_PROVIDER",
+      "Message": "",
+      "DecimalCode": -2147168397,
+      "HexCode": "0x8004cf73",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_GLOBAL_OPTION_ALREADY_SET",
+      "Message": "",
+      "DecimalCode": -2147168396,
+      "HexCode": "0x8004cf74",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_OWNER_LICENSE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147168395,
+      "HexCode": "0x8004cf75",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_INVALID_WINDOW",
+      "Message": "",
+      "DecimalCode": -2147168394,
+      "HexCode": "0x8004cf76",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_WINDOW_REGISTRATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147168393,
+      "HexCode": "0x8004cf77",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_SAFEMODE_OS_DETECTED",
+      "Message": "",
+      "DecimalCode": -2147168392,
+      "HexCode": "0x8004cf78",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_PLATFORM_POLICY_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2147168391,
+      "HexCode": "0x8004cf79",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_TEMPLATE_ACQUISITION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147168384,
+      "HexCode": "0x8004cf80",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_ISSUANCELICENSE_LENGTH_LIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": -2147168383,
+      "HexCode": "0x8004cf81",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_FILE_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147168382,
+      "HexCode": "0x8004cf82",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_CORRUPTED_FILE",
+      "Message": "",
+      "DecimalCode": -2147168381,
+      "HexCode": "0x8004cf83",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_PROTECTOR_BAD_INSTALL",
+      "Message": "",
+      "DecimalCode": -2147168380,
+      "HexCode": "0x8004cf84",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_PLATFORM_CALLBACK_FAILED",
+      "Message": "",
+      "DecimalCode": -2147168379,
+      "HexCode": "0x8004cf85",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_NOT_FILE_OWNER",
+      "Message": "",
+      "DecimalCode": -2147168378,
+      "HexCode": "0x8004cf86",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_FILE_ALREADY_PROTECTED",
+      "Message": "",
+      "DecimalCode": -2147168377,
+      "HexCode": "0x8004cf87",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DRM_FILE_ALREADY_UNPROTECTED",
+      "Message": "",
+      "DecimalCode": -2147168376,
+      "HexCode": "0x8004cf88",
+      "Type": "HResult"
+    },
+    {
+      "Id": "S_DRM_REQUEST_PREPARED",
+      "Message": "",
+      "DecimalCode": 315136,
+      "HexCode": "0x4cf00",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_DRM_ALREADY_ACTIVATED",
+      "Message": "",
+      "DecimalCode": 315137,
+      "HexCode": "0x4cf01",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_DRM_CONNECTING",
+      "Message": "",
+      "DecimalCode": 315138,
+      "HexCode": "0x4cf02",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_DRM_CONNECTED",
+      "Message": "",
+      "DecimalCode": 315139,
+      "HexCode": "0x4cf03",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_DRM_COMPLETED",
+      "Message": "",
+      "DecimalCode": 315140,
+      "HexCode": "0x4cf04",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_DRM_INPROGRESS",
+      "Message": "",
+      "DecimalCode": 315141,
+      "HexCode": "0x4cf05",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

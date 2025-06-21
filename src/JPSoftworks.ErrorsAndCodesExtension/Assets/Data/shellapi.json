@@ -1,0 +1,83 @@
+{
+  "HeaderFileName": "shellapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "SE_ERR_FNF",
+      "Message": "file not found",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_PNF",
+      "Message": "path not found",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_ACCESSDENIED",
+      "Message": "access denied",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_OOM",
+      "Message": "out of memory",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_DLLNOTFOUND",
+      "Message": "",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_SHARE",
+      "Message": "",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_ASSOCINCOMPLETE",
+      "Message": "",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_DDETIMEOUT",
+      "Message": "",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_DDEFAIL",
+      "Message": "",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_DDEBUSY",
+      "Message": "",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SE_ERR_NOASSOC",
+      "Message": "",
+      "DecimalCode": 31,
+      "HexCode": "0x1f",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

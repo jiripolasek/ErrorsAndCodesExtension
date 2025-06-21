@@ -1,0 +1,1119 @@
+{
+  "HeaderFileName": "netmon.h",
+  "ErrorCodes": [
+    {
+      "Id": "NMERR_SUCCESS",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_MEMORY_MAPPED_FILE_ERROR",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HFILTER",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_CAPTURING",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_CAPTURING",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_MORE_FRAMES",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FRAME_NOT_RECOGNIZED",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FILE_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_DRIVER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ADDRESS_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HFRAME",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HPROTOCOL",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HPROPERTY",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_LOCKED",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_STACK_EMPTY",
+      "Message": "",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_STACK_OVERFLOW",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_TOO_MANY_PROTOCOLS",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FILE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_OUT_OF_MEMORY",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_CAPTURE_PAUSED",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_BUFFERS",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BUFFERS_ALREADY_EXIST",
+      "Message": "",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_LOCKED",
+      "Message": "",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_LOCK_NESTING_TOO_DEEP",
+      "Message": "",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_LOAD_PARSER_FAILED",
+      "Message": "",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNLOAD_PARSER_FAILED",
+      "Message": "",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HADDRESSDB",
+      "Message": "",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ADDRESS_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NETWORK_NOT_PRESENT",
+      "Message": "",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_PROPERTY_DATABASE",
+      "Message": "",
+      "DecimalCode": 31,
+      "HexCode": "0x1f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PROPERTY_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HPROPERTYDB",
+      "Message": "",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PROTOCOL_NOT_ENABLED",
+      "Message": "",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PROTOCOL_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_PARSER_DLL",
+      "Message": "",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_ATTACHED_PROPERTIES",
+      "Message": "",
+      "DecimalCode": 37,
+      "HexCode": "0x25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_FRAMES",
+      "Message": "",
+      "DecimalCode": 38,
+      "HexCode": "0x26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_FILE_FORMAT",
+      "Message": "",
+      "DecimalCode": 39,
+      "HexCode": "0x27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_COULD_NOT_CREATE_TEMPFILE",
+      "Message": "",
+      "DecimalCode": 40,
+      "HexCode": "0x28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_OUT_OF_DOS_MEMORY",
+      "Message": "",
+      "DecimalCode": 41,
+      "HexCode": "0x29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_PROTOCOLS_ENABLED",
+      "Message": "",
+      "DecimalCode": 42,
+      "HexCode": "0x2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNKNOWN_MACTYPE",
+      "Message": "",
+      "DecimalCode": 46,
+      "HexCode": "0x2e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ROUTING_INFO_NOT_PRESENT",
+      "Message": "",
+      "DecimalCode": 47,
+      "HexCode": "0x2f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HNETWORK",
+      "Message": "",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NETWORK_ALREADY_OPENED",
+      "Message": "",
+      "DecimalCode": 49,
+      "HexCode": "0x31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NETWORK_NOT_OPENED",
+      "Message": "",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FRAME_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 51,
+      "HexCode": "0x33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_HANDLES",
+      "Message": "",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_NETWORK_ID",
+      "Message": "",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HCAPTURE",
+      "Message": "",
+      "DecimalCode": 55,
+      "HexCode": "0x37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PROTOCOL_ALREADY_ENABLED",
+      "Message": "",
+      "DecimalCode": 56,
+      "HexCode": "0x38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FILTER_INVALID_EXPRESSION",
+      "Message": "",
+      "DecimalCode": 57,
+      "HexCode": "0x39",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_TRANSMIT_ERROR",
+      "Message": "",
+      "DecimalCode": 58,
+      "HexCode": "0x3a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HBUFFER",
+      "Message": "",
+      "DecimalCode": 59,
+      "HexCode": "0x3b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": 60,
+      "HexCode": "0x3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_MSDOS_DRIVER_NOT_LOADED",
+      "Message": "",
+      "DecimalCode": 61,
+      "HexCode": "0x3d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_WINDOWS_DRIVER_NOT_LOADED",
+      "Message": "",
+      "DecimalCode": 62,
+      "HexCode": "0x3e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_MSDOS_DRIVER_INIT_FAILURE",
+      "Message": "",
+      "DecimalCode": 63,
+      "HexCode": "0x3f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_WINDOWS_DRIVER_INIT_FAILURE",
+      "Message": "",
+      "DecimalCode": 64,
+      "HexCode": "0x40",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NETWORK_BUSY",
+      "Message": "",
+      "DecimalCode": 65,
+      "HexCode": "0x41",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_CAPTURE_NOT_PAUSED",
+      "Message": "",
+      "DecimalCode": 66,
+      "HexCode": "0x42",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_PACKET_LENGTH",
+      "Message": "",
+      "DecimalCode": 67,
+      "HexCode": "0x43",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INTERNAL_EXCEPTION",
+      "Message": "",
+      "DecimalCode": 69,
+      "HexCode": "0x45",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PROMISCUOUS_MODE_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 70,
+      "HexCode": "0x46",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_MAC_DRIVER_OPEN_FAILURE",
+      "Message": "",
+      "DecimalCode": 71,
+      "HexCode": "0x47",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_RUNAWAY_PROTOCOL",
+      "Message": "",
+      "DecimalCode": 72,
+      "HexCode": "0x48",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PENDING",
+      "Message": "",
+      "DecimalCode": 73,
+      "HexCode": "0x49",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 74,
+      "HexCode": "0x4a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_HPASSWORD",
+      "Message": "",
+      "DecimalCode": 75,
+      "HexCode": "0x4b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_PARAMETER",
+      "Message": "",
+      "DecimalCode": 76,
+      "HexCode": "0x4c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FILE_READ_ERROR",
+      "Message": "",
+      "DecimalCode": 77,
+      "HexCode": "0x4d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FILE_WRITE_ERROR",
+      "Message": "",
+      "DecimalCode": 78,
+      "HexCode": "0x4e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PROTOCOL_NOT_REGISTERED",
+      "Message": "",
+      "DecimalCode": 79,
+      "HexCode": "0x4f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_IP_ADDRESS_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 80,
+      "HexCode": "0x50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_TRANSMIT_CANCELLED",
+      "Message": "",
+      "DecimalCode": 81,
+      "HexCode": "0x51",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_LOCKED_FRAMES",
+      "Message": "",
+      "DecimalCode": 82,
+      "HexCode": "0x52",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_TRANSMITS_PENDING",
+      "Message": "",
+      "DecimalCode": 83,
+      "HexCode": "0x53",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_PATH_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 84,
+      "HexCode": "0x54",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_WINDOWS_ERROR",
+      "Message": "",
+      "DecimalCode": 85,
+      "HexCode": "0x55",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_FRAME_NUMBER",
+      "Message": "",
+      "DecimalCode": 86,
+      "HexCode": "0x56",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FRAME_HAS_NO_CAPTURE",
+      "Message": "",
+      "DecimalCode": 87,
+      "HexCode": "0x57",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FRAME_ALREADY_HAS_CAPTURE",
+      "Message": "",
+      "DecimalCode": 88,
+      "HexCode": "0x58",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NAL_IS_NOT_REMOTE",
+      "Message": "",
+      "DecimalCode": 89,
+      "HexCode": "0x59",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 90,
+      "HexCode": "0x5a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_DISCARD_FRAME",
+      "Message": "",
+      "DecimalCode": 91,
+      "HexCode": "0x5b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_CANCEL_SAVE_CAPTURE",
+      "Message": "",
+      "DecimalCode": 92,
+      "HexCode": "0x5c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_LOST_CONNECTION",
+      "Message": "",
+      "DecimalCode": 93,
+      "HexCode": "0x5d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_MEDIA_TYPE",
+      "Message": "",
+      "DecimalCode": 94,
+      "HexCode": "0x5e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_AGENT_IN_USE",
+      "Message": "",
+      "DecimalCode": 95,
+      "HexCode": "0x5f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 96,
+      "HexCode": "0x60",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": 97,
+      "HexCode": "0x61",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_SETTIMER_FAILED",
+      "Message": "",
+      "DecimalCode": 98,
+      "HexCode": "0x62",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NETWORK_ERROR",
+      "Message": "",
+      "DecimalCode": 99,
+      "HexCode": "0x63",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_FRAMESPROC",
+      "Message": "",
+      "DecimalCode": 100,
+      "HexCode": "0x64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNKNOWN_CAPTURETYPE",
+      "Message": "",
+      "DecimalCode": 101,
+      "HexCode": "0x65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": 102,
+      "HexCode": "0x66",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ALREADY_CONNECTED",
+      "Message": "",
+      "DecimalCode": 103,
+      "HexCode": "0x67",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_REGISTRY_CONFIGURATION",
+      "Message": "",
+      "DecimalCode": 104,
+      "HexCode": "0x68",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_DELAYED",
+      "Message": "",
+      "DecimalCode": 105,
+      "HexCode": "0x69",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_DELAYED",
+      "Message": "",
+      "DecimalCode": 106,
+      "HexCode": "0x6a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_REALTIME",
+      "Message": "",
+      "DecimalCode": 107,
+      "HexCode": "0x6b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_REALTIME",
+      "Message": "",
+      "DecimalCode": 108,
+      "HexCode": "0x6c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_STATS_ONLY",
+      "Message": "",
+      "DecimalCode": 109,
+      "HexCode": "0x6d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_STATS_ONLY",
+      "Message": "",
+      "DecimalCode": 110,
+      "HexCode": "0x6e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_TRANSMIT",
+      "Message": "",
+      "DecimalCode": 111,
+      "HexCode": "0x6f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_TRANSMIT",
+      "Message": "",
+      "DecimalCode": 112,
+      "HexCode": "0x70",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_TRANSMITTING",
+      "Message": "",
+      "DecimalCode": 113,
+      "HexCode": "0x71",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_DISK_NOT_LOCAL_FIXED",
+      "Message": "",
+      "DecimalCode": 114,
+      "HexCode": "0x72",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_COULD_NOT_CREATE_DIRECTORY",
+      "Message": "",
+      "DecimalCode": 115,
+      "HexCode": "0x73",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_DEFAULT_CAPTURE_DIRECTORY",
+      "Message": "",
+      "DecimalCode": 116,
+      "HexCode": "0x74",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UPLEVEL_CAPTURE_FILE",
+      "Message": "",
+      "DecimalCode": 117,
+      "HexCode": "0x75",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_LOAD_EXPERT_FAILED",
+      "Message": "",
+      "DecimalCode": 118,
+      "HexCode": "0x76",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_EXPERT_REPORT_FAILED",
+      "Message": "",
+      "DecimalCode": 119,
+      "HexCode": "0x77",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_REG_OPERATION_FAILED",
+      "Message": "",
+      "DecimalCode": 120,
+      "HexCode": "0x78",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_DLLS_FOUND",
+      "Message": "",
+      "DecimalCode": 121,
+      "HexCode": "0x79",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_CONVERSATION_STATS",
+      "Message": "",
+      "DecimalCode": 122,
+      "HexCode": "0x7a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_SECURITY_BREACH_CAPTURE_DELETED",
+      "Message": "",
+      "DecimalCode": 123,
+      "HexCode": "0x7b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_FRAME_FAILED_FILTER",
+      "Message": "",
+      "DecimalCode": 124,
+      "HexCode": "0x7c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_EXPERT_TERMINATE",
+      "Message": "",
+      "DecimalCode": 125,
+      "HexCode": "0x7d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_REMOTE_NOT_A_SERVER",
+      "Message": "",
+      "DecimalCode": 126,
+      "HexCode": "0x7e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_REMOTE_VERSION_OUTOFSYNC",
+      "Message": "",
+      "DecimalCode": 127,
+      "HexCode": "0x7f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_EXPERT_GROUP",
+      "Message": "",
+      "DecimalCode": 128,
+      "HexCode": "0x80",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_EXPERT_NAME",
+      "Message": "",
+      "DecimalCode": 129,
+      "HexCode": "0x81",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_EXPERT_HANDLE",
+      "Message": "",
+      "DecimalCode": 130,
+      "HexCode": "0x82",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_GROUP_NAME_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 131,
+      "HexCode": "0x83",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_GROUP_NAME",
+      "Message": "",
+      "DecimalCode": 132,
+      "HexCode": "0x84",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_EXPERT_ALREADY_IN_GROUP",
+      "Message": "",
+      "DecimalCode": 133,
+      "HexCode": "0x85",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_EXPERT_NOT_IN_GROUP",
+      "Message": "",
+      "DecimalCode": 134,
+      "HexCode": "0x86",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": 135,
+      "HexCode": "0x87",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_GROUP_ROOT",
+      "Message": "",
+      "DecimalCode": 136,
+      "HexCode": "0x88",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BAD_VERSION",
+      "Message": "",
+      "DecimalCode": 137,
+      "HexCode": "0x89",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ESP",
+      "Message": "",
+      "DecimalCode": 138,
+      "HexCode": "0x8a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NOT_ESP",
+      "Message": "",
+      "DecimalCode": 139,
+      "HexCode": "0x8b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": 1000,
+      "HexCode": "0x3e8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_BLOB",
+      "Message": "",
+      "DecimalCode": 1001,
+      "HexCode": "0x3e9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UPLEVEL_BLOB",
+      "Message": "",
+      "DecimalCode": 1002,
+      "HexCode": "0x3ea",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_ENTRY_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 1003,
+      "HexCode": "0x3eb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_ENTRY_DOES_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": 1004,
+      "HexCode": "0x3ec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_AMBIGUOUS_SPECIFIER",
+      "Message": "",
+      "DecimalCode": 1005,
+      "HexCode": "0x3ed",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_OWNER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 1006,
+      "HexCode": "0x3ee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_CATEGORY_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 1007,
+      "HexCode": "0x3ef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNKNOWN_CATEGORY",
+      "Message": "",
+      "DecimalCode": 1008,
+      "HexCode": "0x3f0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNKNOWN_TAG",
+      "Message": "",
+      "DecimalCode": 1009,
+      "HexCode": "0x3f1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_CONVERSION_ERROR",
+      "Message": "",
+      "DecimalCode": 1010,
+      "HexCode": "0x3f2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_ILLEGAL_TRIGGER",
+      "Message": "",
+      "DecimalCode": 1011,
+      "HexCode": "0x3f3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_BLOB_STRING_INVALID",
+      "Message": "",
+      "DecimalCode": 1012,
+      "HexCode": "0x3f4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNABLE_TO_LOAD_LIBRARY",
+      "Message": "",
+      "DecimalCode": 1013,
+      "HexCode": "0x3f5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_UNABLE_TO_GET_PROCADDR",
+      "Message": "",
+      "DecimalCode": 1014,
+      "HexCode": "0x3f6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_CLASS_NOT_REGISTERED",
+      "Message": "",
+      "DecimalCode": 1015,
+      "HexCode": "0x3f7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_INVALID_REMOTE_COMPUTERNAME",
+      "Message": "",
+      "DecimalCode": 1016,
+      "HexCode": "0x3f8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_RPC_REMOTE_FAILURE",
+      "Message": "",
+      "DecimalCode": 1017,
+      "HexCode": "0x3f9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_NPPS",
+      "Message": "",
+      "DecimalCode": 3016,
+      "HexCode": "0xbc8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_MATCHING_NPPS",
+      "Message": "",
+      "DecimalCode": 3017,
+      "HexCode": "0xbc9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_NPP_SELECTED",
+      "Message": "",
+      "DecimalCode": 3018,
+      "HexCode": "0xbca",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_INPUT_BLOBS",
+      "Message": "",
+      "DecimalCode": 3019,
+      "HexCode": "0xbcb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_NPP_DLLS",
+      "Message": "",
+      "DecimalCode": 3020,
+      "HexCode": "0xbcc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NMERR_NO_VALID_NPP_DLLS",
+      "Message": "",
+      "DecimalCode": 3021,
+      "HexCode": "0xbcd",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

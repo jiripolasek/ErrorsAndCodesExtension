@@ -1,0 +1,237 @@
+{
+  "HeaderFileName": "msiquery.h",
+  "ErrorCodes": [
+    {
+      "Id": "MSIDBERROR_INVALIDARG",
+      "Message": "invalid argument",
+      "DecimalCode": -3,
+      "HexCode": "0xfffffffd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSIDBERROR_MOREDATA",
+      "Message": "buffer too small",
+      "DecimalCode": -2,
+      "HexCode": "0xfffffffe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSIDBERROR_FUNCTIONERROR",
+      "Message": "function error",
+      "DecimalCode": -1,
+      "HexCode": "0xffffffff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSIDBERROR_NOERROR",
+      "Message": "no error",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_DUPLICATEKEY",
+      "Message": "new record duplicates primary keys of existing record in table",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_REQUIRED",
+      "Message": "non-nullable column no null values allowed",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADLINK",
+      "Message": "corresponding record in foreign table not found",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_OVERFLOW",
+      "Message": "data greater than maximum value allowed",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_UNDERFLOW",
+      "Message": "data less than minimum value allowed",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_NOTINSET",
+      "Message": "data not a member of the values permitted in the set",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADVERSION",
+      "Message": "invalid version string",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADCASE",
+      "Message": "invalid case must be all upper-case or all lower-case",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADGUID",
+      "Message": "invalid GUID",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADWILDCARD",
+      "Message": "invalid wildcardfilename or use of wildcards",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADIDENTIFIER",
+      "Message": "bad identifier",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADLANGUAGE",
+      "Message": "bad language Id(s)",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADFILENAME",
+      "Message": "bad filename",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADPATH",
+      "Message": "bad path",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADCONDITION",
+      "Message": "bad conditional statement",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADFORMATTED",
+      "Message": "bad format string",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADTEMPLATE",
+      "Message": "bad template string",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADDEFAULTDIR",
+      "Message": "bad string in DefaultDir column of Directory table",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADREGPATH",
+      "Message": "bad registry path string",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADCUSTOMSOURCE",
+      "Message": "bad string in CustomSource column of CustomAction table",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADPROPERTY",
+      "Message": "bad property string",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_MISSINGDATA",
+      "Message": "_Validation table missing reference to column",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADCATEGORY",
+      "Message": "Category column of _Validation table for column is invalid",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADKEYTABLE",
+      "Message": "table in KeyTable column of _Validation table could not be found/loaded",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADMAXMINVALUES",
+      "Message": "value in MaxValue column of _Validation table is less than value in MinValue column",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADCABINET",
+      "Message": "bad cabinet name",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADSHORTCUT",
+      "Message": "bad shortcut target",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_STRINGOVERFLOW",
+      "Message": "string overflow (greater than length allowed in column def)",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSIDBERROR_BADLOCALIZEATTRIB",
+      "Message": "invalid localization attribute (primary keys cannot be localized)",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

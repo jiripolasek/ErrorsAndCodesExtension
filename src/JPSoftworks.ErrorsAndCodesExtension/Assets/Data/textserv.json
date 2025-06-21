@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "textserv.h",
+  "ErrorCodes": [
+    {
+      "Id": "S_MSG_KEY_IGNORED",
+      "Message": "",
+      "DecimalCode": 262657,
+      "HexCode": "0x40201",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

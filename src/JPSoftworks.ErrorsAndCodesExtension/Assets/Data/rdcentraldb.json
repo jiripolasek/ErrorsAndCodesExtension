@@ -1,0 +1,111 @@
+{
+  "HeaderFileName": "rdcentraldb.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_RDDB_LOGIN_FAILED",
+      "Message": "",
+      "DecimalCode": -2010841087,
+      "HexCode": "0x88250001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_DATA_INTEGRITY_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2010841086,
+      "HexCode": "0x88250002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_FATAL_ERR",
+      "Message": "",
+      "DecimalCode": -2010841085,
+      "HexCode": "0x88250003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_DB_OFFLINE",
+      "Message": "",
+      "DecimalCode": -2010841084,
+      "HexCode": "0x88250004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_INVALID_ARG",
+      "Message": "",
+      "DecimalCode": -2010841083,
+      "HexCode": "0x88250005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_SYNCH_CONFLICT",
+      "Message": "",
+      "DecimalCode": -2010841082,
+      "HexCode": "0x88250006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_VM_ALREADY_ASSIGNED",
+      "Message": "",
+      "DecimalCode": -2010841081,
+      "HexCode": "0x88250007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_USER_ALREADY_ASSIGNED",
+      "Message": "",
+      "DecimalCode": -2010841080,
+      "HexCode": "0x88250008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_USER_CONN_PENDING",
+      "Message": "",
+      "DecimalCode": -2010841079,
+      "HexCode": "0x88250009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_TOO_MANY_RECORDS",
+      "Message": "",
+      "DecimalCode": -2010841078,
+      "HexCode": "0x8825000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_NO_RESOURCE_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2010841077,
+      "HexCode": "0x8825000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_TARGET_ENDPOINT_DOWN",
+      "Message": "",
+      "DecimalCode": -2010841076,
+      "HexCode": "0x8825000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_UNKNOWN_ERR",
+      "Message": "",
+      "DecimalCode": -2010841075,
+      "HexCode": "0x8825000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2010841074,
+      "HexCode": "0x8825000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_RDDB_KEYVALUE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2010841073,
+      "HexCode": "0x8825000f",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

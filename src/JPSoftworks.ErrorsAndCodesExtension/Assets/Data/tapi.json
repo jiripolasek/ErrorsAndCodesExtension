@@ -1,0 +1,916 @@
+{
+  "HeaderFileName": "tapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "LINEERR_ALLOCATED",
+      "Message": "",
+      "DecimalCode": -2147483647,
+      "HexCode": "0x80000001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_BADDEVICEID",
+      "Message": "",
+      "DecimalCode": -2147483646,
+      "HexCode": "0x80000002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_BEARERMODEUNAVAIL",
+      "Message": "",
+      "DecimalCode": -2147483645,
+      "HexCode": "0x80000003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_CALLUNAVAIL",
+      "Message": "",
+      "DecimalCode": -2147483643,
+      "HexCode": "0x80000005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_COMPLETIONOVERRUN",
+      "Message": "",
+      "DecimalCode": -2147483642,
+      "HexCode": "0x80000006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_CONFERENCEFULL",
+      "Message": "",
+      "DecimalCode": -2147483641,
+      "HexCode": "0x80000007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_DIALBILLING",
+      "Message": "",
+      "DecimalCode": -2147483640,
+      "HexCode": "0x80000008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_DIALDIALTONE",
+      "Message": "",
+      "DecimalCode": -2147483639,
+      "HexCode": "0x80000009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_DIALPROMPT",
+      "Message": "",
+      "DecimalCode": -2147483638,
+      "HexCode": "0x8000000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_DIALQUIET",
+      "Message": "",
+      "DecimalCode": -2147483637,
+      "HexCode": "0x8000000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INCOMPATIBLEAPIVERSION",
+      "Message": "",
+      "DecimalCode": -2147483636,
+      "HexCode": "0x8000000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INCOMPATIBLEEXTVERSION",
+      "Message": "",
+      "DecimalCode": -2147483635,
+      "HexCode": "0x8000000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INIFILECORRUPT",
+      "Message": "",
+      "DecimalCode": -2147483634,
+      "HexCode": "0x8000000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INUSE",
+      "Message": "",
+      "DecimalCode": -2147483633,
+      "HexCode": "0x8000000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALADDRESS",
+      "Message": "",
+      "DecimalCode": -2147483632,
+      "HexCode": "0x80000010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALADDRESSID",
+      "Message": "",
+      "DecimalCode": -2147483631,
+      "HexCode": "0x80000011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALADDRESSMODE",
+      "Message": "",
+      "DecimalCode": -2147483630,
+      "HexCode": "0x80000012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALADDRESSSTATE",
+      "Message": "",
+      "DecimalCode": -2147483629,
+      "HexCode": "0x80000013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAPPHANDLE",
+      "Message": "",
+      "DecimalCode": -2147483628,
+      "HexCode": "0x80000014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAPPNAME",
+      "Message": "",
+      "DecimalCode": -2147483627,
+      "HexCode": "0x80000015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALBEARERMODE",
+      "Message": "",
+      "DecimalCode": -2147483626,
+      "HexCode": "0x80000016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLCOMPLMODE",
+      "Message": "",
+      "DecimalCode": -2147483625,
+      "HexCode": "0x80000017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLHANDLE",
+      "Message": "",
+      "DecimalCode": -2147483624,
+      "HexCode": "0x80000018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLPARAMS",
+      "Message": "",
+      "DecimalCode": -2147483623,
+      "HexCode": "0x80000019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLPRIVILEGE",
+      "Message": "",
+      "DecimalCode": -2147483622,
+      "HexCode": "0x8000001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLSELECT",
+      "Message": "",
+      "DecimalCode": -2147483621,
+      "HexCode": "0x8000001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLSTATE",
+      "Message": "",
+      "DecimalCode": -2147483620,
+      "HexCode": "0x8000001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCALLSTATELIST",
+      "Message": "",
+      "DecimalCode": -2147483619,
+      "HexCode": "0x8000001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCARD",
+      "Message": "",
+      "DecimalCode": -2147483618,
+      "HexCode": "0x8000001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCOMPLETIONID",
+      "Message": "",
+      "DecimalCode": -2147483617,
+      "HexCode": "0x8000001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCONFCALLHANDLE",
+      "Message": "",
+      "DecimalCode": -2147483616,
+      "HexCode": "0x80000020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCONSULTCALLHANDLE",
+      "Message": "",
+      "DecimalCode": -2147483615,
+      "HexCode": "0x80000021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALCOUNTRYCODE",
+      "Message": "",
+      "DecimalCode": -2147483614,
+      "HexCode": "0x80000022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALDEVICECLASS",
+      "Message": "",
+      "DecimalCode": -2147483613,
+      "HexCode": "0x80000023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALDEVICEHANDLE",
+      "Message": "",
+      "DecimalCode": -2147483612,
+      "HexCode": "0x80000024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALDIALPARAMS",
+      "Message": "",
+      "DecimalCode": -2147483611,
+      "HexCode": "0x80000025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALDIGITLIST",
+      "Message": "",
+      "DecimalCode": -2147483610,
+      "HexCode": "0x80000026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALDIGITMODE",
+      "Message": "",
+      "DecimalCode": -2147483609,
+      "HexCode": "0x80000027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALDIGITS",
+      "Message": "",
+      "DecimalCode": -2147483608,
+      "HexCode": "0x80000028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALEXTVERSION",
+      "Message": "",
+      "DecimalCode": -2147483607,
+      "HexCode": "0x80000029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALGROUPID",
+      "Message": "",
+      "DecimalCode": -2147483606,
+      "HexCode": "0x8000002a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALLINEHANDLE",
+      "Message": "",
+      "DecimalCode": -2147483605,
+      "HexCode": "0x8000002b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALLINESTATE",
+      "Message": "",
+      "DecimalCode": -2147483604,
+      "HexCode": "0x8000002c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALLOCATION",
+      "Message": "",
+      "DecimalCode": -2147483603,
+      "HexCode": "0x8000002d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALMEDIALIST",
+      "Message": "",
+      "DecimalCode": -2147483602,
+      "HexCode": "0x8000002e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALMEDIAMODE",
+      "Message": "",
+      "DecimalCode": -2147483601,
+      "HexCode": "0x8000002f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALMESSAGEID",
+      "Message": "",
+      "DecimalCode": -2147483600,
+      "HexCode": "0x80000030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALPARAM",
+      "Message": "",
+      "DecimalCode": -2147483598,
+      "HexCode": "0x80000032",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALPARKID",
+      "Message": "",
+      "DecimalCode": -2147483597,
+      "HexCode": "0x80000033",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALPARKMODE",
+      "Message": "",
+      "DecimalCode": -2147483596,
+      "HexCode": "0x80000034",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALPOINTER",
+      "Message": "",
+      "DecimalCode": -2147483595,
+      "HexCode": "0x80000035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALPRIVSELECT",
+      "Message": "",
+      "DecimalCode": -2147483594,
+      "HexCode": "0x80000036",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALRATE",
+      "Message": "",
+      "DecimalCode": -2147483593,
+      "HexCode": "0x80000037",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALREQUESTMODE",
+      "Message": "",
+      "DecimalCode": -2147483592,
+      "HexCode": "0x80000038",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTERMINALID",
+      "Message": "",
+      "DecimalCode": -2147483591,
+      "HexCode": "0x80000039",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTERMINALMODE",
+      "Message": "",
+      "DecimalCode": -2147483590,
+      "HexCode": "0x8000003a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTIMEOUT",
+      "Message": "",
+      "DecimalCode": -2147483589,
+      "HexCode": "0x8000003b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTONE",
+      "Message": "",
+      "DecimalCode": -2147483588,
+      "HexCode": "0x8000003c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTONELIST",
+      "Message": "",
+      "DecimalCode": -2147483587,
+      "HexCode": "0x8000003d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTONEMODE",
+      "Message": "",
+      "DecimalCode": -2147483586,
+      "HexCode": "0x8000003e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALTRANSFERMODE",
+      "Message": "",
+      "DecimalCode": -2147483585,
+      "HexCode": "0x8000003f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_LINEMAPPERFAILED",
+      "Message": "",
+      "DecimalCode": -2147483584,
+      "HexCode": "0x80000040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NOCONFERENCE",
+      "Message": "",
+      "DecimalCode": -2147483583,
+      "HexCode": "0x80000041",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NODEVICE",
+      "Message": "",
+      "DecimalCode": -2147483582,
+      "HexCode": "0x80000042",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NODRIVER",
+      "Message": "",
+      "DecimalCode": -2147483581,
+      "HexCode": "0x80000043",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NOMEM",
+      "Message": "",
+      "DecimalCode": -2147483580,
+      "HexCode": "0x80000044",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NOREQUEST",
+      "Message": "",
+      "DecimalCode": -2147483579,
+      "HexCode": "0x80000045",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NOTOWNER",
+      "Message": "",
+      "DecimalCode": -2147483578,
+      "HexCode": "0x80000046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NOTREGISTERED",
+      "Message": "",
+      "DecimalCode": -2147483577,
+      "HexCode": "0x80000047",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_OPERATIONFAILED",
+      "Message": "",
+      "DecimalCode": -2147483576,
+      "HexCode": "0x80000048",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_OPERATIONUNAVAIL",
+      "Message": "",
+      "DecimalCode": -2147483575,
+      "HexCode": "0x80000049",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_RATEUNAVAIL",
+      "Message": "",
+      "DecimalCode": -2147483574,
+      "HexCode": "0x8000004a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_RESOURCEUNAVAIL",
+      "Message": "",
+      "DecimalCode": -2147483573,
+      "HexCode": "0x8000004b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_REQUESTOVERRUN",
+      "Message": "",
+      "DecimalCode": -2147483572,
+      "HexCode": "0x8000004c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_STRUCTURETOOSMALL",
+      "Message": "",
+      "DecimalCode": -2147483571,
+      "HexCode": "0x8000004d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_TARGETNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2147483570,
+      "HexCode": "0x8000004e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_TARGETSELF",
+      "Message": "",
+      "DecimalCode": -2147483569,
+      "HexCode": "0x8000004f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_UNINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147483568,
+      "HexCode": "0x80000050",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_USERUSERINFOTOOBIG",
+      "Message": "",
+      "DecimalCode": -2147483567,
+      "HexCode": "0x80000051",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_REINIT",
+      "Message": "",
+      "DecimalCode": -2147483566,
+      "HexCode": "0x80000052",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_ADDRESSBLOCKED",
+      "Message": "",
+      "DecimalCode": -2147483565,
+      "HexCode": "0x80000053",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_BILLINGREJECTED",
+      "Message": "",
+      "DecimalCode": -2147483564,
+      "HexCode": "0x80000054",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALFEATURE",
+      "Message": "",
+      "DecimalCode": -2147483563,
+      "HexCode": "0x80000055",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_NOMULTIPLEINSTANCE",
+      "Message": "",
+      "DecimalCode": -2147483562,
+      "HexCode": "0x80000056",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAGENTID",
+      "Message": "",
+      "DecimalCode": -2147483561,
+      "HexCode": "0x80000057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAGENTGROUP",
+      "Message": "",
+      "DecimalCode": -2147483560,
+      "HexCode": "0x80000058",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALPASSWORD",
+      "Message": "",
+      "DecimalCode": -2147483559,
+      "HexCode": "0x80000059",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAGENTSTATE",
+      "Message": "",
+      "DecimalCode": -2147483558,
+      "HexCode": "0x8000005a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAGENTACTIVITY",
+      "Message": "",
+      "DecimalCode": -2147483557,
+      "HexCode": "0x8000005b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_DIALVOICEDETECT",
+      "Message": "",
+      "DecimalCode": -2147483556,
+      "HexCode": "0x8000005c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_USERCANCELLED",
+      "Message": "",
+      "DecimalCode": -2147483555,
+      "HexCode": "0x8000005d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALADDRESSTYPE",
+      "Message": "",
+      "DecimalCode": -2147483554,
+      "HexCode": "0x8000005e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_INVALAGENTSESSIONSTATE",
+      "Message": "",
+      "DecimalCode": -2147483553,
+      "HexCode": "0x8000005f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINEERR_SERVICE_NOT_RUNNING",
+      "Message": "",
+      "DecimalCode": -2147483551,
+      "HexCode": "0x80000061",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_ALLOCATED",
+      "Message": "",
+      "DecimalCode": -1879048191,
+      "HexCode": "0x90000001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_BADDEVICEID",
+      "Message": "",
+      "DecimalCode": -1879048190,
+      "HexCode": "0x90000002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INCOMPATIBLEAPIVERSION",
+      "Message": "",
+      "DecimalCode": -1879048189,
+      "HexCode": "0x90000003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INCOMPATIBLEEXTVERSION",
+      "Message": "",
+      "DecimalCode": -1879048188,
+      "HexCode": "0x90000004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INIFILECORRUPT",
+      "Message": "",
+      "DecimalCode": -1879048187,
+      "HexCode": "0x90000005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INUSE",
+      "Message": "",
+      "DecimalCode": -1879048186,
+      "HexCode": "0x90000006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALAPPHANDLE",
+      "Message": "",
+      "DecimalCode": -1879048185,
+      "HexCode": "0x90000007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALAPPNAME",
+      "Message": "",
+      "DecimalCode": -1879048184,
+      "HexCode": "0x90000008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALBUTTONLAMPID",
+      "Message": "",
+      "DecimalCode": -1879048183,
+      "HexCode": "0x90000009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALBUTTONMODE",
+      "Message": "",
+      "DecimalCode": -1879048182,
+      "HexCode": "0x9000000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALBUTTONSTATE",
+      "Message": "",
+      "DecimalCode": -1879048181,
+      "HexCode": "0x9000000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALDATAID",
+      "Message": "",
+      "DecimalCode": -1879048180,
+      "HexCode": "0x9000000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALDEVICECLASS",
+      "Message": "",
+      "DecimalCode": -1879048179,
+      "HexCode": "0x9000000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALEXTVERSION",
+      "Message": "",
+      "DecimalCode": -1879048178,
+      "HexCode": "0x9000000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALHOOKSWITCHDEV",
+      "Message": "",
+      "DecimalCode": -1879048177,
+      "HexCode": "0x9000000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALHOOKSWITCHMODE",
+      "Message": "",
+      "DecimalCode": -1879048176,
+      "HexCode": "0x90000010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALLAMPMODE",
+      "Message": "",
+      "DecimalCode": -1879048175,
+      "HexCode": "0x90000011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALPARAM",
+      "Message": "",
+      "DecimalCode": -1879048174,
+      "HexCode": "0x90000012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALPHONEHANDLE",
+      "Message": "",
+      "DecimalCode": -1879048173,
+      "HexCode": "0x90000013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALPHONESTATE",
+      "Message": "",
+      "DecimalCode": -1879048172,
+      "HexCode": "0x90000014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALPOINTER",
+      "Message": "",
+      "DecimalCode": -1879048171,
+      "HexCode": "0x90000015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALPRIVILEGE",
+      "Message": "",
+      "DecimalCode": -1879048170,
+      "HexCode": "0x90000016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_INVALRINGMODE",
+      "Message": "",
+      "DecimalCode": -1879048169,
+      "HexCode": "0x90000017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_NODEVICE",
+      "Message": "",
+      "DecimalCode": -1879048168,
+      "HexCode": "0x90000018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_NODRIVER",
+      "Message": "",
+      "DecimalCode": -1879048167,
+      "HexCode": "0x90000019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_NOMEM",
+      "Message": "",
+      "DecimalCode": -1879048166,
+      "HexCode": "0x9000001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_NOTOWNER",
+      "Message": "",
+      "DecimalCode": -1879048165,
+      "HexCode": "0x9000001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_OPERATIONFAILED",
+      "Message": "",
+      "DecimalCode": -1879048164,
+      "HexCode": "0x9000001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_OPERATIONUNAVAIL",
+      "Message": "",
+      "DecimalCode": -1879048163,
+      "HexCode": "0x9000001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_RESOURCEUNAVAIL",
+      "Message": "",
+      "DecimalCode": -1879048161,
+      "HexCode": "0x9000001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_REQUESTOVERRUN",
+      "Message": "",
+      "DecimalCode": -1879048160,
+      "HexCode": "0x90000020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_STRUCTURETOOSMALL",
+      "Message": "",
+      "DecimalCode": -1879048159,
+      "HexCode": "0x90000021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_UNINITIALIZED",
+      "Message": "",
+      "DecimalCode": -1879048158,
+      "HexCode": "0x90000022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_REINIT",
+      "Message": "",
+      "DecimalCode": -1879048157,
+      "HexCode": "0x90000023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": -1879048156,
+      "HexCode": "0x90000024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PHONEERR_SERVICE_NOT_RUNNING",
+      "Message": "",
+      "DecimalCode": -1879048155,
+      "HexCode": "0x90000025",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

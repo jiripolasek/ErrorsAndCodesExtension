@@ -1,0 +1,125 @@
+{
+  "HeaderFileName": "msime.h",
+  "ErrorCodes": [
+    {
+      "Id": "IFEC_S_ALREADY_DEFAULT",
+      "Message": "",
+      "DecimalCode": 291840,
+      "HexCode": "0x47400",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IFED_S_MORE_ENTRIES",
+      "Message": "",
+      "DecimalCode": 291328,
+      "HexCode": "0x47200",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IFED_S_EMPTY_DICTIONARY",
+      "Message": "",
+      "DecimalCode": 291329,
+      "HexCode": "0x47201",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IFED_S_WORD_EXISTS",
+      "Message": "",
+      "DecimalCode": 291330,
+      "HexCode": "0x47202",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IFED_S_COMMENT_CHANGED",
+      "Message": "",
+      "DecimalCode": 291331,
+      "HexCode": "0x47203",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IFED_E_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147192064,
+      "HexCode": "0x80047300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_INVALID_FORMAT",
+      "Message": "",
+      "DecimalCode": -2147192063,
+      "HexCode": "0x80047301",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_OPEN_FAILED",
+      "Message": "",
+      "DecimalCode": -2147192062,
+      "HexCode": "0x80047302",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_WRITE_FAILED",
+      "Message": "",
+      "DecimalCode": -2147192061,
+      "HexCode": "0x80047303",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_NO_ENTRY",
+      "Message": "",
+      "DecimalCode": -2147192060,
+      "HexCode": "0x80047304",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_REGISTER_FAILED",
+      "Message": "",
+      "DecimalCode": -2147192059,
+      "HexCode": "0x80047305",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_NOT_USER_DIC",
+      "Message": "",
+      "DecimalCode": -2147192058,
+      "HexCode": "0x80047306",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147192057,
+      "HexCode": "0x80047307",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_USER_COMMENT",
+      "Message": "",
+      "DecimalCode": -2147192056,
+      "HexCode": "0x80047308",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_REGISTER_ILLEGAL_POS",
+      "Message": "",
+      "DecimalCode": -2147192055,
+      "HexCode": "0x80047309",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_REGISTER_IMPROPER_WORD",
+      "Message": "",
+      "DecimalCode": -2147192054,
+      "HexCode": "0x8004730a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IFED_E_REGISTER_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": -2147192053,
+      "HexCode": "0x8004730b",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

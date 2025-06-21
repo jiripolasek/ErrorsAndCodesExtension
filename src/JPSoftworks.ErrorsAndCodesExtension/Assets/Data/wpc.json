@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "wpc.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_FILE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147024894,
+      "HexCode": "0x80070002",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

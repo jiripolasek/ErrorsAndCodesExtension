@@ -1,0 +1,55 @@
+{
+  "HeaderFileName": "daogetrw.h",
+  "ErrorCodes": [
+    {
+      "Id": "S_BUFFERTOOSMALL",
+      "Message": "",
+      "DecimalCode": 266240,
+      "HexCode": "0x41000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_ENDOFCURSOR",
+      "Message": "",
+      "DecimalCode": 266241,
+      "HexCode": "0x41001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_SILENTCANCEL",
+      "Message": "",
+      "DecimalCode": 266242,
+      "HexCode": "0x41002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_RECORDDELETED",
+      "Message": "",
+      "DecimalCode": 266243,
+      "HexCode": "0x41003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "E_ROWTOOSHORT",
+      "Message": "",
+      "DecimalCode": -2147217408,
+      "HexCode": "0x80041000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_BADBINDINFO",
+      "Message": "",
+      "DecimalCode": -2147217407,
+      "HexCode": "0x80041001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_COLUMNUNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147217406,
+      "HexCode": "0x80041002",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

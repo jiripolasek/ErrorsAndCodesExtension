@@ -1,0 +1,167 @@
+{
+  "HeaderFileName": "stierr.h",
+  "ErrorCodes": [
+    {
+      "Id": "STIERR_OLD_VERSION",
+      "Message": "",
+      "DecimalCode": -2147023746,
+      "HexCode": "0x8007047e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_BETA_VERSION",
+      "Message": "",
+      "DecimalCode": -2147023743,
+      "HexCode": "0x80070481",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_BADDRIVER",
+      "Message": "",
+      "DecimalCode": -2147024777,
+      "HexCode": "0x80070077",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_DEVICENOTREG",
+      "Message": "",
+      "DecimalCode": -2147221164,
+      "HexCode": "0x80040154",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_OBJECTNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2147024894,
+      "HexCode": "0x80070002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_INVALID_PARAM",
+      "Message": "",
+      "DecimalCode": -2147024809,
+      "HexCode": "0x80070057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_NOINTERFACE",
+      "Message": "",
+      "DecimalCode": -2147467262,
+      "HexCode": "0x80004002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_GENERIC",
+      "Message": "",
+      "DecimalCode": -2147467259,
+      "HexCode": "0x80004005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": -2147024882,
+      "HexCode": "0x8007000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147467263,
+      "HexCode": "0x80004001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147024875,
+      "HexCode": "0x80070015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_ALREADY_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147023649,
+      "HexCode": "0x800704df",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_DEVICE_LOCKED",
+      "Message": "",
+      "DecimalCode": -2147024863,
+      "HexCode": "0x80070021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_READONLY",
+      "Message": "",
+      "DecimalCode": -2147024891,
+      "HexCode": "0x80070005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_NOTINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147024891,
+      "HexCode": "0x80070005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_NEEDS_LOCK",
+      "Message": "",
+      "DecimalCode": -2147024738,
+      "HexCode": "0x8007009e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_SHARING_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2147024864,
+      "HexCode": "0x80070020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_HANDLEEXISTS",
+      "Message": "",
+      "DecimalCode": -2147024713,
+      "HexCode": "0x800700b7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_INVALID_DEVICE_NAME",
+      "Message": "",
+      "DecimalCode": -2147024773,
+      "HexCode": "0x8007007b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_INVALID_HW_TYPE",
+      "Message": "",
+      "DecimalCode": -2147024883,
+      "HexCode": "0x8007000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_INVALID_HW_TYPE",
+      "Message": "",
+      "DecimalCode": -2147024883,
+      "HexCode": "0x8007000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_NOEVENTS",
+      "Message": "",
+      "DecimalCode": -2147024637,
+      "HexCode": "0x80070103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STIERR_DEVICE_NOTREADY",
+      "Message": "",
+      "DecimalCode": -2147024875,
+      "HexCode": "0x80070015",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

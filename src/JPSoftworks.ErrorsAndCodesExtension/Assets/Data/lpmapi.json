@@ -1,0 +1,671 @@
+{
+  "HeaderFileName": "lpmapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "RSVP_Err_NONE",
+      "Message": "/* No error (CONFIRM)       */",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_ADMISSION",
+      "Message": " ",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_POLICY",
+      "Message": " ",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_NO_PATH",
+      "Message": "/* No path state for Resv   */",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_NO_SENDER",
+      "Message": "/* No sender info for Resv  */",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_BAD_STYLE",
+      "Message": "/* Conflicting style        */",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_UNKNOWN_STYLE",
+      "Message": "/* Unknown reservation style    */",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_BAD_DSTPORT",
+      "Message": "/* Conflicting DstPort in Sess  */",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_BAD_SNDPORT",
+      "Message": "/* Conflicting Sender port  */",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_AMBIG_FILTER",
+      "Message": "/* Ambiguous Filter spec in Resv*/",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_PREEMPTED",
+      "Message": "/* Service Preempted        */",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_UNKN_OBJ_CLASS",
+      "Message": " ",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_UNKNOWN_CTYPE",
+      "Message": " ",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_API_ERROR",
+      "Message": "/* API client error     */",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_TC_ERROR",
+      "Message": " ",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_TC_SYS_ERROR",
+      "Message": "/* Traffic control system error */",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Err_RSVP_SYS_ERROR",
+      "Message": " ",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Nonev",
+      "Message": "/* No-error Error Value  */",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Other",
+      "Message": "/* Unspecified cause        */",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_DelayBnd",
+      "Message": "/* Cannot meet delay bound req  */",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Bandwidth",
+      "Message": "/* Insufficient bandwidth   */",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_MTU",
+      "Message": "/* MTU in flowspec too large    */",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Flow_Rate",
+      "Message": " ",
+      "DecimalCode": 32769,
+      "HexCode": "0x8001",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Bucket_szie",
+      "Message": " ",
+      "DecimalCode": 32770,
+      "HexCode": "0x8002",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Peak_Rate",
+      "Message": " ",
+      "DecimalCode": 32771,
+      "HexCode": "0x8003",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Min_Policied_size",
+      "Message": " ",
+      "DecimalCode": 32772,
+      "HexCode": "0x8004",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Conflict_Serv",
+      "Message": "/* Service Conflict     */",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_No_Serv",
+      "Message": "/* Unknown Service      */",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Crazy_Flowspec",
+      "Message": "/* Unreasonable Flowspec    */",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_Crazy_Tspec",
+      "Message": "/* Unreasonable Tspec       */",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_MEMORY",
+      "Message": "/* Out of memory */",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RSVP_Erv_API",
+      "Message": "/* API logic error */",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_NO_MORE_INFO",
+      "Message": " ",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_UNSUPPORTED_CREDENTIAL_TYPE",
+      "Message": " ",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_INSUFFICIENT_PRIVILEGES",
+      "Message": " ",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_EXPIRED_CREDENTIALS",
+      "Message": " ",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_IDENTITY_CHANGED",
+      "Message": " ",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_UNKNOWN",
+      "Message": " ",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_DEF_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_GRP_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_USER_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_UNAUTH_USER_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_DEF_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_GRP_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_USER_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_UNAUTH_USER_FLOW_COUNT",
+      "Message": " ",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_DEF_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_GRP_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_USER_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_UNAUTH_USER_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_DEF_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_GRP_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_USER_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_UNAUTH_USER_FLOW_DURATION",
+      "Message": " ",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_DEF_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_GRP_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_USER_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_UNAUTH_USER_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_DEF_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_GRP_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_USER_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_UNAUTH_USER_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_DEF_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_GRP_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_USER_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_UNAUTH_USER_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_DEF_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_GRP_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_USER_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 31,
+      "HexCode": "0x1f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_UNAUTH_USER_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_DEF_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_GRP_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_USER_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_UNAUTH_USER_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_DEF_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 37,
+      "HexCode": "0x25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_GRP_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 38,
+      "HexCode": "0x26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_USER_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 39,
+      "HexCode": "0x27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_UNAUTH_USER_SUM_FLOW_RATE",
+      "Message": " ",
+      "DecimalCode": 40,
+      "HexCode": "0x28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_DEF_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 41,
+      "HexCode": "0x29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_GRP_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 42,
+      "HexCode": "0x2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_USER_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 43,
+      "HexCode": "0x2b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_GLOBAL_UNAUTH_USER_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 44,
+      "HexCode": "0x2c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_DEF_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 45,
+      "HexCode": "0x2d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_GRP_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 46,
+      "HexCode": "0x2e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_USER_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 47,
+      "HexCode": "0x2f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_SUBNET_UNAUTH_USER_SUM_PEAK_RATE",
+      "Message": " ",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_UNKNOWN_USER",
+      "Message": " ",
+      "DecimalCode": 49,
+      "HexCode": "0x31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_NO_PRIVILEGES",
+      "Message": " ",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_EXPIRED_USER_TOKEN",
+      "Message": " ",
+      "DecimalCode": 51,
+      "HexCode": "0x33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_NO_RESOURCES",
+      "Message": " ",
+      "DecimalCode": 52,
+      "HexCode": "0x34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_PRE_EMPTED",
+      "Message": " ",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_USER_CHANGED",
+      "Message": " ",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_NO_ACCEPTS",
+      "Message": " ",
+      "DecimalCode": 55,
+      "HexCode": "0x37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_NO_MEMORY",
+      "Message": " ",
+      "DecimalCode": 56,
+      "HexCode": "0x38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "POLICY_ERRV_CRAZY_FLOWSPEC",
+      "Message": " ",
+      "DecimalCode": 57,
+      "HexCode": "0x39",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

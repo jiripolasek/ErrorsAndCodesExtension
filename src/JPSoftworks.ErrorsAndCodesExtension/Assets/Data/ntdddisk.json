@@ -1,0 +1,83 @@
+{
+  "HeaderFileName": "ntdddisk.h",
+  "ErrorCodes": [
+    {
+      "Id": "SMART_NO_ERROR",
+      "Message": "No error",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_IDE_ERROR",
+      "Message": "Error from IDE controller",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_INVALID_FLAG",
+      "Message": "Invalid command flag",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_INVALID_COMMAND",
+      "Message": "Invalid command byte",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_INVALID_BUFFER",
+      "Message": "Bad buffer (null, invalid addr..)",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_INVALID_DRIVE",
+      "Message": "Drive number not valid",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_INVALID_IOCTL",
+      "Message": "Invalid IOCTL",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_ERROR_NO_MEM",
+      "Message": "Could not lock user\u0026apos;s buffer",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_INVALID_REGISTER",
+      "Message": "Some IDE Register not valid",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_NOT_SUPPORTED",
+      "Message": "Invalid cmd flag set",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SMART_NO_IDE_DEVICE",
+      "Message": "Cmd issued to device not present",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

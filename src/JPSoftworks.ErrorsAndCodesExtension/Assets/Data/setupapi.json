@@ -1,0 +1,608 @@
+{
+  "HeaderFileName": "setupapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_EXPECTED_SECTION_NAME",
+      "Message": "",
+      "DecimalCode": -536870912,
+      "HexCode": "0xe0000000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_BAD_SECTION_NAME_LINE",
+      "Message": "",
+      "DecimalCode": -536870911,
+      "HexCode": "0xe0000001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_SECTION_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -536870910,
+      "HexCode": "0xe0000002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_GENERAL_SYNTAX",
+      "Message": "",
+      "DecimalCode": -536870909,
+      "HexCode": "0xe0000003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_WRONG_INF_STYLE",
+      "Message": "",
+      "DecimalCode": -536870656,
+      "HexCode": "0xe0000100",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_SECTION_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -536870655,
+      "HexCode": "0xe0000101",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_LINE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -536870654,
+      "HexCode": "0xe0000102",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_BACKUP",
+      "Message": "",
+      "DecimalCode": -536870653,
+      "HexCode": "0xe0000103",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_ASSOCIATED_CLASS",
+      "Message": "",
+      "DecimalCode": -536870400,
+      "HexCode": "0xe0000200",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_CLASS_MISMATCH",
+      "Message": "",
+      "DecimalCode": -536870399,
+      "HexCode": "0xe0000201",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DUPLICATE_FOUND",
+      "Message": "",
+      "DecimalCode": -536870398,
+      "HexCode": "0xe0000202",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_DRIVER_SELECTED",
+      "Message": "",
+      "DecimalCode": -536870397,
+      "HexCode": "0xe0000203",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_KEY_DOES_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -536870396,
+      "HexCode": "0xe0000204",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_DEVINST_NAME",
+      "Message": "",
+      "DecimalCode": -536870395,
+      "HexCode": "0xe0000205",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_CLASS",
+      "Message": "",
+      "DecimalCode": -536870394,
+      "HexCode": "0xe0000206",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVINST_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -536870393,
+      "HexCode": "0xe0000207",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVINFO_NOT_REGISTERED",
+      "Message": "",
+      "DecimalCode": -536870392,
+      "HexCode": "0xe0000208",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_REG_PROPERTY",
+      "Message": "",
+      "DecimalCode": -536870391,
+      "HexCode": "0xe0000209",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_INF",
+      "Message": "",
+      "DecimalCode": -536870390,
+      "HexCode": "0xe000020a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_SUCH_DEVINST",
+      "Message": "",
+      "DecimalCode": -536870389,
+      "HexCode": "0xe000020b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_CANT_LOAD_CLASS_ICON",
+      "Message": "",
+      "DecimalCode": -536870388,
+      "HexCode": "0xe000020c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_CLASS_INSTALLER",
+      "Message": "",
+      "DecimalCode": -536870387,
+      "HexCode": "0xe000020d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DI_DO_DEFAULT",
+      "Message": "",
+      "DecimalCode": -536870386,
+      "HexCode": "0xe000020e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DI_NOFILECOPY",
+      "Message": "",
+      "DecimalCode": -536870385,
+      "HexCode": "0xe000020f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_HWPROFILE",
+      "Message": "",
+      "DecimalCode": -536870384,
+      "HexCode": "0xe0000210",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_DEVICE_SELECTED",
+      "Message": "",
+      "DecimalCode": -536870383,
+      "HexCode": "0xe0000211",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVINFO_LIST_LOCKED",
+      "Message": "",
+      "DecimalCode": -536870382,
+      "HexCode": "0xe0000212",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVINFO_DATA_LOCKED",
+      "Message": "",
+      "DecimalCode": -536870381,
+      "HexCode": "0xe0000213",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DI_BAD_PATH",
+      "Message": "",
+      "DecimalCode": -536870380,
+      "HexCode": "0xe0000214",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_CLASSINSTALL_PARAMS",
+      "Message": "",
+      "DecimalCode": -536870379,
+      "HexCode": "0xe0000215",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_FILEQUEUE_LOCKED",
+      "Message": "",
+      "DecimalCode": -536870378,
+      "HexCode": "0xe0000216",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_BAD_SERVICE_INSTALLSECT",
+      "Message": "",
+      "DecimalCode": -536870377,
+      "HexCode": "0xe0000217",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_CLASS_DRIVER_LIST",
+      "Message": "",
+      "DecimalCode": -536870376,
+      "HexCode": "0xe0000218",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_ASSOCIATED_SERVICE",
+      "Message": "",
+      "DecimalCode": -536870375,
+      "HexCode": "0xe0000219",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_DEFAULT_DEVICE_INTERFACE",
+      "Message": "",
+      "DecimalCode": -536870374,
+      "HexCode": "0xe000021a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVICE_INTERFACE_ACTIVE",
+      "Message": "",
+      "DecimalCode": -536870373,
+      "HexCode": "0xe000021b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVICE_INTERFACE_REMOVED",
+      "Message": "",
+      "DecimalCode": -536870372,
+      "HexCode": "0xe000021c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_BAD_INTERFACE_INSTALLSECT",
+      "Message": "",
+      "DecimalCode": -536870371,
+      "HexCode": "0xe000021d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_SUCH_INTERFACE_CLASS",
+      "Message": "",
+      "DecimalCode": -536870370,
+      "HexCode": "0xe000021e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_REFERENCE_STRING",
+      "Message": "",
+      "DecimalCode": -536870369,
+      "HexCode": "0xe000021f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_MACHINENAME",
+      "Message": "",
+      "DecimalCode": -536870368,
+      "HexCode": "0xe0000220",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_REMOTE_COMM_FAILURE",
+      "Message": "",
+      "DecimalCode": -536870367,
+      "HexCode": "0xe0000221",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_MACHINE_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -536870366,
+      "HexCode": "0xe0000222",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_CONFIGMGR_SERVICES",
+      "Message": "",
+      "DecimalCode": -536870365,
+      "HexCode": "0xe0000223",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_PROPPAGE_PROVIDER",
+      "Message": "",
+      "DecimalCode": -536870364,
+      "HexCode": "0xe0000224",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_SUCH_DEVICE_INTERFACE",
+      "Message": "",
+      "DecimalCode": -536870363,
+      "HexCode": "0xe0000225",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DI_POSTPROCESSING_REQUIRED",
+      "Message": "",
+      "DecimalCode": -536870362,
+      "HexCode": "0xe0000226",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_COINSTALLER",
+      "Message": "",
+      "DecimalCode": -536870361,
+      "HexCode": "0xe0000227",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_COMPAT_DRIVERS",
+      "Message": "",
+      "DecimalCode": -536870360,
+      "HexCode": "0xe0000228",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_DEVICE_ICON",
+      "Message": "",
+      "DecimalCode": -536870359,
+      "HexCode": "0xe0000229",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_INF_LOGCONFIG",
+      "Message": "",
+      "DecimalCode": -536870358,
+      "HexCode": "0xe000022a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DI_DONT_INSTALL",
+      "Message": "",
+      "DecimalCode": -536870357,
+      "HexCode": "0xe000022b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_FILTER_DRIVER",
+      "Message": "",
+      "DecimalCode": -536870356,
+      "HexCode": "0xe000022c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NON_WINDOWS_NT_DRIVER",
+      "Message": "",
+      "DecimalCode": -536870355,
+      "HexCode": "0xe000022d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NON_WINDOWS_DRIVER",
+      "Message": "",
+      "DecimalCode": -536870354,
+      "HexCode": "0xe000022e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_CATALOG_FOR_OEM_INF",
+      "Message": "",
+      "DecimalCode": -536870353,
+      "HexCode": "0xe000022f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVINSTALL_QUEUE_NONNATIVE",
+      "Message": "",
+      "DecimalCode": -536870352,
+      "HexCode": "0xe0000230",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NOT_DISABLEABLE",
+      "Message": "",
+      "DecimalCode": -536870351,
+      "HexCode": "0xe0000231",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_CANT_REMOVE_DEVINST",
+      "Message": "",
+      "DecimalCode": -536870350,
+      "HexCode": "0xe0000232",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INVALID_TARGET",
+      "Message": "",
+      "DecimalCode": -536870349,
+      "HexCode": "0xe0000233",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DRIVER_NONNATIVE",
+      "Message": "",
+      "DecimalCode": -536870348,
+      "HexCode": "0xe0000234",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_IN_WOW64",
+      "Message": "",
+      "DecimalCode": -536870347,
+      "HexCode": "0xe0000235",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_SET_SYSTEM_RESTORE_POINT",
+      "Message": "",
+      "DecimalCode": -536870346,
+      "HexCode": "0xe0000236",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_SCE_DISABLED",
+      "Message": "",
+      "DecimalCode": -536870344,
+      "HexCode": "0xe0000238",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_UNKNOWN_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -536870343,
+      "HexCode": "0xe0000239",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_PNP_REGISTRY_ERROR",
+      "Message": "",
+      "DecimalCode": -536870342,
+      "HexCode": "0xe000023a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_REMOTE_REQUEST_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -536870341,
+      "HexCode": "0xe000023b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NOT_AN_INSTALLED_OEM_INF",
+      "Message": "",
+      "DecimalCode": -536870340,
+      "HexCode": "0xe000023c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_INF_IN_USE_BY_DEVICES",
+      "Message": "",
+      "DecimalCode": -536870339,
+      "HexCode": "0xe000023d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DI_FUNCTION_OBSOLETE",
+      "Message": "",
+      "DecimalCode": -536870338,
+      "HexCode": "0xe000023e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NO_AUTHENTICODE_CATALOG",
+      "Message": "",
+      "DecimalCode": -536870337,
+      "HexCode": "0xe000023f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_AUTHENTICODE_DISALLOWED",
+      "Message": "",
+      "DecimalCode": -536870336,
+      "HexCode": "0xe0000240",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_AUTHENTICODE_TRUSTED_PUBLISHER",
+      "Message": "",
+      "DecimalCode": -536870335,
+      "HexCode": "0xe0000241",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_AUTHENTICODE_TRUST_NOT_ESTABLISHED",
+      "Message": "",
+      "DecimalCode": -536870334,
+      "HexCode": "0xe0000242",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_AUTHENTICODE_PUBLISHER_NOT_TRUSTED",
+      "Message": "",
+      "DecimalCode": -536870333,
+      "HexCode": "0xe0000243",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_SIGNATURE_OSATTRIBUTE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -536870332,
+      "HexCode": "0xe0000244",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_ONLY_VALIDATE_VIA_AUTHENTICODE",
+      "Message": "",
+      "DecimalCode": -536870331,
+      "HexCode": "0xe0000245",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVICE_INSTALLER_NOT_READY",
+      "Message": "",
+      "DecimalCode": -536870330,
+      "HexCode": "0xe0000246",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DRIVER_STORE_ADD_FAILED",
+      "Message": "",
+      "DecimalCode": -536870329,
+      "HexCode": "0xe0000247",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DEVICE_INSTALL_BLOCKED",
+      "Message": "",
+      "DecimalCode": -536870328,
+      "HexCode": "0xe0000248",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DRIVER_INSTALL_BLOCKED",
+      "Message": "",
+      "DecimalCode": -536870327,
+      "HexCode": "0xe0000249",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_WRONG_INF_TYPE",
+      "Message": "",
+      "DecimalCode": -536870326,
+      "HexCode": "0xe000024a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_FILE_HASH_NOT_IN_CATALOG",
+      "Message": "",
+      "DecimalCode": -536870325,
+      "HexCode": "0xe000024b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_DRIVER_STORE_DELETE_FAILED",
+      "Message": "",
+      "DecimalCode": -536870324,
+      "HexCode": "0xe000024c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_UNRECOVERABLE_STACK_OVERFLOW",
+      "Message": "",
+      "DecimalCode": -536870144,
+      "HexCode": "0xe0000300",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ERROR_NOT_INSTALLED",
+      "Message": "",
+      "DecimalCode": -536866816,
+      "HexCode": "0xe0001000",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

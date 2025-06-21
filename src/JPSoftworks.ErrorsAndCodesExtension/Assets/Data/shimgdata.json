@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "shimgdata.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_NOTVALIDFORANIMATEDIMAGE",
+      "Message": "",
+      "DecimalCode": -2147221503,
+      "HexCode": "0x80040001",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

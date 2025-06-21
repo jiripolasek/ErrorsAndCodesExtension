@@ -1,0 +1,4710 @@
+{
+  "HeaderFileName": "dbdaoerr.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_DAO_InvalidParameter",
+      "Message": "//Invalid argument.",
+      "DecimalCode": -2146825287,
+      "HexCode": "0x800a0bb9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantBegin",
+      "Message": "//Couldn\u0026apos;t start session.",
+      "DecimalCode": -2146825286,
+      "HexCode": "0x800a0bba",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransTooDeep",
+      "Message": "//Couldn\u0026apos;t start transaction; too many transactions already nested.",
+      "DecimalCode": -2146825285,
+      "HexCode": "0x800a0bbb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseNotFound",
+      "Message": "//Couldn\u0026apos;t find database \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825284,
+      "HexCode": "0x800a0bbc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseInvalidName",
+      "Message": "//\u0026apos;|\u0026apos; isn\u0026apos;t a valid database name.",
+      "DecimalCode": -2146825283,
+      "HexCode": "0x800a0bbd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseLocked",
+      "Message": "//Database \u0026apos;|\u0026apos; is exclusively locked.",
+      "DecimalCode": -2146825282,
+      "HexCode": "0x800a0bbe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseOpenError",
+      "Message": "//Can\u0026apos;t open library database \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825281,
+      "HexCode": "0x800a0bbf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableLocked",
+      "Message": "//Table \u0026apos;|\u0026apos; is exclusively locked.",
+      "DecimalCode": -2146825280,
+      "HexCode": "0x800a0bc0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableInUse",
+      "Message": "//Couldn\u0026apos;t lock table \u0026apos;|\u0026apos;; currently in use.",
+      "DecimalCode": -2146825279,
+      "HexCode": "0x800a0bc1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableDuplicate",
+      "Message": "//Table \u0026apos;|\u0026apos; already exists.",
+      "DecimalCode": -2146825278,
+      "HexCode": "0x800a0bc2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ObjectNotFound",
+      "Message": "//Couldn\u0026apos;t find object \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825277,
+      "HexCode": "0x800a0bc3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ObjectDuplicate",
+      "Message": "//Object \u0026apos;|\u0026apos; already exists.",
+      "DecimalCode": -2146825276,
+      "HexCode": "0x800a0bc4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CannotRename",
+      "Message": "//Couldn\u0026apos;t rename installable ISAM file.",
+      "DecimalCode": -2146825275,
+      "HexCode": "0x800a0bc5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyOpenTables",
+      "Message": "//Can\u0026apos;t open any more tables.",
+      "DecimalCode": -2146825274,
+      "HexCode": "0x800a0bc6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexNotFound",
+      "Message": "//\u0026apos;|\u0026apos; isn\u0026apos;t an index in this table.",
+      "DecimalCode": -2146825273,
+      "HexCode": "0x800a0bc7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnDoesNotFit",
+      "Message": "//Field won\u0026apos;t fit in record.",
+      "DecimalCode": -2146825272,
+      "HexCode": "0x800a0bc8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnTooBig",
+      "Message": "//The size of a field is too long.",
+      "DecimalCode": -2146825271,
+      "HexCode": "0x800a0bc9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnNotFound",
+      "Message": "//Couldn\u0026apos;t find field \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825270,
+      "HexCode": "0x800a0bca",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoCurrentIndex",
+      "Message": "//Operation invalid without a current index.",
+      "DecimalCode": -2146825269,
+      "HexCode": "0x800a0bcb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RecordNoCopy",
+      "Message": "//Update or CancelUpdate without AddNew or Edit.",
+      "DecimalCode": -2146825268,
+      "HexCode": "0x800a0bcc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoCurrentRecord",
+      "Message": "//No current record.",
+      "DecimalCode": -2146825267,
+      "HexCode": "0x800a0bcd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_KeyDuplicate",
+      "Message": "//Duplicate value in index, primary key, or relationship.  Changes were unsuccessful.",
+      "DecimalCode": -2146825266,
+      "HexCode": "0x800a0bce",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AlreadyPrepared",
+      "Message": "//AddNew or Edit already used.",
+      "DecimalCode": -2146825265,
+      "HexCode": "0x800a0bcf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileNotFound",
+      "Message": "//Couldn\u0026apos;t find file \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825264,
+      "HexCode": "0x800a0bd0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyOpenFiles",
+      "Message": "//Can\u0026apos;t open any more files.",
+      "DecimalCode": -2146825263,
+      "HexCode": "0x800a0bd1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DiskFull",
+      "Message": "//Not enough space on disk.",
+      "DecimalCode": -2146825262,
+      "HexCode": "0x800a0bd2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PermissionDenied",
+      "Message": "//Can\u0026apos;t update.  Database or object is read-only.",
+      "DecimalCode": -2146825261,
+      "HexCode": "0x800a0bd3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CannotOpenSystemDb",
+      "Message": "//Can\u0026apos;t start your application. The system database is missing or opened exclusively by another user.",
+      "DecimalCode": -2146825260,
+      "HexCode": "0x800a0bd4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidLogon",
+      "Message": "//Not a valid account name or password.",
+      "DecimalCode": -2146825259,
+      "HexCode": "0x800a0bd5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidAccountName",
+      "Message": "//\u0026apos;|\u0026apos; isn\u0026apos;t a valid account name.",
+      "DecimalCode": -2146825258,
+      "HexCode": "0x800a0bd6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidPassword",
+      "Message": "//Not a valid password.",
+      "DecimalCode": -2146825257,
+      "HexCode": "0x800a0bd7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidOperation",
+      "Message": "//Can\u0026apos;t perform this operation.",
+      "DecimalCode": -2146825256,
+      "HexCode": "0x800a0bd8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AccessDenied",
+      "Message": "//No permission for \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825255,
+      "HexCode": "0x800a0bd9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NotInTransaction",
+      "Message": "//Commit or Rollback without BeginTrans.",
+      "DecimalCode": -2146825254,
+      "HexCode": "0x800a0bda",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutOfMemory",
+      "Message": "//* ",
+      "DecimalCode": -2146825253,
+      "HexCode": "0x800a0bdb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantAllocatePage",
+      "Message": "//Database has reached maximum size.",
+      "DecimalCode": -2146825252,
+      "HexCode": "0x800a0bdc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoMoreCursors",
+      "Message": "//Can\u0026apos;t open any more tables or queries.",
+      "DecimalCode": -2146825251,
+      "HexCode": "0x800a0bdd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutOfBuffers",
+      "Message": "//* ",
+      "DecimalCode": -2146825250,
+      "HexCode": "0x800a0bde",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyIndexes",
+      "Message": "//Couldn\u0026apos;t create index; too many indexes already defined.",
+      "DecimalCode": -2146825249,
+      "HexCode": "0x800a0bdf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReadVerifyFailure",
+      "Message": "//Disk I/O error during read.",
+      "DecimalCode": -2146825248,
+      "HexCode": "0x800a0be0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FilesysVersion",
+      "Message": "//Can\u0026apos;t open a database created with a previous version of your application.",
+      "DecimalCode": -2146825247,
+      "HexCode": "0x800a0be1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoMoreFiles",
+      "Message": "//Out of MS-DOS file handles.",
+      "DecimalCode": -2146825246,
+      "HexCode": "0x800a0be2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DiskError",
+      "Message": "//Disk or network error.",
+      "DecimalCode": -2146825245,
+      "HexCode": "0x800a0be3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidPath",
+      "Message": "//\u0026apos;|\u0026apos; isn\u0026apos;t a valid path.",
+      "DecimalCode": -2146825244,
+      "HexCode": "0x800a0be4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileShareViolation",
+      "Message": "//Couldn\u0026apos;t use \u0026apos;|\u0026apos;; file already in use.",
+      "DecimalCode": -2146825243,
+      "HexCode": "0x800a0be5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileLockViolation",
+      "Message": "//Couldn\u0026apos;t save; currently locked by another user.",
+      "DecimalCode": -2146825242,
+      "HexCode": "0x800a0be6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RecordTooBig",
+      "Message": "//Record is too large.",
+      "DecimalCode": -2146825241,
+      "HexCode": "0x800a0be7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyOpenDatabases",
+      "Message": "//Can\u0026apos;t open any more databases.",
+      "DecimalCode": -2146825240,
+      "HexCode": "0x800a0be8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidDatabase",
+      "Message": "//Can\u0026apos;t open database \u0026apos;|\u0026apos;.  It may not be a database that your application recognizes, or the file may be corrupt.",
+      "DecimalCode": -2146825239,
+      "HexCode": "0x800a0be9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileLockingUnavailable",
+      "Message": "//Couldn\u0026apos;t lock file.",
+      "DecimalCode": -2146825238,
+      "HexCode": "0x800a0bea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileAccessDenied",
+      "Message": "//Couldn\u0026apos;t open file \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825237,
+      "HexCode": "0x800a0beb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SharingBufferExceeded",
+      "Message": "//MS-DOS file sharing lock count exceeded.  You need to increase the number of locks installed with SHARE.EXE.",
+      "DecimalCode": -2146825236,
+      "HexCode": "0x800a0bec",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TaskLimitExceeded",
+      "Message": "//Too many client tasks.",
+      "DecimalCode": -2146825235,
+      "HexCode": "0x800a0bed",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyLongColumns",
+      "Message": "//Too many Memo or OLE object fields.",
+      "DecimalCode": -2146825234,
+      "HexCode": "0x800a0bee",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidFilename",
+      "Message": "//Not a valid file name.",
+      "DecimalCode": -2146825233,
+      "HexCode": "0x800a0bef",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AbortSalvage",
+      "Message": "//Couldn\u0026apos;t repair this database.",
+      "DecimalCode": -2146825232,
+      "HexCode": "0x800a0bf0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LinkNotSupported",
+      "Message": "//Operation not supported on attached, or linked, tables.",
+      "DecimalCode": -2146825231,
+      "HexCode": "0x800a0bf1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NullKeyDisallowed",
+      "Message": "//Index or primary key can\u0026apos;t contain a null value.",
+      "DecimalCode": -2146825230,
+      "HexCode": "0x800a0bf2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OperationCanceled",
+      "Message": "//Operation canceled by user.",
+      "DecimalCode": -2146825229,
+      "HexCode": "0x800a0bf3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryParmTypeMismatch",
+      "Message": "//Wrong data type for parameter \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825228,
+      "HexCode": "0x800a0bf4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryMissingParmsM",
+      "Message": "//Too few parameters. Expected |.",
+      "DecimalCode": -2146825227,
+      "HexCode": "0x800a0bf5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryDuplicateAliasM",
+      "Message": "//Duplicate output alias \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825226,
+      "HexCode": "0x800a0bf6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryDuplicateOutputM",
+      "Message": "//Duplicate output destination \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825225,
+      "HexCode": "0x800a0bf7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsBulkOp",
+      "Message": "//Can\u0026apos;t open action query \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825224,
+      "HexCode": "0x800a0bf8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsNotBulkOp",
+      "Message": "//Can\u0026apos;t execute a non-action query.",
+      "DecimalCode": -2146825223,
+      "HexCode": "0x800a0bf9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoOutputsM",
+      "Message": "//Query or table must contain at least one output field.",
+      "DecimalCode": -2146825222,
+      "HexCode": "0x800a0bfa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoInputTablesM",
+      "Message": "//Query input must contain at least one table or query.",
+      "DecimalCode": -2146825221,
+      "HexCode": "0x800a0bfb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryInvalidAlias",
+      "Message": "//Not a valid alias name.",
+      "DecimalCode": -2146825220,
+      "HexCode": "0x800a0bfc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryInvalidBulkInputM",
+      "Message": "//The action query \u0026apos;|\u0026apos; cannot be used as a row source.",
+      "DecimalCode": -2146825219,
+      "HexCode": "0x800a0bfd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryUnboundRef",
+      "Message": "//Can\u0026apos;t bind name \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825218,
+      "HexCode": "0x800a0bfe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryExprEvaluation",
+      "Message": "//Can\u0026apos;t evaluate expression.",
+      "DecimalCode": -2146825217,
+      "HexCode": "0x800a0bff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_EvalEBESErr",
+      "Message": "//| ",
+      "DecimalCode": -2146825216,
+      "HexCode": "0x800a0c00",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNotUpdatable",
+      "Message": "//Operation must use an updatable query.",
+      "DecimalCode": -2146825215,
+      "HexCode": "0x800a0c01",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableRepeatInFromList",
+      "Message": "//Can\u0026apos;t repeat table name \u0026apos;|\u0026apos; in FROM clause.",
+      "DecimalCode": -2146825214,
+      "HexCode": "0x800a0c02",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryExprSyntax",
+      "Message": "//|1 in query expression \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146825213,
+      "HexCode": "0x800a0c03",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QbeExprSyntax",
+      "Message": "//| in criteria expression.",
+      "DecimalCode": -2146825212,
+      "HexCode": "0x800a0c04",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FindExprSyntax",
+      "Message": "//| in expression.",
+      "DecimalCode": -2146825211,
+      "HexCode": "0x800a0c05",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InputTableNotFound",
+      "Message": "//Couldn\u0026apos;t find input table or query \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825210,
+      "HexCode": "0x800a0c06",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryAmbigRefM",
+      "Message": "//Ambiguous field reference \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825209,
+      "HexCode": "0x800a0c07",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JoinTableNotInput",
+      "Message": "//Joined table \u0026apos;|\u0026apos; not listed in FROM clause.",
+      "DecimalCode": -2146825208,
+      "HexCode": "0x800a0c08",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UnaliasedSelfJoin",
+      "Message": "//Can\u0026apos;t join more than one table with the same name (|).",
+      "DecimalCode": -2146825207,
+      "HexCode": "0x800a0c09",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnNotInJoinTable",
+      "Message": "//JOIN operation \u0026apos;|\u0026apos; refers to a non-joined table.",
+      "DecimalCode": -2146825206,
+      "HexCode": "0x800a0c0a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsMGB",
+      "Message": "//Can\u0026apos;t use internal report query.",
+      "DecimalCode": -2146825205,
+      "HexCode": "0x800a0c0b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryInsIntoBulkMGB",
+      "Message": "//Can\u0026apos;t insert data with action query.",
+      "DecimalCode": -2146825204,
+      "HexCode": "0x800a0c0c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExprUnknownFunctionM",
+      "Message": "//Undefined function \u0026apos;|\u0026apos; in expression.",
+      "DecimalCode": -2146825203,
+      "HexCode": "0x800a0c0d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryCannotDelete",
+      "Message": "//Couldn\u0026apos;t delete from specified tables.",
+      "DecimalCode": -2146825202,
+      "HexCode": "0x800a0c0e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTooManyGroupExprs",
+      "Message": "//Too many expressions in GROUP BY clause.",
+      "DecimalCode": -2146825201,
+      "HexCode": "0x800a0c0f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTooManyOrderExprs",
+      "Message": "//Too many expressions in ORDER BY clause.",
+      "DecimalCode": -2146825200,
+      "HexCode": "0x800a0c10",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTooManyDistExprs",
+      "Message": "//Too many expressions in DISTINCT output.",
+      "DecimalCode": -2146825199,
+      "HexCode": "0x800a0c11",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_Column2ndSysMaint",
+      "Message": "//Resultant table not allowed to have more than one Counter or Autonumber field.",
+      "DecimalCode": -2146825198,
+      "HexCode": "0x800a0c12",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_HavingWOGrouping",
+      "Message": "//HAVING clause (|) without grouping or aggregation.",
+      "DecimalCode": -2146825197,
+      "HexCode": "0x800a0c13",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_HavingOnTransform",
+      "Message": "//Can\u0026apos;t use HAVING clause in TRANSFORM statement.",
+      "DecimalCode": -2146825196,
+      "HexCode": "0x800a0c14",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OrderVsDistinct",
+      "Message": "//ORDER BY clause (|) conflicts with DISTINCT.",
+      "DecimalCode": -2146825195,
+      "HexCode": "0x800a0c15",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OrderVsGroup",
+      "Message": "//ORDER BY clause (|) conflicts with GROUP BY clause.",
+      "DecimalCode": -2146825194,
+      "HexCode": "0x800a0c16",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AggregateInArgument",
+      "Message": "//Can\u0026apos;t have aggregate function in expression (|).",
+      "DecimalCode": -2146825193,
+      "HexCode": "0x800a0c17",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AggregateInWhere",
+      "Message": "//Can\u0026apos;t have aggregate function in WHERE clause (|).",
+      "DecimalCode": -2146825192,
+      "HexCode": "0x800a0c18",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AggregateInOrderBy",
+      "Message": "//Can\u0026apos;t have aggregate function in ORDER BY clause (|).",
+      "DecimalCode": -2146825191,
+      "HexCode": "0x800a0c19",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AggregateInGroupBy",
+      "Message": "//Can\u0026apos;t have aggregate function in GROUP BY clause (|).",
+      "DecimalCode": -2146825190,
+      "HexCode": "0x800a0c1a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AggregateInJoin",
+      "Message": "//Can\u0026apos;t have aggregate function in JOIN operation (|).",
+      "DecimalCode": -2146825189,
+      "HexCode": "0x800a0c1b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NullInJoinKey",
+      "Message": "//Can\u0026apos;t set field \u0026apos;|\u0026apos; in join key to Null.",
+      "DecimalCode": -2146825188,
+      "HexCode": "0x800a0c1c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ValueBreaksJoin",
+      "Message": "//There is no record in table \u0026apos;|2\u0026apos; with key matching field(s) \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146825187,
+      "HexCode": "0x800a0c1d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTreeCycle",
+      "Message": "//Circular reference caused by \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825186,
+      "HexCode": "0x800a0c1e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutputAliasCycle",
+      "Message": "//Circular reference caused by alias \u0026apos;|\u0026apos; in query definition\u0026apos;s SELECT list.",
+      "DecimalCode": -2146825185,
+      "HexCode": "0x800a0c1f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QryDuplicatedFixedSetM",
+      "Message": "//Can\u0026apos;t specify Fixed Column Heading \u0026apos;|\u0026apos; in a crosstab query more than once.",
+      "DecimalCode": -2146825184,
+      "HexCode": "0x800a0c20",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoSelectIntoColumnName",
+      "Message": "//Missing destination field name in SELECT INTO statement (|).",
+      "DecimalCode": -2146825183,
+      "HexCode": "0x800a0c21",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoUpdateColumnName",
+      "Message": "//Missing destination field name in UPDATE statement (|).",
+      "DecimalCode": -2146825182,
+      "HexCode": "0x800a0c22",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoInsertPerm",
+      "Message": "//Record(s) can\u0026apos;t be added; no Insert Data permission on \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825181,
+      "HexCode": "0x800a0c23",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoReplacePerm",
+      "Message": "//Record(s) can\u0026apos;t be edited; no Update Data permission on \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825180,
+      "HexCode": "0x800a0c24",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoDeletePerm",
+      "Message": "//Record(s) can\u0026apos;t be deleted; no Delete Data permission on \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825179,
+      "HexCode": "0x800a0c25",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoReadDefPerm",
+      "Message": "//Couldn\u0026apos;t read definitions; no Read Design permission for table or query \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825178,
+      "HexCode": "0x800a0c26",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoTblCrtPerm",
+      "Message": "//Couldn\u0026apos;t create; no Create permission for table or query \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825177,
+      "HexCode": "0x800a0c27",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoReadPerm",
+      "Message": "//Record(s) can\u0026apos;t be read; no Read Data permission on \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825176,
+      "HexCode": "0x800a0c28",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryColNotUpd",
+      "Message": "//Can\u0026apos;t update \u0026apos;|\u0026apos;; field not updatable.",
+      "DecimalCode": -2146825175,
+      "HexCode": "0x800a0c29",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInDistinct",
+      "Message": "//Can\u0026apos;t include Memo or OLE object when you select unique values (|).",
+      "DecimalCode": -2146825174,
+      "HexCode": "0x800a0c2a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInAggregate",
+      "Message": "//Can\u0026apos;t have Memo or OLE object in aggregate argument (|).",
+      "DecimalCode": -2146825173,
+      "HexCode": "0x800a0c2b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInHaving",
+      "Message": "//Can\u0026apos;t have Memo or OLE object in criteria (|) for aggregate function.",
+      "DecimalCode": -2146825172,
+      "HexCode": "0x800a0c2c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInOrderBy",
+      "Message": "//Can\u0026apos;t sort on Memo or OLE object (|).",
+      "DecimalCode": -2146825171,
+      "HexCode": "0x800a0c2d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInJoin",
+      "Message": "//Can\u0026apos;t join on Memo or OLE object (|).",
+      "DecimalCode": -2146825170,
+      "HexCode": "0x800a0c2e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInGroupBy",
+      "Message": "//Can\u0026apos;t group on Memo or OLE object (|).",
+      "DecimalCode": -2146825169,
+      "HexCode": "0x800a0c2f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DotStarWithGrouping",
+      "Message": "//Can\u0026apos;t group on fields selected with \u0026apos;*\u0026apos; (|).",
+      "DecimalCode": -2146825168,
+      "HexCode": "0x800a0c30",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_StarWithGrouping",
+      "Message": "//Can\u0026apos;t group on fields selected with \u0026apos;*\u0026apos;.",
+      "DecimalCode": -2146825167,
+      "HexCode": "0x800a0c31",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalDetailRef",
+      "Message": "//\u0026apos;|\u0026apos; not part of aggregate function or grouping.",
+      "DecimalCode": -2146825166,
+      "HexCode": "0x800a0c32",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_StarNotAtLevel0",
+      "Message": "//Can\u0026apos;t use \u0026apos;*\u0026apos; in crosstab query.",
+      "DecimalCode": -2146825165,
+      "HexCode": "0x800a0c33",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryInvalidMGBInput",
+      "Message": "//Can\u0026apos;t input from internal report query (|).",
+      "DecimalCode": -2146825164,
+      "HexCode": "0x800a0c34",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidName",
+      "Message": "//\u0026apos;|\u0026apos; isn\u0026apos;t a valid name.",
+      "DecimalCode": -2146825163,
+      "HexCode": "0x800a0c35",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryBadBracketing",
+      "Message": "//Invalid bracketing of name \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825162,
+      "HexCode": "0x800a0c36",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InsertIntoUnknownCol",
+      "Message": "//INSERT INTO statement contains unknown field name \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825161,
+      "HexCode": "0x800a0c37",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoDeleteTables",
+      "Message": "//Must specify tables to delete from.",
+      "DecimalCode": -2146825160,
+      "HexCode": "0x800a0c38",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLSyntax",
+      "Message": "//Invalid SQL statement; expected \u0026apos;DELETE\u0026apos;, \u0026apos;INSERT\u0026apos;, \u0026apos;PROCEDURE\u0026apos;, \u0026apos;SELECT\u0026apos;, or \u0026apos;UPDATE\u0026apos;.",
+      "DecimalCode": -2146825159,
+      "HexCode": "0x800a0c39",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLDeleteSyntax",
+      "Message": "//Syntax error in DELETE statement.",
+      "DecimalCode": -2146825158,
+      "HexCode": "0x800a0c3a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLFromSyntax",
+      "Message": "//Syntax error in FROM clause.",
+      "DecimalCode": -2146825157,
+      "HexCode": "0x800a0c3b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLGroupBySyntax",
+      "Message": "//Syntax error in GROUP BY clause.",
+      "DecimalCode": -2146825156,
+      "HexCode": "0x800a0c3c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLHavingSyntax",
+      "Message": "//Syntax error in HAVING clause.",
+      "DecimalCode": -2146825155,
+      "HexCode": "0x800a0c3d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLInsertSyntax",
+      "Message": "//Syntax error in INSERT statement.",
+      "DecimalCode": -2146825154,
+      "HexCode": "0x800a0c3e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLJoinSyntax",
+      "Message": "//Syntax error in JOIN operation.",
+      "DecimalCode": -2146825153,
+      "HexCode": "0x800a0c3f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLLevelSyntax",
+      "Message": "//Syntax error in LEVEL clause.",
+      "DecimalCode": -2146825152,
+      "HexCode": "0x800a0c40",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLMissingSemicolon",
+      "Message": "//Missing semicolon (;) at end of SQL statement.",
+      "DecimalCode": -2146825151,
+      "HexCode": "0x800a0c41",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLOrderBySyntax",
+      "Message": "//Syntax error in ORDER BY clause.",
+      "DecimalCode": -2146825150,
+      "HexCode": "0x800a0c42",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLParameterSyntax",
+      "Message": "//Syntax error in PARAMETER clause.",
+      "DecimalCode": -2146825149,
+      "HexCode": "0x800a0c43",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLProcedureSyntax",
+      "Message": "//Syntax error in PROCEDURE clause.",
+      "DecimalCode": -2146825148,
+      "HexCode": "0x800a0c44",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLSelectSyntax",
+      "Message": "//Syntax error in SELECT statement.",
+      "DecimalCode": -2146825147,
+      "HexCode": "0x800a0c45",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLTooManyTokens",
+      "Message": "//Characters found after end of SQL statement.",
+      "DecimalCode": -2146825146,
+      "HexCode": "0x800a0c46",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLTransformSyntax",
+      "Message": "//Syntax error in TRANSFORM statement.",
+      "DecimalCode": -2146825145,
+      "HexCode": "0x800a0c47",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLUpdateSyntax",
+      "Message": "//Syntax error in UPDATE statement.",
+      "DecimalCode": -2146825144,
+      "HexCode": "0x800a0c48",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLWhereSyntax",
+      "Message": "//Syntax error in WHERE clause.",
+      "DecimalCode": -2146825143,
+      "HexCode": "0x800a0c49",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtSQLCError",
+      "Message": "//ODBC--call failed.",
+      "DecimalCode": -2146825142,
+      "HexCode": "0x800a0c4a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtDataOverflow",
+      "Message": "//* ",
+      "DecimalCode": -2146825141,
+      "HexCode": "0x800a0c4b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtConnectFailed",
+      "Message": "//* ",
+      "DecimalCode": -2146825140,
+      "HexCode": "0x800a0c4c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtIncorrectSqlcDll",
+      "Message": "//* ",
+      "DecimalCode": -2146825139,
+      "HexCode": "0x800a0c4d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtMissingSqlcDll",
+      "Message": "//* ",
+      "DecimalCode": -2146825138,
+      "HexCode": "0x800a0c4e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtConnectFailedM",
+      "Message": "//ODBC--connection to \u0026apos;|\u0026apos; failed.",
+      "DecimalCode": -2146825137,
+      "HexCode": "0x800a0c4f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtDrvrVer",
+      "Message": "//* ",
+      "DecimalCode": -2146825136,
+      "HexCode": "0x800a0c50",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtSrvrVer",
+      "Message": "//* ",
+      "DecimalCode": -2146825135,
+      "HexCode": "0x800a0c51",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtMissingOdbcDll",
+      "Message": "//ODBC--couldn\u0026apos;t find DLL \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825134,
+      "HexCode": "0x800a0c52",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtInsertFailedM",
+      "Message": "//ODBC--insert failed on attached (linked) table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825133,
+      "HexCode": "0x800a0c53",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtDeleteFailedM",
+      "Message": "//ODBC--delete failed on attached (linked) table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825132,
+      "HexCode": "0x800a0c54",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtUpdateFailedM",
+      "Message": "//ODBC--update failed on attached (linked) table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825131,
+      "HexCode": "0x800a0c55",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RecordLocked",
+      "Message": "//Couldn\u0026apos;t save record; currently locked by another user.",
+      "DecimalCode": -2146825130,
+      "HexCode": "0x800a0c56",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidBookmark",
+      "Message": "//Not a valid bookmark.",
+      "DecimalCode": -2146825129,
+      "HexCode": "0x800a0c57",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableNotOpen",
+      "Message": "//Table isn\u0026apos;t open.",
+      "DecimalCode": -2146825128,
+      "HexCode": "0x800a0c58",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DecryptFail",
+      "Message": "//Couldn\u0026apos;t decrypt file.",
+      "DecimalCode": -2146825127,
+      "HexCode": "0x800a0c59",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NullInvalid",
+      "Message": "//Null is invalid.",
+      "DecimalCode": -2146825126,
+      "HexCode": "0x800a0c5a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidBufferSize",
+      "Message": "//Couldn\u0026apos;t perform operation; data too long for field.",
+      "DecimalCode": -2146825125,
+      "HexCode": "0x800a0c5b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnNotUpdatable",
+      "Message": "//Field can\u0026apos;t be updated.",
+      "DecimalCode": -2146825124,
+      "HexCode": "0x800a0c5c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantMakeINFFile",
+      "Message": "//Couldn\u0026apos;t open .INF file.",
+      "DecimalCode": -2146825123,
+      "HexCode": "0x800a0c5d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MissingMemoFile",
+      "Message": "//Missing memo file.",
+      "DecimalCode": -2146825122,
+      "HexCode": "0x800a0c5e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RecordDeleted",
+      "Message": "//Record is deleted.",
+      "DecimalCode": -2146825121,
+      "HexCode": "0x800a0c5f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_INFFileError",
+      "Message": "//Invalid .INF file.",
+      "DecimalCode": -2146825120,
+      "HexCode": "0x800a0c60",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExprIllegalType",
+      "Message": "//Illegal type in expression.",
+      "DecimalCode": -2146825119,
+      "HexCode": "0x800a0c61",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InstalIsamNotFound",
+      "Message": "//Couldn\u0026apos;t find installable ISAM.",
+      "DecimalCode": -2146825118,
+      "HexCode": "0x800a0c62",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoConfigParameters",
+      "Message": "//Couldn\u0026apos;t find net path or user name.",
+      "DecimalCode": -2146825117,
+      "HexCode": "0x800a0c63",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantAccessPdoxNetDir",
+      "Message": "//Couldn\u0026apos;t open PARADOX.NET.",
+      "DecimalCode": -2146825116,
+      "HexCode": "0x800a0c64",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoMSysAccounts",
+      "Message": "//Couldn\u0026apos;t open table \u0026apos;MSysAccounts\u0026apos; in the system database file.",
+      "DecimalCode": -2146825115,
+      "HexCode": "0x800a0c65",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoMSysGroups",
+      "Message": "//Couldn\u0026apos;t open table \u0026apos;MSysGroups\u0026apos; in the system database file.",
+      "DecimalCode": -2146825114,
+      "HexCode": "0x800a0c66",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DateOutOfRange",
+      "Message": "//Date is out of range or is in an invalid format.",
+      "DecimalCode": -2146825113,
+      "HexCode": "0x800a0c67",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexCantOpenFile",
+      "Message": "//Couldn\u0026apos;t open file \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825112,
+      "HexCode": "0x800a0c68",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexBadTableName",
+      "Message": "//Not a valid table name.",
+      "DecimalCode": -2146825111,
+      "HexCode": "0x800a0c69",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexOutOfMemory",
+      "Message": "//* ",
+      "DecimalCode": -2146825110,
+      "HexCode": "0x800a0c6a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexEndofFile",
+      "Message": "//Encountered unexpected end of file.",
+      "DecimalCode": -2146825109,
+      "HexCode": "0x800a0c6b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexCantWriteToFile",
+      "Message": "//Couldn\u0026apos;t write to file \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825108,
+      "HexCode": "0x800a0c6c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexBadRange",
+      "Message": "//Invalid range.",
+      "DecimalCode": -2146825107,
+      "HexCode": "0x800a0c6d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexBogusFile",
+      "Message": "//Invalid file format.",
+      "DecimalCode": -2146825106,
+      "HexCode": "0x800a0c6e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TempDiskFull",
+      "Message": "//Not enough space on temporary disk.",
+      "DecimalCode": -2146825105,
+      "HexCode": "0x800a0c6f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtLinkNotFound",
+      "Message": "//Couldn\u0026apos;t execute query; couldn\u0026apos;t find attached, or linked, table.",
+      "DecimalCode": -2146825104,
+      "HexCode": "0x800a0c70",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtTooManyColumns",
+      "Message": "//SELECT INTO remote database tried to produce too many fields.",
+      "DecimalCode": -2146825103,
+      "HexCode": "0x800a0c71",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReadConflictM",
+      "Message": "//Couldn\u0026apos;t save; currently locked by user \u0026apos;|2\u0026apos; on machine \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146825102,
+      "HexCode": "0x800a0c72",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CommitConflictM",
+      "Message": "//Couldn\u0026apos;t read; currently locked by user \u0026apos;|2\u0026apos; on machine \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146825101,
+      "HexCode": "0x800a0c73",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SessionWriteConflict",
+      "Message": "//Couldn\u0026apos;t update; currently locked by another session on this machine.",
+      "DecimalCode": -2146825100,
+      "HexCode": "0x800a0c74",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetSpecialTableLocked",
+      "Message": "//Table \u0026apos;|1\u0026apos; is exclusively locked by user \u0026apos;|3\u0026apos; on machine \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146825099,
+      "HexCode": "0x800a0c75",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyColumns",
+      "Message": "//Too many fields defined.",
+      "DecimalCode": -2146825098,
+      "HexCode": "0x800a0c76",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnDuplicate",
+      "Message": "//Can\u0026apos;t define field more than once.",
+      "DecimalCode": -2146825097,
+      "HexCode": "0x800a0c77",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutputTableNotFound",
+      "Message": "//Couldn\u0026apos;t find output table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825096,
+      "HexCode": "0x800a0c78",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetNoUserName",
+      "Message": "//(unknown) ",
+      "DecimalCode": -2146825095,
+      "HexCode": "0x800a0c79",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetNoMachineName",
+      "Message": "//(unknown) ",
+      "DecimalCode": -2146825094,
+      "HexCode": "0x800a0c7a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetNoColumnName",
+      "Message": "//(expression) ",
+      "DecimalCode": -2146825093,
+      "HexCode": "0x800a0c7b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseInUse",
+      "Message": "//Couldn\u0026apos;t use \u0026apos;|\u0026apos;; database already in use.",
+      "DecimalCode": -2146825092,
+      "HexCode": "0x800a0c7c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DataHasChanged",
+      "Message": "//Data has changed; operation stopped.",
+      "DecimalCode": -2146825091,
+      "HexCode": "0x800a0c7d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManySessions",
+      "Message": "//Couldn\u0026apos;t start session.  Too many sessions already active.",
+      "DecimalCode": -2146825090,
+      "HexCode": "0x800a0c7e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReferenceNotFound",
+      "Message": "//Couldn\u0026apos;t find reference.",
+      "DecimalCode": -2146825089,
+      "HexCode": "0x800a0c7f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IntegrityViolMasterM",
+      "Message": "//Can\u0026apos;t delete or change record.  Since related records exist in table \u0026apos;|\u0026apos;, referential integrity rules would be violated.",
+      "DecimalCode": -2146825088,
+      "HexCode": "0x800a0c80",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IntegrityViolSlaveM",
+      "Message": "//Can\u0026apos;t add or change record.  Referential integrity rules require a related record in table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146825087,
+      "HexCode": "0x800a0c81",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReadConflict",
+      "Message": "//Couldn\u0026apos;t save; currently locked by another user.",
+      "DecimalCode": -2146825086,
+      "HexCode": "0x800a0c82",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AggregatingHigherLevel",
+      "Message": "//Can\u0026apos;t specify subquery in expression (|).",
+      "DecimalCode": -2146825085,
+      "HexCode": "0x800a0c83",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseDuplicate",
+      "Message": "//Database already exists.",
+      "DecimalCode": -2146825084,
+      "HexCode": "0x800a0c84",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTooManyXvtColumn",
+      "Message": "//Too many crosstab column headers (|).",
+      "DecimalCode": -2146825083,
+      "HexCode": "0x800a0c85",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SelfReference",
+      "Message": "//Can\u0026apos;t create a relationship between a field and itself.",
+      "DecimalCode": -2146825082,
+      "HexCode": "0x800a0c86",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantUseUnkeyedTable",
+      "Message": "//Operation not supported on Paradox table with no primary key.",
+      "DecimalCode": -2146825081,
+      "HexCode": "0x800a0c87",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalDeletedOption",
+      "Message": "//Invalid Deleted entry in the Xbase section of initialization setting.",
+      "DecimalCode": -2146825080,
+      "HexCode": "0x800a0c88",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalStatsOption",
+      "Message": "//Invalid Stats entry in the Xbase section of initialization setting.",
+      "DecimalCode": -2146825079,
+      "HexCode": "0x800a0c89",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ConnStrTooLong",
+      "Message": "//Connection string too long.",
+      "DecimalCode": -2146825078,
+      "HexCode": "0x800a0c8a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableInUseQM",
+      "Message": "//Couldn\u0026apos;t lock table \u0026apos;|\u0026apos;; currently in use.",
+      "DecimalCode": -2146825077,
+      "HexCode": "0x800a0c8b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetSpecialTableInUse",
+      "Message": "//Couldn\u0026apos;t lock table \u0026apos;|1\u0026apos;; currently in use by user \u0026apos;|3\u0026apos; on machine \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146825076,
+      "HexCode": "0x800a0c8c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalDateOption",
+      "Message": "//Invalid Date entry in the Xbase section of initialization setting.",
+      "DecimalCode": -2146825075,
+      "HexCode": "0x800a0c8d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalMarkOption",
+      "Message": "//Invalid Mark entry in the Xbase section of initialization setting.",
+      "DecimalCode": -2146825074,
+      "HexCode": "0x800a0c8e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BtrieveTooManyTasks",
+      "Message": "//Too many Btrieve tasks.",
+      "DecimalCode": -2146825073,
+      "HexCode": "0x800a0c8f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryParmNotTableid",
+      "Message": "//Parameter \u0026apos;|\u0026apos; specified where a table name is required.",
+      "DecimalCode": -2146825072,
+      "HexCode": "0x800a0c90",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryParmNotDatabase",
+      "Message": "//Parameter \u0026apos;|\u0026apos; specified where a database name is required.",
+      "DecimalCode": -2146825071,
+      "HexCode": "0x800a0c91",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WriteConflict",
+      "Message": "//Couldn\u0026apos;t update; currently locked.",
+      "DecimalCode": -2146825070,
+      "HexCode": "0x800a0c92",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalOperation",
+      "Message": "//Invalid operation.",
+      "DecimalCode": -2146825069,
+      "HexCode": "0x800a0c93",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WrongCollatingSequence",
+      "Message": "//Incorrect collating sequence.",
+      "DecimalCode": -2146825068,
+      "HexCode": "0x800a0c94",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BadConfigParameters",
+      "Message": "//Invalid entries in the Btrieve section of initialization setting.",
+      "DecimalCode": -2146825067,
+      "HexCode": "0x800a0c95",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryContainsDbParm",
+      "Message": "//Query can\u0026apos;t contain a Database parameter.",
+      "DecimalCode": -2146825066,
+      "HexCode": "0x800a0c96",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryInvalidParmM",
+      "Message": "//\u0026apos;|\u0026apos; isn\u0026apos;t a valid parameter name.",
+      "DecimalCode": -2146825065,
+      "HexCode": "0x800a0c97",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BtrieveDDCorrupted",
+      "Message": "//Can\u0026apos;t read Btrieve data dictionary.",
+      "DecimalCode": -2146825064,
+      "HexCode": "0x800a0c98",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BtrieveDeadlock",
+      "Message": "//Encountered record locking deadlock while performing Btrieve operation.",
+      "DecimalCode": -2146825063,
+      "HexCode": "0x800a0c99",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BtrieveFailure",
+      "Message": "//Errors encountered while using the Btrieve DLL.",
+      "DecimalCode": -2146825062,
+      "HexCode": "0x800a0c9a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalCenturyOption",
+      "Message": "//Invalid Century entry in the Xbase section of initialization setting.",
+      "DecimalCode": -2146825061,
+      "HexCode": "0x800a0c9b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalCollatingSeq",
+      "Message": "//Invalid Collating Sequence.",
+      "DecimalCode": -2146825060,
+      "HexCode": "0x800a0c9c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NonModifiableKey",
+      "Message": "//Btrieve--can\u0026apos;t change field.",
+      "DecimalCode": -2146825059,
+      "HexCode": "0x800a0c9d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ObsoleteLockFile",
+      "Message": "//Out-of-date Paradox lock file.",
+      "DecimalCode": -2146825058,
+      "HexCode": "0x800a0c9e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtColDataTruncated",
+      "Message": "//ODBC--field would be too long; data truncated.",
+      "DecimalCode": -2146825057,
+      "HexCode": "0x800a0c9f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtCreateTableFailed",
+      "Message": "//ODBC--couldn\u0026apos;t create table.",
+      "DecimalCode": -2146825056,
+      "HexCode": "0x800a0ca0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtOdbcVer",
+      "Message": "//* ",
+      "DecimalCode": -2146825055,
+      "HexCode": "0x800a0ca1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtQueryTimeout",
+      "Message": "//ODBC--remote query timeout expired.",
+      "DecimalCode": -2146825054,
+      "HexCode": "0x800a0ca2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtTypeIncompat",
+      "Message": "//ODBC--data type not supported on server.",
+      "DecimalCode": -2146825053,
+      "HexCode": "0x800a0ca3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtUnexpectedNull",
+      "Message": "//* ",
+      "DecimalCode": -2146825052,
+      "HexCode": "0x800a0ca4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtUnexpectedType",
+      "Message": "//* ",
+      "DecimalCode": -2146825051,
+      "HexCode": "0x800a0ca5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtValueOutOfRange",
+      "Message": "//ODBC--data out of range.",
+      "DecimalCode": -2146825050,
+      "HexCode": "0x800a0ca6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyActiveUsers",
+      "Message": "//Too many active users.",
+      "DecimalCode": -2146825049,
+      "HexCode": "0x800a0ca7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantStartBtrieve",
+      "Message": "//Btrieve--missing Btrieve engine.",
+      "DecimalCode": -2146825048,
+      "HexCode": "0x800a0ca8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutOfBVResources",
+      "Message": "//Btrieve--out of resources.",
+      "DecimalCode": -2146825047,
+      "HexCode": "0x800a0ca9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryBadUpwardRefedM",
+      "Message": "//Invalid reference in SELECT statement.",
+      "DecimalCode": -2146825046,
+      "HexCode": "0x800a0caa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexNoMatchingColumns",
+      "Message": "//None of the import field names match fields in the appended table.",
+      "DecimalCode": -2146825045,
+      "HexCode": "0x800a0cab",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexPasswordProtected",
+      "Message": "//Can\u0026apos;t import password-protected spreadsheet.",
+      "DecimalCode": -2146825044,
+      "HexCode": "0x800a0cac",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexUnparsableRecord",
+      "Message": "//Couldn\u0026apos;t parse field names from first row of import table.",
+      "DecimalCode": -2146825043,
+      "HexCode": "0x800a0cad",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InTransaction",
+      "Message": "//Operation not supported in transactions.",
+      "DecimalCode": -2146825042,
+      "HexCode": "0x800a0cae",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtLinkOutOfSync",
+      "Message": "//ODBC--linked table definition has changed.",
+      "DecimalCode": -2146825041,
+      "HexCode": "0x800a0caf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalNetworkOption",
+      "Message": "//Invalid NetworkAccess entry in initialization setting.",
+      "DecimalCode": -2146825040,
+      "HexCode": "0x800a0cb0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalTimeoutOption",
+      "Message": "//Invalid PageTimeout entry in initialization setting.",
+      "DecimalCode": -2146825039,
+      "HexCode": "0x800a0cb1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantBuildKey",
+      "Message": "//Couldn\u0026apos;t build key.",
+      "DecimalCode": -2146825038,
+      "HexCode": "0x800a0cb2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FeatureNotAvailable",
+      "Message": "//Operation is not supported for this type of object.",
+      "DecimalCode": -2146825037,
+      "HexCode": "0x800a0cb3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalReentrancy",
+      "Message": "//Can\u0026apos;t open form whose underlying query contains a user-defined function that attempts to set or get the form\u0026apos;s RecordsetClone property.",
+      "DecimalCode": -2146825036,
+      "HexCode": "0x800a0cb4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UNUSED",
+      "Message": "//* ",
+      "DecimalCode": -2146825035,
+      "HexCode": "0x800a0cb5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtDenyWriteIsInvalid",
+      "Message": "//ODBC--Can\u0026apos;t lock all records.",
+      "DecimalCode": -2146825034,
+      "HexCode": "0x800a0cb6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ODBCParmsChanged",
+      "Message": "//* ",
+      "DecimalCode": -2146825033,
+      "HexCode": "0x800a0cb7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_INFIndexNotFound",
+      "Message": "//Index file not found.",
+      "DecimalCode": -2146825032,
+      "HexCode": "0x800a0cb8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLOwnerAccessSyntax",
+      "Message": "//Syntax error in WITH OWNERACCESS OPTION declaration.",
+      "DecimalCode": -2146825031,
+      "HexCode": "0x800a0cb9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryAmbiguousJoins",
+      "Message": "//Query contains ambiguous outer joins.",
+      "DecimalCode": -2146825030,
+      "HexCode": "0x800a0cba",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidColumnType",
+      "Message": "//Invalid field data type.",
+      "DecimalCode": -2146825029,
+      "HexCode": "0x800a0cbb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WriteConflictM",
+      "Message": "//Couldn\u0026apos;t update; currently locked by user \u0026apos;|2\u0026apos; on machine \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146825028,
+      "HexCode": "0x800a0cbc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableLockedM",
+      "Message": "//| ",
+      "DecimalCode": -2146825027,
+      "HexCode": "0x800a0cbd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableInUseMUQM",
+      "Message": "//| ",
+      "DecimalCode": -2146825026,
+      "HexCode": "0x800a0cbe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidTableId",
+      "Message": "//Invalid database object.",
+      "DecimalCode": -2146825025,
+      "HexCode": "0x800a0cbf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNoFields",
+      "Message": "//No fields defined - cannot append Tabledef or Index.",
+      "DecimalCode": -2146825024,
+      "HexCode": "0x800a0cc0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNameNotFound",
+      "Message": "//Item not found in this collection.",
+      "DecimalCode": -2146825023,
+      "HexCode": "0x800a0cc1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoFieldInCollection",
+      "Message": "//Can\u0026apos;t append.  Field is part of a TableDefs collection.",
+      "DecimalCode": -2146825022,
+      "HexCode": "0x800a0cc2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNotARecordset",
+      "Message": "//Property can be set only when the field is part of a Recordset object\u0026apos;s Fields collection.",
+      "DecimalCode": -2146825021,
+      "HexCode": "0x800a0cc3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNoSetObjInDb",
+      "Message": "//Can\u0026apos;t set this property once the object is part of a collection.",
+      "DecimalCode": -2146825020,
+      "HexCode": "0x800a0cc4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoIndexInCollection",
+      "Message": "//Can\u0026apos;t append.  Index is part of a TableDefs collection.",
+      "DecimalCode": -2146825019,
+      "HexCode": "0x800a0cc5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoPropNotFound",
+      "Message": "//Property not found.",
+      "DecimalCode": -2146825018,
+      "HexCode": "0x800a0cc6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoIllegalValue",
+      "Message": "//Invalid property value.",
+      "DecimalCode": -2146825017,
+      "HexCode": "0x800a0cc7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNotArray",
+      "Message": "//Object isn\u0026apos;t a collection.",
+      "DecimalCode": -2146825016,
+      "HexCode": "0x800a0cc8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNoSuchMethod",
+      "Message": "//Method not applicable for this object.",
+      "DecimalCode": -2146825015,
+      "HexCode": "0x800a0cc9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NotExternalFormat",
+      "Message": "//External table isn\u0026apos;t in the expected format.",
+      "DecimalCode": -2146825014,
+      "HexCode": "0x800a0cca",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UnexpectedEngineReturn",
+      "Message": "//Unexpected error from external database driver (|).",
+      "DecimalCode": -2146825013,
+      "HexCode": "0x800a0ccb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidDatabaseId",
+      "Message": "//Invalid database ID.",
+      "DecimalCode": -2146825012,
+      "HexCode": "0x800a0ccc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyKeys",
+      "Message": "//Can\u0026apos;t have more than 10 fields in an index.",
+      "DecimalCode": -2146825011,
+      "HexCode": "0x800a0ccd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NotInitialized",
+      "Message": "//Database engine hasn\u0026apos;t been initialized.",
+      "DecimalCode": -2146825010,
+      "HexCode": "0x800a0cce",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AlreadyInitialized",
+      "Message": "//Database engine has already been initialized.",
+      "DecimalCode": -2146825009,
+      "HexCode": "0x800a0ccf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnInUse",
+      "Message": "//Can\u0026apos;t delete a field that is part of an index or is needed by the system.",
+      "DecimalCode": -2146825008,
+      "HexCode": "0x800a0cd0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexInUse",
+      "Message": "//Can\u0026apos;t delete this index.  It is either the current index or is used in a relationship.",
+      "DecimalCode": -2146825007,
+      "HexCode": "0x800a0cd1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableNotEmpty",
+      "Message": "//Can\u0026apos;t create field or index in a table that is already defined.",
+      "DecimalCode": -2146825006,
+      "HexCode": "0x800a0cd2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexHasPrimary",
+      "Message": "//Primary key already exists.",
+      "DecimalCode": -2146825005,
+      "HexCode": "0x800a0cd3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexDuplicate",
+      "Message": "//Index already exists.",
+      "DecimalCode": -2146825004,
+      "HexCode": "0x800a0cd4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexInvalidDef",
+      "Message": "//Invalid index definition.",
+      "DecimalCode": -2146825003,
+      "HexCode": "0x800a0cd5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WrongMemoFileType",
+      "Message": "//Format of memo file doesn\u0026apos;t match specified external database format.",
+      "DecimalCode": -2146825002,
+      "HexCode": "0x800a0cd6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnCannotIndex",
+      "Message": "//Can\u0026apos;t create index on the given field.",
+      "DecimalCode": -2146825001,
+      "HexCode": "0x800a0cd7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexHasNoPrimary",
+      "Message": "//Paradox index is not primary.",
+      "DecimalCode": -2146825000,
+      "HexCode": "0x800a0cd8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLConstraintSyntax",
+      "Message": "//Syntax error in CONSTRAINT clause.",
+      "DecimalCode": -2146824999,
+      "HexCode": "0x800a0cd9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLCreateTableSyntax",
+      "Message": "//Syntax error in CREATE TABLE statement.",
+      "DecimalCode": -2146824998,
+      "HexCode": "0x800a0cda",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLCreateIndexSyntax",
+      "Message": "//Syntax error in CREATE INDEX statement.",
+      "DecimalCode": -2146824997,
+      "HexCode": "0x800a0cdb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLColumnDefSyntax",
+      "Message": "//Syntax error in field definition.",
+      "DecimalCode": -2146824996,
+      "HexCode": "0x800a0cdc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLAlterTableSyntax",
+      "Message": "//Syntax error in ALTER TABLE statement.",
+      "DecimalCode": -2146824995,
+      "HexCode": "0x800a0cdd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLDropIndexSyntax",
+      "Message": "//Syntax error in DROP INDEX statement.",
+      "DecimalCode": -2146824994,
+      "HexCode": "0x800a0cde",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLDropSyntax",
+      "Message": "//Syntax error in DROP TABLE or DROP INDEX.",
+      "DecimalCode": -2146824993,
+      "HexCode": "0x800a0cdf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_V11NotSupported",
+      "Message": "//Join expression not supported.",
+      "DecimalCode": -2146824992,
+      "HexCode": "0x800a0ce0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ImexNothingToImport",
+      "Message": "//Couldn\u0026apos;t import table or query.  No records found, or all records contain errors.",
+      "DecimalCode": -2146824991,
+      "HexCode": "0x800a0ce1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtTableAmbiguous",
+      "Message": "//There are several tables with that name.  Please specify owner in the format \u0026apos;owner.table\u0026apos;.",
+      "DecimalCode": -2146824990,
+      "HexCode": "0x800a0ce2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetODBCConformanceError",
+      "Message": "//ODBC Specification Conformance Error (|).  This error should be reported to the ODBC driver vendor.",
+      "DecimalCode": -2146824989,
+      "HexCode": "0x800a0ce3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalRelationship",
+      "Message": "//Can\u0026apos;t create a relationship.",
+      "DecimalCode": -2146824988,
+      "HexCode": "0x800a0ce4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DBVerFeatureNotAvailable",
+      "Message": "//Can\u0026apos;t perform this operation; features in this version are not available in databases with older formats.",
+      "DecimalCode": -2146824987,
+      "HexCode": "0x800a0ce5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RulesLoaded",
+      "Message": "//Can\u0026apos;t change a rule while the rules for this table are in use.",
+      "DecimalCode": -2146824986,
+      "HexCode": "0x800a0ce6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnInRelationship",
+      "Message": "//Can\u0026apos;t delete this field.  It\u0026apos;s part of one or more relationships.",
+      "DecimalCode": -2146824985,
+      "HexCode": "0x800a0ce7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidPin",
+      "Message": "//You must enter a personal identifier (PID) consisting of at least four and no more than 20 characters and digits.",
+      "DecimalCode": -2146824984,
+      "HexCode": "0x800a0ce8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtBogusConnStr",
+      "Message": "//Invalid connection string in pass-through query.",
+      "DecimalCode": -2146824983,
+      "HexCode": "0x800a0ce9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SingleColumnExpected",
+      "Message": "//At most one field can be returned from a subquery that doesn\u0026apos;t use the EXISTS keyword.",
+      "DecimalCode": -2146824982,
+      "HexCode": "0x800a0cea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ColumnCountMismatch",
+      "Message": "//The number of columns in the two selected tables or queries of a union query don\u0026apos;t match.",
+      "DecimalCode": -2146824981,
+      "HexCode": "0x800a0ceb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidTopArgumentM",
+      "Message": "//Invalid TOP argument in select query.",
+      "DecimalCode": -2146824980,
+      "HexCode": "0x800a0cec",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PropertyTooLarge",
+      "Message": "//Property setting can\u0026apos;t be larger than 2 KB.",
+      "DecimalCode": -2146824979,
+      "HexCode": "0x800a0ced",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JPMInvalidForV1x",
+      "Message": "//This property isn\u0026apos;t supported for external data sources or for databases created in a previous version.",
+      "DecimalCode": -2146824978,
+      "HexCode": "0x800a0cee",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PropertyExists",
+      "Message": "//Property specified already exists.",
+      "DecimalCode": -2146824977,
+      "HexCode": "0x800a0cef",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVNativeUserTablesOnly",
+      "Message": "//Validation rules and default values can\u0026apos;t be placed on system or attached (linked) tables.",
+      "DecimalCode": -2146824976,
+      "HexCode": "0x800a0cf0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVInvalidColumn",
+      "Message": "//Can\u0026apos;t place this validation expression on this field.",
+      "DecimalCode": -2146824975,
+      "HexCode": "0x800a0cf1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVNoNullM",
+      "Message": "//Field \u0026apos;|\u0026apos; can\u0026apos;t contain a null value.",
+      "DecimalCode": -2146824974,
+      "HexCode": "0x800a0cf2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVNoBlankM",
+      "Message": "//Field \u0026apos;|\u0026apos; can\u0026apos;t be a zero-length string.",
+      "DecimalCode": -2146824973,
+      "HexCode": "0x800a0cf3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVRuleViolationM",
+      "Message": "//| ",
+      "DecimalCode": -2146824972,
+      "HexCode": "0x800a0cf4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVRuleVioNoMessage",
+      "Message": "//One or more values entered is prohibited by the validation rule \u0026apos;|2\u0026apos; set for \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824971,
+      "HexCode": "0x800a0cf5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTopNotAllowedM",
+      "Message": "//Top not allowed in delete queries.",
+      "DecimalCode": -2146824970,
+      "HexCode": "0x800a0cf6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLUnionSyntax",
+      "Message": "//Syntax error in union query.",
+      "DecimalCode": -2146824969,
+      "HexCode": "0x800a0cf7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVExprSyntaxM",
+      "Message": "//| in table-level validation expression.",
+      "DecimalCode": -2146824968,
+      "HexCode": "0x800a0cf8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoDbInConnStr",
+      "Message": "//No database specified in connection string or IN clause.",
+      "DecimalCode": -2146824967,
+      "HexCode": "0x800a0cf9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryBadValueListM",
+      "Message": "//Crosstab query contains one or more invalid fixed column headings.",
+      "DecimalCode": -2146824966,
+      "HexCode": "0x800a0cfa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsNotRowReturning",
+      "Message": "//The query can not be used as a row source.",
+      "DecimalCode": -2146824965,
+      "HexCode": "0x800a0cfb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsDDL",
+      "Message": "//This query is a DDL query and cannot be used as a row source.",
+      "DecimalCode": -2146824964,
+      "HexCode": "0x800a0cfc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SPTReturnedNoRecords",
+      "Message": "//Pass-through query with ReturnsRecords property set to True did not return any records.",
+      "DecimalCode": -2146824963,
+      "HexCode": "0x800a0cfd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsSnapshot",
+      "Message": "//This Recordset is not updatable.",
+      "DecimalCode": -2146824962,
+      "HexCode": "0x800a0cfe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryExprOutput",
+      "Message": "//Field \u0026apos;|\u0026apos; is based on an expression and can\u0026apos;t be edited.",
+      "DecimalCode": -2146824961,
+      "HexCode": "0x800a0cff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTableRO",
+      "Message": "//Table \u0026apos;|2\u0026apos; is read-only.",
+      "DecimalCode": -2146824960,
+      "HexCode": "0x800a0d00",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryRowDeleted",
+      "Message": "//Record in table \u0026apos;|\u0026apos; was deleted by another user.",
+      "DecimalCode": -2146824959,
+      "HexCode": "0x800a0d01",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryRowLocked",
+      "Message": "//Record in table \u0026apos;|\u0026apos; is locked by another user.",
+      "DecimalCode": -2146824958,
+      "HexCode": "0x800a0d02",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryFixupChanged",
+      "Message": "//To make changes to this field, first save the record.",
+      "DecimalCode": -2146824957,
+      "HexCode": "0x800a0d03",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryCantFillIn",
+      "Message": "//Can\u0026apos;t enter value into blank field on \u0026apos;one\u0026apos; side of outer join.",
+      "DecimalCode": -2146824956,
+      "HexCode": "0x800a0d04",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryWouldOrphan",
+      "Message": "//Records in table \u0026apos;|\u0026apos; would have no record on the \u0026apos;one\u0026apos; side.",
+      "DecimalCode": -2146824955,
+      "HexCode": "0x800a0d05",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_V10Format",
+      "Message": "//Can be present only in version 1.0 format.",
+      "DecimalCode": -2146824954,
+      "HexCode": "0x800a0d06",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidDelete",
+      "Message": "//DeleteOnly called with non-zero cbData.",
+      "DecimalCode": -2146824953,
+      "HexCode": "0x800a0d07",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalIndexDDFOption",
+      "Message": "//Btrieve: Invalid IndexDDF option in initialization setting.",
+      "DecimalCode": -2146824952,
+      "HexCode": "0x800a0d08",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalDataCodePage",
+      "Message": "//Invalid DataCodePage option in initialization setting.",
+      "DecimalCode": -2146824951,
+      "HexCode": "0x800a0d09",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_XtrieveEnvironmentError",
+      "Message": "//Btrieve: Xtrieve options aren\u0026apos;t correct in initialization setting.",
+      "DecimalCode": -2146824950,
+      "HexCode": "0x800a0d0a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalIndexNumberOption",
+      "Message": "//Btrieve: Invalid IndexDeleteRenumber option in initialization setting.",
+      "DecimalCode": -2146824949,
+      "HexCode": "0x800a0d0b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsCorruptM",
+      "Message": "//Query \u0026apos;|\u0026apos; is corrupt.",
+      "DecimalCode": -2146824948,
+      "HexCode": "0x800a0d0c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IncorrectJoinKeyM",
+      "Message": "//Current field must match join key \u0026apos;|\u0026apos; on \u0026apos;one\u0026apos; side of outer join because it has been updated.",
+      "DecimalCode": -2146824947,
+      "HexCode": "0x800a0d0d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInSubqueryM",
+      "Message": "//Invalid Memo or OLE object in subquery \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824946,
+      "HexCode": "0x800a0d0e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidDatabaseM",
+      "Message": "//Unrecognized database format \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824945,
+      "HexCode": "0x800a0d0f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVCouldNotBindRef",
+      "Message": "//Unknown or invalid reference \u0026apos;|1\u0026apos; in validation expression or default value in table \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824944,
+      "HexCode": "0x800a0d10",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CouldNotBindRef",
+      "Message": "//Unknown or invalid field reference \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824943,
+      "HexCode": "0x800a0d11",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryWrongNumDestCol",
+      "Message": "//Number of query values and destination fields aren\u0026apos;t the same.",
+      "DecimalCode": -2146824942,
+      "HexCode": "0x800a0d12",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryPKeyNotOutput",
+      "Message": "//Can\u0026apos;t add record(s); primary key for table \u0026apos;|\u0026apos; not in recordset.",
+      "DecimalCode": -2146824941,
+      "HexCode": "0x800a0d13",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryJKeyNotOutput",
+      "Message": "//Can\u0026apos;t add record(s); join key of table \u0026apos;|\u0026apos; not in recordset.",
+      "DecimalCode": -2146824940,
+      "HexCode": "0x800a0d14",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NumericFieldOverflow",
+      "Message": "//Numeric field overflow.",
+      "DecimalCode": -2146824939,
+      "HexCode": "0x800a0d15",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidObject",
+      "Message": "//Object is invalid for operation.",
+      "DecimalCode": -2146824938,
+      "HexCode": "0x800a0d16",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OrderVsUnion",
+      "Message": "//ORDER BY expression (|) uses non-output fields.",
+      "DecimalCode": -2146824937,
+      "HexCode": "0x800a0d17",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoInsertColumnNameM",
+      "Message": "//No destination field name in INSERT INTO statement (|).",
+      "DecimalCode": -2146824936,
+      "HexCode": "0x800a0d18",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MissingDDFFile",
+      "Message": "//Btrieve: Can\u0026apos;t find file FIELD.DDF.",
+      "DecimalCode": -2146824935,
+      "HexCode": "0x800a0d19",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SingleRecordExpected",
+      "Message": "//At most one record can be returned by this subquery.",
+      "DecimalCode": -2146824934,
+      "HexCode": "0x800a0d1a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DefaultExprSyntax",
+      "Message": "//Syntax error in default value.",
+      "DecimalCode": -2146824933,
+      "HexCode": "0x800a0d1b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExclusiveDBConflict",
+      "Message": "//The database is opened by user \u0026apos;|2\u0026apos; on machine \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824932,
+      "HexCode": "0x800a0d1c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIsNotDDL",
+      "Message": "//This query is not a properly formed data-definition query.",
+      "DecimalCode": -2146824931,
+      "HexCode": "0x800a0d1d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SysDatabaseOpenError",
+      "Message": "//Can\u0026apos;t open Microsoft Jet engine system database.",
+      "DecimalCode": -2146824930,
+      "HexCode": "0x800a0d1e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLInvalidSPT",
+      "Message": "//Pass-through query must contain at least one character.",
+      "DecimalCode": -2146824929,
+      "HexCode": "0x800a0d1f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryTooComplex",
+      "Message": "//Query is too complex.",
+      "DecimalCode": -2146824928,
+      "HexCode": "0x800a0d20",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SetOpInvalidInSubquery",
+      "Message": "//Unions not allowed in a subquery.",
+      "DecimalCode": -2146824927,
+      "HexCode": "0x800a0d21",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtMultiRowUpdate",
+      "Message": "//Single-row update/delete affected more than one row of an attached (linked) table.  Unique index contains duplicate values.",
+      "DecimalCode": -2146824926,
+      "HexCode": "0x800a0d22",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNoJoinedRecord",
+      "Message": "//Record(s) can\u0026apos;t be added; no corresponding record on the \u0026apos;one\u0026apos; side.",
+      "DecimalCode": -2146824925,
+      "HexCode": "0x800a0d23",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryLVInSetOp",
+      "Message": "//Can\u0026apos;t use Memo or OLE object field \u0026apos;|\u0026apos; in SELECT clause of a union query.",
+      "DecimalCode": -2146824924,
+      "HexCode": "0x800a0d24",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoInvalidOnRemote",
+      "Message": "//Property value not valid for REMOTE objects.",
+      "DecimalCode": -2146824923,
+      "HexCode": "0x800a0d25",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNoFieldsRel",
+      "Message": "//Can\u0026apos;t append a relation with no fields defined.",
+      "DecimalCode": -2146824922,
+      "HexCode": "0x800a0d26",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoObjectInCollection",
+      "Message": "//Can\u0026apos;t append.  Object already in collection.",
+      "DecimalCode": -2146824921,
+      "HexCode": "0x800a0d27",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLDiffNumRelCols",
+      "Message": "//Relationship must be on the same number of fields with the same data types.",
+      "DecimalCode": -2146824920,
+      "HexCode": "0x800a0d28",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLIndexColNotFound",
+      "Message": "//Can\u0026apos;t find field in index definition.",
+      "DecimalCode": -2146824919,
+      "HexCode": "0x800a0d29",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLPermissionDenied",
+      "Message": "//Can\u0026apos;t modify the design of table \u0026apos;|\u0026apos;.  It\u0026apos;s in a read-only database.",
+      "DecimalCode": -2146824918,
+      "HexCode": "0x800a0d2a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLObjectNotFound",
+      "Message": "//Can\u0026apos;t find table or constraint.",
+      "DecimalCode": -2146824917,
+      "HexCode": "0x800a0d2b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLIndexNotFound",
+      "Message": "//No such index \u0026apos;|2\u0026apos; on table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824916,
+      "HexCode": "0x800a0d2c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLNoPkeyOnRefdTable",
+      "Message": "//Can\u0026apos;t create relationship.  Referenced table \u0026apos;|\u0026apos; doesn\u0026apos;t have a primary key.",
+      "DecimalCode": -2146824915,
+      "HexCode": "0x800a0d2d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLColumnsNotUnique",
+      "Message": "//The specified fields are not uniquely indexed in table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824914,
+      "HexCode": "0x800a0d2e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLIndexDuplicate",
+      "Message": "//Table \u0026apos;|1\u0026apos; already has an index named \u0026apos;|2\u0026apos;",
+      "DecimalCode": -2146824913,
+      "HexCode": "0x800a0d2f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLTableNotFound",
+      "Message": "//Table \u0026apos;|\u0026apos; doesn\u0026apos;t exist.",
+      "DecimalCode": -2146824912,
+      "HexCode": "0x800a0d30",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLRelNotFound",
+      "Message": "//No such relationship \u0026apos;|2\u0026apos; on table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824911,
+      "HexCode": "0x800a0d31",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLRelDuplicate",
+      "Message": "//There is already a relationship named \u0026apos;|\u0026apos; in the current database.",
+      "DecimalCode": -2146824910,
+      "HexCode": "0x800a0d32",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLIntegrityViolation",
+      "Message": "//Can\u0026apos;t create relationships to enforce referential integrity.  Existing data in table \u0026apos;|2\u0026apos; violates referential integrity rules with related table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824909,
+      "HexCode": "0x800a0d33",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLColumnDuplicate",
+      "Message": "//Field \u0026apos;|2\u0026apos; already exists in table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824908,
+      "HexCode": "0x800a0d34",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLColumnNotFound",
+      "Message": "//There is no field named \u0026apos;|2\u0026apos; in table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824907,
+      "HexCode": "0x800a0d35",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLColumnTooBig",
+      "Message": "//The size of field \u0026apos;|\u0026apos; is too long.",
+      "DecimalCode": -2146824906,
+      "HexCode": "0x800a0d36",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DDLColumnInRel",
+      "Message": "//Can\u0026apos;t delete field \u0026apos;|\u0026apos;.  It\u0026apos;s part of one or more relationships.",
+      "DecimalCode": -2146824905,
+      "HexCode": "0x800a0d37",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoCantDeleteBuiltIn",
+      "Message": "//Can\u0026apos;t delete a built-in property.",
+      "DecimalCode": -2146824904,
+      "HexCode": "0x800a0d38",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoUDPsDontSupportNull",
+      "Message": "//User-defined properties don\u0026apos;t support a Null value.",
+      "DecimalCode": -2146824903,
+      "HexCode": "0x800a0d39",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoMissingRequiredParm",
+      "Message": "//Property \u0026apos;|\u0026apos; must be set before using this method.",
+      "DecimalCode": -2146824902,
+      "HexCode": "0x800a0d3a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetJetInitInvalidPath",
+      "Message": "//Can\u0026apos;t find TEMP directory.",
+      "DecimalCode": -2146824901,
+      "HexCode": "0x800a0d3b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVExprUnknownFunctionM",
+      "Message": "//Unknown function \u0026apos;|2\u0026apos; in validation expression or default value on \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824900,
+      "HexCode": "0x800a0d3c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryNotSupported",
+      "Message": "//Query support unavailable.",
+      "DecimalCode": -2146824899,
+      "HexCode": "0x800a0d3d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AccountDuplicate",
+      "Message": "//Account name already exists.",
+      "DecimalCode": -2146824898,
+      "HexCode": "0x800a0d3e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetwrnPropCouldNotSave",
+      "Message": "//An error has occurred.  Properties were not saved.",
+      "DecimalCode": -2146824897,
+      "HexCode": "0x800a0d3f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RelNoPrimaryIndexM",
+      "Message": "//There is no primary key in table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824896,
+      "HexCode": "0x800a0d40",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryKeyTooBig",
+      "Message": "//Can\u0026apos;t perform join, group, sort, or indexed restriction. A value being searched or sorted on is too long.",
+      "DecimalCode": -2146824895,
+      "HexCode": "0x800a0d41",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PropMustBeDDL",
+      "Message": "//Can\u0026apos;t save property; property is a schema property.",
+      "DecimalCode": -2146824894,
+      "HexCode": "0x800a0d42",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalRIConstraint",
+      "Message": "//Invalid referential integrity constraint.",
+      "DecimalCode": -2146824893,
+      "HexCode": "0x800a0d43",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIViolationMasterCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  Since related records exist in table \u0026apos;|\u0026apos;, referential integrity rules would be violated.",
+      "DecimalCode": -2146824892,
+      "HexCode": "0x800a0d44",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIViolationSlaveCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  There must be a related record in table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824891,
+      "HexCode": "0x800a0d45",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIKeyNullDisallowedCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  It would result in a null key in table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824890,
+      "HexCode": "0x800a0d46",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIKeyDuplicateCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  It would result in a duplicate key in table \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824889,
+      "HexCode": "0x800a0d47",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIUpdateTwiceCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  It would result in two updates on field \u0026apos;|2\u0026apos; in table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824888,
+      "HexCode": "0x800a0d48",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RITLVNoNullCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  It would cause field \u0026apos;|\u0026apos; to become null, which is not allowed.",
+      "DecimalCode": -2146824887,
+      "HexCode": "0x800a0d49",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RITLVNoBlankCM",
+      "Message": "//Can\u0026apos;t perform cascading operation.  It would cause field \u0026apos;|\u0026apos; to become a zero-length string, which is not allowed.",
+      "DecimalCode": -2146824886,
+      "HexCode": "0x800a0d4a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RITLVRuleViolationCM",
+      "Message": "//Can\u0026apos;t perform cascading operation:  \u0026apos;|\u0026apos;",
+      "DecimalCode": -2146824885,
+      "HexCode": "0x800a0d4b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RITLVRuleVioCNoMessage",
+      "Message": "//Can\u0026apos;t perform cascading operation.  The value entered is prohibited by the validation rule \u0026apos;|2\u0026apos; set for \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824884,
+      "HexCode": "0x800a0d4c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVRuleEvalEBESErr",
+      "Message": "//Error \u0026apos;|\u0026apos; in validation rule.",
+      "DecimalCode": -2146824883,
+      "HexCode": "0x800a0d4d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TLVDefaultEvalEBESErr",
+      "Message": "//Error \u0026apos;|\u0026apos; in default value.",
+      "DecimalCode": -2146824882,
+      "HexCode": "0x800a0d4e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BadMSysConf",
+      "Message": "//The server\u0026apos;s MSysConf table exists, but is in an incorrect format.  Contact your system administrator.",
+      "DecimalCode": -2146824881,
+      "HexCode": "0x800a0d4f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyFindSessions",
+      "Message": "//Too many FastFind Sessions were invoked.",
+      "DecimalCode": -2146824880,
+      "HexCode": "0x800a0d50",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidColumnM",
+      "Message": "//Invalid field name \u0026apos;|\u0026apos; in definition of index or relationship.",
+      "DecimalCode": -2146824879,
+      "HexCode": "0x800a0d51",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPReadOnly",
+      "Message": "//* ",
+      "DecimalCode": -2146824878,
+      "HexCode": "0x800a0d52",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIInvalidBufferSizeCM",
+      "Message": "//Invalid entry.  Can\u0026apos;t perform cascading operation specified in table \u0026apos;|1\u0026apos; because value entered is too big for field \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824877,
+      "HexCode": "0x800a0d53",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RIWriteConflictCM",
+      "Message": "//| ",
+      "DecimalCode": -2146824876,
+      "HexCode": "0x800a0d54",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_JetSpecialRIWriteConflictCM",
+      "Message": "//Can\u0026apos;t perform cascading update on table \u0026apos;|1\u0026apos; because it is currently in use by user \u0026apos;|3\u0026apos; on machine \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824875,
+      "HexCode": "0x800a0d55",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RISessWriteConflictCM",
+      "Message": "//Can\u0026apos;t perform cascading update on table \u0026apos;|\u0026apos; because it is currently in use.",
+      "DecimalCode": -2146824874,
+      "HexCode": "0x800a0d56",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoBlank",
+      "Message": "//Zero-length string is valid only in a text or Memo field.",
+      "DecimalCode": -2146824873,
+      "HexCode": "0x800a0d57",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FutureError",
+      "Message": "//| ",
+      "DecimalCode": -2146824872,
+      "HexCode": "0x800a0d58",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryInvalidBulkInput",
+      "Message": "//An action query cannot be used as a row source.",
+      "DecimalCode": -2146824871,
+      "HexCode": "0x800a0d59",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NetCtrlMismatch",
+      "Message": "//Can\u0026apos;t open \u0026apos;|\u0026apos;.  Another user has the table open using a different network control file or locking style.",
+      "DecimalCode": -2146824870,
+      "HexCode": "0x800a0d5a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_4xTableWith3xLocking",
+      "Message": "//Can\u0026apos;t open this Paradox 4.x or Paradox 5.x table because ParadoxNetStyle is set to 3.x in the initialization setting.",
+      "DecimalCode": -2146824869,
+      "HexCode": "0x800a0d5b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoObjectNotSet",
+      "Message": "//Object is invalid or not set.",
+      "DecimalCode": -2146824868,
+      "HexCode": "0x800a0d5c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoDataConvError",
+      "Message": "//Data type conversion error.",
+      "DecimalCode": -2146824867,
+      "HexCode": "0x800a0d5d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableNotLocked",
+      "Message": "//Can\u0026apos;t modify table structure.  Another user has the table open",
+      "DecimalCode": -2146824866,
+      "HexCode": "0x800a0d5e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtDriverNotSupported",
+      "Message": "//You cannot use ODBC to attach an external Microsoft Access or ISAM database table to your database",
+      "DecimalCode": -2146824865,
+      "HexCode": "0x800a0d5f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidLanguageId",
+      "Message": "//Can\u0026apos;t create database; Invalid locale",
+      "DecimalCode": -2146824864,
+      "HexCode": "0x800a0d60",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoInvalidOpDuringCallback",
+      "Message": "//This method or property is not currently available on this Recordset",
+      "DecimalCode": -2146824863,
+      "HexCode": "0x800a0d61",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoActionCancelled",
+      "Message": "//The action was cancelled by an associated object",
+      "DecimalCode": -2146824862,
+      "HexCode": "0x800a0d62",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoOleAutoFailed",
+      "Message": "//Error in DAO automation",
+      "DecimalCode": -2146824861,
+      "HexCode": "0x800a0d63",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseCorrupted_Cmpct",
+      "Message": "//The Jet database engine has encountered a problem in your database.  To correct the problem, you must repair and compact the database",
+      "DecimalCode": -2146824860,
+      "HexCode": "0x800a0d64",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IncompatibleIIsam",
+      "Message": "//Incompatible installable ISAM version",
+      "DecimalCode": -2146824859,
+      "HexCode": "0x800a0d65",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OLEInitializeFailure",
+      "Message": "//While loading the Excel installable ISAM, OLE was unable to initialize",
+      "DecimalCode": -2146824858,
+      "HexCode": "0x800a0d66",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OLENotCompoundFile",
+      "Message": "//This is not an Excel 5 file",
+      "DecimalCode": -2146824857,
+      "HexCode": "0x800a0d67",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OLEFailure",
+      "Message": "//Error opening an Excel 5 file",
+      "DecimalCode": -2146824856,
+      "HexCode": "0x800a0d68",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IllegalIisamIniOption",
+      "Message": "//Invalid parameter in [Excel ISAM] section of the initialization file",
+      "DecimalCode": -2146824855,
+      "HexCode": "0x800a0d69",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableFull",
+      "Message": "//Can\u0026apos;t expand named range",
+      "DecimalCode": -2146824854,
+      "HexCode": "0x800a0d6a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TableCantClear",
+      "Message": "//Cannot delete Excel cells",
+      "DecimalCode": -2146824853,
+      "HexCode": "0x800a0d6b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CreateFailed",
+      "Message": "//Failure creating file",
+      "DecimalCode": -2146824852,
+      "HexCode": "0x800a0d6c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DatabaseFull",
+      "Message": "//Excel spreadsheet is full",
+      "DecimalCode": -2146824851,
+      "HexCode": "0x800a0d6d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SpecAndColumnMismatch",
+      "Message": "//File specification and data do not match",
+      "DecimalCode": -2146824850,
+      "HexCode": "0x800a0d6e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantOpenWordMergeFiles",
+      "Message": "//Can\u0026apos;t attach or import Word mail merge file",
+      "DecimalCode": -2146824849,
+      "HexCode": "0x800a0d6f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileHasNoColumns",
+      "Message": "//Text file has no columns",
+      "DecimalCode": -2146824848,
+      "HexCode": "0x800a0d70",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AmbiguousDelimiters",
+      "Message": "//Text file specification field separator matches decimal seperator or text delimiter",
+      "DecimalCode": -2146824847,
+      "HexCode": "0x800a0d71",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileSpecErrorM",
+      "Message": "//Error in entry |2 of section [|1] in schema.ini",
+      "DecimalCode": -2146824846,
+      "HexCode": "0x800a0d72",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoSpecForFixedFormatM",
+      "Message": "//Can\u0026apos;t create fixed width text file without column specification in section [|2] of schema.ini",
+      "DecimalCode": -2146824845,
+      "HexCode": "0x800a0d73",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WidthMissInFixedSpecM",
+      "Message": "//Column width required for column |2 in section [|1] of schema.ini",
+      "DecimalCode": -2146824844,
+      "HexCode": "0x800a0d74",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoWrongDllVersion",
+      "Message": "//Incorrect version of JET DLL found",
+      "DecimalCode": -2146824843,
+      "HexCode": "0x800a0d75",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoMissingVBA",
+      "Message": "//Could not locate a VBA related file",
+      "DecimalCode": -2146824842,
+      "HexCode": "0x800a0d76",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoVBAFailed",
+      "Message": "//Failed to initialize VBA",
+      "DecimalCode": -2146824841,
+      "HexCode": "0x800a0d77",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoOLEFailed",
+      "Message": "//An OLE system function failed",
+      "DecimalCode": -2146824840,
+      "HexCode": "0x800a0d78",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidCountry",
+      "Message": "//Missing country code",
+      "DecimalCode": -2146824839,
+      "HexCode": "0x800a0d79",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryIncompleteRowM",
+      "Message": "//Syntax error in query.  Incomplete query clause",
+      "DecimalCode": -2146824838,
+      "HexCode": "0x800a0d7a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryParmTypeNotAllowed",
+      "Message": "//Illegal reference in query",
+      "DecimalCode": -2146824837,
+      "HexCode": "0x800a0d7b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPDBNotMaster",
+      "Message": "//You can\u0026apos;t make changes to the design of the database at this replica.",
+      "DecimalCode": -2146824836,
+      "HexCode": "0x800a0d7c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantRelate",
+      "Message": "//You can\u0026apos;t establish or maintain an enforced relationship between a replicated table and a local table.",
+      "DecimalCode": -2146824835,
+      "HexCode": "0x800a0d7d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNotOwner",
+      "Message": "//* ",
+      "DecimalCode": -2146824834,
+      "HexCode": "0x800a0d7e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantMakeReplicable",
+      "Message": "//Can\u0026apos;t make the database replicable.",
+      "DecimalCode": -2146824833,
+      "HexCode": "0x800a0d7f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantMakeObjectReplicable",
+      "Message": "//Can\u0026apos;t make the |2 object in |1 container replicable.",
+      "DecimalCode": -2146824832,
+      "HexCode": "0x800a0d80",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantKeepLocal",
+      "Message": "//You can\u0026apos;t set the KeepLocal property for an object that is already replicated.",
+      "DecimalCode": -2146824831,
+      "HexCode": "0x800a0d81",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantKeepDBLocal",
+      "Message": "//The KeepLocal property cannot be set on a database; it can be set only on the objects in a database.",
+      "DecimalCode": -2146824830,
+      "HexCode": "0x800a0d82",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantUnreplDatabase",
+      "Message": "//After a database has been replicated, you cannot remove the replication features from the database.",
+      "DecimalCode": -2146824829,
+      "HexCode": "0x800a0d83",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReplConflict",
+      "Message": "//The operation you attempted conflicts with an existing operation involving this member of the replica set.",
+      "DecimalCode": -2146824828,
+      "HexCode": "0x800a0d84",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPSetRepid",
+      "Message": "//The replication property you are attempting to set or delete is read-only and can\u0026apos;t be changed.",
+      "DecimalCode": -2146824827,
+      "HexCode": "0x800a0d85",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportLoadFailure",
+      "Message": "//Failure to load a DLL.",
+      "DecimalCode": -2146824826,
+      "HexCode": "0x800a0d86",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportLoadFailureM",
+      "Message": "//Can\u0026apos;t find the .dll \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824825,
+      "HexCode": "0x800a0d87",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TypeMismatchM",
+      "Message": "//Data type mismatch in criteria expression.",
+      "DecimalCode": -2146824824,
+      "HexCode": "0x800a0d88",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DiskIOM",
+      "Message": "//The disk drive you are attempting to access is unreadable.",
+      "DecimalCode": -2146824823,
+      "HexCode": "0x800a0d89",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FileAccessDeniedM",
+      "Message": "//* ",
+      "DecimalCode": -2146824822,
+      "HexCode": "0x800a0d8a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidPathM",
+      "Message": "//* ",
+      "DecimalCode": -2146824821,
+      "HexCode": "0x800a0d8b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TranspAccessDeniedM",
+      "Message": "//Access was denied while accessing dropbox folder \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824820,
+      "HexCode": "0x800a0d8c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportDiskFullM",
+      "Message": "//The disk for dropbox folder \u0026apos;|2\u0026apos; is full.",
+      "DecimalCode": -2146824819,
+      "HexCode": "0x800a0d8d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportDiskIOM",
+      "Message": "//Disk failure accessing dropbox folder \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824818,
+      "HexCode": "0x800a0d8e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LogWriteFail",
+      "Message": "//Failure to write to the Synchronizer log file.",
+      "DecimalCode": -2146824817,
+      "HexCode": "0x800a0d8f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LogDiskFullM",
+      "Message": "//Disk full for path \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824816,
+      "HexCode": "0x800a0d90",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LogDiskIOM",
+      "Message": "//Disk failure while accessing log file \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824815,
+      "HexCode": "0x800a0d91",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LogFileAccessDeniedM",
+      "Message": "//Can\u0026apos;t open the log file \u0026apos;|1\u0026apos; for writing.",
+      "DecimalCode": -2146824814,
+      "HexCode": "0x800a0d92",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LogFileShareViolationM",
+      "Message": "//Sharing violation while attempting to open log file \u0026apos;|1\u0026apos; in Deny Write mode.",
+      "DecimalCode": -2146824813,
+      "HexCode": "0x800a0d93",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportInvalidPathM",
+      "Message": "//Invalid dropbox path \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824812,
+      "HexCode": "0x800a0d94",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TranspInvalidAddressM",
+      "Message": "//Dropbox address \u0026apos;|2\u0026apos; is syntactically invalid.",
+      "DecimalCode": -2146824811,
+      "HexCode": "0x800a0d95",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepNotPartial",
+      "Message": "//The replica is not a partial replica.",
+      "DecimalCode": -2146824810,
+      "HexCode": "0x800a0d96",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepPartial",
+      "Message": "//Can\u0026apos;t designate a partial replica as the Design Master for the replica set.",
+      "DecimalCode": -2146824809,
+      "HexCode": "0x800a0d97",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTInvalidRelNameM",
+      "Message": "//The relationship \u0026apos;|\u0026apos; in the partial filter expression is invalid.",
+      "DecimalCode": -2146824808,
+      "HexCode": "0x800a0d98",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTInvalidTableNameM",
+      "Message": "//The table name \u0026apos;|\u0026apos; in the partial filter expression is invalid.",
+      "DecimalCode": -2146824807,
+      "HexCode": "0x800a0d99",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPInvalidFilter",
+      "Message": "//The filter expression for the partial replica is invalid.",
+      "DecimalCode": -2146824806,
+      "HexCode": "0x800a0d9a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TranspInvalidPasswordM",
+      "Message": "//The password supplied for the dropbox folder \u0026apos;|2\u0026apos; is invalid.",
+      "DecimalCode": -2146824805,
+      "HexCode": "0x800a0d9b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransDestInvalidPassword",
+      "Message": "//The password used by the Synchronizer to write to a destination dropbox folder is invalid.",
+      "DecimalCode": -2146824804,
+      "HexCode": "0x800a0d9c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPDBNotRep",
+      "Message": "//The object can\u0026apos;t be replicated because the database is not replicated.",
+      "DecimalCode": -2146824803,
+      "HexCode": "0x800a0d9d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPSecondGuid",
+      "Message": "//You can\u0026apos;t add a second Replication ID AutoNumber field to a table.",
+      "DecimalCode": -2146824802,
+      "HexCode": "0x800a0d9e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPOnlyBuiltin",
+      "Message": "//The database you are attempting to replicate can\u0026apos;t be converted.",
+      "DecimalCode": -2146824801,
+      "HexCode": "0x800a0d9f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNoSuchRepid",
+      "Message": "//The value specified is not a ReplicaID for any member in the replica set.",
+      "DecimalCode": -2146824800,
+      "HexCode": "0x800a0da0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPObjectNotRep",
+      "Message": "//The object specified can\u0026apos;t be replicated because it is missing a  necessary resource.",
+      "DecimalCode": -2146824799,
+      "HexCode": "0x800a0da1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantCreateReplica",
+      "Message": "//Can\u0026apos;t create a new replica because the \u0026apos;|2\u0026apos; object in \u0026apos;|1\u0026apos; container could not be replicated.",
+      "DecimalCode": -2146824798,
+      "HexCode": "0x800a0da2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MustOpenDbExclusive",
+      "Message": "//The database must be opened in exclusive mode before it can be replicated.",
+      "DecimalCode": -2146824797,
+      "HexCode": "0x800a0da3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantDoSchemaChange",
+      "Message": "//The synchronization failed because a design change could not be applied to one of the replicas.",
+      "DecimalCode": -2146824796,
+      "HexCode": "0x800a0da4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UnableToSetParam",
+      "Message": "//Can\u0026apos;t set the specified Registry parameter for the Synchronizer.",
+      "DecimalCode": -2146824795,
+      "HexCode": "0x800a0da5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UnableToGetParam",
+      "Message": "//Unable to retrieve the specified Registry parameter for the Synchronizer.",
+      "DecimalCode": -2146824794,
+      "HexCode": "0x800a0da6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNoSuchSchedule",
+      "Message": "//There are no scheduled synchronizations between the two Synchronizers.",
+      "DecimalCode": -2146824793,
+      "HexCode": "0x800a0da7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNoSuchExchange",
+      "Message": "//Replication Manager cannot find the ExchangeID in the MSysExchangeLog table.",
+      "DecimalCode": -2146824792,
+      "HexCode": "0x800a0da8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantSetSchedule",
+      "Message": "//Unable to set a schedule for the Synchronizer.",
+      "DecimalCode": -2146824791,
+      "HexCode": "0x800a0da9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantGetSchedule",
+      "Message": "//* ",
+      "DecimalCode": -2146824790,
+      "HexCode": "0x800a0daa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantGetDBPath",
+      "Message": "//Can\u0026apos;t retrieve the full path information for a member of the replica set.",
+      "DecimalCode": -2146824789,
+      "HexCode": "0x800a0dab",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantSetExchange",
+      "Message": "//You cannot specify two different Synchronizers to manage the same replica.",
+      "DecimalCode": -2146824788,
+      "HexCode": "0x800a0dac",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNotUpdated",
+      "Message": "//* ",
+      "DecimalCode": -2146824787,
+      "HexCode": "0x800a0dad",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNotManaged",
+      "Message": "//The Design Master or replica is not being managed by a Synchronizer.",
+      "DecimalCode": -2146824786,
+      "HexCode": "0x800a0dae",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ValueNotSet",
+      "Message": "//The Synchronizer\u0026apos;s Registry has no value set for the key you queried.",
+      "DecimalCode": -2146824785,
+      "HexCode": "0x800a0daf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPInvalidTID",
+      "Message": "//The Synchronizer ID does not match an existing ID in the MSysTranspAddress table.",
+      "DecimalCode": -2146824784,
+      "HexCode": "0x800a0db0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPFilterNotFound",
+      "Message": "//You attempted to delete or get information about a partial filter that does not exist in MSysFilters.",
+      "DecimalCode": -2146824783,
+      "HexCode": "0x800a0db1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OpenLog",
+      "Message": "//The Synchronizer is unable to open the Synchronizer log.",
+      "DecimalCode": -2146824782,
+      "HexCode": "0x800a0db2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WriteLog",
+      "Message": "//Failure writing to the Synchronizer log.",
+      "DecimalCode": -2146824781,
+      "HexCode": "0x800a0db3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoTransport",
+      "Message": "//There is no active transport for the Synchronizer.",
+      "DecimalCode": -2146824780,
+      "HexCode": "0x800a0db4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportNotFound",
+      "Message": "//Could not find a valid transport for this Synchronizer.",
+      "DecimalCode": -2146824779,
+      "HexCode": "0x800a0db5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReplicaAlreadyLocked",
+      "Message": "//The member of the replica set you are attempting to synchronize is currently being used in another synchronization.",
+      "DecimalCode": -2146824778,
+      "HexCode": "0x800a0db6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DBAccess",
+      "Message": "//* ",
+      "DecimalCode": -2146824777,
+      "HexCode": "0x800a0db7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportReadFailure",
+      "Message": "//Failed to read the dropbox folder.",
+      "DecimalCode": -2146824776,
+      "HexCode": "0x800a0db8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportWriteFailure",
+      "Message": "//Failed to write to the dropbox folder.",
+      "DecimalCode": -2146824775,
+      "HexCode": "0x800a0db9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoExchange",
+      "Message": "//Synchronizer could not find any scheduled or on-demand synchronizations to process.",
+      "DecimalCode": -2146824774,
+      "HexCode": "0x800a0dba",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SysClock",
+      "Message": "//The Microsoft Jet database engine could not read the system clock on your computer.",
+      "DecimalCode": -2146824773,
+      "HexCode": "0x800a0dbb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoTransportAddress",
+      "Message": "//Destination synchronizer is not configured to support indirect synchronronization, and the destination replica is unavailable for direct synchronization",
+      "DecimalCode": -2146824772,
+      "HexCode": "0x800a0dbc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoMessage",
+      "Message": "//Synchronizer could not find any messages to process.",
+      "DecimalCode": -2146824771,
+      "HexCode": "0x800a0dbd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransporterNotFound",
+      "Message": "//Could not find Synchronizer in the MSysTranspAddress table.",
+      "DecimalCode": -2146824770,
+      "HexCode": "0x800a0dbe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportSendFailure",
+      "Message": "//Failed to send a message.",
+      "DecimalCode": -2146824769,
+      "HexCode": "0x800a0dbf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ReplicaNotFound",
+      "Message": "//The replica name or ID does not match a currently managed member of the replica set.",
+      "DecimalCode": -2146824768,
+      "HexCode": "0x800a0dc0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutOfSynch",
+      "Message": "//Two members of the replica set cannot be synchronized because there is no common point to start the synchronization.",
+      "DecimalCode": -2146824767,
+      "HexCode": "0x800a0dc1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExchangeNotFound",
+      "Message": "//Synchronizer cannot find the record of a specific synchronization in the MSysExchangeLog table.",
+      "DecimalCode": -2146824766,
+      "HexCode": "0x800a0dc2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SchemaNotFound",
+      "Message": "//Synchronizer cannot find a specific version number in the MSysSchChange table.",
+      "DecimalCode": -2146824765,
+      "HexCode": "0x800a0dc3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SchemaHistMismatch",
+      "Message": "//The history of design changes in the replica does not match the history in the Design Master.",
+      "DecimalCode": -2146824764,
+      "HexCode": "0x800a0dc4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MessageDBAccess",
+      "Message": "//Synchronizer could not access the message database.",
+      "DecimalCode": -2146824763,
+      "HexCode": "0x800a0dc5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ObjectAlreadyExists",
+      "Message": "//The name selected for the system object is already in use.",
+      "DecimalCode": -2146824762,
+      "HexCode": "0x800a0dc6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ObjectDoesntExist",
+      "Message": "//The Synchronizer or Replication Manager could not find the system object.",
+      "DecimalCode": -2146824761,
+      "HexCode": "0x800a0dc7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoNewData",
+      "Message": "//There is no new data in shared memory for the Synchronizer or Replication Manager to read.",
+      "DecimalCode": -2146824760,
+      "HexCode": "0x800a0dc8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PrevDataNotRead",
+      "Message": "//The Synchronizer or Replication Manager found unread data in the shared memory. The existing data will be overwritten.",
+      "DecimalCode": -2146824759,
+      "HexCode": "0x800a0dc9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ClientAlreadyExists",
+      "Message": "//The Synchronizer is already serving a client.",
+      "DecimalCode": -2146824758,
+      "HexCode": "0x800a0dca",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_WaitTimeout",
+      "Message": "//The wait period for an event has timed out.",
+      "DecimalCode": -2146824757,
+      "HexCode": "0x800a0dcb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ServerInitialization",
+      "Message": "//Synchronizer could not be initialized.",
+      "DecimalCode": -2146824756,
+      "HexCode": "0x800a0dcc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ObjectAbandoned",
+      "Message": "//The system object used by a process still exists after the process has stopped.",
+      "DecimalCode": -2146824755,
+      "HexCode": "0x800a0dcd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoEvent",
+      "Message": "//Synchronizer looked for a system event but did not find one to report to the client.",
+      "DecimalCode": -2146824754,
+      "HexCode": "0x800a0dce",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ClientSentTerm",
+      "Message": "//Client has asked the Synchronizer to terminate operation.",
+      "DecimalCode": -2146824753,
+      "HexCode": "0x800a0dcf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidMessage",
+      "Message": "//Synchronizer received an invalid message for a member of the replica set that it manages.",
+      "DecimalCode": -2146824752,
+      "HexCode": "0x800a0dd0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoClient",
+      "Message": "//The Synchronizer\u0026apos;s client is no longer present and cannot be notified.",
+      "DecimalCode": -2146824751,
+      "HexCode": "0x800a0dd1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyTasks",
+      "Message": "//Cannot initialize Synchronizer because there are too many applications running.",
+      "DecimalCode": -2146824750,
+      "HexCode": "0x800a0dd2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SysDiskIO",
+      "Message": "//A system error has occurred or your swap file has reached its limit.",
+      "DecimalCode": -2146824749,
+      "HexCode": "0x800a0dd3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PageFile",
+      "Message": "//Your swap file has reached its limit or is corrupted.",
+      "DecimalCode": -2146824748,
+      "HexCode": "0x800a0dd4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ProcessStillActive",
+      "Message": "//Synchronizer could not be shut down properly and is still active.",
+      "DecimalCode": -2146824747,
+      "HexCode": "0x800a0dd5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ProcessAborted",
+      "Message": "//Process stopped when attempting to terminate Synchronizer client.",
+      "DecimalCode": -2146824746,
+      "HexCode": "0x800a0dd6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransporterNotSetup",
+      "Message": "//Synchronizer has not been set up.",
+      "DecimalCode": -2146824745,
+      "HexCode": "0x800a0dd7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ServerAlreadyRunning",
+      "Message": "//Synchronizer is already running.",
+      "DecimalCode": -2146824744,
+      "HexCode": "0x800a0dd8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DiffReplicaSet",
+      "Message": "//The two replicas you are attempting to synchronize are from different replica sets.",
+      "DecimalCode": -2146824743,
+      "HexCode": "0x800a0dd9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BadExchangeType",
+      "Message": "//The type of synchronization you are attempting is not valid.",
+      "DecimalCode": -2146824742,
+      "HexCode": "0x800a0dda",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoReplica",
+      "Message": "//Synchronizer could not find a replica from the correct set to complete the synchronization.",
+      "DecimalCode": -2146824741,
+      "HexCode": "0x800a0ddb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_GuidMismatch",
+      "Message": "//GUIDs do not match or the requested GUID could not be found.",
+      "DecimalCode": -2146824740,
+      "HexCode": "0x800a0ddc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FilenameTooLong",
+      "Message": "//The file name you provided is too long.",
+      "DecimalCode": -2146824739,
+      "HexCode": "0x800a0ddd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoGuidIndex",
+      "Message": "//There is no index on the GUID column.",
+      "DecimalCode": -2146824738,
+      "HexCode": "0x800a0dde",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UnableToDeleteParam",
+      "Message": "//Unable to delete the specified Registry parameter for the Synchronizer.",
+      "DecimalCode": -2146824737,
+      "HexCode": "0x800a0ddf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ValueTooBig",
+      "Message": "//The size of the Registry parameter exceeds the maximum allowed.",
+      "DecimalCode": -2146824736,
+      "HexCode": "0x800a0de0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPGuidCreateFailure",
+      "Message": "//The GUID could not be created.",
+      "DecimalCode": -2146824735,
+      "HexCode": "0x800a0de1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPDBMovedCopied",
+      "Message": "//* ",
+      "DecimalCode": -2146824734,
+      "HexCode": "0x800a0de2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPNoValidNick",
+      "Message": "//All valid nicknames for replicas are already in use.",
+      "DecimalCode": -2146824733,
+      "HexCode": "0x800a0de3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportDestInvalidPath",
+      "Message": "//Invalid path for destination dropbox folder.",
+      "DecimalCode": -2146824732,
+      "HexCode": "0x800a0de4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransDestInvalidAddress",
+      "Message": "//Invalid address for destination dropbox folder.",
+      "DecimalCode": -2146824731,
+      "HexCode": "0x800a0de5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportDestDiskIO",
+      "Message": "//Disk I/O error at destination dropbox folder.",
+      "DecimalCode": -2146824730,
+      "HexCode": "0x800a0de6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportDestDiskFull",
+      "Message": "//Failure to write because destination disk is full.",
+      "DecimalCode": -2146824729,
+      "HexCode": "0x800a0de7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPSameReplicaID",
+      "Message": "//The two members of the replica set you are attempting to synchronize have the same ReplicaID.",
+      "DecimalCode": -2146824728,
+      "HexCode": "0x800a0de8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPBothMasters",
+      "Message": "//The two members of the replica set you are attempting to synchronize are both Design Masters.",
+      "DecimalCode": -2146824727,
+      "HexCode": "0x800a0de9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransDestAccessDenied",
+      "Message": "//Access denied at destination dropbox folder.",
+      "DecimalCode": -2146824726,
+      "HexCode": "0x800a0dea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportSrcAccess",
+      "Message": "//Fatal error accessing a local dropbox folder.",
+      "DecimalCode": -2146824725,
+      "HexCode": "0x800a0deb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportSrcFileNotFound",
+      "Message": "//Synchronizer can\u0026apos;t find the source file for messages.",
+      "DecimalCode": -2146824724,
+      "HexCode": "0x800a0dec",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransSrcSharingViolation",
+      "Message": "//There is a sharing violation in the source dropbox folder because the message database is open in another application.",
+      "DecimalCode": -2146824723,
+      "HexCode": "0x800a0ded",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NetworkIO",
+      "Message": "//Network I/O error.",
+      "DecimalCode": -2146824722,
+      "HexCode": "0x800a0dee",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportWrongMessage",
+      "Message": "//Message in dropbox folder belongs to the wrong Synchronizer.",
+      "DecimalCode": -2146824721,
+      "HexCode": "0x800a0def",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransportDeleteFailure",
+      "Message": "//Synchronizer could not delete a file.",
+      "DecimalCode": -2146824720,
+      "HexCode": "0x800a0df0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepRemoved",
+      "Message": "//This member of the replica set has been logically removed from the set and is no longer available.",
+      "DecimalCode": -2146824719,
+      "HexCode": "0x800a0df1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FiltersChanged",
+      "Message": "//The filters defining a partial replica are out of synch with each other.",
+      "DecimalCode": -2146824718,
+      "HexCode": "0x800a0df2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LimitedUpdate",
+      "Message": "//The attempt  to set a column in a partial replica violated a rule governing partial replicas.",
+      "DecimalCode": -2146824717,
+      "HexCode": "0x800a0df3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TempDiskIO",
+      "Message": "//A disk I/O error occurred while reading or writing to the TEMP directory.",
+      "DecimalCode": -2146824716,
+      "HexCode": "0x800a0df4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DirNotManaged",
+      "Message": "//The directory you queried for a list of replicas is not a managed directory.",
+      "DecimalCode": -2146824715,
+      "HexCode": "0x800a0df5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepidChanged",
+      "Message": "//The ReplicaID for this member of the replica set was reassigned during a move or copy procedure.",
+      "DecimalCode": -2146824714,
+      "HexCode": "0x800a0df6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DiskFullM",
+      "Message": "//The disk drive you are attempting to write to is full.",
+      "DecimalCode": -2146824713,
+      "HexCode": "0x800a0df7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ShareViolationM",
+      "Message": "//The database you are attempting to open is already in use by another application.",
+      "DecimalCode": -2146824712,
+      "HexCode": "0x800a0df8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UpdateReplCol",
+      "Message": "//Can\u0026apos;t update replication system column.",
+      "DecimalCode": -2146824711,
+      "HexCode": "0x800a0df9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_GetDbinfoM",
+      "Message": "//Failure to replicate database; can\u0026apos;t determine whether the database is open in exclusive mode.",
+      "DecimalCode": -2146824710,
+      "HexCode": "0x800a0dfa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MakeRepTablesM",
+      "Message": "//Could not create replication system tables needed to make the database replicable.",
+      "DecimalCode": -2146824709,
+      "HexCode": "0x800a0dfb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AddReplicaInfoM",
+      "Message": "//Could not add rows needed to make the database replicable.",
+      "DecimalCode": -2146824708,
+      "HexCode": "0x800a0dfc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OpenRepTablesM",
+      "Message": "//Can\u0026apos;t open replication system table \u0026apos;|\u0026apos; because the table is already in use.",
+      "DecimalCode": -2146824707,
+      "HexCode": "0x800a0dfd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CreateReplicaObjectM",
+      "Message": "//Cannot make a new replica because the |2 object in |1 container could not be made replicable.",
+      "DecimalCode": -2146824706,
+      "HexCode": "0x800a0dfe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MakeObjectReplM",
+      "Message": "//Cannot make the |2 object in |1 container replicable.",
+      "DecimalCode": -2146824705,
+      "HexCode": "0x800a0dff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_OutOfMemoryM",
+      "Message": "//Insufficient memory to complete operation.",
+      "DecimalCode": -2146824704,
+      "HexCode": "0x800a0e00",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepTooManyColumnsM",
+      "Message": "//Can\u0026apos;t replicate the table; the number of columns exceeds the maximum allowed.",
+      "DecimalCode": -2146824703,
+      "HexCode": "0x800a0e01",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTFilterExprSyntaxM",
+      "Message": "//Syntax error in partial filter expression on table |1.",
+      "DecimalCode": -2146824702,
+      "HexCode": "0x800a0e02",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTUnknownTokenM",
+      "Message": "//Invalid expression in the ReplicaFilter property.",
+      "DecimalCode": -2146824701,
+      "HexCode": "0x800a0e03",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTExprEvaluationM",
+      "Message": "//Error when evaluating the partial filter expression.",
+      "DecimalCode": -2146824700,
+      "HexCode": "0x800a0e04",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTExprUnknownFuncM",
+      "Message": "//The partial filter expression contains an unknown function.",
+      "DecimalCode": -2146824699,
+      "HexCode": "0x800a0e05",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LimitedUpdateM",
+      "Message": "//Violates the rules for partial replicas.",
+      "DecimalCode": -2146824698,
+      "HexCode": "0x800a0e06",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_LogInvalidPathM",
+      "Message": "//Log file path \u0026apos;|1\u0026apos; is invalid.",
+      "DecimalCode": -2146824697,
+      "HexCode": "0x800a0e07",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPPasswdNotAllowed",
+      "Message": "//You can\u0026apos;t replicate a password-protected database or set password protection on a replicated database.",
+      "DecimalCode": -2146824696,
+      "HexCode": "0x800a0e08",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BadSingleMasterAttrib",
+      "Message": "//You can\u0026apos;t change the data master attribute for the replica set.",
+      "DecimalCode": -2146824695,
+      "HexCode": "0x800a0e09",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BadMultiMasterAttrib",
+      "Message": "//You can\u0026apos;t change the data master attribute for the replica set.  It allows data changes only at the Design Master.",
+      "DecimalCode": -2146824694,
+      "HexCode": "0x800a0e0a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantRepair",
+      "Message": "//The system tables in your replica are no longer reliable and the replica should not be used.",
+      "DecimalCode": -2146824693,
+      "HexCode": "0x800a0e0b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoDataIncluded",
+      "Message": "//* ",
+      "DecimalCode": -2146824692,
+      "HexCode": "0x800a0e0c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SenderNotFound",
+      "Message": "//* ",
+      "DecimalCode": -2146824691,
+      "HexCode": "0x800a0e0d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CouldnotFindService",
+      "Message": "//* ",
+      "DecimalCode": -2146824690,
+      "HexCode": "0x800a0e0e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UnableToStartService",
+      "Message": "//* ",
+      "DecimalCode": -2146824689,
+      "HexCode": "0x800a0e0f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExprAggIllegalOnGuid",
+      "Message": "//Aggregation expressions cannot use GUIDs.",
+      "DecimalCode": -2146824688,
+      "HexCode": "0x800a0e10",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RefreshReplicaList",
+      "Message": "//* ",
+      "DecimalCode": -2146824687,
+      "HexCode": "0x800a0e11",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_MoreWorkNeeded",
+      "Message": "//* ",
+      "DecimalCode": -2146824686,
+      "HexCode": "0x800a0e12",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SenderTooOld",
+      "Message": "//* ",
+      "DecimalCode": -2146824685,
+      "HexCode": "0x800a0e13",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepAccess",
+      "Message": "//* ",
+      "DecimalCode": -2146824684,
+      "HexCode": "0x800a0e14",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPDbNotReplicableM",
+      "Message": "//Synchronizing with a non-replicated database is not allowed. The \u0026apos;|\u0026apos; database is not a Design Master or replica.",
+      "DecimalCode": -2146824683,
+      "HexCode": "0x800a0e15",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DaemonDied",
+      "Message": "//* ",
+      "DecimalCode": -2146824682,
+      "HexCode": "0x800a0e16",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPCantDelete",
+      "Message": "//The replication property you are attempting to delete is read-only and cannot be removed.",
+      "DecimalCode": -2146824681,
+      "HexCode": "0x800a0e17",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_IndexCantBuild",
+      "Message": "//Record length is too long for an indexed Paradox table.",
+      "DecimalCode": -2146824680,
+      "HexCode": "0x800a0e18",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RelNoPrimaryIndex",
+      "Message": "//No unique index found for the referenced field of the primary table.",
+      "DecimalCode": -2146824679,
+      "HexCode": "0x800a0e19",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QuerySameSrcDestTableM",
+      "Message": "//Same table \u0026apos;|\u0026apos; referenced as both the source and destination in make-table query.",
+      "DecimalCode": -2146824678,
+      "HexCode": "0x800a0e1a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidDDLObject",
+      "Message": "//Can\u0026apos;t execute data definition statements on linked data sources.",
+      "DecimalCode": -2146824677,
+      "HexCode": "0x800a0e1b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryMGBWithSubquery",
+      "Message": "//Multi-level GROUP BY clause is not allowed in a subquery.",
+      "DecimalCode": -2146824676,
+      "HexCode": "0x800a0e1c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SQLLinkNotSupported",
+      "Message": "//Can\u0026apos;t create a relationship on linked ODBC tables.",
+      "DecimalCode": -2146824675,
+      "HexCode": "0x800a0e1d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidFindOnGUID",
+      "Message": "//GUID not allowed in Find method criteria expression.",
+      "DecimalCode": -2146824674,
+      "HexCode": "0x800a0e1e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryJoinExprInComp",
+      "Message": "//Type mismatch in JOIN expression.",
+      "DecimalCode": -2146824673,
+      "HexCode": "0x800a0e1f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_UpdateNotAvailable",
+      "Message": "//Updating data in a linked table is not supported by this ISAM.",
+      "DecimalCode": -2146824672,
+      "HexCode": "0x800a0e20",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_DeleteNotAvailable",
+      "Message": "//Deleting data in a linked table is not supported by this ISAM.",
+      "DecimalCode": -2146824671,
+      "HexCode": "0x800a0e21",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExceptTableCreateFail",
+      "Message": "//Exceptions table could not be created on import/export.",
+      "DecimalCode": -2146824670,
+      "HexCode": "0x800a0e22",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExceptTableWriteFail",
+      "Message": "//Records could not be added to exceptions table.",
+      "DecimalCode": -2146824669,
+      "HexCode": "0x800a0e23",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExcelOLEConnectLost",
+      "Message": "//The connection for viewing your linked Microsoft Excel worksheet was lost.",
+      "DecimalCode": -2146824668,
+      "HexCode": "0x800a0e24",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantChangeDbPwdOnShared",
+      "Message": "//Can\u0026apos;t change password on a shared open database.",
+      "DecimalCode": -2146824667,
+      "HexCode": "0x800a0e25",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RmtMustCheckTimeStamp",
+      "Message": "//You must use the dbSeeChanges option with OpenRecordset when accessing a SQL Server table that has an IDENTITY column.",
+      "DecimalCode": -2146824666,
+      "HexCode": "0x800a0e26",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NotWithBoundFileM",
+      "Message": "//Cannot access the FoxPro 3.0 bound DBF file \u0026apos;|\u0026apos;.",
+      "DecimalCode": -2146824665,
+      "HexCode": "0x800a0e27",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CommitConflict",
+      "Message": "//Couldn\u0026apos;t read the record; currently locked by another user.",
+      "DecimalCode": -2146824664,
+      "HexCode": "0x800a0e28",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_NoSuchSpecM",
+      "Message": "//The text file specification \u0026apos;|\u0026apos; does not exist.  You can\u0026apos;t import, export, or link using the specification.",
+      "DecimalCode": -2146824663,
+      "HexCode": "0x800a0e29",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TooManyIndexesM",
+      "Message": "//The operation failed.  There are too many indexes on table \u0026apos;|\u0026apos;.  Delete some of the indexes on the table and try the operation again.",
+      "DecimalCode": -2146824662,
+      "HexCode": "0x800a0e2a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_TransExeNotFound",
+      "Message": "//Cannot find the executable file for the Synchronizer (mstran35.exe).",
+      "DecimalCode": -2146824661,
+      "HexCode": "0x800a0e2b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RemRepNotManaged",
+      "Message": "//Partner replica is not managed by a Synchronizer.",
+      "DecimalCode": -2146824660,
+      "HexCode": "0x800a0e2c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FSDropboxShared",
+      "Message": "//Synchronizer \u0026apos;|1\u0026apos; is also using the same File System dropbox \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824659,
+      "HexCode": "0x800a0e2d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_FSDropboxSharedM",
+      "Message": "//Synchronizer \u0026apos;|1\u0026apos; is also using the same File System dropbox \u0026apos;|2\u0026apos;.",
+      "DecimalCode": -2146824658,
+      "HexCode": "0x800a0e2e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_RepInvalidTableInFilter",
+      "Message": "//Invalid Table Name In Filter",
+      "DecimalCode": -2146824657,
+      "HexCode": "0x800a0e2f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetNotEnabled",
+      "Message": "//Internet Transport not enabled on the remote Synchronizer.",
+      "DecimalCode": -2146824656,
+      "HexCode": "0x800a0e30",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoDllLoadFailed",
+      "Message": "//Can\u0026apos;t load DLL:  \u0026apos;|\u0026apos;",
+      "DecimalCode": -2146824655,
+      "HexCode": "0x800a0e31",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_REPDBIsPartial",
+      "Message": "//Cannot create a replica using a partial replica.",
+      "DecimalCode": -2146824654,
+      "HexCode": "0x800a0e32",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantCreatePartialSys",
+      "Message": "//Cannot create partial replica of a system database.",
+      "DecimalCode": -2146824653,
+      "HexCode": "0x800a0e33",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantPopulateWithErrors",
+      "Message": "//Cannot populate the replica or change the replica\u0026apos;s filter because the replica has conflicts or data errors.",
+      "DecimalCode": -2146824652,
+      "HexCode": "0x800a0e34",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_QueryEmbeddedVarTab",
+      "Message": "//Cannot use the crosstab of a non-fixed column as a subquery.",
+      "DecimalCode": -2146824651,
+      "HexCode": "0x800a0e35",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_SrcCntrlDB",
+      "Message": "//A Source Controlled database cannot be made replicable.",
+      "DecimalCode": -2146824650,
+      "HexCode": "0x800a0e36",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_CantCreateSysReplica",
+      "Message": "//Cannot create a replica of a System database.",
+      "DecimalCode": -2146824649,
+      "HexCode": "0x800a0e37",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoFetchBuffTooSmall",
+      "Message": "//The fetch buffer was too small for the amount of data you requested.",
+      "DecimalCode": -2146824648,
+      "HexCode": "0x800a0e38",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoEOFDuringFetch",
+      "Message": "//There are fewer records remaining in the recordset than you requested.",
+      "DecimalCode": -2146824647,
+      "HexCode": "0x800a0e39",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoSilentCancel",
+      "Message": "//A cancel was performed on the operation.",
+      "DecimalCode": -2146824646,
+      "HexCode": "0x800a0e3a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoRecordDeleted",
+      "Message": "//One of the records in the recordset was deleted by another process.",
+      "DecimalCode": -2146824645,
+      "HexCode": "0x800a0e3b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_3644",
+      "Message": "//* ",
+      "DecimalCode": -2146824644,
+      "HexCode": "0x800a0e3c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoBadBindInfo",
+      "Message": "//One of the binding parameters is incorrect.",
+      "DecimalCode": -2146824643,
+      "HexCode": "0x800a0e3d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoRowLenTooSmall",
+      "Message": "//The specified row length is shorter than the sum of the column lengths.",
+      "DecimalCode": -2146824642,
+      "HexCode": "0x800a0e3e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoColumnMissing",
+      "Message": "//A column requested is not being returned to the recordset.",
+      "DecimalCode": -2146824641,
+      "HexCode": "0x800a0e3f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_BothPartials",
+      "Message": "//Cannot synchronize a partial replica with another partial replica.",
+      "DecimalCode": -2146824640,
+      "HexCode": "0x800a0e40",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InvalidCodePage",
+      "Message": "//The language-specific code page was not specified or could not be found.",
+      "DecimalCode": -2146824639,
+      "HexCode": "0x800a0e41",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetTooSlow",
+      "Message": "//Either the Internet is very slow OR there is some problem in the replication manager setup on the internet server machine.",
+      "DecimalCode": -2146824638,
+      "HexCode": "0x800a0e42",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetInvalidAddress",
+      "Message": "//Invalid internet address.",
+      "DecimalCode": -2146824637,
+      "HexCode": "0x800a0e43",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetLoginFailure",
+      "Message": "//Internet login failure.",
+      "DecimalCode": -2146824636,
+      "HexCode": "0x800a0e44",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetNotSetup",
+      "Message": "//Internet not set up.",
+      "DecimalCode": -2146824635,
+      "HexCode": "0x800a0e45",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetInternalFailure",
+      "Message": "//Internal internet failure.",
+      "DecimalCode": -2146824634,
+      "HexCode": "0x800a0e46",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_InetServicesUnavailable",
+      "Message": "//The wininet.dll can\u0026apos;t be loaded or initialized.",
+      "DecimalCode": -2146824633,
+      "HexCode": "0x800a0e47",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTExprEvaluation",
+      "Message": "//Error in evaluating a partial expression",
+      "DecimalCode": -2146824632,
+      "HexCode": "0x800a0e48",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTFilterEvalM",
+      "Message": "//Error in evaluating the boolean filter expression for table \u0026apos;|1\u0026apos;.",
+      "DecimalCode": -2146824631,
+      "HexCode": "0x800a0e49",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTBinaryNotAllowedM",
+      "Message": "//Binary column \u0026apos;|\u0026apos; cannot be used in a boolean filter.",
+      "DecimalCode": -2146824630,
+      "HexCode": "0x800a0e4a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_PARTUnenforcedRelM",
+      "Message": "//Relationship \u0026apos;|1\u0026apos; is unenforced. Relationship in a partial filter expression must be enforced.",
+      "DecimalCode": -2146824629,
+      "HexCode": "0x800a0e4b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExchangeFailed",
+      "Message": "//Requested exchange failed because \u0026apos;|1\u0026apos;",
+      "DecimalCode": -2146824628,
+      "HexCode": "0x800a0e4c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_ExchangeFailedM",
+      "Message": "//Requested exchange failed because \u0026apos;|1\u0026apos;",
+      "DecimalCode": -2146824627,
+      "HexCode": "0x800a0e4d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoRSNeedsBatchCursorLib",
+      "Message": "//* ",
+      "DecimalCode": -2146824626,
+      "HexCode": "0x800a0e4e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNeedDiffCursorLibrary",
+      "Message": "//This operation requires a different cursor library.",
+      "DecimalCode": -2146824625,
+      "HexCode": "0x800a0e4f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoStillConnecting",
+      "Message": "//An asynchronous OpenConnection call is not yet complete, and you cannot yet reference the returned Connection object until it is complete.",
+      "DecimalCode": -2146824624,
+      "HexCode": "0x800a0e50",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AccessDeniedRepl",
+      "Message": "//You cannot modify the replication system object \u0026apos;1\u0026apos;",
+      "DecimalCode": -2146824623,
+      "HexCode": "0x800a0e51",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_AccessDeniedReplM",
+      "Message": "//You cannot modify the replication system object \u0026apos;1\u0026apos;",
+      "DecimalCode": -2146824622,
+      "HexCode": "0x800a0e52",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoOtherOperBlocking",
+      "Message": "//A different operation is preventing this operation from being executed.",
+      "DecimalCode": -2146824621,
+      "HexCode": "0x800a0e53",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoNoActiveConnection",
+      "Message": "//Can not perform this operation because there is no active connection.",
+      "DecimalCode": -2146824620,
+      "HexCode": "0x800a0e54",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoExecCancelled",
+      "Message": "//Execution cancelled.",
+      "DecimalCode": -2146824619,
+      "HexCode": "0x800a0e55",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoCursorNotValid",
+      "Message": "//Cursor is not valid.",
+      "DecimalCode": -2146824618,
+      "HexCode": "0x800a0e56",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoCanNotFindTable",
+      "Message": "//Can not find table to update.",
+      "DecimalCode": -2146824617,
+      "HexCode": "0x800a0e57",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_DAO_VtoCanNotFindCursLib",
+      "Message": "//Failed to load RDOCURS.DLL.",
+      "DecimalCode": -2146824616,
+      "HexCode": "0x800a0e58",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

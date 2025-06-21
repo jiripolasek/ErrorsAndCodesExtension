@@ -1,0 +1,405 @@
+{
+  "HeaderFileName": "mprerror.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_ROUTER_STOPPED",
+      "Message": "",
+      "DecimalCode": 900,
+      "HexCode": "0x384",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ALREADY_CONNECTED",
+      "Message": "",
+      "DecimalCode": 901,
+      "HexCode": "0x385",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNKNOWN_PROTOCOL_ID",
+      "Message": "",
+      "DecimalCode": 902,
+      "HexCode": "0x386",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DDM_NOT_RUNNING",
+      "Message": "",
+      "DecimalCode": 903,
+      "HexCode": "0x387",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 904,
+      "HexCode": "0x388",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_SUCH_INTERFACE",
+      "Message": "",
+      "DecimalCode": 905,
+      "HexCode": "0x389",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": 906,
+      "HexCode": "0x38a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PROTOCOL_STOP_PENDING",
+      "Message": "",
+      "DecimalCode": 907,
+      "HexCode": "0x38b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_CONNECTED",
+      "Message": "",
+      "DecimalCode": 908,
+      "HexCode": "0x38c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_INTERFACE_CREDENTIALS_SET",
+      "Message": "",
+      "DecimalCode": 909,
+      "HexCode": "0x38d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ALREADY_CONNECTING",
+      "Message": "",
+      "DecimalCode": 910,
+      "HexCode": "0x38e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UPDATE_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": 911,
+      "HexCode": "0x38f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_CONFIGURATION",
+      "Message": "",
+      "DecimalCode": 912,
+      "HexCode": "0x390",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NOT_CLIENT_PORT",
+      "Message": "",
+      "DecimalCode": 913,
+      "HexCode": "0x391",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NOT_ROUTER_PORT",
+      "Message": "",
+      "DecimalCode": 914,
+      "HexCode": "0x392",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CLIENT_INTERFACE_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 915,
+      "HexCode": "0x393",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_DISABLED",
+      "Message": "",
+      "DecimalCode": 916,
+      "HexCode": "0x394",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTH_PROTOCOL_REJECTED",
+      "Message": "",
+      "DecimalCode": 917,
+      "HexCode": "0x395",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_AUTH_PROTOCOL_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 918,
+      "HexCode": "0x396",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PEER_REFUSED_AUTH",
+      "Message": "",
+      "DecimalCode": 919,
+      "HexCode": "0x397",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_NO_DIALIN_PERMISSION",
+      "Message": "",
+      "DecimalCode": 920,
+      "HexCode": "0x398",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_PASSWD_EXPIRED",
+      "Message": "",
+      "DecimalCode": 921,
+      "HexCode": "0x399",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_ACCT_DISABLED",
+      "Message": "",
+      "DecimalCode": 922,
+      "HexCode": "0x39a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_RESTRICTED_LOGON_HOURS",
+      "Message": "",
+      "DecimalCode": 923,
+      "HexCode": "0x39b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_AUTHENTICATION_FAILURE",
+      "Message": "",
+      "DecimalCode": 924,
+      "HexCode": "0x39c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_HAS_NO_DEVICES",
+      "Message": "",
+      "DecimalCode": 925,
+      "HexCode": "0x39d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IDLE_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": 926,
+      "HexCode": "0x39e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 927,
+      "HexCode": "0x39f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SERVICE_IS_PAUSED",
+      "Message": "",
+      "DecimalCode": 928,
+      "HexCode": "0x3a0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERFACE_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": 929,
+      "HexCode": "0x3a1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTH_SERVER_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 930,
+      "HexCode": "0x3a2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_LIMIT_REACHED",
+      "Message": "",
+      "DecimalCode": 931,
+      "HexCode": "0x3a3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_SESSION_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 932,
+      "HexCode": "0x3a4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MAX_LAN_INTERFACE_LIMIT",
+      "Message": "",
+      "DecimalCode": 933,
+      "HexCode": "0x3a5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MAX_WAN_INTERFACE_LIMIT",
+      "Message": "",
+      "DecimalCode": 934,
+      "HexCode": "0x3a6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MAX_CLIENT_INTERFACE_LIMIT",
+      "Message": "",
+      "DecimalCode": 935,
+      "HexCode": "0x3a7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAP_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": 936,
+      "HexCode": "0x3a8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_USER_LIMIT",
+      "Message": "",
+      "DecimalCode": 937,
+      "HexCode": "0x3a9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_RADIUS_SERVERS",
+      "Message": "",
+      "DecimalCode": 938,
+      "HexCode": "0x3aa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_RADIUS_RESPONSE",
+      "Message": "",
+      "DecimalCode": 939,
+      "HexCode": "0x3ab",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DIALIN_HOURS_RESTRICTION",
+      "Message": "",
+      "DecimalCode": 940,
+      "HexCode": "0x3ac",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ALLOWED_PORT_TYPE_RESTRICTION",
+      "Message": "",
+      "DecimalCode": 941,
+      "HexCode": "0x3ad",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTH_PROTOCOL_RESTRICTION",
+      "Message": "",
+      "DecimalCode": 942,
+      "HexCode": "0x3ae",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAP_REQUIRED",
+      "Message": "",
+      "DecimalCode": 943,
+      "HexCode": "0x3af",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DIALOUT_HOURS_RESTRICTION",
+      "Message": "",
+      "DecimalCode": 944,
+      "HexCode": "0x3b0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ROUTER_CONFIG_INCOMPATIBLE",
+      "Message": "",
+      "DecimalCode": 945,
+      "HexCode": "0x3b1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WARNING_NO_MD5_MIGRATION",
+      "Message": "",
+      "DecimalCode": 946,
+      "HexCode": "0x3b2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PROTOCOL_ALREADY_INSTALLED",
+      "Message": "",
+      "DecimalCode": 948,
+      "HexCode": "0x3b4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SIGNATURE_LENGTH",
+      "Message": "",
+      "DecimalCode": 949,
+      "HexCode": "0x3b5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SIGNATURE",
+      "Message": "",
+      "DecimalCode": 950,
+      "HexCode": "0x3b6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_SIGNATURE",
+      "Message": "",
+      "DecimalCode": 951,
+      "HexCode": "0x3b7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PACKET_LENGTH_OR_ID",
+      "Message": "",
+      "DecimalCode": 952,
+      "HexCode": "0x3b8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_ATTRIBUTE_LENGTH",
+      "Message": "",
+      "DecimalCode": 953,
+      "HexCode": "0x3b9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PACKET",
+      "Message": "",
+      "DecimalCode": 954,
+      "HexCode": "0x3ba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTHENTICATOR_MISMATCH",
+      "Message": "",
+      "DecimalCode": 955,
+      "HexCode": "0x3bb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTEACCESS_NOT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": 956,
+      "HexCode": "0x3bc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ROUTEBASEEND",
+      "Message": "",
+      "DecimalCode": 957,
+      "HexCode": "0x3bd",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,76 @@
+{
+  "HeaderFileName": "ime.h",
+  "ErrorCodes": [
+    {
+      "Id": "IME_RS_ERROR",
+      "Message": "genetal error",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_NOIME",
+      "Message": "IME is not installed",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_TOOLONG",
+      "Message": "given string is too long",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_ILLEGAL",
+      "Message": "illegal charactor(s) is string",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_NOTFOUND",
+      "Message": "no (more) candidate",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_NOROOM",
+      "Message": "no disk/memory space",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_DISKERROR",
+      "Message": "disk I/O error",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_INVALID",
+      "Message": "Win3.1/NT ",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_NEST",
+      "Message": "called nested",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IME_RS_SYSTEMMODAL",
+      "Message": "called when system mode",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

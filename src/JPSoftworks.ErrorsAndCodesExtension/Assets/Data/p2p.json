@@ -1,0 +1,139 @@
+{
+  "HeaderFileName": "p2p.h",
+  "ErrorCodes": [
+    {
+      "Id": "WSA_PNRP_CLOUD_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 11501,
+      "HexCode": "0x2ced",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_CLOUD_DISABLED",
+      "Message": "",
+      "DecimalCode": 11502,
+      "HexCode": "0x2cee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_INVALID_IDENTITY",
+      "Message": "",
+      "DecimalCode": 11503,
+      "HexCode": "0x2cef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_TOO_MUCH_LOAD",
+      "Message": "",
+      "DecimalCode": 11504,
+      "HexCode": "0x2cf0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_CLOUD_IS_SEARCH_ONLY",
+      "Message": "",
+      "DecimalCode": 11505,
+      "HexCode": "0x2cf1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_CLIENT_INVALID_COMPARTMENT_ID",
+      "Message": "",
+      "DecimalCode": 11506,
+      "HexCode": "0x2cf2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_DUPLICATE_PEER_NAME",
+      "Message": "",
+      "DecimalCode": 11508,
+      "HexCode": "0x2cf4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_PNRP_CLOUD_IS_DEAD",
+      "Message": "",
+      "DecimalCode": 11509,
+      "HexCode": "0x2cf5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PEER_E_CLOUD_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147013395,
+      "HexCode": "0x80072ced",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_CLOUD_DISABLED",
+      "Message": "",
+      "DecimalCode": -2147013394,
+      "HexCode": "0x80072cee",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_INVALID_IDENTITY",
+      "Message": "",
+      "DecimalCode": -2147013393,
+      "HexCode": "0x80072cef",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_TOO_MUCH_LOAD",
+      "Message": "",
+      "DecimalCode": -2147013392,
+      "HexCode": "0x80072cf0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_CLOUD_IS_SEARCH_ONLY",
+      "Message": "",
+      "DecimalCode": -2147013391,
+      "HexCode": "0x80072cf1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_CLIENT_INVALID_COMPARTMENT_ID",
+      "Message": "",
+      "DecimalCode": -2147013390,
+      "HexCode": "0x80072cf2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_DUPLICATE_PEER_NAME",
+      "Message": "",
+      "DecimalCode": -2147013388,
+      "HexCode": "0x80072cf4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_CLOUD_IS_DEAD",
+      "Message": "",
+      "DecimalCode": -2147013387,
+      "HexCode": "0x80072cf5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147023728,
+      "HexCode": "0x80070490",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_DISK_FULL",
+      "Message": "",
+      "DecimalCode": -2147024784,
+      "HexCode": "0x80070070",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PEER_E_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2147024713,
+      "HexCode": "0x800700b7",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

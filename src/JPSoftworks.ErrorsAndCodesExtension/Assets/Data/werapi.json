@@ -1,0 +1,48 @@
+{
+  "HeaderFileName": "werapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "WER_E_INSUFFICIENT_BUFFER",
+      "Message": "",
+      "DecimalCode": -2147024774,
+      "HexCode": "0x8007007a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WER_E_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147023728,
+      "HexCode": "0x80070490",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WER_E_LENGTH_EXCEEDED",
+      "Message": "",
+      "DecimalCode": -2147023613,
+      "HexCode": "0x80070503",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WER_E_INVALID_STATE",
+      "Message": "",
+      "DecimalCode": -2147019873,
+      "HexCode": "0x8007139f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WER_E_MISSING_DUMP",
+      "Message": "",
+      "DecimalCode": -2147024323,
+      "HexCode": "0x8007023d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WER_E_CABBING_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147024865,
+      "HexCode": "0x8007001f",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

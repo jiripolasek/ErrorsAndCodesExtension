@@ -20545,6 +20545,13 @@
       "DecimalCode": -1058078719,
       "HexCode": "0xC0EF0001",
       "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_VRF_CFG_ENABLED",
+      "Message": "Driver Verifier Volatile settings cannot be set when CFG is enabled.",
+      "DecimalCode": -1073740641,
+      "HexCode": "0xc000049f",
+      "Type": "NTStatus"
     }
   ],
   "Facilities": [

@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "corsym.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_SYM_DESTROYED",
+      "Message": "",
+      "DecimalCode": -2147164499,
+      "HexCode": "0x8004dead",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

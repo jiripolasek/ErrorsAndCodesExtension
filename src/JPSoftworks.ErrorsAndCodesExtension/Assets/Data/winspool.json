@@ -1,0 +1,139 @@
+{
+  "HeaderFileName": "winspool.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_BIDI_ERROR_BASE",
+      "Message": "",
+      "DecimalCode": 13000,
+      "HexCode": "0x32c8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_STATUS_WARNING",
+      "Message": "",
+      "DecimalCode": 13001,
+      "HexCode": "0x32c9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SCHEMA_READ_ONLY",
+      "Message": "",
+      "DecimalCode": 13002,
+      "HexCode": "0x32ca",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SERVER_OFFLINE",
+      "Message": "",
+      "DecimalCode": 13003,
+      "HexCode": "0x32cb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_DEVICE_OFFLINE",
+      "Message": "",
+      "DecimalCode": 13004,
+      "HexCode": "0x32cc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SCHEMA_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 13005,
+      "HexCode": "0x32cd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SET_DIFFERENT_TYPE",
+      "Message": "",
+      "DecimalCode": 13006,
+      "HexCode": "0x32ce",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SET_MULTIPLE_SCHEMAPATH",
+      "Message": "",
+      "DecimalCode": 13007,
+      "HexCode": "0x32cf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SET_INVALID_SCHEMAPATH",
+      "Message": "",
+      "DecimalCode": 13008,
+      "HexCode": "0x32d0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SET_UNKNOWN_FAILURE",
+      "Message": "",
+      "DecimalCode": 13009,
+      "HexCode": "0x32d1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_SCHEMA_WRITE_ONLY",
+      "Message": "",
+      "DecimalCode": 13010,
+      "HexCode": "0x32d2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_GET_REQUIRES_ARGUMENT",
+      "Message": "",
+      "DecimalCode": 13011,
+      "HexCode": "0x32d3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_GET_ARGUMENT_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 13012,
+      "HexCode": "0x32d4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_GET_MISSING_ARGUMENT",
+      "Message": "",
+      "DecimalCode": 13013,
+      "HexCode": "0x32d5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_DEVICE_CONFIG_UNCHANGED",
+      "Message": "",
+      "DecimalCode": 13014,
+      "HexCode": "0x32d6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_NO_LOCALIZED_RESOURCES",
+      "Message": "",
+      "DecimalCode": 13015,
+      "HexCode": "0x32d7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_NO_BIDI_SCHEMA_EXTENSIONS",
+      "Message": "",
+      "DecimalCode": 13016,
+      "HexCode": "0x32d8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_UNSUPPORTED_CLIENT_LANGUAGE",
+      "Message": "",
+      "DecimalCode": 13017,
+      "HexCode": "0x32d9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIDI_UNSUPPORTED_RESOURCE_FORMAT",
+      "Message": "",
+      "DecimalCode": 13018,
+      "HexCode": "0x32da",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

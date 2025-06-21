@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "photoacquire.h",
+  "ErrorCodes": [
+    {
+      "Id": "PHOTOACQ_ERROR_RESTART_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2147180543,
+      "HexCode": "0x8004a001",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

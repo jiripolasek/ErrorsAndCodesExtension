@@ -1,0 +1,272 @@
+{
+  "HeaderFileName": "imapierror.h",
+  "ErrorCodes": [
+    {
+      "Id": "IMAPI_S_PROPERTIESIGNORED",
+      "Message": "",
+      "DecimalCode": 262656,
+      "HexCode": "0x40200",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IMAPI_S_BUFFER_TO_SMALL",
+      "Message": "",
+      "DecimalCode": 262657,
+      "HexCode": "0x40201",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "IMAPI_E_NOTOPENED",
+      "Message": "",
+      "DecimalCode": -2147220981,
+      "HexCode": "0x8004020b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_NOTINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147220980,
+      "HexCode": "0x8004020c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_USERABORT",
+      "Message": "",
+      "DecimalCode": -2147220979,
+      "HexCode": "0x8004020d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_GENERIC",
+      "Message": "",
+      "DecimalCode": -2147220978,
+      "HexCode": "0x8004020e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_MEDIUM_NOTPRESENT",
+      "Message": "",
+      "DecimalCode": -2147220977,
+      "HexCode": "0x8004020f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_MEDIUM_INVALIDTYPE",
+      "Message": "",
+      "DecimalCode": -2147220976,
+      "HexCode": "0x80040210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DEVICE_NOPROPERTIES",
+      "Message": "",
+      "DecimalCode": -2147220975,
+      "HexCode": "0x80040211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DEVICE_NOTACCESSIBLE",
+      "Message": "",
+      "DecimalCode": -2147220974,
+      "HexCode": "0x80040212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DEVICE_NOTPRESENT",
+      "Message": "",
+      "DecimalCode": -2147220973,
+      "HexCode": "0x80040213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DEVICE_INVALIDTYPE",
+      "Message": "",
+      "DecimalCode": -2147220972,
+      "HexCode": "0x80040214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_INITIALIZE_WRITE",
+      "Message": "",
+      "DecimalCode": -2147220971,
+      "HexCode": "0x80040215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_INITIALIZE_ENDWRITE",
+      "Message": "",
+      "DecimalCode": -2147220970,
+      "HexCode": "0x80040216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_FILESYSTEM",
+      "Message": "",
+      "DecimalCode": -2147220969,
+      "HexCode": "0x80040217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_FILEACCESS",
+      "Message": "",
+      "DecimalCode": -2147220968,
+      "HexCode": "0x80040218",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DISCINFO",
+      "Message": "",
+      "DecimalCode": -2147220967,
+      "HexCode": "0x80040219",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_TRACKNOTOPEN",
+      "Message": "",
+      "DecimalCode": -2147220966,
+      "HexCode": "0x8004021a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_TRACKOPEN",
+      "Message": "",
+      "DecimalCode": -2147220965,
+      "HexCode": "0x8004021b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DISCFULL",
+      "Message": "",
+      "DecimalCode": -2147220964,
+      "HexCode": "0x8004021c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_BADJOLIETNAME",
+      "Message": "",
+      "DecimalCode": -2147220963,
+      "HexCode": "0x8004021d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_INVALIDIMAGE",
+      "Message": "",
+      "DecimalCode": -2147220962,
+      "HexCode": "0x8004021e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_NOACTIVEFORMAT",
+      "Message": "",
+      "DecimalCode": -2147220961,
+      "HexCode": "0x8004021f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_NOACTIVERECORDER",
+      "Message": "",
+      "DecimalCode": -2147220960,
+      "HexCode": "0x80040220",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_WRONGFORMAT",
+      "Message": "",
+      "DecimalCode": -2147220959,
+      "HexCode": "0x80040221",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_ALREADYOPEN",
+      "Message": "",
+      "DecimalCode": -2147220958,
+      "HexCode": "0x80040222",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_WRONGDISC",
+      "Message": "",
+      "DecimalCode": -2147220957,
+      "HexCode": "0x80040223",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_FILEEXISTS",
+      "Message": "",
+      "DecimalCode": -2147220956,
+      "HexCode": "0x80040224",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_STASHINUSE",
+      "Message": "",
+      "DecimalCode": -2147220955,
+      "HexCode": "0x80040225",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_DEVICE_STILL_IN_USE",
+      "Message": "",
+      "DecimalCode": -2147220954,
+      "HexCode": "0x80040226",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_LOSS_OF_STREAMING",
+      "Message": "",
+      "DecimalCode": -2147220953,
+      "HexCode": "0x80040227",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_COMPRESSEDSTASH",
+      "Message": "",
+      "DecimalCode": -2147220952,
+      "HexCode": "0x80040228",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_ENCRYPTEDSTASH",
+      "Message": "",
+      "DecimalCode": -2147220951,
+      "HexCode": "0x80040229",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_NOTENOUGHDISKFORSTASH",
+      "Message": "",
+      "DecimalCode": -2147220950,
+      "HexCode": "0x8004022a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_REMOVABLESTASH",
+      "Message": "",
+      "DecimalCode": -2147220949,
+      "HexCode": "0x8004022b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_CANNOT_WRITE_TO_MEDIA",
+      "Message": "",
+      "DecimalCode": -2147220948,
+      "HexCode": "0x8004022c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_TRACK_NOT_BIG_ENOUGH",
+      "Message": "",
+      "DecimalCode": -2147220947,
+      "HexCode": "0x8004022d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMAPI_E_BOOTIMAGE_AND_NONBLANK_DISC",
+      "Message": "",
+      "DecimalCode": -2147220946,
+      "HexCode": "0x8004022e",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

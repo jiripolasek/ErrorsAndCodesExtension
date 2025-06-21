@@ -1,0 +1,1651 @@
+{
+  "HeaderFileName": "lmerrlog.h",
+  "ErrorCodes": [
+    {
+      "Id": "NELOG_Internal_Error",
+      "Message": "",
+      "DecimalCode": 3100,
+      "HexCode": "0xc1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Resource_Shortage",
+      "Message": "",
+      "DecimalCode": 3101,
+      "HexCode": "0xc1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Unable_To_Lock_Segment",
+      "Message": "",
+      "DecimalCode": 3102,
+      "HexCode": "0xc1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Unable_To_Unlock_Segment",
+      "Message": "",
+      "DecimalCode": 3103,
+      "HexCode": "0xc1f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Uninstall_Service",
+      "Message": "",
+      "DecimalCode": 3104,
+      "HexCode": "0xc20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Init_Exec_Fail",
+      "Message": "",
+      "DecimalCode": 3105,
+      "HexCode": "0xc21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Ncb_Error",
+      "Message": "",
+      "DecimalCode": 3106,
+      "HexCode": "0xc22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Net_Not_Started",
+      "Message": "",
+      "DecimalCode": 3107,
+      "HexCode": "0xc23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Ioctl_Error",
+      "Message": "",
+      "DecimalCode": 3108,
+      "HexCode": "0xc24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_System_Semaphore",
+      "Message": "",
+      "DecimalCode": 3109,
+      "HexCode": "0xc25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Init_OpenCreate_Err",
+      "Message": "",
+      "DecimalCode": 3110,
+      "HexCode": "0xc26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetBios",
+      "Message": "",
+      "DecimalCode": 3111,
+      "HexCode": "0xc27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_SMB_Illegal",
+      "Message": "",
+      "DecimalCode": 3112,
+      "HexCode": "0xc28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Service_Fail",
+      "Message": "",
+      "DecimalCode": 3113,
+      "HexCode": "0xc29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Entries_Lost",
+      "Message": "",
+      "DecimalCode": 3114,
+      "HexCode": "0xc2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Init_Seg_Overflow",
+      "Message": "",
+      "DecimalCode": 3120,
+      "HexCode": "0xc30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Srv_No_Mem_Grow",
+      "Message": "",
+      "DecimalCode": 3121,
+      "HexCode": "0xc31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Access_File_Bad",
+      "Message": "",
+      "DecimalCode": 3122,
+      "HexCode": "0xc32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Srvnet_Not_Started",
+      "Message": "",
+      "DecimalCode": 3123,
+      "HexCode": "0xc33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Init_Chardev_Err",
+      "Message": "",
+      "DecimalCode": 3124,
+      "HexCode": "0xc34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Remote_API",
+      "Message": "",
+      "DecimalCode": 3125,
+      "HexCode": "0xc35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Ncb_TooManyErr",
+      "Message": "",
+      "DecimalCode": 3126,
+      "HexCode": "0xc36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Mailslot_err",
+      "Message": "",
+      "DecimalCode": 3127,
+      "HexCode": "0xc37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReleaseMem_Alert",
+      "Message": "",
+      "DecimalCode": 3128,
+      "HexCode": "0xc38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_AT_cannot_write",
+      "Message": "",
+      "DecimalCode": 3129,
+      "HexCode": "0xc39",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Cant_Make_Msg_File",
+      "Message": "",
+      "DecimalCode": 3130,
+      "HexCode": "0xc3a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Exec_Netservr_NoMem",
+      "Message": "",
+      "DecimalCode": 3131,
+      "HexCode": "0xc3b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Server_Lock_Failure",
+      "Message": "",
+      "DecimalCode": 3132,
+      "HexCode": "0xc3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Msg_Shutdown",
+      "Message": "",
+      "DecimalCode": 3140,
+      "HexCode": "0xc44",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Msg_Sem_Shutdown",
+      "Message": "",
+      "DecimalCode": 3141,
+      "HexCode": "0xc45",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Msg_Log_Err",
+      "Message": "",
+      "DecimalCode": 3150,
+      "HexCode": "0xc4e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_VIO_POPUP_ERR",
+      "Message": "",
+      "DecimalCode": 3151,
+      "HexCode": "0xc4f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Msg_Unexpected_SMB_Type",
+      "Message": "",
+      "DecimalCode": 3152,
+      "HexCode": "0xc50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_Infoseg",
+      "Message": "",
+      "DecimalCode": 3160,
+      "HexCode": "0xc58",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_Compname",
+      "Message": "",
+      "DecimalCode": 3161,
+      "HexCode": "0xc59",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_BiosThreadFailure",
+      "Message": "",
+      "DecimalCode": 3162,
+      "HexCode": "0xc5a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_IniSeg",
+      "Message": "",
+      "DecimalCode": 3163,
+      "HexCode": "0xc5b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_HostTab_Full",
+      "Message": "",
+      "DecimalCode": 3164,
+      "HexCode": "0xc5c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_Bad_Mailslot_SMB",
+      "Message": "",
+      "DecimalCode": 3165,
+      "HexCode": "0xc5d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_UASInit",
+      "Message": "",
+      "DecimalCode": 3166,
+      "HexCode": "0xc5e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wksta_SSIRelogon",
+      "Message": "",
+      "DecimalCode": 3167,
+      "HexCode": "0xc5f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Build_Name",
+      "Message": "",
+      "DecimalCode": 3170,
+      "HexCode": "0xc62",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Name_Expansion",
+      "Message": "",
+      "DecimalCode": 3171,
+      "HexCode": "0xc63",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Message_Send",
+      "Message": "",
+      "DecimalCode": 3172,
+      "HexCode": "0xc64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Mail_Slt_Err",
+      "Message": "",
+      "DecimalCode": 3173,
+      "HexCode": "0xc65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_AT_cannot_read",
+      "Message": "",
+      "DecimalCode": 3174,
+      "HexCode": "0xc66",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_AT_sched_err",
+      "Message": "",
+      "DecimalCode": 3175,
+      "HexCode": "0xc67",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_AT_schedule_file_created",
+      "Message": "",
+      "DecimalCode": 3176,
+      "HexCode": "0xc68",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Srvnet_NB_Open",
+      "Message": "",
+      "DecimalCode": 3177,
+      "HexCode": "0xc69",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_AT_Exec_Err",
+      "Message": "",
+      "DecimalCode": 3178,
+      "HexCode": "0xc6a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Lazy_Write_Err",
+      "Message": "",
+      "DecimalCode": 3180,
+      "HexCode": "0xc6c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_HotFix",
+      "Message": "",
+      "DecimalCode": 3181,
+      "HexCode": "0xc6d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_HardErr_From_Server",
+      "Message": "",
+      "DecimalCode": 3182,
+      "HexCode": "0xc6e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_LocalSecFail1",
+      "Message": "",
+      "DecimalCode": 3183,
+      "HexCode": "0xc6f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_LocalSecFail2",
+      "Message": "",
+      "DecimalCode": 3184,
+      "HexCode": "0xc70",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_LocalSecFail3",
+      "Message": "",
+      "DecimalCode": 3185,
+      "HexCode": "0xc71",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_LocalSecGeneralFail",
+      "Message": "",
+      "DecimalCode": 3186,
+      "HexCode": "0xc72",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_Internal_Error",
+      "Message": "",
+      "DecimalCode": 3190,
+      "HexCode": "0xc76",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_No_Resource",
+      "Message": "",
+      "DecimalCode": 3191,
+      "HexCode": "0xc77",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_SMB_Err",
+      "Message": "",
+      "DecimalCode": 3192,
+      "HexCode": "0xc78",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_VC_Err",
+      "Message": "",
+      "DecimalCode": 3193,
+      "HexCode": "0xc79",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_Stuck_VC_Err",
+      "Message": "",
+      "DecimalCode": 3194,
+      "HexCode": "0xc7a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_NCB_Err",
+      "Message": "",
+      "DecimalCode": 3195,
+      "HexCode": "0xc7b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_Write_Behind_Err",
+      "Message": "",
+      "DecimalCode": 3196,
+      "HexCode": "0xc7c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_Reset_Err",
+      "Message": "",
+      "DecimalCode": 3197,
+      "HexCode": "0xc7d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetWkSta_Too_Many",
+      "Message": "",
+      "DecimalCode": 3198,
+      "HexCode": "0xc7e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Srv_Thread_Failure",
+      "Message": "",
+      "DecimalCode": 3204,
+      "HexCode": "0xc84",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Srv_Close_Failure",
+      "Message": "",
+      "DecimalCode": 3205,
+      "HexCode": "0xc85",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplUserCurDir",
+      "Message": "",
+      "DecimalCode": 3206,
+      "HexCode": "0xc86",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplCannotMasterDir",
+      "Message": "",
+      "DecimalCode": 3207,
+      "HexCode": "0xc87",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplUpdateError",
+      "Message": "",
+      "DecimalCode": 3208,
+      "HexCode": "0xc88",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplLostMaster",
+      "Message": "",
+      "DecimalCode": 3209,
+      "HexCode": "0xc89",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAuthDCFail",
+      "Message": "",
+      "DecimalCode": 3210,
+      "HexCode": "0xc8a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplLogonFailed",
+      "Message": "",
+      "DecimalCode": 3211,
+      "HexCode": "0xc8b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplNetErr",
+      "Message": "",
+      "DecimalCode": 3212,
+      "HexCode": "0xc8c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplMaxFiles",
+      "Message": "",
+      "DecimalCode": 3213,
+      "HexCode": "0xc8d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplMaxTreeDepth",
+      "Message": "",
+      "DecimalCode": 3214,
+      "HexCode": "0xc8e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplBadMsg",
+      "Message": "",
+      "DecimalCode": 3215,
+      "HexCode": "0xc8f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplSysErr",
+      "Message": "",
+      "DecimalCode": 3216,
+      "HexCode": "0xc90",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplUserLoged",
+      "Message": "",
+      "DecimalCode": 3217,
+      "HexCode": "0xc91",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplBadImport",
+      "Message": "",
+      "DecimalCode": 3218,
+      "HexCode": "0xc92",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplBadExport",
+      "Message": "",
+      "DecimalCode": 3219,
+      "HexCode": "0xc93",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplSignalFileErr",
+      "Message": "",
+      "DecimalCode": 3220,
+      "HexCode": "0xc94",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_DiskFT",
+      "Message": "",
+      "DecimalCode": 3221,
+      "HexCode": "0xc95",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_ReplAccessDenied",
+      "Message": "",
+      "DecimalCode": 3222,
+      "HexCode": "0xc96",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedPrimary",
+      "Message": "",
+      "DecimalCode": 3223,
+      "HexCode": "0xc97",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonPasswdSetFailed",
+      "Message": "",
+      "DecimalCode": 3224,
+      "HexCode": "0xc98",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonTrackingError",
+      "Message": "",
+      "DecimalCode": 3225,
+      "HexCode": "0xc99",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonSyncError",
+      "Message": "",
+      "DecimalCode": 3226,
+      "HexCode": "0xc9a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRequireSignOrSealError",
+      "Message": "",
+      "DecimalCode": 3227,
+      "HexCode": "0xc9b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_PowerOut",
+      "Message": "",
+      "DecimalCode": 3230,
+      "HexCode": "0xc9e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_Shutdown",
+      "Message": "",
+      "DecimalCode": 3231,
+      "HexCode": "0xc9f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_CmdFileError",
+      "Message": "",
+      "DecimalCode": 3232,
+      "HexCode": "0xca0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_CannotOpenDriver",
+      "Message": "",
+      "DecimalCode": 3233,
+      "HexCode": "0xca1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_PowerBack",
+      "Message": "",
+      "DecimalCode": 3234,
+      "HexCode": "0xca2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_CmdFileConfig",
+      "Message": "",
+      "DecimalCode": 3235,
+      "HexCode": "0xca3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_UPS_CmdFileExec",
+      "Message": "",
+      "DecimalCode": 3236,
+      "HexCode": "0xca4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Missing_Parameter",
+      "Message": "",
+      "DecimalCode": 3250,
+      "HexCode": "0xcb2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Invalid_Config_Line",
+      "Message": "",
+      "DecimalCode": 3251,
+      "HexCode": "0xcb3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Invalid_Config_File",
+      "Message": "",
+      "DecimalCode": 3252,
+      "HexCode": "0xcb4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_File_Changed",
+      "Message": "",
+      "DecimalCode": 3253,
+      "HexCode": "0xcb5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Files_Dont_Fit",
+      "Message": "",
+      "DecimalCode": 3254,
+      "HexCode": "0xcb6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Wrong_DLL_Version",
+      "Message": "",
+      "DecimalCode": 3255,
+      "HexCode": "0xcb7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Error_in_DLL",
+      "Message": "",
+      "DecimalCode": 3256,
+      "HexCode": "0xcb8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_System_Error",
+      "Message": "",
+      "DecimalCode": 3257,
+      "HexCode": "0xcb9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_FT_ErrLog_Too_Large",
+      "Message": "",
+      "DecimalCode": 3258,
+      "HexCode": "0xcba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_FT_Update_In_Progress",
+      "Message": "",
+      "DecimalCode": 3259,
+      "HexCode": "0xcbb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Joined_Domain",
+      "Message": "",
+      "DecimalCode": 3260,
+      "HexCode": "0xcbc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_Joined_Workgroup",
+      "Message": "",
+      "DecimalCode": 3261,
+      "HexCode": "0xcbd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_OEM_Code",
+      "Message": "",
+      "DecimalCode": 3299,
+      "HexCode": "0xce3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonSSIInitError",
+      "Message": "",
+      "DecimalCode": 5700,
+      "HexCode": "0x1644",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedToUpdateTrustList",
+      "Message": "",
+      "DecimalCode": 5701,
+      "HexCode": "0x1645",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedToAddRpcInterface",
+      "Message": "",
+      "DecimalCode": 5702,
+      "HexCode": "0x1646",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedToReadMailslot",
+      "Message": "",
+      "DecimalCode": 5703,
+      "HexCode": "0x1647",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedToRegisterSC",
+      "Message": "",
+      "DecimalCode": 5704,
+      "HexCode": "0x1648",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonChangeLogCorrupt",
+      "Message": "",
+      "DecimalCode": 5705,
+      "HexCode": "0x1649",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedToCreateShare",
+      "Message": "",
+      "DecimalCode": 5706,
+      "HexCode": "0x164a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDownLevelLogonFailed",
+      "Message": "",
+      "DecimalCode": 5707,
+      "HexCode": "0x164b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDownLevelLogoffFailed",
+      "Message": "",
+      "DecimalCode": 5708,
+      "HexCode": "0x164c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNTLogonFailed",
+      "Message": "",
+      "DecimalCode": 5709,
+      "HexCode": "0x164d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNTLogoffFailed",
+      "Message": "",
+      "DecimalCode": 5710,
+      "HexCode": "0x164e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonPartialSyncCallSuccess",
+      "Message": "",
+      "DecimalCode": 5711,
+      "HexCode": "0x164f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonPartialSyncCallFailed",
+      "Message": "",
+      "DecimalCode": 5712,
+      "HexCode": "0x1650",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFullSyncCallSuccess",
+      "Message": "",
+      "DecimalCode": 5713,
+      "HexCode": "0x1651",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFullSyncCallFailed",
+      "Message": "",
+      "DecimalCode": 5714,
+      "HexCode": "0x1652",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonPartialSyncSuccess",
+      "Message": "",
+      "DecimalCode": 5715,
+      "HexCode": "0x1653",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonPartialSyncFailed",
+      "Message": "",
+      "DecimalCode": 5716,
+      "HexCode": "0x1654",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFullSyncSuccess",
+      "Message": "",
+      "DecimalCode": 5717,
+      "HexCode": "0x1655",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFullSyncFailed",
+      "Message": "",
+      "DecimalCode": 5718,
+      "HexCode": "0x1656",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAuthNoDomainController",
+      "Message": "",
+      "DecimalCode": 5719,
+      "HexCode": "0x1657",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAuthNoTrustLsaSecret",
+      "Message": "",
+      "DecimalCode": 5720,
+      "HexCode": "0x1658",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAuthNoTrustSamAccount",
+      "Message": "",
+      "DecimalCode": 5721,
+      "HexCode": "0x1659",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonServerAuthFailed",
+      "Message": "",
+      "DecimalCode": 5722,
+      "HexCode": "0x165a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonServerAuthNoTrustSamAccount",
+      "Message": "",
+      "DecimalCode": 5723,
+      "HexCode": "0x165b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_FailedToRegisterSC",
+      "Message": "",
+      "DecimalCode": 5724,
+      "HexCode": "0x165c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_FailedToSetServiceStatus",
+      "Message": "",
+      "DecimalCode": 5725,
+      "HexCode": "0x165d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_FailedToGetComputerName",
+      "Message": "",
+      "DecimalCode": 5726,
+      "HexCode": "0x165e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_DriverNotLoaded",
+      "Message": "",
+      "DecimalCode": 5727,
+      "HexCode": "0x165f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NoTranportLoaded",
+      "Message": "",
+      "DecimalCode": 5728,
+      "HexCode": "0x1660",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedDomainDelta",
+      "Message": "",
+      "DecimalCode": 5729,
+      "HexCode": "0x1661",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedGlobalGroupDelta",
+      "Message": "",
+      "DecimalCode": 5730,
+      "HexCode": "0x1662",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedLocalGroupDelta",
+      "Message": "",
+      "DecimalCode": 5731,
+      "HexCode": "0x1663",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedUserDelta",
+      "Message": "",
+      "DecimalCode": 5732,
+      "HexCode": "0x1664",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedPolicyDelta",
+      "Message": "",
+      "DecimalCode": 5733,
+      "HexCode": "0x1665",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedTrustedDomainDelta",
+      "Message": "",
+      "DecimalCode": 5734,
+      "HexCode": "0x1666",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedAccountDelta",
+      "Message": "",
+      "DecimalCode": 5735,
+      "HexCode": "0x1667",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedSecretDelta",
+      "Message": "",
+      "DecimalCode": 5736,
+      "HexCode": "0x1668",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonSystemError",
+      "Message": "",
+      "DecimalCode": 5737,
+      "HexCode": "0x1669",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDuplicateMachineAccounts",
+      "Message": "",
+      "DecimalCode": 5738,
+      "HexCode": "0x166a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonTooManyGlobalGroups",
+      "Message": "",
+      "DecimalCode": 5739,
+      "HexCode": "0x166b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonBrowserDriver",
+      "Message": "",
+      "DecimalCode": 5740,
+      "HexCode": "0x166c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAddNameFailure",
+      "Message": "",
+      "DecimalCode": 5741,
+      "HexCode": "0x166d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplMessages",
+      "Message": "",
+      "DecimalCode": 5742,
+      "HexCode": "0x166e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplXnsBoot",
+      "Message": "",
+      "DecimalCode": 5743,
+      "HexCode": "0x166f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplSystem",
+      "Message": "",
+      "DecimalCode": 5744,
+      "HexCode": "0x1670",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaTimeout",
+      "Message": "",
+      "DecimalCode": 5745,
+      "HexCode": "0x1671",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaFileOpen",
+      "Message": "",
+      "DecimalCode": 5746,
+      "HexCode": "0x1672",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaFileRead",
+      "Message": "",
+      "DecimalCode": 5747,
+      "HexCode": "0x1673",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaMemory",
+      "Message": "",
+      "DecimalCode": 5748,
+      "HexCode": "0x1674",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaFileChecksum",
+      "Message": "",
+      "DecimalCode": 5749,
+      "HexCode": "0x1675",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaFileLineCount",
+      "Message": "",
+      "DecimalCode": 5750,
+      "HexCode": "0x1676",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaBbcFile",
+      "Message": "",
+      "DecimalCode": 5751,
+      "HexCode": "0x1677",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaFileSize",
+      "Message": "",
+      "DecimalCode": 5752,
+      "HexCode": "0x1678",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaInternal",
+      "Message": "",
+      "DecimalCode": 5753,
+      "HexCode": "0x1679",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaWrongVersion",
+      "Message": "",
+      "DecimalCode": 5754,
+      "HexCode": "0x167a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplWkstaNetwork",
+      "Message": "",
+      "DecimalCode": 5755,
+      "HexCode": "0x167b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplAdapterResource",
+      "Message": "",
+      "DecimalCode": 5756,
+      "HexCode": "0x167c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplFileCopy",
+      "Message": "",
+      "DecimalCode": 5757,
+      "HexCode": "0x167d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplFileDelete",
+      "Message": "",
+      "DecimalCode": 5758,
+      "HexCode": "0x167e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplFilePerms",
+      "Message": "",
+      "DecimalCode": 5759,
+      "HexCode": "0x167f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplCheckConfigs",
+      "Message": "",
+      "DecimalCode": 5760,
+      "HexCode": "0x1680",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplCreateProfiles",
+      "Message": "",
+      "DecimalCode": 5761,
+      "HexCode": "0x1681",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplRegistry",
+      "Message": "",
+      "DecimalCode": 5762,
+      "HexCode": "0x1682",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplReplaceRPLDISK",
+      "Message": "",
+      "DecimalCode": 5763,
+      "HexCode": "0x1683",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplCheckSecurity",
+      "Message": "",
+      "DecimalCode": 5764,
+      "HexCode": "0x1684",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplBackupDatabase",
+      "Message": "",
+      "DecimalCode": 5765,
+      "HexCode": "0x1685",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplInitDatabase",
+      "Message": "",
+      "DecimalCode": 5766,
+      "HexCode": "0x1686",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplRestoreDatabaseFailure",
+      "Message": "",
+      "DecimalCode": 5767,
+      "HexCode": "0x1687",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplRestoreDatabaseSuccess",
+      "Message": "",
+      "DecimalCode": 5768,
+      "HexCode": "0x1688",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplInitRestoredDatabase",
+      "Message": "",
+      "DecimalCode": 5769,
+      "HexCode": "0x1689",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonSessionTypeWrong",
+      "Message": "",
+      "DecimalCode": 5770,
+      "HexCode": "0x168a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_RplUpgradeDBTo40",
+      "Message": "",
+      "DecimalCode": 5771,
+      "HexCode": "0x168b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonLanmanBdcsNotAllowed",
+      "Message": "",
+      "DecimalCode": 5772,
+      "HexCode": "0x168c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNoDynamicDns",
+      "Message": "",
+      "DecimalCode": 5773,
+      "HexCode": "0x168d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDynamicDnsRegisterFailure",
+      "Message": "",
+      "DecimalCode": 5774,
+      "HexCode": "0x168e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDynamicDnsDeregisterFailure",
+      "Message": "",
+      "DecimalCode": 5775,
+      "HexCode": "0x168f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedFileCreate",
+      "Message": "",
+      "DecimalCode": 5776,
+      "HexCode": "0x1690",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonGetSubnetToSite",
+      "Message": "",
+      "DecimalCode": 5777,
+      "HexCode": "0x1691",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNoSiteForClient",
+      "Message": "",
+      "DecimalCode": 5778,
+      "HexCode": "0x1692",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonBadSiteName",
+      "Message": "",
+      "DecimalCode": 5779,
+      "HexCode": "0x1693",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonBadSubnetName",
+      "Message": "",
+      "DecimalCode": 5780,
+      "HexCode": "0x1694",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDynamicDnsServerFailure",
+      "Message": "",
+      "DecimalCode": 5781,
+      "HexCode": "0x1695",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDynamicDnsFailure",
+      "Message": "",
+      "DecimalCode": 5782,
+      "HexCode": "0x1696",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRpcCallCancelled",
+      "Message": "",
+      "DecimalCode": 5783,
+      "HexCode": "0x1697",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDcSiteCovered",
+      "Message": "",
+      "DecimalCode": 5784,
+      "HexCode": "0x1698",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDcSiteNotCovered",
+      "Message": "",
+      "DecimalCode": 5785,
+      "HexCode": "0x1699",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonGcSiteCovered",
+      "Message": "",
+      "DecimalCode": 5786,
+      "HexCode": "0x169a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonGcSiteNotCovered",
+      "Message": "",
+      "DecimalCode": 5787,
+      "HexCode": "0x169b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedSpnUpdate",
+      "Message": "",
+      "DecimalCode": 5788,
+      "HexCode": "0x169c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedDnsHostNameUpdate",
+      "Message": "",
+      "DecimalCode": 5789,
+      "HexCode": "0x169d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAuthNoUplevelDomainController",
+      "Message": "",
+      "DecimalCode": 5790,
+      "HexCode": "0x169e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonAuthDomainDowngraded",
+      "Message": "",
+      "DecimalCode": 5791,
+      "HexCode": "0x169f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNdncSiteCovered",
+      "Message": "",
+      "DecimalCode": 5792,
+      "HexCode": "0x16a0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNdncSiteNotCovered",
+      "Message": "",
+      "DecimalCode": 5793,
+      "HexCode": "0x16a1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDcOldSiteCovered",
+      "Message": "",
+      "DecimalCode": 5794,
+      "HexCode": "0x16a2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDcSiteNotCoveredAuto",
+      "Message": "",
+      "DecimalCode": 5795,
+      "HexCode": "0x16a3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonGcOldSiteCovered",
+      "Message": "",
+      "DecimalCode": 5796,
+      "HexCode": "0x16a4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonGcSiteNotCoveredAuto",
+      "Message": "",
+      "DecimalCode": 5797,
+      "HexCode": "0x16a5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNdncOldSiteCovered",
+      "Message": "",
+      "DecimalCode": 5798,
+      "HexCode": "0x16a6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNdncSiteNotCoveredAuto",
+      "Message": "",
+      "DecimalCode": 5799,
+      "HexCode": "0x16a7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonSpnMultipleSamAccountNames",
+      "Message": "",
+      "DecimalCode": 5800,
+      "HexCode": "0x16a8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonSpnCrackNamesFailure",
+      "Message": "",
+      "DecimalCode": 5801,
+      "HexCode": "0x16a9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNoAddressToSiteMapping",
+      "Message": "",
+      "DecimalCode": 5802,
+      "HexCode": "0x16aa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonInvalidGenericParameterValue",
+      "Message": "",
+      "DecimalCode": 5803,
+      "HexCode": "0x16ab",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonInvalidDwordParameterValue",
+      "Message": "",
+      "DecimalCode": 5804,
+      "HexCode": "0x16ac",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonServerAuthFailedNoAccount",
+      "Message": "",
+      "DecimalCode": 5805,
+      "HexCode": "0x16ad",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNoDynamicDnsManual",
+      "Message": "",
+      "DecimalCode": 5806,
+      "HexCode": "0x16ae",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonNoSiteForClients",
+      "Message": "",
+      "DecimalCode": 5807,
+      "HexCode": "0x16af",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonDnsDeregAborted",
+      "Message": "",
+      "DecimalCode": 5808,
+      "HexCode": "0x16b0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRpcPortRequestFailure",
+      "Message": "",
+      "DecimalCode": 5809,
+      "HexCode": "0x16b1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonPartialSiteMappingForClients",
+      "Message": "",
+      "DecimalCode": 5810,
+      "HexCode": "0x16b2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRemoteDynamicDnsRegisterFailure",
+      "Message": "",
+      "DecimalCode": 5811,
+      "HexCode": "0x16b3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRemoteDynamicDnsDeregisterFailure",
+      "Message": "",
+      "DecimalCode": 5812,
+      "HexCode": "0x16b4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRejectedRemoteDynamicDnsRegister",
+      "Message": "",
+      "DecimalCode": 5813,
+      "HexCode": "0x16b5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRejectedRemoteDynamicDnsDeregister",
+      "Message": "",
+      "DecimalCode": 5814,
+      "HexCode": "0x16b6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonRemoteDynamicDnsUpdateRequestFailure",
+      "Message": "",
+      "DecimalCode": 5815,
+      "HexCode": "0x16b7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonUserValidationReqInitialTimeOut",
+      "Message": "",
+      "DecimalCode": 5816,
+      "HexCode": "0x16b8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonUserValidationReqRecurringTimeOut",
+      "Message": "",
+      "DecimalCode": 5817,
+      "HexCode": "0x16b9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonUserValidationReqWaitInitialWarning",
+      "Message": "",
+      "DecimalCode": 5818,
+      "HexCode": "0x16ba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonUserValidationReqWaitRecurringWarning",
+      "Message": "",
+      "DecimalCode": 5819,
+      "HexCode": "0x16bb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonFailedToAddAuthzRpcInterface",
+      "Message": "",
+      "DecimalCode": 5820,
+      "HexCode": "0x16bc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetLogonFailedToInitializeAuthzRm",
+      "Message": "",
+      "DecimalCode": 5821,
+      "HexCode": "0x16bd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetLogonFailedToInitializeRPCSD",
+      "Message": "",
+      "DecimalCode": 5822,
+      "HexCode": "0x16be",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonMachinePasswdSetSucceeded",
+      "Message": "",
+      "DecimalCode": 5823,
+      "HexCode": "0x16bf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NELOG_NetlogonMsaPasswdSetSucceeded",
+      "Message": "",
+      "DecimalCode": 5824,
+      "HexCode": "0x16c0",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

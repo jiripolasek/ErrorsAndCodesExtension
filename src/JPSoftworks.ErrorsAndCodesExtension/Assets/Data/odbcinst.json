@@ -1,0 +1,167 @@
+{
+  "HeaderFileName": "odbcinst.h",
+  "ErrorCodes": [
+    {
+      "Id": "ODBC_ERROR_GENERAL_ERR",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_BUFF_LEN",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_HWND",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_STR",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_REQUEST_TYPE",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_COMPONENT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_NAME",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_KEYWORD_VALUE",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_DSN",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_INF",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_REQUEST_FAILED",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_PATH",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_LOAD_LIB_FAILED",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_PARAM_SEQUENCE",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_INVALID_LOG_FILE",
+      "Message": "",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_USER_CANCELED",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_USAGE_UPDATE_FAILED",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_CREATE_DSN_FAILED",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_WRITING_SYSINFO_FAILED",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_REMOVE_DSN_FAILED",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_OUT_OF_MEM",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_OUTPUT_STRING_TRUNCATED",
+      "Message": "",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ODBC_ERROR_NOTRANINFO",
+      "Message": "",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

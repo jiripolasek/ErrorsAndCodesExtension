@@ -1,0 +1,41 @@
+{
+  "HeaderFileName": "wcntypes.h",
+  "ErrorCodes": [
+    {
+      "Id": "WCN_E_PEER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147206143,
+      "HexCode": "0x80043c01",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WCN_E_AUTHENTICATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147206142,
+      "HexCode": "0x80043c02",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WCN_E_CONNECTION_REJECTED",
+      "Message": "",
+      "DecimalCode": -2147206141,
+      "HexCode": "0x80043c03",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WCN_E_SESSION_TIMEDOUT",
+      "Message": "",
+      "DecimalCode": -2147206140,
+      "HexCode": "0x80043c04",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WCN_E_PROTOCOL_ERROR",
+      "Message": "",
+      "DecimalCode": -2147206139,
+      "HexCode": "0x80043c05",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,167 @@
+{
+  "HeaderFileName": "dsound.h",
+  "ErrorCodes": [
+    {
+      "Id": "DSERR_ALLOCATED",
+      "Message": "",
+      "DecimalCode": -2005401590,
+      "HexCode": "0x8878000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_CONTROLUNAVAIL",
+      "Message": "",
+      "DecimalCode": -2005401570,
+      "HexCode": "0x8878001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_INVALIDPARAM",
+      "Message": "",
+      "DecimalCode": -2147024809,
+      "HexCode": "0x80070057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_INVALIDCALL",
+      "Message": "",
+      "DecimalCode": -2005401550,
+      "HexCode": "0x88780032",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_GENERIC",
+      "Message": "",
+      "DecimalCode": -2147467259,
+      "HexCode": "0x80004005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_PRIOLEVELNEEDED",
+      "Message": "",
+      "DecimalCode": -2005401530,
+      "HexCode": "0x88780046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": -2147024882,
+      "HexCode": "0x8007000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_BADFORMAT",
+      "Message": "",
+      "DecimalCode": -2005401500,
+      "HexCode": "0x88780064",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147467263,
+      "HexCode": "0x80004001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_NODRIVER",
+      "Message": "",
+      "DecimalCode": -2005401480,
+      "HexCode": "0x88780078",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_ALREADYINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2005401470,
+      "HexCode": "0x88780082",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_NOAGGREGATION",
+      "Message": "",
+      "DecimalCode": -2147221232,
+      "HexCode": "0x80040110",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_BUFFERLOST",
+      "Message": "",
+      "DecimalCode": -2005401450,
+      "HexCode": "0x88780096",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_OTHERAPPHASPRIO",
+      "Message": "",
+      "DecimalCode": -2005401440,
+      "HexCode": "0x887800a0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_UNINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2005401430,
+      "HexCode": "0x887800aa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_NOINTERFACE",
+      "Message": "",
+      "DecimalCode": -2147467262,
+      "HexCode": "0x80004002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_ACCESSDENIED",
+      "Message": "",
+      "DecimalCode": -2147024891,
+      "HexCode": "0x80070005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_BUFFERTOOSMALL",
+      "Message": "",
+      "DecimalCode": -2005401420,
+      "HexCode": "0x887800b4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_DS8_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2005401410,
+      "HexCode": "0x887800be",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_SENDLOOP",
+      "Message": "",
+      "DecimalCode": -2005401400,
+      "HexCode": "0x887800c8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_BADSENDBUFFERGUID",
+      "Message": "",
+      "DecimalCode": -2005401390,
+      "HexCode": "0x887800d2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_OBJECTNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005397151,
+      "HexCode": "0x88781161",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DSERR_FXUNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2005401380,
+      "HexCode": "0x887800dc",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

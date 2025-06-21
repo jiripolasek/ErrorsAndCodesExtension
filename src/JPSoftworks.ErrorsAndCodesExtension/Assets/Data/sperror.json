@@ -1,0 +1,797 @@
+{
+  "HeaderFileName": "sperror.h",
+  "ErrorCodes": [
+    {
+      "Id": "SPERR_UNINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147201023,
+      "HexCode": "0x80045001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ALREADY_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147201022,
+      "HexCode": "0x80045002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_UNSUPPORTED_FORMAT",
+      "Message": "",
+      "DecimalCode": -2147201021,
+      "HexCode": "0x80045003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_FLAGS",
+      "Message": "",
+      "DecimalCode": -2147201020,
+      "HexCode": "0x80045004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_DEVICE_BUSY",
+      "Message": "",
+      "DecimalCode": -2147201018,
+      "HexCode": "0x80045006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_DEVICE_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147201017,
+      "HexCode": "0x80045007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_DEVICE_NOT_ENABLED",
+      "Message": "",
+      "DecimalCode": -2147201016,
+      "HexCode": "0x80045008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_DRIVER",
+      "Message": "",
+      "DecimalCode": -2147201015,
+      "HexCode": "0x80045009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_FILE_MUST_BE_UNICODE",
+      "Message": "",
+      "DecimalCode": -2147201014,
+      "HexCode": "0x8004500a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_PHRASE_ID",
+      "Message": "",
+      "DecimalCode": -2147201012,
+      "HexCode": "0x8004500c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -2147201011,
+      "HexCode": "0x8004500d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_FORMAT_NOT_SPECIFIED",
+      "Message": "",
+      "DecimalCode": -2147201010,
+      "HexCode": "0x8004500e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_AUDIO_STOPPED",
+      "Message": "",
+      "DecimalCode": -2147201009,
+      "HexCode": "0x8004500f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_RULE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147201007,
+      "HexCode": "0x80045011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TTS_ENGINE_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2147201006,
+      "HexCode": "0x80045012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TTS_NLP_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2147201005,
+      "HexCode": "0x80045013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ENGINE_BUSY",
+      "Message": "",
+      "DecimalCode": -2147201004,
+      "HexCode": "0x80045014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_CANT_CREATE",
+      "Message": "",
+      "DecimalCode": -2147201001,
+      "HexCode": "0x80045017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_IN_LEX",
+      "Message": "",
+      "DecimalCode": -2147200999,
+      "HexCode": "0x80045019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_LEX_VERY_OUT_OF_SYNC",
+      "Message": "",
+      "DecimalCode": -2147200997,
+      "HexCode": "0x8004501b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_UNDEFINED_FORWARD_RULE_REF",
+      "Message": "",
+      "DecimalCode": -2147200996,
+      "HexCode": "0x8004501c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_EMPTY_RULE",
+      "Message": "",
+      "DecimalCode": -2147200995,
+      "HexCode": "0x8004501d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_GRAMMAR_COMPILER_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": -2147200994,
+      "HexCode": "0x8004501e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_RULE_NOT_DYNAMIC",
+      "Message": "",
+      "DecimalCode": -2147200993,
+      "HexCode": "0x8004501f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_DUPLICATE_RULE_NAME",
+      "Message": "",
+      "DecimalCode": -2147200992,
+      "HexCode": "0x80045020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_DUPLICATE_RESOURCE_NAME",
+      "Message": "",
+      "DecimalCode": -2147200991,
+      "HexCode": "0x80045021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TOO_MANY_GRAMMARS",
+      "Message": "",
+      "DecimalCode": -2147200990,
+      "HexCode": "0x80045022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_CIRCULAR_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2147200989,
+      "HexCode": "0x80045023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_IMPORT",
+      "Message": "",
+      "DecimalCode": -2147200988,
+      "HexCode": "0x80045024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_WAV_FILE",
+      "Message": "",
+      "DecimalCode": -2147200987,
+      "HexCode": "0x80045025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ALL_WORDS_OPTIONAL",
+      "Message": "",
+      "DecimalCode": -2147200985,
+      "HexCode": "0x80045027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INSTANCE_CHANGE_INVALID",
+      "Message": "",
+      "DecimalCode": -2147200984,
+      "HexCode": "0x80045028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_RULE_NAME_ID_CONFLICT",
+      "Message": "",
+      "DecimalCode": -2147200983,
+      "HexCode": "0x80045029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_RULES",
+      "Message": "",
+      "DecimalCode": -2147200982,
+      "HexCode": "0x8004502a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_CIRCULAR_RULE_REF",
+      "Message": "",
+      "DecimalCode": -2147200981,
+      "HexCode": "0x8004502b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_HANDLE",
+      "Message": "",
+      "DecimalCode": -2147200979,
+      "HexCode": "0x8004502d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REMOTE_CALL_TIMED_OUT",
+      "Message": "",
+      "DecimalCode": -2147200978,
+      "HexCode": "0x8004502e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_AUDIO_BUFFER_OVERFLOW",
+      "Message": "",
+      "DecimalCode": -2147200977,
+      "HexCode": "0x8004502f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_AUDIO_DATA",
+      "Message": "",
+      "DecimalCode": -2147200976,
+      "HexCode": "0x80045030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_DEAD_ALTERNATE",
+      "Message": "",
+      "DecimalCode": -2147200975,
+      "HexCode": "0x80045031",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_HIGH_LOW_CONFIDENCE",
+      "Message": "",
+      "DecimalCode": -2147200974,
+      "HexCode": "0x80045032",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_FORMAT_STRING",
+      "Message": "",
+      "DecimalCode": -2147200973,
+      "HexCode": "0x80045033",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_APPLEX_READ_ONLY",
+      "Message": "",
+      "DecimalCode": -2147200971,
+      "HexCode": "0x80045035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_TERMINATING_RULE_PATH",
+      "Message": "",
+      "DecimalCode": -2147200970,
+      "HexCode": "0x80045036",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STREAM_CLOSED",
+      "Message": "",
+      "DecimalCode": -2147200968,
+      "HexCode": "0x80045038",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_MORE_ITEMS",
+      "Message": "",
+      "DecimalCode": -2147200967,
+      "HexCode": "0x80045039",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147200966,
+      "HexCode": "0x8004503a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_AUDIO_STATE",
+      "Message": "",
+      "DecimalCode": -2147200965,
+      "HexCode": "0x8004503b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_GENERIC_MMSYS_ERROR",
+      "Message": "",
+      "DecimalCode": -2147200964,
+      "HexCode": "0x8004503c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_MARSHALER_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2147200963,
+      "HexCode": "0x8004503d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_DYNAMIC_GRAMMAR",
+      "Message": "",
+      "DecimalCode": -2147200962,
+      "HexCode": "0x8004503e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_AMBIGUOUS_PROPERTY",
+      "Message": "",
+      "DecimalCode": -2147200961,
+      "HexCode": "0x8004503f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_REGISTRY_KEY",
+      "Message": "",
+      "DecimalCode": -2147200960,
+      "HexCode": "0x80045040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_INVALID_TOKEN_ID",
+      "Message": "",
+      "DecimalCode": -2147200959,
+      "HexCode": "0x80045041",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_XML_BAD_SYNTAX",
+      "Message": "",
+      "DecimalCode": -2147200958,
+      "HexCode": "0x80045042",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_XML_RESOURCE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147200957,
+      "HexCode": "0x80045043",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TOKEN_IN_USE",
+      "Message": "",
+      "DecimalCode": -2147200956,
+      "HexCode": "0x80045044",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TOKEN_DELETED",
+      "Message": "",
+      "DecimalCode": -2147200955,
+      "HexCode": "0x80045045",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_MULTI_LINGUAL_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147200954,
+      "HexCode": "0x80045046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_EXPORT_DYNAMIC_RULE",
+      "Message": "",
+      "DecimalCode": -2147200953,
+      "HexCode": "0x80045047",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STGF_ERROR",
+      "Message": "",
+      "DecimalCode": -2147200952,
+      "HexCode": "0x80045048",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_WORDFORMAT_ERROR",
+      "Message": "",
+      "DecimalCode": -2147200951,
+      "HexCode": "0x80045049",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STREAM_NOT_ACTIVE",
+      "Message": "",
+      "DecimalCode": -2147200950,
+      "HexCode": "0x8004504a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ENGINE_RESPONSE_INVALID",
+      "Message": "",
+      "DecimalCode": -2147200949,
+      "HexCode": "0x8004504b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SR_ENGINE_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2147200948,
+      "HexCode": "0x8004504c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STREAM_POS_INVALID",
+      "Message": "",
+      "DecimalCode": -2147200947,
+      "HexCode": "0x8004504d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REMOTE_CALL_ON_WRONG_THREAD",
+      "Message": "",
+      "DecimalCode": -2147200945,
+      "HexCode": "0x8004504f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REMOTE_PROCESS_TERMINATED",
+      "Message": "",
+      "DecimalCode": -2147200944,
+      "HexCode": "0x80045050",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REMOTE_PROCESS_ALREADY_RUNNING",
+      "Message": "",
+      "DecimalCode": -2147200943,
+      "HexCode": "0x80045051",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_LANGID_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147200942,
+      "HexCode": "0x80045052",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_TOPLEVEL_RULE",
+      "Message": "",
+      "DecimalCode": -2147200940,
+      "HexCode": "0x80045054",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_LEX_REQUIRES_COOKIE",
+      "Message": "",
+      "DecimalCode": -2147200938,
+      "HexCode": "0x80045056",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_UNSUPPORTED_LANG",
+      "Message": "",
+      "DecimalCode": -2147200935,
+      "HexCode": "0x80045059",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_VOICE_PAUSED",
+      "Message": "",
+      "DecimalCode": -2147200934,
+      "HexCode": "0x8004505a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_AUDIO_BUFFER_UNDERFLOW",
+      "Message": "",
+      "DecimalCode": -2147200933,
+      "HexCode": "0x8004505b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_AUDIO_STOPPED_UNEXPECTEDLY",
+      "Message": "",
+      "DecimalCode": -2147200932,
+      "HexCode": "0x8004505c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_WORD_PRONUNCIATION",
+      "Message": "",
+      "DecimalCode": -2147200931,
+      "HexCode": "0x8004505d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ALTERNATES_WOULD_BE_INCONSISTENT",
+      "Message": "",
+      "DecimalCode": -2147200930,
+      "HexCode": "0x8004505e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_SUPPORTED_FOR_SHARED_RECOGNIZER",
+      "Message": "",
+      "DecimalCode": -2147200929,
+      "HexCode": "0x8004505f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -2147200928,
+      "HexCode": "0x80045060",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REENTER_SYNCHRONIZE",
+      "Message": "",
+      "DecimalCode": -2147200927,
+      "HexCode": "0x80045061",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STATE_WITH_NO_ARCS",
+      "Message": "",
+      "DecimalCode": -2147200926,
+      "HexCode": "0x80045062",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_ACTIVE_SESSION",
+      "Message": "",
+      "DecimalCode": -2147200925,
+      "HexCode": "0x80045063",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ALREADY_DELETED",
+      "Message": "",
+      "DecimalCode": -2147200924,
+      "HexCode": "0x80045064",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_RECOXML_GENERATION_FAIL",
+      "Message": "",
+      "DecimalCode": -2147200922,
+      "HexCode": "0x80045066",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SML_GENERATION_FAIL",
+      "Message": "",
+      "DecimalCode": -2147200921,
+      "HexCode": "0x80045067",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_PROMPT_VOICE",
+      "Message": "",
+      "DecimalCode": -2147200920,
+      "HexCode": "0x80045068",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_ROOTRULE_ALREADY_DEFINED",
+      "Message": "",
+      "DecimalCode": -2147200919,
+      "HexCode": "0x80045069",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SCRIPT_DISALLOWED",
+      "Message": "",
+      "DecimalCode": -2147200912,
+      "HexCode": "0x80045070",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REMOTE_CALL_TIMED_OUT_START",
+      "Message": "",
+      "DecimalCode": -2147200911,
+      "HexCode": "0x80045071",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_REMOTE_CALL_TIMED_OUT_CONNECT",
+      "Message": "",
+      "DecimalCode": -2147200910,
+      "HexCode": "0x80045072",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SECMGR_CHANGE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147200909,
+      "HexCode": "0x80045073",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_FAILED_TO_DELETE_FILE",
+      "Message": "",
+      "DecimalCode": -2147200907,
+      "HexCode": "0x80045075",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SHARED_ENGINE_DISABLED",
+      "Message": "",
+      "DecimalCode": -2147200906,
+      "HexCode": "0x80045076",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_RECOGNIZER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147200905,
+      "HexCode": "0x80045077",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_AUDIO_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147200904,
+      "HexCode": "0x80045078",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NO_VOWEL",
+      "Message": "",
+      "DecimalCode": -2147200903,
+      "HexCode": "0x80045079",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_UNSUPPORTED_PHONEME",
+      "Message": "",
+      "DecimalCode": -2147200902,
+      "HexCode": "0x8004507a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_WORD_NEEDS_NORMALIZATION",
+      "Message": "",
+      "DecimalCode": -2147200899,
+      "HexCode": "0x8004507d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_CANNOT_NORMALIZE",
+      "Message": "",
+      "DecimalCode": -2147200898,
+      "HexCode": "0x8004507e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_TOPIC_NOT_ADAPTABLE",
+      "Message": "",
+      "DecimalCode": -2147200895,
+      "HexCode": "0x80045081",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_PHONEME_CONVERSION",
+      "Message": "",
+      "DecimalCode": -2147200894,
+      "HexCode": "0x80045082",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NOT_SUPPORTED_FOR_INPROC_RECOGNIZER",
+      "Message": "",
+      "DecimalCode": -2147200893,
+      "HexCode": "0x80045083",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_OVERLOAD",
+      "Message": "",
+      "DecimalCode": -2147200892,
+      "HexCode": "0x80045084",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_LEX_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": -2147200891,
+      "HexCode": "0x80045085",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_CFG_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": -2147200890,
+      "HexCode": "0x80045086",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_LEX_UNEXPECTED_FORMAT",
+      "Message": "",
+      "DecimalCode": -2147200889,
+      "HexCode": "0x80045087",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STRING_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -2147200888,
+      "HexCode": "0x80045088",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_STRING_EMPTY",
+      "Message": "",
+      "DecimalCode": -2147200887,
+      "HexCode": "0x80045089",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_NON_WORD_TRANSITION",
+      "Message": "",
+      "DecimalCode": -2147200880,
+      "HexCode": "0x80045090",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SISR_ATTRIBUTES_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147200879,
+      "HexCode": "0x80045091",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_SISR_MIXED_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147200878,
+      "HexCode": "0x80045092",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPERR_VOICE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147200877,
+      "HexCode": "0x80045093",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

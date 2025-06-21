@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "ctffunc.h",
+  "ErrorCodes": [
+    {
+      "Id": "TF_E_NOCONVERSION",
+      "Message": "",
+      "DecimalCode": -2147219968,
+      "HexCode": "0x80040600",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

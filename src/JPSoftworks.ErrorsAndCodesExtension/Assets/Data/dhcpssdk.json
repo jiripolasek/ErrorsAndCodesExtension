@@ -1,0 +1,153 @@
+{
+  "HeaderFileName": "dhcpssdk.h",
+  "ErrorCodes": [
+    {
+      "Id": "DHCP_DROP_DUPLICATE",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_NOMEM",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_UNAUTH",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_PAUSED",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_NO_SUBNETS",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_INVALID",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_WRONG_SERVER",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_NOADDRESS",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_PROCESSED",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_DROP_GEN_FAILURE",
+      "Message": "",
+      "DecimalCode": 256,
+      "HexCode": "0x100",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DHCP_SEND_PACKET",
+      "Message": "",
+      "DecimalCode": 268435456,
+      "HexCode": "0x10000000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_PROB_CONFLICT",
+      "Message": "",
+      "DecimalCode": 536870913,
+      "HexCode": "0x20000001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_PROB_DECLINE",
+      "Message": "",
+      "DecimalCode": 536870914,
+      "HexCode": "0x20000002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_PROB_RELEASE",
+      "Message": "",
+      "DecimalCode": 536870915,
+      "HexCode": "0x20000003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_PROB_NACKED",
+      "Message": "",
+      "DecimalCode": 536870916,
+      "HexCode": "0x20000004",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_GIVE_ADDRESS_NEW",
+      "Message": "",
+      "DecimalCode": 805306369,
+      "HexCode": "0x30000001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_GIVE_ADDRESS_OLD",
+      "Message": "",
+      "DecimalCode": 805306370,
+      "HexCode": "0x30000002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_CLIENT_BOOTP",
+      "Message": "",
+      "DecimalCode": 805306371,
+      "HexCode": "0x30000003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DHCP_CLIENT_DHCP",
+      "Message": "",
+      "DecimalCode": 805306372,
+      "HexCode": "0x30000004",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

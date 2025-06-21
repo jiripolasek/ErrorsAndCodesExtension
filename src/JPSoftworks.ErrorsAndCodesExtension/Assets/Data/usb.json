@@ -1,0 +1,426 @@
+{
+  "HeaderFileName": "usb.h",
+  "ErrorCodes": [
+    {
+      "Id": "USBD_STATUS_SUCCESS",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "USBD_STATUS_PORT_OPERATION_PENDING",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "USBD_STATUS_PENDING",
+      "Message": "",
+      "DecimalCode": 1073741824,
+      "HexCode": "0x40000000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "USBD_STATUS_CRC",
+      "Message": "",
+      "DecimalCode": -1073741823,
+      "HexCode": "0xc0000001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BTSTUFF",
+      "Message": "",
+      "DecimalCode": -1073741822,
+      "HexCode": "0xc0000002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_DATA_TOGGLE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1073741821,
+      "HexCode": "0xc0000003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_STALL_PID",
+      "Message": "",
+      "DecimalCode": -1073741820,
+      "HexCode": "0xc0000004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_DEV_NOT_RESPONDING",
+      "Message": "",
+      "DecimalCode": -1073741819,
+      "HexCode": "0xc0000005",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_PID_CHECK_FAILURE",
+      "Message": "",
+      "DecimalCode": -1073741818,
+      "HexCode": "0xc0000006",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_UNEXPECTED_PID",
+      "Message": "",
+      "DecimalCode": -1073741817,
+      "HexCode": "0xc0000007",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_DATA_OVERRUN",
+      "Message": "",
+      "DecimalCode": -1073741816,
+      "HexCode": "0xc0000008",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_DATA_UNDERRUN",
+      "Message": "",
+      "DecimalCode": -1073741815,
+      "HexCode": "0xc0000009",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_RESERVED1",
+      "Message": "",
+      "DecimalCode": -1073741814,
+      "HexCode": "0xc000000a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_RESERVED2",
+      "Message": "",
+      "DecimalCode": -1073741813,
+      "HexCode": "0xc000000b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BUFFER_OVERRUN",
+      "Message": "",
+      "DecimalCode": -1073741812,
+      "HexCode": "0xc000000c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BUFFER_UNDERRUN",
+      "Message": "",
+      "DecimalCode": -1073741811,
+      "HexCode": "0xc000000d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_NOT_ACCESSED",
+      "Message": "",
+      "DecimalCode": -1073741809,
+      "HexCode": "0xc000000f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_FIFO",
+      "Message": "",
+      "DecimalCode": -1073741808,
+      "HexCode": "0xc0000010",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_XACT_ERROR",
+      "Message": "",
+      "DecimalCode": -1073741807,
+      "HexCode": "0xc0000011",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BABBLE_DETECTED",
+      "Message": "",
+      "DecimalCode": -1073741806,
+      "HexCode": "0xc0000012",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_DATA_BUFFER_ERROR",
+      "Message": "",
+      "DecimalCode": -1073741805,
+      "HexCode": "0xc0000013",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_NO_PING_RESPONSE",
+      "Message": "",
+      "DecimalCode": -1073741804,
+      "HexCode": "0xc0000014",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_INVALID_STREAM_TYPE",
+      "Message": "",
+      "DecimalCode": -1073741803,
+      "HexCode": "0xc0000015",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_INVALID_STREAM_ID",
+      "Message": "",
+      "DecimalCode": -1073741802,
+      "HexCode": "0xc0000016",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_ENDPOINT_HALTED",
+      "Message": "",
+      "DecimalCode": -1073741776,
+      "HexCode": "0xc0000030",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_INVALID_URB_FUNCTION",
+      "Message": "",
+      "DecimalCode": -2147483136,
+      "HexCode": "0x80000200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_INVALID_PARAMETER",
+      "Message": "",
+      "DecimalCode": -2147482880,
+      "HexCode": "0x80000300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_ERROR_BUSY",
+      "Message": "",
+      "DecimalCode": -2147482624,
+      "HexCode": "0x80000400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_INVALID_PIPE_HANDLE",
+      "Message": "",
+      "DecimalCode": -2147482112,
+      "HexCode": "0x80000600",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_NO_BANDWIDTH",
+      "Message": "",
+      "DecimalCode": -2147481856,
+      "HexCode": "0x80000700",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_INTERNAL_HC_ERROR",
+      "Message": "",
+      "DecimalCode": -2147481600,
+      "HexCode": "0x80000800",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_ERROR_SHORT_TRANSFER",
+      "Message": "",
+      "DecimalCode": -2147481344,
+      "HexCode": "0x80000900",
+      "Type": "HResult"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_START_FRAME",
+      "Message": "",
+      "DecimalCode": -1073739264,
+      "HexCode": "0xc0000a00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_ISOCH_REQUEST_FAILED",
+      "Message": "",
+      "DecimalCode": -1073739008,
+      "HexCode": "0xc0000b00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_FRAME_CONTROL_OWNED",
+      "Message": "",
+      "DecimalCode": -1073738752,
+      "HexCode": "0xc0000c00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_FRAME_CONTROL_NOT_OWNED",
+      "Message": "",
+      "DecimalCode": -1073738496,
+      "HexCode": "0xc0000d00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -1073738240,
+      "HexCode": "0xc0000e00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_INSUFFICIENT_RESOURCES",
+      "Message": "",
+      "DecimalCode": -1073737728,
+      "HexCode": "0xc0001000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_SET_CONFIG_FAILED",
+      "Message": "",
+      "DecimalCode": -1073733632,
+      "HexCode": "0xc0002000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -1073729536,
+      "HexCode": "0xc0003000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_INTERFACE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073725440,
+      "HexCode": "0xc0004000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_INAVLID_PIPE_FLAGS",
+      "Message": "",
+      "DecimalCode": -1073721344,
+      "HexCode": "0xc0005000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -1073717248,
+      "HexCode": "0xc0006000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_DEVICE_GONE",
+      "Message": "",
+      "DecimalCode": -1073713152,
+      "HexCode": "0xc0007000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_STATUS_NOT_MAPPED",
+      "Message": "",
+      "DecimalCode": -1073709056,
+      "HexCode": "0xc0008000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_HUB_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": -1073704960,
+      "HexCode": "0xc0009000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_CANCELED",
+      "Message": "",
+      "DecimalCode": -1073676288,
+      "HexCode": "0xc0010000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_ISO_NOT_ACCESSED_BY_HW",
+      "Message": "",
+      "DecimalCode": -1073610752,
+      "HexCode": "0xc0020000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_ISO_TD_ERROR",
+      "Message": "",
+      "DecimalCode": -1073545216,
+      "HexCode": "0xc0030000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_ISO_NA_LATE_USBPORT",
+      "Message": "",
+      "DecimalCode": -1073479680,
+      "HexCode": "0xc0040000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_ISO_NOT_ACCESSED_LATE",
+      "Message": "",
+      "DecimalCode": -1073414144,
+      "HexCode": "0xc0050000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_DESCRIPTOR",
+      "Message": "",
+      "DecimalCode": -1072693248,
+      "HexCode": "0xc0100000",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_DESCRIPTOR_BLEN",
+      "Message": "",
+      "DecimalCode": -1072693247,
+      "HexCode": "0xc0100001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_DESCRIPTOR_TYPE",
+      "Message": "",
+      "DecimalCode": -1072693246,
+      "HexCode": "0xc0100002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_INTERFACE_DESCRIPTOR",
+      "Message": "",
+      "DecimalCode": -1072693245,
+      "HexCode": "0xc0100003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_ENDPOINT_DESCRIPTOR",
+      "Message": "",
+      "DecimalCode": -1072693244,
+      "HexCode": "0xc0100004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_CONFIG_DESC_LENGTH",
+      "Message": "",
+      "DecimalCode": -1072693242,
+      "HexCode": "0xc0100006",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_NUMBER_OF_INTERFACES",
+      "Message": "",
+      "DecimalCode": -1072693241,
+      "HexCode": "0xc0100007",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_NUMBER_OF_ENDPOINTS",
+      "Message": "",
+      "DecimalCode": -1072693240,
+      "HexCode": "0xc0100008",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "USBD_STATUS_BAD_ENDPOINT_ADDRESS",
+      "Message": "",
+      "DecimalCode": -1072693239,
+      "HexCode": "0xc0100009",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

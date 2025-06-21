@@ -1,0 +1,573 @@
+{
+  "HeaderFileName": "iiscnfg.h",
+  "ErrorCodes": [
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_DESTINATION",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_DEPTH",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_IF",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_OVERWRITE",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_TRANSLATE",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_REQUEST_BODY",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_CONTENT_LENGTH",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_LOCK_TOKEN",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_XFF_HEADER",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB400_INVALID_WEBSOCKET_REQUEST",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB401_LOGON",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB401_LOGON_CONFIG",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB401_LOGON_ACL",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB401_FILTER",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB401_APPLICATION",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB401_URLAUTH_POLICY",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_EXECUTE_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_READ_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_WRITE_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_SSL_REQUIRED",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_SSL128_REQUIRED",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_ADDR_REJECT",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_CERT_REQUIRED",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_SITE_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_TOO_MANY_USERS",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_INVALID_CNFG",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_PWD_CHANGE",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_MAPPER_DENY_ACCESS",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_DIR_LIST_DENIED",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_CAL_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_CERT_BAD",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_CERT_TIME_INVALID",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_APPPOOL_DENIED",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_INSUFFICIENT_PRIVILEGE_FOR_CGI",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_PASSPORT_LOGIN_FAILURE",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_SOURCE_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_INFINITE_DEPTH_DENIED",
+      "Message": "",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_LOCK_TOKEN_REQUIRED",
+      "Message": "",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB403_VALIDATION_FAILURE",
+      "Message": "",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_SITE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_DENIED_BY_POLICY",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_DENIED_BY_MIMEMAP",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_NO_HANDLER",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_URL_SEQUENCE_DENIED",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_VERB_DENIED",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_FILE_EXTENSION_DENIED",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_HIDDEN_SEGMENT",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_FILE_ATTRIBUTE_HIDDEN",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_REQUEST_HEADER_TOO_LONG",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_URL_DOUBLE_ESCAPED",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_URL_HAS_HIGH_BIT_CHARS",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_CONTENT_LENGTH_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_URL_TOO_LONG",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_QUERY_STRING_TOO_LONG",
+      "Message": "",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_STATICFILE_DAV",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_PRECONDITIONED_HANDLER",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_QUERY_STRING_SEQUENCE_DENIED",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_DENIED_BY_FILTERING_RULE",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB404_TOO_MANY_URL_SEGMENTS",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB423_LOCK_TOKEN_SUBMITTED",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB423_NO_CONFLICTING_LOCK",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_UNC_ACCESS",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_URLAUTH_NO_STORE",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_URLAUTH_STORE_ERROR",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_BAD_METADATA",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_URLAUTH_NO_SCOPE",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_HANDLERS_MODULE",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_ASPNET_MODULES",
+      "Message": "",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_ASPNET_HANDLERS",
+      "Message": "",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB500_ASPNET_IMPERSONATION",
+      "Message": "",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB502_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB502_PREMATURE_EXIT",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB502_ARR_CONNECTION_ERROR",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB502_ARR_NO_SERVER",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB503_CPU_LIMIT",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB503_APP_CONCURRENT",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB503_ASPNET_QUEUE_FULL",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB503_FASTCGI_QUEUE_FULL",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MD_ERROR_SUB503_CONNECTION_LIMIT",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

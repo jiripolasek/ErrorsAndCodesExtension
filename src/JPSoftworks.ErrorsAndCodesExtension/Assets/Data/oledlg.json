@@ -1,0 +1,132 @@
+{
+  "HeaderFileName": "oledlg.h",
+  "ErrorCodes": [
+    {
+      "Id": "OLEUI_ERR_STANDARDMIN",
+      "Message": "",
+      "DecimalCode": 100,
+      "HexCode": "0x64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_OLEMEMALLOC",
+      "Message": "",
+      "DecimalCode": 100,
+      "HexCode": "0x64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_STRUCTURENULL",
+      "Message": "",
+      "DecimalCode": 101,
+      "HexCode": "0x65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_STRUCTUREINVALID",
+      "Message": "",
+      "DecimalCode": 102,
+      "HexCode": "0x66",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_CBSTRUCTINCORRECT",
+      "Message": "",
+      "DecimalCode": 103,
+      "HexCode": "0x67",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_HWNDOWNERINVALID",
+      "Message": "",
+      "DecimalCode": 104,
+      "HexCode": "0x68",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_LPSZCAPTIONINVALID",
+      "Message": "",
+      "DecimalCode": 105,
+      "HexCode": "0x69",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_LPFNHOOKINVALID",
+      "Message": "",
+      "DecimalCode": 106,
+      "HexCode": "0x6a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_HINSTANCEINVALID",
+      "Message": "",
+      "DecimalCode": 107,
+      "HexCode": "0x6b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_LPSZTEMPLATEINVALID",
+      "Message": "",
+      "DecimalCode": 108,
+      "HexCode": "0x6c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_HRESOURCEINVALID",
+      "Message": "",
+      "DecimalCode": 109,
+      "HexCode": "0x6d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_FINDTEMPLATEFAILURE",
+      "Message": "",
+      "DecimalCode": 110,
+      "HexCode": "0x6e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_LOADTEMPLATEFAILURE",
+      "Message": "",
+      "DecimalCode": 111,
+      "HexCode": "0x6f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_DIALOGFAILURE",
+      "Message": "",
+      "DecimalCode": 112,
+      "HexCode": "0x70",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_LOCALMEMALLOC",
+      "Message": "",
+      "DecimalCode": 113,
+      "HexCode": "0x71",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_GLOBALMEMALLOC",
+      "Message": "",
+      "DecimalCode": 114,
+      "HexCode": "0x72",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_LOADSTRING",
+      "Message": "",
+      "DecimalCode": 115,
+      "HexCode": "0x73",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLEUI_ERR_STANDARDMAX",
+      "Message": "",
+      "DecimalCode": 116,
+      "HexCode": "0x74",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

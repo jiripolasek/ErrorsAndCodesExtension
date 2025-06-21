@@ -1,0 +1,69 @@
+{
+  "HeaderFileName": "d3dx10.h",
+  "ErrorCodes": [
+    {
+      "Id": "D3DX10_ERR_CANNOT_MODIFY_INDEX_BUFFER",
+      "Message": "",
+      "DecimalCode": -2005529772,
+      "HexCode": "0x88760b54",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_INVALID_MESH",
+      "Message": "",
+      "DecimalCode": -2005529771,
+      "HexCode": "0x88760b55",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_CANNOT_ATTR_SORT",
+      "Message": "",
+      "DecimalCode": -2005529770,
+      "HexCode": "0x88760b56",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_SKINNING_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005529769,
+      "HexCode": "0x88760b57",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_TOO_MANY_INFLUENCES",
+      "Message": "",
+      "DecimalCode": -2005529768,
+      "HexCode": "0x88760b58",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": -2005529767,
+      "HexCode": "0x88760b59",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_LOADED_MESH_HAS_NO_DATA",
+      "Message": "",
+      "DecimalCode": -2005529766,
+      "HexCode": "0x88760b5a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_DUPLICATE_NAMED_FRAGMENT",
+      "Message": "",
+      "DecimalCode": -2005529765,
+      "HexCode": "0x88760b5b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DX10_ERR_CANNOT_REMOVE_LAST_ITEM",
+      "Message": "",
+      "DecimalCode": -2005529764,
+      "HexCode": "0x88760b5c",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

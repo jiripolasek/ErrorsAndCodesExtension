@@ -1,0 +1,118 @@
+{
+  "HeaderFileName": "netcfgx.h",
+  "ErrorCodes": [
+    {
+      "Id": "NETCFG_E_ALREADY_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147180512,
+      "HexCode": "0x8004a020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147180511,
+      "HexCode": "0x8004a021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_IN_USE",
+      "Message": "",
+      "DecimalCode": -2147180510,
+      "HexCode": "0x8004a022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_NO_WRITE_LOCK",
+      "Message": "",
+      "DecimalCode": -2147180508,
+      "HexCode": "0x8004a024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_NEED_REBOOT",
+      "Message": "",
+      "DecimalCode": -2147180507,
+      "HexCode": "0x8004a025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_ACTIVE_RAS_CONNECTIONS",
+      "Message": "",
+      "DecimalCode": -2147180506,
+      "HexCode": "0x8004a026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_ADAPTER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147180505,
+      "HexCode": "0x8004a027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_COMPONENT_REMOVED_PENDING_REBOOT",
+      "Message": "",
+      "DecimalCode": -2147180504,
+      "HexCode": "0x8004a028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_MAX_FILTER_LIMIT",
+      "Message": "",
+      "DecimalCode": -2147180503,
+      "HexCode": "0x8004a029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_VMSWITCH_ACTIVE_OVER_ADAPTER",
+      "Message": "",
+      "DecimalCode": -2147180502,
+      "HexCode": "0x8004a02a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_E_DUPLICATE_INSTANCEID",
+      "Message": "",
+      "DecimalCode": -2147180501,
+      "HexCode": "0x8004a02b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCFG_S_REBOOT",
+      "Message": "",
+      "DecimalCode": 303136,
+      "HexCode": "0x4a020",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "NETCFG_S_DISABLE_QUERY",
+      "Message": "",
+      "DecimalCode": 303138,
+      "HexCode": "0x4a022",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "NETCFG_S_STILL_REFERENCED",
+      "Message": "",
+      "DecimalCode": 303139,
+      "HexCode": "0x4a023",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "NETCFG_S_CAUSED_SETUP_CHANGE",
+      "Message": "",
+      "DecimalCode": 303140,
+      "HexCode": "0x4a024",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "NETCFG_S_COMMIT_NOW",
+      "Message": "",
+      "DecimalCode": 303141,
+      "HexCode": "0x4a025",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

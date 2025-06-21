@@ -1,0 +1,279 @@
+{
+  "HeaderFileName": "nb30.h",
+  "ErrorCodes": [
+    {
+      "Id": "NRC_GOODRET",
+      "Message": "/* good return                                */",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_BUFLEN",
+      "Message": "/* illegal buffer length                      */",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_ILLCMD",
+      "Message": "/* illegal command                            */",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_CMDTMO",
+      "Message": "/* command timed out                          */",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_INCOMP",
+      "Message": "/* message incomplete, issue another command  */",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_BADDR",
+      "Message": "/* illegal buffer address                     */",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_SNUMOUT",
+      "Message": "/* session number out of range                */",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NORES",
+      "Message": "/* no resource available                      */",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_SCLOSED",
+      "Message": "/* session closed                             */",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_CMDCAN",
+      "Message": "/* command cancelled                          */",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_DUPNAME",
+      "Message": "/* duplicate name                             */",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NAMTFUL",
+      "Message": "/* name table full                            */",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_ACTSES",
+      "Message": "/* no deletions, name has active sessions     */",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_LOCTFUL",
+      "Message": "/* local session table full                   */",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_REMTFUL",
+      "Message": "/* remote session table full                  */",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_ILLNN",
+      "Message": "/* illegal name number                        */",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NOCALL",
+      "Message": "/* no callname                                */",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NOWILD",
+      "Message": "/* cannot put * in NCB_NAME                   */",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_INUSE",
+      "Message": "/* name in use on remote adapter              */",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NAMERR",
+      "Message": "/* name deleted                               */",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_SABORT",
+      "Message": "/* session ended abnormally                   */",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NAMCONF",
+      "Message": "/* name conflict detected                     */",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_IFBUSY",
+      "Message": "/* interface busy, IRET before retrying       */",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_TOOMANY",
+      "Message": "/* too many commands outstanding, retry later */",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_BRIDGE",
+      "Message": "/* ncb_lana_num field invalid                 */",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_CANOCCR",
+      "Message": "/* command completed while cancel occurring   */",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_CANCEL",
+      "Message": "/* command not valid to cancel                */",
+      "DecimalCode": 38,
+      "HexCode": "0x26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_DUPENV",
+      "Message": "/* name defined by anther local process       */",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_ENVNOTDEF",
+      "Message": "/* environment undefined. RESET required      */",
+      "DecimalCode": 52,
+      "HexCode": "0x34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_OSRESNOTAV",
+      "Message": "/* required OS resources exhausted            */",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_MAXAPPS",
+      "Message": "/* max number of applications exceeded        */",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NOSAPS",
+      "Message": "/* no saps available for netbios              */",
+      "DecimalCode": 55,
+      "HexCode": "0x37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_NORESOURCES",
+      "Message": "/* requested resources are not available      */",
+      "DecimalCode": 56,
+      "HexCode": "0x38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_INVADDRESS",
+      "Message": "/* invalid ncb address or length \u0026gt; segment    */",
+      "DecimalCode": 57,
+      "HexCode": "0x39",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_INVDDID",
+      "Message": "/* invalid NCB DDID                           */",
+      "DecimalCode": 59,
+      "HexCode": "0x3b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_LOCKFAIL",
+      "Message": "/* lock of user area failed                   */",
+      "DecimalCode": 60,
+      "HexCode": "0x3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_OPENERR",
+      "Message": "/* NETBIOS not loaded                         */",
+      "DecimalCode": 63,
+      "HexCode": "0x3f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_SYSTEM",
+      "Message": "/* system error                               */",
+      "DecimalCode": 64,
+      "HexCode": "0x40",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NRC_PENDING",
+      "Message": "/* asynchronous command is not yet finished   */",
+      "DecimalCode": 255,
+      "HexCode": "0xff",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

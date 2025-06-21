@@ -1,0 +1,342 @@
+{
+  "HeaderFileName": "eaphosterror.h",
+  "ErrorCodes": [
+    {
+      "Id": "EAP_E_EAPHOST_FIRST",
+      "Message": "",
+      "DecimalCode": -2143158272,
+      "HexCode": "0x80420000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_LAST",
+      "Message": "",
+      "DecimalCode": -2143158017,
+      "HexCode": "0x804200ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_I_EAPHOST_FIRST",
+      "Message": "",
+      "DecimalCode": -2143158272,
+      "HexCode": "0x80420000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_I_EAPHOST_LAST",
+      "Message": "",
+      "DecimalCode": -2143158017,
+      "HexCode": "0x804200ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_CERT_STORE_INACCESSIBLE",
+      "Message": "",
+      "DecimalCode": -2143158256,
+      "HexCode": "0x80420010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_METHOD_NOT_INSTALLED",
+      "Message": "",
+      "DecimalCode": -2143158255,
+      "HexCode": "0x80420011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_THIRDPARTY_METHOD_HOST_RESET",
+      "Message": "",
+      "DecimalCode": -2143158254,
+      "HexCode": "0x80420012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_EAPQEC_INACCESSIBLE",
+      "Message": "",
+      "DecimalCode": -2143158253,
+      "HexCode": "0x80420013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_IDENTITY_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -2143158252,
+      "HexCode": "0x80420014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_AUTHENTICATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2143158251,
+      "HexCode": "0x80420015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_I_EAPHOST_EAP_NEGOTIATION_FAILED",
+      "Message": "",
+      "DecimalCode": 1078067222,
+      "HexCode": "0x40420016",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_METHOD_INVALID_PACKET",
+      "Message": "",
+      "DecimalCode": -2143158249,
+      "HexCode": "0x80420017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_REMOTE_INVALID_PACKET",
+      "Message": "",
+      "DecimalCode": -2143158248,
+      "HexCode": "0x80420018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_XML_MALFORMED",
+      "Message": "",
+      "DecimalCode": -2143158247,
+      "HexCode": "0x80420019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_METHOD_CONFIG_DOES_NOT_SUPPORT_SSO",
+      "Message": "",
+      "DecimalCode": -2143158246,
+      "HexCode": "0x8042001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_EAPHOST_METHOD_OPERATION_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2143158240,
+      "HexCode": "0x80420020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_FIRST",
+      "Message": "",
+      "DecimalCode": -2143158016,
+      "HexCode": "0x80420100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_LAST",
+      "Message": "",
+      "DecimalCode": -2143157761,
+      "HexCode": "0x804201ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_I_USER_FIRST",
+      "Message": "",
+      "DecimalCode": 1078067456,
+      "HexCode": "0x40420100",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "EAP_I_USER_LAST",
+      "Message": "",
+      "DecimalCode": 1078067711,
+      "HexCode": "0x404201ff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "EAP_E_USER_CERT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2143158016,
+      "HexCode": "0x80420100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": -2143158015,
+      "HexCode": "0x80420101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_CERT_EXPIRED",
+      "Message": "",
+      "DecimalCode": -2143158014,
+      "HexCode": "0x80420102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": -2143158013,
+      "HexCode": "0x80420103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_CERT_OTHER_ERROR",
+      "Message": "",
+      "DecimalCode": -2143158012,
+      "HexCode": "0x80420104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_CERT_REJECTED",
+      "Message": "",
+      "DecimalCode": -2143158011,
+      "HexCode": "0x80420105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_I_USER_ACCOUNT_OTHER_ERROR",
+      "Message": "",
+      "DecimalCode": 1078067472,
+      "HexCode": "0x40420110",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "EAP_E_USER_CREDENTIALS_REJECTED",
+      "Message": "",
+      "DecimalCode": -2143157999,
+      "HexCode": "0x80420111",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_NAME_PASSWORD_REJECTED",
+      "Message": "",
+      "DecimalCode": -2143157998,
+      "HexCode": "0x80420112",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_NO_SMART_CARD_READER",
+      "Message": "",
+      "DecimalCode": -2143157997,
+      "HexCode": "0x80420113",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_FIRST",
+      "Message": "",
+      "DecimalCode": -2143157760,
+      "HexCode": "0x80420200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_LAST",
+      "Message": "",
+      "DecimalCode": -2143157505,
+      "HexCode": "0x804202ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_CERT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2143157760,
+      "HexCode": "0x80420200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": -2143157759,
+      "HexCode": "0x80420201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_CERT_EXPIRED",
+      "Message": "",
+      "DecimalCode": -2143157758,
+      "HexCode": "0x80420202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": -2143157757,
+      "HexCode": "0x80420203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_CERT_OTHER_ERROR",
+      "Message": "",
+      "DecimalCode": -2143157756,
+      "HexCode": "0x80420204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_ROOT_CERT_FIRST",
+      "Message": "",
+      "DecimalCode": -2143157504,
+      "HexCode": "0x80420300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_ROOT_CERT_LAST",
+      "Message": "",
+      "DecimalCode": -2143157249,
+      "HexCode": "0x804203ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_ROOT_CERT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2143157504,
+      "HexCode": "0x80420300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_ROOT_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": -2143157503,
+      "HexCode": "0x80420301",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_USER_ROOT_CERT_EXPIRED",
+      "Message": "",
+      "DecimalCode": -2143157502,
+      "HexCode": "0x80420302",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_ROOT_CERT_FIRST",
+      "Message": "",
+      "DecimalCode": -2143157248,
+      "HexCode": "0x80420400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_ROOT_CERT_LAST",
+      "Message": "",
+      "DecimalCode": -2143156993,
+      "HexCode": "0x804204ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_ROOT_CERT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2143157248,
+      "HexCode": "0x80420400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_ROOT_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": -2143157247,
+      "HexCode": "0x80420401",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SERVER_ROOT_CERT_NAME_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2143157242,
+      "HexCode": "0x80420406",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EAP_E_SIM_NOT_VALID",
+      "Message": "",
+      "DecimalCode": -2143156992,
+      "HexCode": "0x80420500",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

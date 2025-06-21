@@ -1,0 +1,349 @@
+{
+  "HeaderFileName": "ipexport.h",
+  "ErrorCodes": [
+    {
+      "Id": "IP_BUF_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": 11001,
+      "HexCode": "0x2af9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_NET_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11002,
+      "HexCode": "0x2afa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_HOST_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11003,
+      "HexCode": "0x2afb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_PROT_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11004,
+      "HexCode": "0x2afc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_PORT_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11005,
+      "HexCode": "0x2afd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_NO_RESOURCES",
+      "Message": "",
+      "DecimalCode": 11006,
+      "HexCode": "0x2afe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_BAD_OPTION",
+      "Message": "",
+      "DecimalCode": 11007,
+      "HexCode": "0x2aff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_HW_ERROR",
+      "Message": "",
+      "DecimalCode": 11008,
+      "HexCode": "0x2b00",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_PACKET_TOO_BIG",
+      "Message": "",
+      "DecimalCode": 11009,
+      "HexCode": "0x2b01",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_REQ_TIMED_OUT",
+      "Message": "",
+      "DecimalCode": 11010,
+      "HexCode": "0x2b02",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_BAD_REQ",
+      "Message": "",
+      "DecimalCode": 11011,
+      "HexCode": "0x2b03",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_BAD_ROUTE",
+      "Message": "",
+      "DecimalCode": 11012,
+      "HexCode": "0x2b04",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_TTL_EXPIRED_TRANSIT",
+      "Message": "",
+      "DecimalCode": 11013,
+      "HexCode": "0x2b05",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_TTL_EXPIRED_REASSEM",
+      "Message": "",
+      "DecimalCode": 11014,
+      "HexCode": "0x2b06",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_PARAM_PROBLEM",
+      "Message": "",
+      "DecimalCode": 11015,
+      "HexCode": "0x2b07",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_SOURCE_QUENCH",
+      "Message": "",
+      "DecimalCode": 11016,
+      "HexCode": "0x2b08",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_OPTION_TOO_BIG",
+      "Message": "",
+      "DecimalCode": 11017,
+      "HexCode": "0x2b09",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_BAD_DESTINATION",
+      "Message": "",
+      "DecimalCode": 11018,
+      "HexCode": "0x2b0a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_NO_ROUTE",
+      "Message": "",
+      "DecimalCode": 11002,
+      "HexCode": "0x2afa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_ADDR_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11003,
+      "HexCode": "0x2afb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_PROHIBITED",
+      "Message": "",
+      "DecimalCode": 11004,
+      "HexCode": "0x2afc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_PORT_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11005,
+      "HexCode": "0x2afd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_HOP_LIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 11013,
+      "HexCode": "0x2b05",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_REASSEMBLY_TIME_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 11014,
+      "HexCode": "0x2b06",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_PARAMETER_PROBLEM",
+      "Message": "",
+      "DecimalCode": 11015,
+      "HexCode": "0x2b07",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 11040,
+      "HexCode": "0x2b20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_TIME_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 11041,
+      "HexCode": "0x2b21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_BAD_HEADER",
+      "Message": "",
+      "DecimalCode": 11042,
+      "HexCode": "0x2b22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_UNRECOGNIZED_NEXT_HEADER",
+      "Message": "",
+      "DecimalCode": 11043,
+      "HexCode": "0x2b23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_ICMP_ERROR",
+      "Message": "",
+      "DecimalCode": 11044,
+      "HexCode": "0x2b24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEST_SCOPE_MISMATCH",
+      "Message": "",
+      "DecimalCode": 11045,
+      "HexCode": "0x2b25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_ADDR_DELETED",
+      "Message": "",
+      "DecimalCode": 11019,
+      "HexCode": "0x2b0b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_SPEC_MTU_CHANGE",
+      "Message": "",
+      "DecimalCode": 11020,
+      "HexCode": "0x2b0c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_MTU_CHANGE",
+      "Message": "",
+      "DecimalCode": 11021,
+      "HexCode": "0x2b0d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_UNLOAD",
+      "Message": "",
+      "DecimalCode": 11022,
+      "HexCode": "0x2b0e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_ADDR_ADDED",
+      "Message": "",
+      "DecimalCode": 11023,
+      "HexCode": "0x2b0f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_MEDIA_CONNECT",
+      "Message": "",
+      "DecimalCode": 11024,
+      "HexCode": "0x2b10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_MEDIA_DISCONNECT",
+      "Message": "",
+      "DecimalCode": 11025,
+      "HexCode": "0x2b11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_BIND_ADAPTER",
+      "Message": "",
+      "DecimalCode": 11026,
+      "HexCode": "0x2b12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_UNBIND_ADAPTER",
+      "Message": "",
+      "DecimalCode": 11027,
+      "HexCode": "0x2b13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DEVICE_DOES_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": 11028,
+      "HexCode": "0x2b14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DUPLICATE_ADDRESS",
+      "Message": "",
+      "DecimalCode": 11029,
+      "HexCode": "0x2b15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_INTERFACE_METRIC_CHANGE",
+      "Message": "",
+      "DecimalCode": 11030,
+      "HexCode": "0x2b16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_RECONFIG_SECFLTR",
+      "Message": "",
+      "DecimalCode": 11031,
+      "HexCode": "0x2b17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_NEGOTIATING_IPSEC",
+      "Message": "",
+      "DecimalCode": 11032,
+      "HexCode": "0x2b18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_INTERFACE_WOL_CAPABILITY_CHANGE",
+      "Message": "",
+      "DecimalCode": 11033,
+      "HexCode": "0x2b19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_DUPLICATE_IPADD",
+      "Message": "",
+      "DecimalCode": 11034,
+      "HexCode": "0x2b1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_GENERAL_FAILURE",
+      "Message": "",
+      "DecimalCode": 11050,
+      "HexCode": "0x2b2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "IP_PENDING",
+      "Message": "",
+      "DecimalCode": 11255,
+      "HexCode": "0x2bf7",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

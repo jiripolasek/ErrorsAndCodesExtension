@@ -1,0 +1,720 @@
+{
+  "HeaderFileName": "msopc.h",
+  "ErrorCodes": [
+    {
+      "Id": "OPC_E_NONCONFORMING_URI",
+      "Message": "",
+      "DecimalCode": -2142175231,
+      "HexCode": "0x80510001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_RELATIVE_URI_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2142175230,
+      "HexCode": "0x80510002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_RELATIONSHIP_URI_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2142175229,
+      "HexCode": "0x80510003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_PART_CANNOT_BE_DIRECTORY",
+      "Message": "",
+      "DecimalCode": -2142175228,
+      "HexCode": "0x80510004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_UNEXPECTED_CONTENT_TYPE",
+      "Message": "",
+      "DecimalCode": -2142175227,
+      "HexCode": "0x80510005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_CONTENT_TYPE_XML",
+      "Message": "",
+      "DecimalCode": -2142175226,
+      "HexCode": "0x80510006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MISSING_CONTENT_TYPES",
+      "Message": "",
+      "DecimalCode": -2142175225,
+      "HexCode": "0x80510007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_NONCONFORMING_CONTENT_TYPES_XML",
+      "Message": "",
+      "DecimalCode": -2142175224,
+      "HexCode": "0x80510008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_NONCONFORMING_RELS_XML",
+      "Message": "",
+      "DecimalCode": -2142175223,
+      "HexCode": "0x80510009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_RELS_XML",
+      "Message": "",
+      "DecimalCode": -2142175222,
+      "HexCode": "0x8051000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DUPLICATE_PART",
+      "Message": "",
+      "DecimalCode": -2142175221,
+      "HexCode": "0x8051000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_OVERRIDE_PART_NAME",
+      "Message": "",
+      "DecimalCode": -2142175220,
+      "HexCode": "0x8051000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DUPLICATE_OVERRIDE_PART",
+      "Message": "",
+      "DecimalCode": -2142175219,
+      "HexCode": "0x8051000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_DEFAULT_EXTENSION",
+      "Message": "",
+      "DecimalCode": -2142175218,
+      "HexCode": "0x8051000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DUPLICATE_DEFAULT_EXTENSION",
+      "Message": "",
+      "DecimalCode": -2142175217,
+      "HexCode": "0x8051000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_RELATIONSHIP_ID",
+      "Message": "",
+      "DecimalCode": -2142175216,
+      "HexCode": "0x80510010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_RELATIONSHIP_TYPE",
+      "Message": "",
+      "DecimalCode": -2142175215,
+      "HexCode": "0x80510011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_RELATIONSHIP_TARGET",
+      "Message": "",
+      "DecimalCode": -2142175214,
+      "HexCode": "0x80510012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DUPLICATE_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142175213,
+      "HexCode": "0x80510013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_CONFLICTING_SETTINGS",
+      "Message": "",
+      "DecimalCode": -2142175212,
+      "HexCode": "0x80510014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DUPLICATE_PIECE",
+      "Message": "",
+      "DecimalCode": -2142175211,
+      "HexCode": "0x80510015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_PIECE",
+      "Message": "",
+      "DecimalCode": -2142175210,
+      "HexCode": "0x80510016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MISSING_PIECE",
+      "Message": "",
+      "DecimalCode": -2142175209,
+      "HexCode": "0x80510017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_NO_SUCH_PART",
+      "Message": "",
+      "DecimalCode": -2142175208,
+      "HexCode": "0x80510018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_SIGNATURE_CORRUPT",
+      "Message": "",
+      "DecimalCode": -2142175207,
+      "HexCode": "0x80510019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_DIGEST_VALUE_ERROR",
+      "Message": "",
+      "DecimalCode": -2142175206,
+      "HexCode": "0x8051001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_DUPLICATE_SIGNATURE_ORIGIN_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142175205,
+      "HexCode": "0x8051001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_SIGNATURE_ORIGIN_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142175204,
+      "HexCode": "0x8051001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_CERTIFICATE_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142175203,
+      "HexCode": "0x8051001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_EXTERNAL_SIGNATURE",
+      "Message": "",
+      "DecimalCode": -2142175202,
+      "HexCode": "0x8051001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_SIGNATURE_ORIGIN_PART",
+      "Message": "",
+      "DecimalCode": -2142175201,
+      "HexCode": "0x8051001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_SIGNATURE_PART",
+      "Message": "",
+      "DecimalCode": -2142175200,
+      "HexCode": "0x80510020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_RELATIONSHIP_TRANSFORM_XML",
+      "Message": "",
+      "DecimalCode": -2142175199,
+      "HexCode": "0x80510021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_CANONICALIZATION_METHOD",
+      "Message": "",
+      "DecimalCode": -2142175198,
+      "HexCode": "0x80510022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_RELATIONSHIPS_SIGNING_OPTION",
+      "Message": "",
+      "DecimalCode": -2142175197,
+      "HexCode": "0x80510023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_OPC_SIGNATURE_TIME_FORMAT",
+      "Message": "",
+      "DecimalCode": -2142175196,
+      "HexCode": "0x80510024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_PACKAGE_REFERENCE_URI_RESERVED",
+      "Message": "",
+      "DecimalCode": -2142175195,
+      "HexCode": "0x80510025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_SIGNATURE_PROPERTIES_ELEMENT",
+      "Message": "",
+      "DecimalCode": -2142175194,
+      "HexCode": "0x80510026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_SIGNATURE_PROPERTY_ELEMENT",
+      "Message": "",
+      "DecimalCode": -2142175193,
+      "HexCode": "0x80510027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_DUPLICATE_SIGNATURE_PROPERTY_ELEMENT",
+      "Message": "",
+      "DecimalCode": -2142175192,
+      "HexCode": "0x80510028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_SIGNATURE_TIME_PROPERTY",
+      "Message": "",
+      "DecimalCode": -2142175191,
+      "HexCode": "0x80510029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_SIGNATURE_XML",
+      "Message": "",
+      "DecimalCode": -2142175190,
+      "HexCode": "0x8051002a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_INVALID_SIGNATURE_COUNT",
+      "Message": "",
+      "DecimalCode": -2142175189,
+      "HexCode": "0x8051002b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_SIGNATURE_ALGORITHM",
+      "Message": "",
+      "DecimalCode": -2142175188,
+      "HexCode": "0x8051002c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_DUPLICATE_PACKAGE_OBJECT_REFERENCES",
+      "Message": "",
+      "DecimalCode": -2142175187,
+      "HexCode": "0x8051002d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_PACKAGE_OBJECT_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2142175186,
+      "HexCode": "0x8051002e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_EXTERNAL_SIGNATURE_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2142175185,
+      "HexCode": "0x8051002f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_REFERENCE_MISSING_CONTENT_TYPE",
+      "Message": "",
+      "DecimalCode": -2142175184,
+      "HexCode": "0x80510030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MULTIPLE_RELATIONSHIP_TRANSFORMS",
+      "Message": "",
+      "DecimalCode": -2142175183,
+      "HexCode": "0x80510031",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_CANONICALIZATION_TRANSFORM",
+      "Message": "",
+      "DecimalCode": -2142175182,
+      "HexCode": "0x80510032",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_UNEXPECTED_ELEMENT",
+      "Message": "",
+      "DecimalCode": -2142175181,
+      "HexCode": "0x80510033",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_UNEXPECTED_REQUIRES_ATTR",
+      "Message": "",
+      "DecimalCode": -2142175180,
+      "HexCode": "0x80510034",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_MISSING_REQUIRES_ATTR",
+      "Message": "",
+      "DecimalCode": -2142175179,
+      "HexCode": "0x80510035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_UNEXPECTED_ATTR",
+      "Message": "",
+      "DecimalCode": -2142175178,
+      "HexCode": "0x80510036",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INVALID_PREFIX_LIST",
+      "Message": "",
+      "DecimalCode": -2142175177,
+      "HexCode": "0x80510037",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INVALID_QNAME_LIST",
+      "Message": "",
+      "DecimalCode": -2142175176,
+      "HexCode": "0x80510038",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_NESTED_ALTERNATE_CONTENT",
+      "Message": "",
+      "DecimalCode": -2142175175,
+      "HexCode": "0x80510039",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_UNEXPECTED_CHOICE",
+      "Message": "",
+      "DecimalCode": -2142175174,
+      "HexCode": "0x8051003a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_MISSING_CHOICE",
+      "Message": "",
+      "DecimalCode": -2142175173,
+      "HexCode": "0x8051003b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INVALID_ENUM_TYPE",
+      "Message": "",
+      "DecimalCode": -2142175172,
+      "HexCode": "0x8051003c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_UNKNOWN_NAMESPACE",
+      "Message": "",
+      "DecimalCode": -2142175170,
+      "HexCode": "0x8051003e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_UNKNOWN_PREFIX",
+      "Message": "",
+      "DecimalCode": -2142175169,
+      "HexCode": "0x8051003f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INVALID_ATTRIBUTES_ON_IGNORABLE_ELEMENT",
+      "Message": "",
+      "DecimalCode": -2142175168,
+      "HexCode": "0x80510040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INVALID_XMLNS_ATTRIBUTE",
+      "Message": "",
+      "DecimalCode": -2142175167,
+      "HexCode": "0x80510041",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_XML_ENCODING",
+      "Message": "",
+      "DecimalCode": -2142175166,
+      "HexCode": "0x80510042",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_SIGNATURE_REFERENCE_MISSING_URI",
+      "Message": "",
+      "DecimalCode": -2142175165,
+      "HexCode": "0x80510043",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_CONTENT_TYPE",
+      "Message": "",
+      "DecimalCode": -2142175164,
+      "HexCode": "0x80510044",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_SIGNATURE_PROPERTY_MISSING_TARGET",
+      "Message": "",
+      "DecimalCode": -2142175163,
+      "HexCode": "0x80510045",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_SIGNATURE_METHOD_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2142175162,
+      "HexCode": "0x80510046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_DEFAULT_DIGEST_METHOD_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2142175161,
+      "HexCode": "0x80510047",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_NO_SUCH_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142175160,
+      "HexCode": "0x80510048",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_MULTIPLE_FALLBACK_ELEMENTS",
+      "Message": "",
+      "DecimalCode": -2142175159,
+      "HexCode": "0x80510049",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INCONSISTENT_PROCESS_CONTENT",
+      "Message": "",
+      "DecimalCode": -2142175158,
+      "HexCode": "0x8051004a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INCONSISTENT_PRESERVE_ATTRIBUTES",
+      "Message": "",
+      "DecimalCode": -2142175157,
+      "HexCode": "0x8051004b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_MC_INCONSISTENT_PRESERVE_ELEMENTS",
+      "Message": "",
+      "DecimalCode": -2142175156,
+      "HexCode": "0x8051004c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_INVALID_RELATIONSHIP_TARGET_MODE",
+      "Message": "",
+      "DecimalCode": -2142175155,
+      "HexCode": "0x8051004d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_COULD_NOT_RECOVER",
+      "Message": "",
+      "DecimalCode": -2142175154,
+      "HexCode": "0x8051004e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_UNSUPPORTED_PACKAGE",
+      "Message": "",
+      "DecimalCode": -2142175153,
+      "HexCode": "0x8051004f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ENUM_COLLECTION_CHANGED",
+      "Message": "",
+      "DecimalCode": -2142175152,
+      "HexCode": "0x80510050",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ENUM_CANNOT_MOVE_NEXT",
+      "Message": "",
+      "DecimalCode": -2142175151,
+      "HexCode": "0x80510051",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ENUM_CANNOT_MOVE_PREVIOUS",
+      "Message": "",
+      "DecimalCode": -2142175150,
+      "HexCode": "0x80510052",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ENUM_INVALID_POSITION",
+      "Message": "",
+      "DecimalCode": -2142175149,
+      "HexCode": "0x80510053",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_SIGNATURE_ORIGIN_EXISTS",
+      "Message": "",
+      "DecimalCode": -2142175148,
+      "HexCode": "0x80510054",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_UNSIGNED_PACKAGE",
+      "Message": "",
+      "DecimalCode": -2142175147,
+      "HexCode": "0x80510055",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_DS_MISSING_CERTIFICATE_PART",
+      "Message": "",
+      "DecimalCode": -2142175146,
+      "HexCode": "0x80510056",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_NO_SUCH_SETTINGS",
+      "Message": "",
+      "DecimalCode": -2142175145,
+      "HexCode": "0x80510057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_INCORRECT_DATA_SIZE",
+      "Message": "",
+      "DecimalCode": -2142171135,
+      "HexCode": "0x80511001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_CORRUPTED_ARCHIVE",
+      "Message": "",
+      "DecimalCode": -2142171134,
+      "HexCode": "0x80511002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_COMPRESSION_FAILED",
+      "Message": "",
+      "DecimalCode": -2142171133,
+      "HexCode": "0x80511003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_DECOMPRESSION_FAILED",
+      "Message": "",
+      "DecimalCode": -2142171132,
+      "HexCode": "0x80511004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_INCONSISTENT_FILEITEM",
+      "Message": "",
+      "DecimalCode": -2142171131,
+      "HexCode": "0x80511005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_INCONSISTENT_DIRECTORY",
+      "Message": "",
+      "DecimalCode": -2142171130,
+      "HexCode": "0x80511006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_MISSING_DATA_DESCRIPTOR",
+      "Message": "",
+      "DecimalCode": -2142171129,
+      "HexCode": "0x80511007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_UNSUPPORTEDARCHIVE",
+      "Message": "",
+      "DecimalCode": -2142171128,
+      "HexCode": "0x80511008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_CENTRAL_DIRECTORY_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": -2142171127,
+      "HexCode": "0x80511009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_NAME_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": -2142171126,
+      "HexCode": "0x8051100a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_DUPLICATE_NAME",
+      "Message": "",
+      "DecimalCode": -2142171125,
+      "HexCode": "0x8051100b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_COMMENT_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": -2142171124,
+      "HexCode": "0x8051100c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_EXTRA_FIELDS_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": -2142171123,
+      "HexCode": "0x8051100d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_FILE_HEADER_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": -2142171122,
+      "HexCode": "0x8051100e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_MISSING_END_OF_CENTRAL_DIRECTORY",
+      "Message": "",
+      "DecimalCode": -2142171121,
+      "HexCode": "0x8051100f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OPC_E_ZIP_REQUIRES_64_BIT",
+      "Message": "",
+      "DecimalCode": -2142171120,
+      "HexCode": "0x80511010",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

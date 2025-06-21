@@ -1,0 +1,447 @@
+{
+  "HeaderFileName": "winldap.h",
+  "ErrorCodes": [
+    {
+      "Id": "LDAP_SUCCESS",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_OPERATIONS_ERROR",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_PROTOCOL_ERROR",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_TIMELIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_SIZELIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_COMPARE_FALSE",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_COMPARE_TRUE",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_AUTH_METHOD_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_STRONG_AUTH_REQUIRED",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_REFERRAL_V2",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_PARTIAL_RESULTS",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_REFERRAL",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_ADMIN_LIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_UNAVAILABLE_CRIT_EXTENSION",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_CONFIDENTIALITY_REQUIRED",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_SASL_BIND_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NO_SUCH_ATTRIBUTE",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_UNDEFINED_TYPE",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_INAPPROPRIATE_MATCHING",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_CONSTRAINT_VIOLATION",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_ATTRIBUTE_OR_VALUE_EXISTS",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_INVALID_SYNTAX",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NO_SUCH_OBJECT",
+      "Message": "",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_ALIAS_PROBLEM",
+      "Message": "",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_INVALID_DN_SYNTAX",
+      "Message": "",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_IS_LEAF",
+      "Message": "",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_ALIAS_DEREF_PROBLEM",
+      "Message": "",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_INAPPROPRIATE_AUTH",
+      "Message": "",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_INVALID_CREDENTIALS",
+      "Message": "",
+      "DecimalCode": 49,
+      "HexCode": "0x31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_INSUFFICIENT_RIGHTS",
+      "Message": "",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_BUSY",
+      "Message": "",
+      "DecimalCode": 51,
+      "HexCode": "0x33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": 52,
+      "HexCode": "0x34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_UNWILLING_TO_PERFORM",
+      "Message": "",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_LOOP_DETECT",
+      "Message": "",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_SORT_CONTROL_MISSING",
+      "Message": "",
+      "DecimalCode": 60,
+      "HexCode": "0x3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_OFFSET_RANGE_ERROR",
+      "Message": "",
+      "DecimalCode": 61,
+      "HexCode": "0x3d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NAMING_VIOLATION",
+      "Message": "",
+      "DecimalCode": 64,
+      "HexCode": "0x40",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_OBJECT_CLASS_VIOLATION",
+      "Message": "",
+      "DecimalCode": 65,
+      "HexCode": "0x41",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NOT_ALLOWED_ON_NONLEAF",
+      "Message": "",
+      "DecimalCode": 66,
+      "HexCode": "0x42",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NOT_ALLOWED_ON_RDN",
+      "Message": "",
+      "DecimalCode": 67,
+      "HexCode": "0x43",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 68,
+      "HexCode": "0x44",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NO_OBJECT_CLASS_MODS",
+      "Message": "",
+      "DecimalCode": 69,
+      "HexCode": "0x45",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_RESULTS_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": 70,
+      "HexCode": "0x46",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_AFFECTS_MULTIPLE_DSAS",
+      "Message": "",
+      "DecimalCode": 71,
+      "HexCode": "0x47",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_VIRTUAL_LIST_VIEW_ERROR",
+      "Message": "",
+      "DecimalCode": 76,
+      "HexCode": "0x4c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_OTHER",
+      "Message": "",
+      "DecimalCode": 80,
+      "HexCode": "0x50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_SERVER_DOWN",
+      "Message": "",
+      "DecimalCode": 81,
+      "HexCode": "0x51",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_LOCAL_ERROR",
+      "Message": "",
+      "DecimalCode": 82,
+      "HexCode": "0x52",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_ENCODING_ERROR",
+      "Message": "",
+      "DecimalCode": 83,
+      "HexCode": "0x53",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_DECODING_ERROR",
+      "Message": "",
+      "DecimalCode": 84,
+      "HexCode": "0x54",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 85,
+      "HexCode": "0x55",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_AUTH_UNKNOWN",
+      "Message": "",
+      "DecimalCode": 86,
+      "HexCode": "0x56",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_FILTER_ERROR",
+      "Message": "",
+      "DecimalCode": 87,
+      "HexCode": "0x57",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_USER_CANCELLED",
+      "Message": "",
+      "DecimalCode": 88,
+      "HexCode": "0x58",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_PARAM_ERROR",
+      "Message": "",
+      "DecimalCode": 89,
+      "HexCode": "0x59",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NO_MEMORY",
+      "Message": "",
+      "DecimalCode": 90,
+      "HexCode": "0x5a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_CONNECT_ERROR",
+      "Message": "",
+      "DecimalCode": 91,
+      "HexCode": "0x5b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 92,
+      "HexCode": "0x5c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_NO_RESULTS_RETURNED",
+      "Message": "",
+      "DecimalCode": 94,
+      "HexCode": "0x5e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_CONTROL_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 93,
+      "HexCode": "0x5d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_MORE_RESULTS_TO_RETURN",
+      "Message": "",
+      "DecimalCode": 95,
+      "HexCode": "0x5f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_CLIENT_LOOP",
+      "Message": "",
+      "DecimalCode": 96,
+      "HexCode": "0x60",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "LDAP_REFERRAL_LIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 97,
+      "HexCode": "0x61",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

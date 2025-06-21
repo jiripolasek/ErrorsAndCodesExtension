@@ -1,0 +1,384 @@
+{
+  "HeaderFileName": "ole.h",
+  "ErrorCodes": [
+    {
+      "Id": "OLE_ERROR_PROTECT_ONLY",
+      "Message": "Ole APIs are called in real mode        */",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_MEMORY",
+      "Message": "Could not alloc or lock memory          */",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_STREAM",
+      "Message": "(OLESTREAM) stream error                 */",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_STATIC",
+      "Message": "Non static object expected              */",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_BLANK",
+      "Message": "Critical data missing                   */",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_DRAW",
+      "Message": "Error while drawing                     */",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_METAFILE",
+      "Message": "Invalid metafile                        */",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_ABORT",
+      "Message": "Client chose to abort metafile drawing  */",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_CLIPBOARD",
+      "Message": "Failed to get/set clipboard data        */",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_FORMAT",
+      "Message": "Requested format is not available       */",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_OBJECT",
+      "Message": "Not a valid object                      */",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_OPTION",
+      "Message": "Invalid option(link update / render)    */",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_PROTOCOL",
+      "Message": "Invalid protocol                        */",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_ADDRESS",
+      "Message": "One of the pointers is invalid          */",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NOT_EQUAL",
+      "Message": "Objects are not equal                   */",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_HANDLE",
+      "Message": "Invalid handle encountered              */",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_GENERIC",
+      "Message": "Some general error                      */",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_CLASS",
+      "Message": "Invalid class                           */",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_SYNTAX",
+      "Message": "Command syntax is invalid               */",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_DATATYPE",
+      "Message": "Data format is not supported            */",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_PALETTE",
+      "Message": "Invalid color palette                   */",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NOT_LINK",
+      "Message": "Not a linked object                     */",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NOT_EMPTY",
+      "Message": "Client doc contains objects.            */",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_SIZE",
+      "Message": "Incorrect buffer size passed to the api */",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_DRIVE",
+      "Message": "Drive letter in doc name is invalid     */",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NETWORK",
+      "Message": "Failed to establish connection to a     */",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NAME",
+      "Message": "Invalid name(doc name object name)    */",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_TEMPLATE",
+      "Message": "Server failed to load template          */",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NEW",
+      "Message": "Server failed to create new doc         */",
+      "DecimalCode": 31,
+      "HexCode": "0x1f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_EDIT",
+      "Message": "Server failed to create embedded        */",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_OPEN",
+      "Message": "Server failed to open document         */",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_NOT_OPEN",
+      "Message": "Object is not open for editing          */",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_LAUNCH",
+      "Message": "Failed to launch server                 */",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_COMM",
+      "Message": "Failed to communicate with server       */",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_TERMINATE",
+      "Message": "Error in termination                    */",
+      "DecimalCode": 37,
+      "HexCode": "0x25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_COMMAND",
+      "Message": "Error in execute                        */",
+      "DecimalCode": 38,
+      "HexCode": "0x26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_SHOW",
+      "Message": "Error in show                           */",
+      "DecimalCode": 39,
+      "HexCode": "0x27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_DOVERB",
+      "Message": "Error in sending do verb or invalid    */",
+      "DecimalCode": 40,
+      "HexCode": "0x28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_ADVISE_NATIVE",
+      "Message": "Item could be missing                   */",
+      "DecimalCode": 41,
+      "HexCode": "0x29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_ADVISE_PICT",
+      "Message": "Item could be missing or server doesn\u0026apos;t */",
+      "DecimalCode": 42,
+      "HexCode": "0x2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_ADVISE_RENAME",
+      "Message": "Server doesn\u0026apos;t support rename           */",
+      "DecimalCode": 43,
+      "HexCode": "0x2b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_POKE_NATIVE",
+      "Message": "Failure of poking native data to server */",
+      "DecimalCode": 44,
+      "HexCode": "0x2c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_REQUEST_NATIVE",
+      "Message": "Server failed to render native data     */",
+      "DecimalCode": 45,
+      "HexCode": "0x2d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_REQUEST_PICT",
+      "Message": "Server failed to render presentation    */",
+      "DecimalCode": 46,
+      "HexCode": "0x2e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_SERVER_BLOCKED",
+      "Message": "Trying to block a blocked server or     */",
+      "DecimalCode": 47,
+      "HexCode": "0x2f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_REGISTRATION",
+      "Message": "Server is not registered in regestation */",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_ALREADY_REGISTERED",
+      "Message": "Trying to register same doc multiple    */",
+      "DecimalCode": 49,
+      "HexCode": "0x31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_TASK",
+      "Message": "Server or client task is invalid        */",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_OUTOFDATE",
+      "Message": "Object is out of date                   */",
+      "DecimalCode": 51,
+      "HexCode": "0x33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_CANT_UPDATE_CLIENT",
+      "Message": "Embed doc\u0026apos;s client doesn\u0026apos;t accept       */",
+      "DecimalCode": 52,
+      "HexCode": "0x34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_UPDATE",
+      "Message": "erorr while trying to update            */",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_SETDATA_FORMAT",
+      "Message": "Server app doesn\u0026apos;t understand the       */",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_ERROR_STATIC_FROM_OTHER_OS",
+      "Message": "trying to load a static object created */",
+      "DecimalCode": 55,
+      "HexCode": "0x37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_WARN_DELETE_DATA",
+      "Message": "/* Caller must delete the data when he is  */",
+      "DecimalCode": 1000,
+      "HexCode": "0x3e8",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

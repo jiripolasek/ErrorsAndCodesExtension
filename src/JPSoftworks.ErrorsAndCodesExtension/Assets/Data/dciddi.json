@@ -1,0 +1,125 @@
+{
+  "HeaderFileName": "dciddi.h",
+  "ErrorCodes": [
+    {
+      "Id": "DCI_ERR_CURRENTLYNOTAVAIL",
+      "Message": "",
+      "DecimalCode": -5,
+      "HexCode": "0xfffffffb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_INVALIDRECT",
+      "Message": "",
+      "DecimalCode": -6,
+      "HexCode": "0xfffffffa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_UNSUPPORTEDFORMAT",
+      "Message": "",
+      "DecimalCode": -7,
+      "HexCode": "0xfffffff9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_UNSUPPORTEDMASK",
+      "Message": "",
+      "DecimalCode": -8,
+      "HexCode": "0xfffffff8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_TOOBIGHEIGHT",
+      "Message": "",
+      "DecimalCode": -9,
+      "HexCode": "0xfffffff7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_TOOBIGWIDTH",
+      "Message": "",
+      "DecimalCode": -10,
+      "HexCode": "0xfffffff6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_TOOBIGSIZE",
+      "Message": "",
+      "DecimalCode": -11,
+      "HexCode": "0xfffffff5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": -12,
+      "HexCode": "0xfffffff4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_INVALIDPOSITION",
+      "Message": "",
+      "DecimalCode": -13,
+      "HexCode": "0xfffffff3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_INVALIDSTRETCH",
+      "Message": "",
+      "DecimalCode": -14,
+      "HexCode": "0xfffffff2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_INVALIDCLIPLIST",
+      "Message": "",
+      "DecimalCode": -15,
+      "HexCode": "0xfffffff1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_SURFACEISOBSCURED",
+      "Message": "",
+      "DecimalCode": -16,
+      "HexCode": "0xfffffff0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_XALIGN",
+      "Message": "",
+      "DecimalCode": -17,
+      "HexCode": "0xffffffef",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_YALIGN",
+      "Message": "",
+      "DecimalCode": -18,
+      "HexCode": "0xffffffee",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_XYALIGN",
+      "Message": "",
+      "DecimalCode": -19,
+      "HexCode": "0xffffffed",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_WIDTHALIGN",
+      "Message": "",
+      "DecimalCode": -20,
+      "HexCode": "0xffffffec",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DCI_ERR_HEIGHTALIGN",
+      "Message": "",
+      "DecimalCode": -21,
+      "HexCode": "0xffffffeb",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

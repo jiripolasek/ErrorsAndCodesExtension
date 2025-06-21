@@ -1,0 +1,55 @@
+{
+  "HeaderFileName": "xpsdigitalsignature.h",
+  "ErrorCodes": [
+    {
+      "Id": "XPS_E_SIGREQUESTID_DUP",
+      "Message": "",
+      "DecimalCode": -2142108795,
+      "HexCode": "0x80520385",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_PACKAGE_NOT_OPENED",
+      "Message": "",
+      "DecimalCode": -2142108794,
+      "HexCode": "0x80520386",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_PACKAGE_ALREADY_OPENED",
+      "Message": "",
+      "DecimalCode": -2142108793,
+      "HexCode": "0x80520387",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_SIGNATUREID_DUP",
+      "Message": "",
+      "DecimalCode": -2142108792,
+      "HexCode": "0x80520388",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MARKUP_COMPATIBILITY_ELEMENTS",
+      "Message": "",
+      "DecimalCode": -2142108791,
+      "HexCode": "0x80520389",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_OBJECT_DETACHED",
+      "Message": "",
+      "DecimalCode": -2142108790,
+      "HexCode": "0x8052038a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_SIGNATUREBLOCK_MARKUP",
+      "Message": "",
+      "DecimalCode": -2142108789,
+      "HexCode": "0x8052038b",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

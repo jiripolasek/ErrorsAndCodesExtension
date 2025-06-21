@@ -1,0 +1,2162 @@
+{
+  "HeaderFileName": "lmerr.h",
+  "ErrorCodes": [
+    {
+      "Id": "NERR_NetNotStarted",
+      "Message": "/* The workstation driver is not installed. */",
+      "DecimalCode": 2102,
+      "HexCode": "0x836",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UnknownServer",
+      "Message": "/* The server could not be located. */",
+      "DecimalCode": 2103,
+      "HexCode": "0x837",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ShareMem",
+      "Message": "/* An internal error occurred.  The network cannot access a shared memory segment. */",
+      "DecimalCode": 2104,
+      "HexCode": "0x838",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoNetworkResource",
+      "Message": "/* A network resource shortage occurred . */",
+      "DecimalCode": 2105,
+      "HexCode": "0x839",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RemoteOnly",
+      "Message": "/* This operation is not supported on workstations. */",
+      "DecimalCode": 2106,
+      "HexCode": "0x83a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DevNotRedirected",
+      "Message": "/* The device is not connected. */",
+      "DecimalCode": 2107,
+      "HexCode": "0x83b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServerNotStarted",
+      "Message": "/* The Server service is not started. */",
+      "DecimalCode": 2114,
+      "HexCode": "0x842",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ItemNotFound",
+      "Message": "/* The queue is empty. */",
+      "DecimalCode": 2115,
+      "HexCode": "0x843",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UnknownDevDir",
+      "Message": "/* The device or directory does not exist. */",
+      "DecimalCode": 2116,
+      "HexCode": "0x844",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RedirectedPath",
+      "Message": "/* The operation is invalid on a redirected resource. */",
+      "DecimalCode": 2117,
+      "HexCode": "0x845",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DuplicateShare",
+      "Message": "/* The name has already been shared. */",
+      "DecimalCode": 2118,
+      "HexCode": "0x846",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoRoom",
+      "Message": "/* The server is currently out of the requested resource. */",
+      "DecimalCode": 2119,
+      "HexCode": "0x847",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyItems",
+      "Message": "/* Requested addition of items exceeds the maximum allowed. */",
+      "DecimalCode": 2121,
+      "HexCode": "0x849",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidMaxUsers",
+      "Message": "/* The Peer service supports only two simultaneous users. */",
+      "DecimalCode": 2122,
+      "HexCode": "0x84a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BufTooSmall",
+      "Message": "/* The API return buffer is too small. */",
+      "DecimalCode": 2123,
+      "HexCode": "0x84b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RemoteErr",
+      "Message": "/* A remote API error occurred.  */",
+      "DecimalCode": 2127,
+      "HexCode": "0x84f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LanmanIniError",
+      "Message": "/* An error occurred when opening or reading the configuration file. */",
+      "DecimalCode": 2131,
+      "HexCode": "0x853",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NetworkError",
+      "Message": "/* A general network error occurred. */",
+      "DecimalCode": 2136,
+      "HexCode": "0x858",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_WkstaInconsistentState",
+      "Message": "",
+      "DecimalCode": 2137,
+      "HexCode": "0x859",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_WkstaNotStarted",
+      "Message": "/* The Workstation service has not been started. */",
+      "DecimalCode": 2138,
+      "HexCode": "0x85a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BrowserNotStarted",
+      "Message": "/* The requested information is not available. */",
+      "DecimalCode": 2139,
+      "HexCode": "0x85b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InternalError",
+      "Message": "/* An internal Windows error occurred.*/",
+      "DecimalCode": 2140,
+      "HexCode": "0x85c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadTransactConfig",
+      "Message": "/* The server is not configured for transactions. */",
+      "DecimalCode": 2141,
+      "HexCode": "0x85d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidAPI",
+      "Message": "/* The requested API is not supported on the remote server. */",
+      "DecimalCode": 2142,
+      "HexCode": "0x85e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadEventName",
+      "Message": "/* The event name is invalid. */",
+      "DecimalCode": 2143,
+      "HexCode": "0x85f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DupNameReboot",
+      "Message": "/* The computer name already exists on the network. Change it and restart the computer. */",
+      "DecimalCode": 2144,
+      "HexCode": "0x860",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CfgCompNotFound",
+      "Message": "/* The specified component could not be found in the configuration information. */",
+      "DecimalCode": 2146,
+      "HexCode": "0x862",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CfgParamNotFound",
+      "Message": "/* The specified parameter could not be found in the configuration information. */",
+      "DecimalCode": 2147,
+      "HexCode": "0x863",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LineTooLong",
+      "Message": "/* A line in the configuration file is too long. */",
+      "DecimalCode": 2149,
+      "HexCode": "0x865",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_QNotFound",
+      "Message": "/* The printer does not exist. */",
+      "DecimalCode": 2150,
+      "HexCode": "0x866",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_JobNotFound",
+      "Message": "/* The print job does not exist. */",
+      "DecimalCode": 2151,
+      "HexCode": "0x867",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DestNotFound",
+      "Message": "/* The printer destination cannot be found. */",
+      "DecimalCode": 2152,
+      "HexCode": "0x868",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DestExists",
+      "Message": "/* The printer destination already exists. */",
+      "DecimalCode": 2153,
+      "HexCode": "0x869",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_QExists",
+      "Message": "/* The printer queue already exists. */",
+      "DecimalCode": 2154,
+      "HexCode": "0x86a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_QNoRoom",
+      "Message": "/* No more printers can be added. */",
+      "DecimalCode": 2155,
+      "HexCode": "0x86b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_JobNoRoom",
+      "Message": "/* No more print jobs can be added.  */",
+      "DecimalCode": 2156,
+      "HexCode": "0x86c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DestNoRoom",
+      "Message": "/* No more printer destinations can be added. */",
+      "DecimalCode": 2157,
+      "HexCode": "0x86d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DestIdle",
+      "Message": "/* This printer destination is idle and cannot accept control operations. */",
+      "DecimalCode": 2158,
+      "HexCode": "0x86e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DestInvalidOp",
+      "Message": "/* This printer destination request contains an invalid control function. */",
+      "DecimalCode": 2159,
+      "HexCode": "0x86f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProcNoRespond",
+      "Message": "/* The print processor is not responding. */",
+      "DecimalCode": 2160,
+      "HexCode": "0x870",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SpoolerNotLoaded",
+      "Message": "/* The spooler is not running. */",
+      "DecimalCode": 2161,
+      "HexCode": "0x871",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DestInvalidState",
+      "Message": "/* This operation cannot be performed on the print destination in its current state. */",
+      "DecimalCode": 2162,
+      "HexCode": "0x872",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_QInvalidState",
+      "Message": "/* This operation cannot be performed on the printer queue in its current state. */",
+      "DecimalCode": 2163,
+      "HexCode": "0x873",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_JobInvalidState",
+      "Message": "/* This operation cannot be performed on the print job in its current state. */",
+      "DecimalCode": 2164,
+      "HexCode": "0x874",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SpoolNoMemory",
+      "Message": "/* A spooler memory allocation failure occurred. */",
+      "DecimalCode": 2165,
+      "HexCode": "0x875",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DriverNotFound",
+      "Message": "/* The device driver does not exist. */",
+      "DecimalCode": 2166,
+      "HexCode": "0x876",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DataTypeInvalid",
+      "Message": "/* The data type is not supported by the print processor. */",
+      "DecimalCode": 2167,
+      "HexCode": "0x877",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProcNotFound",
+      "Message": "/* The print processor is not installed. */",
+      "DecimalCode": 2168,
+      "HexCode": "0x878",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceTableLocked",
+      "Message": "/* The service database is locked. */",
+      "DecimalCode": 2180,
+      "HexCode": "0x884",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceTableFull",
+      "Message": "/* The service table is full. */",
+      "DecimalCode": 2181,
+      "HexCode": "0x885",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceInstalled",
+      "Message": "/* The requested service has already been started. */",
+      "DecimalCode": 2182,
+      "HexCode": "0x886",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceEntryLocked",
+      "Message": "/* The service does not respond to control actions. */",
+      "DecimalCode": 2183,
+      "HexCode": "0x887",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceNotInstalled",
+      "Message": "/* The service has not been started. */",
+      "DecimalCode": 2184,
+      "HexCode": "0x888",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadServiceName",
+      "Message": "/* The service name is invalid. */",
+      "DecimalCode": 2185,
+      "HexCode": "0x889",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceCtlTimeout",
+      "Message": "/* The service is not responding to the control function. */",
+      "DecimalCode": 2186,
+      "HexCode": "0x88a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceCtlBusy",
+      "Message": "/* The service control is busy. */",
+      "DecimalCode": 2187,
+      "HexCode": "0x88b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadServiceProgName",
+      "Message": "/* The configuration file contains an invalid service program name. */",
+      "DecimalCode": 2188,
+      "HexCode": "0x88c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceNotCtrl",
+      "Message": "/* The service could not be controlled in its present state. */",
+      "DecimalCode": 2189,
+      "HexCode": "0x88d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceKillProc",
+      "Message": "/* The service ended abnormally. */",
+      "DecimalCode": 2190,
+      "HexCode": "0x88e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceCtlNotValid",
+      "Message": "/* The requested pause, continue, or stop is not valid for this service. */",
+      "DecimalCode": 2191,
+      "HexCode": "0x88f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NotInDispatchTbl",
+      "Message": "/* The service control dispatcher could not find the service name in the dispatch table. */",
+      "DecimalCode": 2192,
+      "HexCode": "0x890",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadControlRecv",
+      "Message": "/* The service control dispatcher pipe read failed. */",
+      "DecimalCode": 2193,
+      "HexCode": "0x891",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ServiceNotStarting",
+      "Message": "/* A thread for the new service could not be created. */",
+      "DecimalCode": 2194,
+      "HexCode": "0x892",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AlreadyLoggedOn",
+      "Message": "/* This workstation is already logged on to the local-area network. */",
+      "DecimalCode": 2200,
+      "HexCode": "0x898",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NotLoggedOn",
+      "Message": "/* The workstation is not logged on to the local-area network. */",
+      "DecimalCode": 2201,
+      "HexCode": "0x899",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadUsername",
+      "Message": "/* The user name or group name parameter is invalid.  */",
+      "DecimalCode": 2202,
+      "HexCode": "0x89a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadPassword",
+      "Message": "/* The password parameter is invalid. */",
+      "DecimalCode": 2203,
+      "HexCode": "0x89b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UnableToAddName_W",
+      "Message": "/* @W The logon processor did not add the message alias. */",
+      "DecimalCode": 2204,
+      "HexCode": "0x89c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UnableToAddName_F",
+      "Message": "/* The logon processor did not add the message alias. */",
+      "DecimalCode": 2205,
+      "HexCode": "0x89d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UnableToDelName_W",
+      "Message": "/* @W The logoff processor did not delete the message alias. */",
+      "DecimalCode": 2206,
+      "HexCode": "0x89e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UnableToDelName_F",
+      "Message": "/* The logoff processor did not delete the message alias. */",
+      "DecimalCode": 2207,
+      "HexCode": "0x89f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonsPaused",
+      "Message": "/* Network logons are paused. */",
+      "DecimalCode": 2209,
+      "HexCode": "0x8a1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonServerConflict",
+      "Message": "A centralized logon-server conflict occurred. */",
+      "DecimalCode": 2210,
+      "HexCode": "0x8a2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonNoUserPath",
+      "Message": "/* The server is configured without a valid user path. */",
+      "DecimalCode": 2211,
+      "HexCode": "0x8a3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonScriptError",
+      "Message": "/* An error occurred while loading or running the logon script. */",
+      "DecimalCode": 2212,
+      "HexCode": "0x8a4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_StandaloneLogon",
+      "Message": "/* The logon server was not specified.  Your computer will be logged on as STANDALONE. */",
+      "DecimalCode": 2214,
+      "HexCode": "0x8a6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonServerNotFound",
+      "Message": "/* The logon server could not be found.  */",
+      "DecimalCode": 2215,
+      "HexCode": "0x8a7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonDomainExists",
+      "Message": "/* There is already a logon domain for this computer.  */",
+      "DecimalCode": 2216,
+      "HexCode": "0x8a8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NonValidatedLogon",
+      "Message": "/* The logon server could not validate the logon. */",
+      "DecimalCode": 2217,
+      "HexCode": "0x8a9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ACFNotFound",
+      "Message": "/* The security database could not be found. */",
+      "DecimalCode": 2219,
+      "HexCode": "0x8ab",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_GroupNotFound",
+      "Message": "/* The group name could not be found. */",
+      "DecimalCode": 2220,
+      "HexCode": "0x8ac",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UserNotFound",
+      "Message": "/* The user name could not be found. */",
+      "DecimalCode": 2221,
+      "HexCode": "0x8ad",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ResourceNotFound",
+      "Message": "/* The resource name could not be found.  */",
+      "DecimalCode": 2222,
+      "HexCode": "0x8ae",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_GroupExists",
+      "Message": "/* The group already exists. */",
+      "DecimalCode": 2223,
+      "HexCode": "0x8af",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UserExists",
+      "Message": "/* The account already exists. */",
+      "DecimalCode": 2224,
+      "HexCode": "0x8b0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ResourceExists",
+      "Message": "/* The resource permission list already exists. */",
+      "DecimalCode": 2225,
+      "HexCode": "0x8b1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NotPrimary",
+      "Message": "/* This operation is only allowed on the primary domain controller of the domain. */",
+      "DecimalCode": 2226,
+      "HexCode": "0x8b2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ACFNotLoaded",
+      "Message": "/* The security database has not been started. */",
+      "DecimalCode": 2227,
+      "HexCode": "0x8b3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ACFNoRoom",
+      "Message": "/* There are too many names in the user accounts database. */",
+      "DecimalCode": 2228,
+      "HexCode": "0x8b4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ACFFileIOFail",
+      "Message": "/* A disk I/O failure occurred.*/",
+      "DecimalCode": 2229,
+      "HexCode": "0x8b5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ACFTooManyLists",
+      "Message": "/* The limit of 64 entries per resource was exceeded. */",
+      "DecimalCode": 2230,
+      "HexCode": "0x8b6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UserLogon",
+      "Message": "/* Deleting a user with a session is not allowed. */",
+      "DecimalCode": 2231,
+      "HexCode": "0x8b7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ACFNoParent",
+      "Message": "/* The parent directory could not be located. */",
+      "DecimalCode": 2232,
+      "HexCode": "0x8b8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CanNotGrowSegment",
+      "Message": "/* Unable to add to the security database session cache segment. */",
+      "DecimalCode": 2233,
+      "HexCode": "0x8b9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SpeGroupOp",
+      "Message": "/* This operation is not allowed on this special group. */",
+      "DecimalCode": 2234,
+      "HexCode": "0x8ba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NotInCache",
+      "Message": "/* This user is not cached in user accounts database session cache. */",
+      "DecimalCode": 2235,
+      "HexCode": "0x8bb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UserInGroup",
+      "Message": "/* The user already belongs to this group. */",
+      "DecimalCode": 2236,
+      "HexCode": "0x8bc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UserNotInGroup",
+      "Message": "/* The user does not belong to this group. */",
+      "DecimalCode": 2237,
+      "HexCode": "0x8bd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AccountUndefined",
+      "Message": "/* This user account is undefined. */",
+      "DecimalCode": 2238,
+      "HexCode": "0x8be",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AccountExpired",
+      "Message": "/* This user account has expired. */",
+      "DecimalCode": 2239,
+      "HexCode": "0x8bf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidWorkstation",
+      "Message": "/* The user is not allowed to log on from this workstation. */",
+      "DecimalCode": 2240,
+      "HexCode": "0x8c0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidLogonHours",
+      "Message": "/* The user is not allowed to log on at this time.  */",
+      "DecimalCode": 2241,
+      "HexCode": "0x8c1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PasswordExpired",
+      "Message": "/* The password of this user has expired. */",
+      "DecimalCode": 2242,
+      "HexCode": "0x8c2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PasswordCantChange",
+      "Message": "/* The password of this user cannot change. */",
+      "DecimalCode": 2243,
+      "HexCode": "0x8c3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PasswordHistConflict",
+      "Message": "/* This password cannot be used now. */",
+      "DecimalCode": 2244,
+      "HexCode": "0x8c4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PasswordTooShort",
+      "Message": "/* The password does not meet the password policy requirements. Check the minimum password length, password complexity and password history requirements. */",
+      "DecimalCode": 2245,
+      "HexCode": "0x8c5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PasswordTooRecent",
+      "Message": "/* The password of this user is too recent to change.  */",
+      "DecimalCode": 2246,
+      "HexCode": "0x8c6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidDatabase",
+      "Message": "/* The security database is corrupted. */",
+      "DecimalCode": 2247,
+      "HexCode": "0x8c7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DatabaseUpToDate",
+      "Message": "/* No updates are necessary to this replicant network/local security database. */",
+      "DecimalCode": 2248,
+      "HexCode": "0x8c8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SyncRequired",
+      "Message": "/* This replicant database is outdated; synchronization is required. */",
+      "DecimalCode": 2249,
+      "HexCode": "0x8c9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UseNotFound",
+      "Message": "/* The network connection could not be found. */",
+      "DecimalCode": 2250,
+      "HexCode": "0x8ca",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadAsgType",
+      "Message": "/* This asg_type is invalid. */",
+      "DecimalCode": 2251,
+      "HexCode": "0x8cb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DeviceIsShared",
+      "Message": "/* This device is currently being shared. */",
+      "DecimalCode": 2252,
+      "HexCode": "0x8cc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SameAsComputerName",
+      "Message": "/* The user name may not be same as computer name. */",
+      "DecimalCode": 2253,
+      "HexCode": "0x8cd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoComputerName",
+      "Message": "/* The computer name could not be added as a message alias.  The name may already exist on the network. */",
+      "DecimalCode": 2270,
+      "HexCode": "0x8de",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_MsgAlreadyStarted",
+      "Message": "/* The Messenger service is already started. */",
+      "DecimalCode": 2271,
+      "HexCode": "0x8df",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_MsgInitFailed",
+      "Message": "/* The Messenger service failed to start.  */",
+      "DecimalCode": 2272,
+      "HexCode": "0x8e0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NameNotFound",
+      "Message": "/* The message alias could not be found on the network. */",
+      "DecimalCode": 2273,
+      "HexCode": "0x8e1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AlreadyForwarded",
+      "Message": "/* This message alias has already been forwarded. */",
+      "DecimalCode": 2274,
+      "HexCode": "0x8e2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AddForwarded",
+      "Message": "/* This message alias has been added but is still forwarded. */",
+      "DecimalCode": 2275,
+      "HexCode": "0x8e3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AlreadyExists",
+      "Message": "/* This message alias already exists locally. */",
+      "DecimalCode": 2276,
+      "HexCode": "0x8e4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyNames",
+      "Message": "/* The maximum number of added message aliases has been exceeded. */",
+      "DecimalCode": 2277,
+      "HexCode": "0x8e5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DelComputerName",
+      "Message": "/* The computer name could not be deleted.*/",
+      "DecimalCode": 2278,
+      "HexCode": "0x8e6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LocalForward",
+      "Message": "/* Messages cannot be forwarded back to the same workstation. */",
+      "DecimalCode": 2279,
+      "HexCode": "0x8e7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_GrpMsgProcessor",
+      "Message": "/* An error occurred in the domain message processor. */",
+      "DecimalCode": 2280,
+      "HexCode": "0x8e8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PausedRemote",
+      "Message": "/* The message was sent, but the recipient has paused the Messenger service. */",
+      "DecimalCode": 2281,
+      "HexCode": "0x8e9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadReceive",
+      "Message": "/* The message was sent but not received. */",
+      "DecimalCode": 2282,
+      "HexCode": "0x8ea",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NameInUse",
+      "Message": "/* The message alias is currently in use. Try again later. */",
+      "DecimalCode": 2283,
+      "HexCode": "0x8eb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_MsgNotStarted",
+      "Message": "/* The Messenger service has not been started. */",
+      "DecimalCode": 2284,
+      "HexCode": "0x8ec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NotLocalName",
+      "Message": "/* The name is not on the local computer. */",
+      "DecimalCode": 2285,
+      "HexCode": "0x8ed",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoForwardName",
+      "Message": "/* The forwarded message alias could not be found on the network. */",
+      "DecimalCode": 2286,
+      "HexCode": "0x8ee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RemoteFull",
+      "Message": "/* The message alias table on the remote station is full. */",
+      "DecimalCode": 2287,
+      "HexCode": "0x8ef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NameNotForwarded",
+      "Message": "/* Messages for this alias are not currently being forwarded. */",
+      "DecimalCode": 2288,
+      "HexCode": "0x8f0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TruncatedBroadcast",
+      "Message": "/* The broadcast message was truncated. */",
+      "DecimalCode": 2289,
+      "HexCode": "0x8f1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidDevice",
+      "Message": "/* This is an invalid device name. */",
+      "DecimalCode": 2294,
+      "HexCode": "0x8f6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_WriteFault",
+      "Message": "/* A write fault occurred. */",
+      "DecimalCode": 2295,
+      "HexCode": "0x8f7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DuplicateName",
+      "Message": "/* A duplicate message alias exists on the network. */",
+      "DecimalCode": 2297,
+      "HexCode": "0x8f9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DeleteLater",
+      "Message": "/* @W This message alias will be deleted later. */",
+      "DecimalCode": 2298,
+      "HexCode": "0x8fa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_IncompleteDel",
+      "Message": "/* The message alias was not successfully deleted from all networks. */",
+      "DecimalCode": 2299,
+      "HexCode": "0x8fb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_MultipleNets",
+      "Message": "/* This operation is not supported on computers with multiple networks. */",
+      "DecimalCode": 2300,
+      "HexCode": "0x8fc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NetNameNotFound",
+      "Message": "/* This shared resource does not exist.*/",
+      "DecimalCode": 2310,
+      "HexCode": "0x906",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DeviceNotShared",
+      "Message": "/* This device is not shared. */",
+      "DecimalCode": 2311,
+      "HexCode": "0x907",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ClientNameNotFound",
+      "Message": "/* A session does not exist with that computer name. */",
+      "DecimalCode": 2312,
+      "HexCode": "0x908",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_FileIdNotFound",
+      "Message": "/* There is not an open file with that identification number. */",
+      "DecimalCode": 2314,
+      "HexCode": "0x90a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ExecFailure",
+      "Message": "/* A failure occurred when executing a remote administration command. */",
+      "DecimalCode": 2315,
+      "HexCode": "0x90b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TmpFile",
+      "Message": "/* A failure occurred when opening a remote temporary file. */",
+      "DecimalCode": 2316,
+      "HexCode": "0x90c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooMuchData",
+      "Message": "/* The data returned from a remote administration command has been truncated to 64K. */",
+      "DecimalCode": 2317,
+      "HexCode": "0x90d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DeviceShareConflict",
+      "Message": "/* This device cannot be shared as both a spooled and a non-spooled resource. */",
+      "DecimalCode": 2318,
+      "HexCode": "0x90e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BrowserTableIncomplete",
+      "Message": "/* The information in the list of servers may be incorrect. */",
+      "DecimalCode": 2319,
+      "HexCode": "0x90f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NotLocalDomain",
+      "Message": "/* The computer is not active in this domain. */",
+      "DecimalCode": 2320,
+      "HexCode": "0x910",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_IsDfsShare",
+      "Message": "/* The share must be removed from the Distributed File System before it can be deleted. */",
+      "DecimalCode": 2321,
+      "HexCode": "0x911",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DevInvalidOpCode",
+      "Message": "/* The operation is invalid for this device. */",
+      "DecimalCode": 2331,
+      "HexCode": "0x91b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DevNotFound",
+      "Message": "/* This device cannot be shared. */",
+      "DecimalCode": 2332,
+      "HexCode": "0x91c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DevNotOpen",
+      "Message": "/* This device was not open. */",
+      "DecimalCode": 2333,
+      "HexCode": "0x91d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadQueueDevString",
+      "Message": "/* This device name list is invalid. */",
+      "DecimalCode": 2334,
+      "HexCode": "0x91e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadQueuePriority",
+      "Message": "/* The queue priority is invalid. */",
+      "DecimalCode": 2335,
+      "HexCode": "0x91f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoCommDevs",
+      "Message": "/* There are no shared communication devices. */",
+      "DecimalCode": 2337,
+      "HexCode": "0x921",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_QueueNotFound",
+      "Message": "/* The queue you specified does not exist. */",
+      "DecimalCode": 2338,
+      "HexCode": "0x922",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadDevString",
+      "Message": "/* This list of devices is invalid. */",
+      "DecimalCode": 2340,
+      "HexCode": "0x924",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadDev",
+      "Message": "/* The requested device is invalid. */",
+      "DecimalCode": 2341,
+      "HexCode": "0x925",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InUseBySpooler",
+      "Message": "/* This device is already in use by the spooler. */",
+      "DecimalCode": 2342,
+      "HexCode": "0x926",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CommDevInUse",
+      "Message": "/* This device is already in use as a communication device. */",
+      "DecimalCode": 2343,
+      "HexCode": "0x927",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidComputer",
+      "Message": "/* This computer name is invalid. */",
+      "DecimalCode": 2351,
+      "HexCode": "0x92f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_MaxLenExceeded",
+      "Message": "/* The string and prefix specified are too long. */",
+      "DecimalCode": 2354,
+      "HexCode": "0x932",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadComponent",
+      "Message": "/* This path component is invalid. */",
+      "DecimalCode": 2356,
+      "HexCode": "0x934",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CantType",
+      "Message": "/* Could not determine the type of input. */",
+      "DecimalCode": 2357,
+      "HexCode": "0x935",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyEntries",
+      "Message": "/* The buffer for types is not big enough. */",
+      "DecimalCode": 2362,
+      "HexCode": "0x93a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProfileFileTooBig",
+      "Message": "/* Profile files cannot exceed 64K. */",
+      "DecimalCode": 2370,
+      "HexCode": "0x942",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProfileOffset",
+      "Message": "/* The start offset is out of range. */",
+      "DecimalCode": 2371,
+      "HexCode": "0x943",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProfileCleanup",
+      "Message": "/* The system cannot delete current connections to network resources. */",
+      "DecimalCode": 2372,
+      "HexCode": "0x944",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProfileUnknownCmd",
+      "Message": "/* The system was unable to parse the command line in this file.*/",
+      "DecimalCode": 2373,
+      "HexCode": "0x945",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProfileLoadErr",
+      "Message": "/* An error occurred while loading the profile file. */",
+      "DecimalCode": 2374,
+      "HexCode": "0x946",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProfileSaveErr",
+      "Message": "/* @W Errors occurred while saving the profile file.  The profile was partially saved. */",
+      "DecimalCode": 2375,
+      "HexCode": "0x947",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogOverflow",
+      "Message": "/* Log file %1 is full. */",
+      "DecimalCode": 2377,
+      "HexCode": "0x949",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogFileChanged",
+      "Message": "/* This log file has changed between reads. */",
+      "DecimalCode": 2378,
+      "HexCode": "0x94a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogFileCorrupt",
+      "Message": "/* Log file %1 is corrupt. */",
+      "DecimalCode": 2379,
+      "HexCode": "0x94b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SourceIsDir",
+      "Message": "/* The source path cannot be a directory. */",
+      "DecimalCode": 2380,
+      "HexCode": "0x94c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadSource",
+      "Message": "/* The source path is illegal. */",
+      "DecimalCode": 2381,
+      "HexCode": "0x94d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadDest",
+      "Message": "/* The destination path is illegal. */",
+      "DecimalCode": 2382,
+      "HexCode": "0x94e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DifferentServers",
+      "Message": "/* The source and destination paths are on different servers. */",
+      "DecimalCode": 2383,
+      "HexCode": "0x94f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RunSrvPaused",
+      "Message": "/* The Run server you requested is paused. */",
+      "DecimalCode": 2385,
+      "HexCode": "0x951",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ErrCommRunSrv",
+      "Message": "/* An error occurred when communicating with a Run server. */",
+      "DecimalCode": 2389,
+      "HexCode": "0x955",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ErrorExecingGhost",
+      "Message": "/* An error occurred when starting a background process. */",
+      "DecimalCode": 2391,
+      "HexCode": "0x957",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ShareNotFound",
+      "Message": "/* The shared resource you are connected to could not be found.*/",
+      "DecimalCode": 2392,
+      "HexCode": "0x958",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidLana",
+      "Message": "/* The LAN adapter number is invalid.  */",
+      "DecimalCode": 2400,
+      "HexCode": "0x960",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_OpenFiles",
+      "Message": "/* There are open files on the connection.    */",
+      "DecimalCode": 2401,
+      "HexCode": "0x961",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ActiveConns",
+      "Message": "/* Active connections still exist. */",
+      "DecimalCode": 2402,
+      "HexCode": "0x962",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadPasswordCore",
+      "Message": "/* This share name or password is invalid. */",
+      "DecimalCode": 2403,
+      "HexCode": "0x963",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DevInUse",
+      "Message": "/* The device is being accessed by an active process. */",
+      "DecimalCode": 2404,
+      "HexCode": "0x964",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LocalDrive",
+      "Message": "/* The drive letter is in use locally. */",
+      "DecimalCode": 2405,
+      "HexCode": "0x965",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AlertExists",
+      "Message": "/* The specified client is already registered for the specified event. */",
+      "DecimalCode": 2430,
+      "HexCode": "0x97e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyAlerts",
+      "Message": "/* The alert table is full. */",
+      "DecimalCode": 2431,
+      "HexCode": "0x97f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoSuchAlert",
+      "Message": "/* An invalid or nonexistent alert name was raised. */",
+      "DecimalCode": 2432,
+      "HexCode": "0x980",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadRecipient",
+      "Message": "/* The alert recipient is invalid.*/",
+      "DecimalCode": 2433,
+      "HexCode": "0x981",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AcctLimitExceeded",
+      "Message": "/* A user\u0026apos;s session with this server has been deleted",
+      "DecimalCode": 2434,
+      "HexCode": "0x982",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidLogSeek",
+      "Message": "/* The log file does not contain the requested record number. */",
+      "DecimalCode": 2440,
+      "HexCode": "0x988",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadUasConfig",
+      "Message": "/* The user accounts database is not configured correctly. */",
+      "DecimalCode": 2450,
+      "HexCode": "0x992",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidUASOp",
+      "Message": "/* This operation is not permitted when the Netlogon service is running. */",
+      "DecimalCode": 2451,
+      "HexCode": "0x993",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LastAdmin",
+      "Message": "/* This operation is not allowed on the last administrative account. */",
+      "DecimalCode": 2452,
+      "HexCode": "0x994",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DCNotFound",
+      "Message": "/* Could not find domain controller for this domain. */",
+      "DecimalCode": 2453,
+      "HexCode": "0x995",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_LogonTrackingError",
+      "Message": "/* Could not set logon information for this user. */",
+      "DecimalCode": 2454,
+      "HexCode": "0x996",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NetlogonNotStarted",
+      "Message": "/* The Netlogon service has not been started. */",
+      "DecimalCode": 2455,
+      "HexCode": "0x997",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CanNotGrowUASFile",
+      "Message": "/* Unable to add to the user accounts database. */",
+      "DecimalCode": 2456,
+      "HexCode": "0x998",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TimeDiffAtDC",
+      "Message": "/* This server\u0026apos;s clock is not synchronized with the primary domain controller\u0026apos;s clock. */",
+      "DecimalCode": 2457,
+      "HexCode": "0x999",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PasswordMismatch",
+      "Message": "/* A password mismatch has been detected. */",
+      "DecimalCode": 2458,
+      "HexCode": "0x99a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoSuchServer",
+      "Message": "/* The server identification does not specify a valid server. */",
+      "DecimalCode": 2460,
+      "HexCode": "0x99c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoSuchSession",
+      "Message": "/* The session identification does not specify a valid session. */",
+      "DecimalCode": 2461,
+      "HexCode": "0x99d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoSuchConnection",
+      "Message": "/* The connection identification does not specify a valid connection. */",
+      "DecimalCode": 2462,
+      "HexCode": "0x99e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyServers",
+      "Message": "/* There is no space for another entry in the table of available servers. */",
+      "DecimalCode": 2463,
+      "HexCode": "0x99f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManySessions",
+      "Message": "/* The server has reached the maximum number of sessions it supports. */",
+      "DecimalCode": 2464,
+      "HexCode": "0x9a0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyConnections",
+      "Message": "/* The server has reached the maximum number of connections it supports. */",
+      "DecimalCode": 2465,
+      "HexCode": "0x9a1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyFiles",
+      "Message": "/* The server cannot open more files because it has reached its maximum number. */",
+      "DecimalCode": 2466,
+      "HexCode": "0x9a2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoAlternateServers",
+      "Message": "/* There are no alternate servers registered on this server. */",
+      "DecimalCode": 2467,
+      "HexCode": "0x9a3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TryDownLevel",
+      "Message": "/* Try down-level (remote admin protocol) version of API instead. */",
+      "DecimalCode": 2470,
+      "HexCode": "0x9a6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UPSDriverNotStarted",
+      "Message": "/* The UPS driver could not be accessed by the UPS service. */",
+      "DecimalCode": 2480,
+      "HexCode": "0x9b0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UPSInvalidConfig",
+      "Message": "/* The UPS service is not configured correctly. */",
+      "DecimalCode": 2481,
+      "HexCode": "0x9b1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UPSInvalidCommPort",
+      "Message": "/* The UPS service could not access the specified Comm Port. */",
+      "DecimalCode": 2482,
+      "HexCode": "0x9b2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UPSSignalAsserted",
+      "Message": "/* The UPS indicated a line fail or low battery situation. Service not started. */",
+      "DecimalCode": 2483,
+      "HexCode": "0x9b3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_UPSShutdownFailed",
+      "Message": "/* The UPS service failed to perform a system shut down. */",
+      "DecimalCode": 2484,
+      "HexCode": "0x9b4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadDosRetCode",
+      "Message": "/* The program below returned an MS-DOS error code:*/",
+      "DecimalCode": 2500,
+      "HexCode": "0x9c4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ProgNeedsExtraMem",
+      "Message": "/* The program below needs more memory:*/",
+      "DecimalCode": 2501,
+      "HexCode": "0x9c5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadDosFunction",
+      "Message": "/* The program below called an unsupported MS-DOS function:*/",
+      "DecimalCode": 2502,
+      "HexCode": "0x9c6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RemoteBootFailed",
+      "Message": "/* The workstation failed to boot.*/",
+      "DecimalCode": 2503,
+      "HexCode": "0x9c7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BadFileCheckSum",
+      "Message": "/* The file below is corrupt.*/",
+      "DecimalCode": 2504,
+      "HexCode": "0x9c8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NoRplBootSystem",
+      "Message": "/* No loader is specified in the boot-block definition file.*/",
+      "DecimalCode": 2505,
+      "HexCode": "0x9c9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplLoadrNetBiosErr",
+      "Message": "/* NetBIOS returned an error: The NCB and SMB are dumped above.*/",
+      "DecimalCode": 2506,
+      "HexCode": "0x9ca",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplLoadrDiskErr",
+      "Message": "/* A disk I/O error occurred.*/",
+      "DecimalCode": 2507,
+      "HexCode": "0x9cb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ImageParamErr",
+      "Message": "/* Image parameter substitution failed.*/",
+      "DecimalCode": 2508,
+      "HexCode": "0x9cc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_TooManyImageParams",
+      "Message": "/* Too many image parameters cross disk sector boundaries.*/",
+      "DecimalCode": 2509,
+      "HexCode": "0x9cd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NonDosFloppyUsed",
+      "Message": "/* The image was not generated from an MS-DOS diskette formatted with /S.*/",
+      "DecimalCode": 2510,
+      "HexCode": "0x9ce",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootRestart",
+      "Message": "/* Remote boot will be restarted later.*/",
+      "DecimalCode": 2511,
+      "HexCode": "0x9cf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplSrvrCallFailed",
+      "Message": "/* The call to the Remoteboot server failed.*/",
+      "DecimalCode": 2512,
+      "HexCode": "0x9d0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CantConnectRplSrvr",
+      "Message": "/* Cannot connect to the Remoteboot server.*/",
+      "DecimalCode": 2513,
+      "HexCode": "0x9d1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CantOpenImageFile",
+      "Message": "/* Cannot open image file on the Remoteboot server.*/",
+      "DecimalCode": 2514,
+      "HexCode": "0x9d2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_CallingRplSrvr",
+      "Message": "/* Connecting to the Remoteboot server...*/",
+      "DecimalCode": 2515,
+      "HexCode": "0x9d3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_StartingRplBoot",
+      "Message": "/* Connecting to the Remoteboot server...*/",
+      "DecimalCode": 2516,
+      "HexCode": "0x9d4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootServiceTerm",
+      "Message": "/* Remote boot service was stopped; check the error log for the cause of the problem.*/",
+      "DecimalCode": 2517,
+      "HexCode": "0x9d5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootStartFailed",
+      "Message": "/* Remote boot startup failed; check the error log for the cause of the problem.*/",
+      "DecimalCode": 2518,
+      "HexCode": "0x9d6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RPL_CONNECTED",
+      "Message": "/* A second connection to a Remoteboot resource is not allowed.*/",
+      "DecimalCode": 2519,
+      "HexCode": "0x9d7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_BrowserConfiguredToNotRun",
+      "Message": "/* The browser service was configured with MaintainServerList=No. */",
+      "DecimalCode": 2550,
+      "HexCode": "0x9f6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplNoAdaptersStarted",
+      "Message": "/*Service failed to start since none of the network adapters started with this service.*/",
+      "DecimalCode": 2610,
+      "HexCode": "0xa32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBadRegistry",
+      "Message": "/*Service failed to start due to bad startup information in the registry.*/",
+      "DecimalCode": 2611,
+      "HexCode": "0xa33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBadDatabase",
+      "Message": "/*Service failed to start because its database is absent or corrupt.*/",
+      "DecimalCode": 2612,
+      "HexCode": "0xa34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplRplfilesShare",
+      "Message": "/*Service failed to start because RPLFILES share is absent.*/",
+      "DecimalCode": 2613,
+      "HexCode": "0xa35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplNotRplServer",
+      "Message": "/*Service failed to start because RPLUSER group is absent.*/",
+      "DecimalCode": 2614,
+      "HexCode": "0xa36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplCannotEnum",
+      "Message": "/*Cannot enumerate service records.*/",
+      "DecimalCode": 2615,
+      "HexCode": "0xa37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplWkstaInfoCorrupted",
+      "Message": "/*Workstation record information has been corrupted.*/",
+      "DecimalCode": 2616,
+      "HexCode": "0xa38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplWkstaNotFound",
+      "Message": "/*Workstation record was not found.*/",
+      "DecimalCode": 2617,
+      "HexCode": "0xa39",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplWkstaNameUnavailable",
+      "Message": "/*Workstation name is in use by some other workstation.*/",
+      "DecimalCode": 2618,
+      "HexCode": "0xa3a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplProfileInfoCorrupted",
+      "Message": "/*Profile record information has been corrupted.*/",
+      "DecimalCode": 2619,
+      "HexCode": "0xa3b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplProfileNotFound",
+      "Message": "/*Profile record was not found.*/",
+      "DecimalCode": 2620,
+      "HexCode": "0xa3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplProfileNameUnavailable",
+      "Message": "/*Profile name is in use by some other profile.*/",
+      "DecimalCode": 2621,
+      "HexCode": "0xa3d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplProfileNotEmpty",
+      "Message": "/*There are workstations using this profile.*/",
+      "DecimalCode": 2622,
+      "HexCode": "0xa3e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplConfigInfoCorrupted",
+      "Message": "/*Configuration record information has been corrupted.*/",
+      "DecimalCode": 2623,
+      "HexCode": "0xa3f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplConfigNotFound",
+      "Message": "/*Configuration record was not found.*/",
+      "DecimalCode": 2624,
+      "HexCode": "0xa40",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplAdapterInfoCorrupted",
+      "Message": "/*Adapter id record information has been corrupted.*/",
+      "DecimalCode": 2625,
+      "HexCode": "0xa41",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplInternal",
+      "Message": "/*An internal service error has occurred.*/",
+      "DecimalCode": 2626,
+      "HexCode": "0xa42",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplVendorInfoCorrupted",
+      "Message": "/*Vendor id record information has been corrupted.*/",
+      "DecimalCode": 2627,
+      "HexCode": "0xa43",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootInfoCorrupted",
+      "Message": "/*Boot block record information has been corrupted.*/",
+      "DecimalCode": 2628,
+      "HexCode": "0xa44",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplWkstaNeedsUserAcct",
+      "Message": "/*The user account for this workstation record is missing.*/",
+      "DecimalCode": 2629,
+      "HexCode": "0xa45",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplNeedsRPLUSERAcct",
+      "Message": "/*The RPLUSER local group could not be found.*/",
+      "DecimalCode": 2630,
+      "HexCode": "0xa46",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootNotFound",
+      "Message": "/*Boot block record was not found.*/",
+      "DecimalCode": 2631,
+      "HexCode": "0xa47",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplIncompatibleProfile",
+      "Message": "/*Chosen profile is incompatible with this workstation.*/",
+      "DecimalCode": 2632,
+      "HexCode": "0xa48",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplAdapterNameUnavailable",
+      "Message": "/*Chosen network adapter id is in use by some other workstation.*/",
+      "DecimalCode": 2633,
+      "HexCode": "0xa49",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplConfigNotEmpty",
+      "Message": "/*There are profiles using this configuration.*/",
+      "DecimalCode": 2634,
+      "HexCode": "0xa4a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootInUse",
+      "Message": "/*There are workstations, profiles or configurations using this boot block.*/",
+      "DecimalCode": 2635,
+      "HexCode": "0xa4b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBackupDatabase",
+      "Message": "/*Service failed to backup Remoteboot database.*/",
+      "DecimalCode": 2636,
+      "HexCode": "0xa4c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplAdapterNotFound",
+      "Message": "/*Adapter record was not found.*/",
+      "DecimalCode": 2637,
+      "HexCode": "0xa4d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplVendorNotFound",
+      "Message": "/*Vendor record was not found.*/",
+      "DecimalCode": 2638,
+      "HexCode": "0xa4e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplVendorNameUnavailable",
+      "Message": "/*Vendor name is in use by some other vendor record.*/",
+      "DecimalCode": 2639,
+      "HexCode": "0xa4f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplBootNameUnavailable",
+      "Message": "/*(boot name, vendor id) is in use by some other boot block record.*/",
+      "DecimalCode": 2640,
+      "HexCode": "0xa50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_RplConfigNameUnavailable",
+      "Message": "/*Configuration name is in use by some other configuration.*/",
+      "DecimalCode": 2641,
+      "HexCode": "0xa51",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsInternalCorruption",
+      "Message": "/*The internal database maintained by the DFS service is corrupt*/",
+      "DecimalCode": 2660,
+      "HexCode": "0xa64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsVolumeDataCorrupt",
+      "Message": "/*One of the records in the internal DFS database is corrupt*/",
+      "DecimalCode": 2661,
+      "HexCode": "0xa65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsNoSuchVolume",
+      "Message": "/*There is no DFS name whose entry path matches the input Entry Path*/",
+      "DecimalCode": 2662,
+      "HexCode": "0xa66",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsVolumeAlreadyExists",
+      "Message": "/*A root or link with the given name already exists*/",
+      "DecimalCode": 2663,
+      "HexCode": "0xa67",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsAlreadyShared",
+      "Message": "/*The server share specified is already shared in the DFS*/",
+      "DecimalCode": 2664,
+      "HexCode": "0xa68",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsNoSuchShare",
+      "Message": "/*The indicated server share does not support the indicated DFS namespace*/",
+      "DecimalCode": 2665,
+      "HexCode": "0xa69",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsNotALeafVolume",
+      "Message": "/*The operation is not valid on this portion of the namespace*/",
+      "DecimalCode": 2666,
+      "HexCode": "0xa6a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsLeafVolume",
+      "Message": "/*The operation is not valid on this portion of the namespace*/",
+      "DecimalCode": 2667,
+      "HexCode": "0xa6b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsVolumeHasMultipleServers",
+      "Message": "/*The operation is ambiguous because the link has multiple servers*/",
+      "DecimalCode": 2668,
+      "HexCode": "0xa6c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsCantCreateJunctionPoint",
+      "Message": "/*Unable to create a link*/",
+      "DecimalCode": 2669,
+      "HexCode": "0xa6d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsServerNotDfsAware",
+      "Message": "/*The server is not DFS Aware*/",
+      "DecimalCode": 2670,
+      "HexCode": "0xa6e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsBadRenamePath",
+      "Message": "/*The specified rename target path is invalid*/",
+      "DecimalCode": 2671,
+      "HexCode": "0xa6f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsVolumeIsOffline",
+      "Message": "/*The specified DFS link is offline*/",
+      "DecimalCode": 2672,
+      "HexCode": "0xa70",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsNoSuchServer",
+      "Message": "/*The specified server is not a server for this link*/",
+      "DecimalCode": 2673,
+      "HexCode": "0xa71",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsCyclicalName",
+      "Message": "/*A cycle in the DFS name was detected*/",
+      "DecimalCode": 2674,
+      "HexCode": "0xa72",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsNotSupportedInServerDfs",
+      "Message": "/*The operation is not supported on a server-based DFS*/",
+      "DecimalCode": 2675,
+      "HexCode": "0xa73",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsDuplicateService",
+      "Message": "/*This link is already supported by the specified server-share*/",
+      "DecimalCode": 2676,
+      "HexCode": "0xa74",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsCantRemoveLastServerShare",
+      "Message": "/*Can\u0026apos;t remove the last server-share supporting this root or link*/",
+      "DecimalCode": 2677,
+      "HexCode": "0xa75",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsVolumeIsInterDfs",
+      "Message": "/*The operation is not supported for an Inter-DFS link*/",
+      "DecimalCode": 2678,
+      "HexCode": "0xa76",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsInconsistent",
+      "Message": "/*The internal state of the DFS Service has become inconsistent*/",
+      "DecimalCode": 2679,
+      "HexCode": "0xa77",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsServerUpgraded",
+      "Message": "/*The DFS Service has been installed on the specified server*/",
+      "DecimalCode": 2680,
+      "HexCode": "0xa78",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsDataIsIdentical",
+      "Message": "/*The DFS data being reconciled is identical*/",
+      "DecimalCode": 2681,
+      "HexCode": "0xa79",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsCantRemoveDfsRoot",
+      "Message": "/*The DFS root cannot be deleted - Uninstall DFS if required*/",
+      "DecimalCode": 2682,
+      "HexCode": "0xa7a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsChildOrParentInDfs",
+      "Message": "/*A child or parent directory of the share is already in a DFS*/",
+      "DecimalCode": 2683,
+      "HexCode": "0xa7b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DfsInternalError",
+      "Message": "/*DFS internal error*/",
+      "DecimalCode": 2690,
+      "HexCode": "0xa82",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SetupAlreadyJoined",
+      "Message": "/*This machine is already joined to a domain.*/",
+      "DecimalCode": 2691,
+      "HexCode": "0xa83",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SetupNotJoined",
+      "Message": "/*This machine is not currently joined to a domain.*/",
+      "DecimalCode": 2692,
+      "HexCode": "0xa84",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SetupDomainController",
+      "Message": "/*This machine is a domain controller and cannot be unjoined from a domain.*/",
+      "DecimalCode": 2693,
+      "HexCode": "0xa85",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_DefaultJoinRequired",
+      "Message": "/*The destination domain controller does not support creating machine accounts in OUs.*/",
+      "DecimalCode": 2694,
+      "HexCode": "0xa86",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_InvalidWorkgroupName",
+      "Message": "/*The specified workgroup name is invalid.*/",
+      "DecimalCode": 2695,
+      "HexCode": "0xa87",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_NameUsesIncompatibleCodePage",
+      "Message": "/*The specified computer name is incompatible with the default language used on the domain controller.*/",
+      "DecimalCode": 2696,
+      "HexCode": "0xa88",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_ComputerAccountNotFound",
+      "Message": "/*The specified computer account could not be found. Contact an administrator to verify the account is in the domain. If the account has been deleted unjoin, reboot, and rejoin the domain.*/",
+      "DecimalCode": 2697,
+      "HexCode": "0xa89",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_PersonalSku",
+      "Message": "/*This version of Windows cannot be joined to a domain.*/",
+      "DecimalCode": 2698,
+      "HexCode": "0xa8a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_SetupCheckDNSConfig",
+      "Message": "/*An attempt to resolve the DNS name of a domain controller in the domain being joined has failed.  Please verify this client is configured to reach a DNS server that can resolve DNS names in the target domain. For information about network troubleshooting, see Windows Help.*/",
+      "DecimalCode": 2699,
+      "HexCode": "0xa8b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "NERR_AlreadyCloudDomainJoined",
+      "Message": "/*This device is joined to Azure AD. To join an Active Directory domain, you must first go to settings and choose to disconnect your device from your work or school.*/",
+      "DecimalCode": 2700,
+      "HexCode": "0xa8c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MAX_NERR",
+      "Message": "/* This is the last error in NERR range. */",
+      "DecimalCode": 2999,
+      "HexCode": "0xbb7",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

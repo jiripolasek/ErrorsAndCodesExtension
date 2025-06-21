@@ -1,0 +1,517 @@
+{
+  "HeaderFileName": "wininet.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_INTERNET_OUT_OF_HANDLES",
+      "Message": "",
+      "DecimalCode": 12001,
+      "HexCode": "0x2ee1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 12002,
+      "HexCode": "0x2ee2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_EXTENDED_ERROR",
+      "Message": "",
+      "DecimalCode": 12003,
+      "HexCode": "0x2ee3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": 12004,
+      "HexCode": "0x2ee4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INVALID_URL",
+      "Message": "",
+      "DecimalCode": 12005,
+      "HexCode": "0x2ee5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_UNRECOGNIZED_SCHEME",
+      "Message": "",
+      "DecimalCode": 12006,
+      "HexCode": "0x2ee6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NAME_NOT_RESOLVED",
+      "Message": "",
+      "DecimalCode": 12007,
+      "HexCode": "0x2ee7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_PROTOCOL_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 12008,
+      "HexCode": "0x2ee8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INVALID_OPTION",
+      "Message": "",
+      "DecimalCode": 12009,
+      "HexCode": "0x2ee9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_BAD_OPTION_LENGTH",
+      "Message": "",
+      "DecimalCode": 12010,
+      "HexCode": "0x2eea",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_OPTION_NOT_SETTABLE",
+      "Message": "",
+      "DecimalCode": 12011,
+      "HexCode": "0x2eeb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SHUTDOWN",
+      "Message": "",
+      "DecimalCode": 12012,
+      "HexCode": "0x2eec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INCORRECT_USER_NAME",
+      "Message": "",
+      "DecimalCode": 12013,
+      "HexCode": "0x2eed",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INCORRECT_PASSWORD",
+      "Message": "",
+      "DecimalCode": 12014,
+      "HexCode": "0x2eee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_LOGIN_FAILURE",
+      "Message": "",
+      "DecimalCode": 12015,
+      "HexCode": "0x2eef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INVALID_OPERATION",
+      "Message": "",
+      "DecimalCode": 12016,
+      "HexCode": "0x2ef0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_OPERATION_CANCELLED",
+      "Message": "",
+      "DecimalCode": 12017,
+      "HexCode": "0x2ef1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INCORRECT_HANDLE_TYPE",
+      "Message": "",
+      "DecimalCode": 12018,
+      "HexCode": "0x2ef2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INCORRECT_HANDLE_STATE",
+      "Message": "",
+      "DecimalCode": 12019,
+      "HexCode": "0x2ef3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NOT_PROXY_REQUEST",
+      "Message": "",
+      "DecimalCode": 12020,
+      "HexCode": "0x2ef4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_REGISTRY_VALUE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 12021,
+      "HexCode": "0x2ef5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_BAD_REGISTRY_PARAMETER",
+      "Message": "",
+      "DecimalCode": 12022,
+      "HexCode": "0x2ef6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NO_DIRECT_ACCESS",
+      "Message": "",
+      "DecimalCode": 12023,
+      "HexCode": "0x2ef7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NO_CONTEXT",
+      "Message": "",
+      "DecimalCode": 12024,
+      "HexCode": "0x2ef8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NO_CALLBACK",
+      "Message": "",
+      "DecimalCode": 12025,
+      "HexCode": "0x2ef9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_REQUEST_PENDING",
+      "Message": "",
+      "DecimalCode": 12026,
+      "HexCode": "0x2efa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INCORRECT_FORMAT",
+      "Message": "",
+      "DecimalCode": 12027,
+      "HexCode": "0x2efb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_ITEM_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 12028,
+      "HexCode": "0x2efc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CANNOT_CONNECT",
+      "Message": "",
+      "DecimalCode": 12029,
+      "HexCode": "0x2efd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CONNECTION_ABORTED",
+      "Message": "",
+      "DecimalCode": 12030,
+      "HexCode": "0x2efe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CONNECTION_RESET",
+      "Message": "",
+      "DecimalCode": 12031,
+      "HexCode": "0x2eff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_FORCE_RETRY",
+      "Message": "",
+      "DecimalCode": 12032,
+      "HexCode": "0x2f00",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INVALID_PROXY_REQUEST",
+      "Message": "",
+      "DecimalCode": 12033,
+      "HexCode": "0x2f01",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NEED_UI",
+      "Message": "",
+      "DecimalCode": 12034,
+      "HexCode": "0x2f02",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_HANDLE_EXISTS",
+      "Message": "",
+      "DecimalCode": 12036,
+      "HexCode": "0x2f04",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_DATE_INVALID",
+      "Message": "",
+      "DecimalCode": 12037,
+      "HexCode": "0x2f05",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_CN_INVALID",
+      "Message": "",
+      "DecimalCode": 12038,
+      "HexCode": "0x2f06",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_HTTP_TO_HTTPS_ON_REDIR",
+      "Message": "",
+      "DecimalCode": 12039,
+      "HexCode": "0x2f07",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_HTTPS_TO_HTTP_ON_REDIR",
+      "Message": "",
+      "DecimalCode": 12040,
+      "HexCode": "0x2f08",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_MIXED_SECURITY",
+      "Message": "",
+      "DecimalCode": 12041,
+      "HexCode": "0x2f09",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CHG_POST_IS_NON_SECURE",
+      "Message": "",
+      "DecimalCode": 12042,
+      "HexCode": "0x2f0a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_POST_IS_NON_SECURE",
+      "Message": "",
+      "DecimalCode": 12043,
+      "HexCode": "0x2f0b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CLIENT_AUTH_CERT_NEEDED",
+      "Message": "",
+      "DecimalCode": 12044,
+      "HexCode": "0x2f0c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INVALID_CA",
+      "Message": "",
+      "DecimalCode": 12045,
+      "HexCode": "0x2f0d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CLIENT_AUTH_NOT_SETUP",
+      "Message": "",
+      "DecimalCode": 12046,
+      "HexCode": "0x2f0e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_ASYNC_THREAD_FAILED",
+      "Message": "",
+      "DecimalCode": 12047,
+      "HexCode": "0x2f0f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_REDIRECT_SCHEME_CHANGE",
+      "Message": "",
+      "DecimalCode": 12048,
+      "HexCode": "0x2f10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_DIALOG_PENDING",
+      "Message": "",
+      "DecimalCode": 12049,
+      "HexCode": "0x2f11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_RETRY_DIALOG",
+      "Message": "",
+      "DecimalCode": 12050,
+      "HexCode": "0x2f12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_HTTPS_HTTP_SUBMIT_REDIR",
+      "Message": "",
+      "DecimalCode": 12052,
+      "HexCode": "0x2f14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_INSERT_CDROM",
+      "Message": "",
+      "DecimalCode": 12053,
+      "HexCode": "0x2f15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_FORTEZZA_LOGIN_NEEDED",
+      "Message": "",
+      "DecimalCode": 12054,
+      "HexCode": "0x2f16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_ERRORS",
+      "Message": "",
+      "DecimalCode": 12055,
+      "HexCode": "0x2f17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_NO_REV",
+      "Message": "",
+      "DecimalCode": 12056,
+      "HexCode": "0x2f18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_REV_FAILED",
+      "Message": "",
+      "DecimalCode": 12057,
+      "HexCode": "0x2f19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_WEAK_SIGNATURE",
+      "Message": "",
+      "DecimalCode": 12062,
+      "HexCode": "0x2f1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SECURITY_CHANNEL_ERROR",
+      "Message": "",
+      "DecimalCode": 12157,
+      "HexCode": "0x2f7d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_UNABLE_TO_CACHE_FILE",
+      "Message": "",
+      "DecimalCode": 12158,
+      "HexCode": "0x2f7e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_TCPIP_NOT_INSTALLED",
+      "Message": "",
+      "DecimalCode": 12159,
+      "HexCode": "0x2f7f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": 12163,
+      "HexCode": "0x2f83",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SERVER_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 12164,
+      "HexCode": "0x2f84",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_PROXY_SERVER_UNREACHABLE",
+      "Message": "",
+      "DecimalCode": 12165,
+      "HexCode": "0x2f85",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_BAD_AUTO_PROXY_SCRIPT",
+      "Message": "",
+      "DecimalCode": 12166,
+      "HexCode": "0x2f86",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_UNABLE_TO_DOWNLOAD_SCRIPT",
+      "Message": "",
+      "DecimalCode": 12167,
+      "HexCode": "0x2f87",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_INVALID_CERT",
+      "Message": "",
+      "DecimalCode": 12169,
+      "HexCode": "0x2f89",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SEC_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": 12170,
+      "HexCode": "0x2f8a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_FAILED_DUETOSECURITYCHECK",
+      "Message": "",
+      "DecimalCode": 12171,
+      "HexCode": "0x2f8b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": 12172,
+      "HexCode": "0x2f8c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_NEED_MSN_SSPI_PKG",
+      "Message": "",
+      "DecimalCode": 12173,
+      "HexCode": "0x2f8d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_LOGIN_FAILURE_DISPLAY_ENTITY_BODY",
+      "Message": "",
+      "DecimalCode": 12174,
+      "HexCode": "0x2f8e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_DECODING_FAILED",
+      "Message": "",
+      "DecimalCode": 12175,
+      "HexCode": "0x2f8f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_CLIENT_AUTH_CERT_NEEDED_PROXY",
+      "Message": "",
+      "DecimalCode": 12187,
+      "HexCode": "0x2f9b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNET_SECURE_FAILURE_PROXY",
+      "Message": "",
+      "DecimalCode": 12188,
+      "HexCode": "0x2f9c",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,132 @@
+{
+  "HeaderFileName": "d3dx9xof.h",
+  "ErrorCodes": [
+    {
+      "Id": "D3DXFERR_BADOBJECT",
+      "Message": "",
+      "DecimalCode": -2005531772,
+      "HexCode": "0x88760384",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADVALUE",
+      "Message": "",
+      "DecimalCode": -2005531771,
+      "HexCode": "0x88760385",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADTYPE",
+      "Message": "",
+      "DecimalCode": -2005531770,
+      "HexCode": "0x88760386",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_NOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531769,
+      "HexCode": "0x88760387",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_NOTDONEYET",
+      "Message": "",
+      "DecimalCode": -2005531768,
+      "HexCode": "0x88760388",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_FILENOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531767,
+      "HexCode": "0x88760389",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_RESOURCENOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531766,
+      "HexCode": "0x8876038a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADRESOURCE",
+      "Message": "",
+      "DecimalCode": -2005531765,
+      "HexCode": "0x8876038b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADFILETYPE",
+      "Message": "",
+      "DecimalCode": -2005531764,
+      "HexCode": "0x8876038c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADFILEVERSION",
+      "Message": "",
+      "DecimalCode": -2005531763,
+      "HexCode": "0x8876038d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADFILEFLOATSIZE",
+      "Message": "",
+      "DecimalCode": -2005531762,
+      "HexCode": "0x8876038e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADFILE",
+      "Message": "",
+      "DecimalCode": -2005531761,
+      "HexCode": "0x8876038f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_PARSEERROR",
+      "Message": "",
+      "DecimalCode": -2005531760,
+      "HexCode": "0x88760390",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADARRAYSIZE",
+      "Message": "",
+      "DecimalCode": -2005531759,
+      "HexCode": "0x88760391",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADDATAREFERENCE",
+      "Message": "",
+      "DecimalCode": -2005531758,
+      "HexCode": "0x88760392",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_NOMOREOBJECTS",
+      "Message": "",
+      "DecimalCode": -2005531757,
+      "HexCode": "0x88760393",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_NOMOREDATA",
+      "Message": "",
+      "DecimalCode": -2005531756,
+      "HexCode": "0x88760394",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXFERR_BADCACHEFILE",
+      "Message": "",
+      "DecimalCode": -2005531755,
+      "HexCode": "0x88760395",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

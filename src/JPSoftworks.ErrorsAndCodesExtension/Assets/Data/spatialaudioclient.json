@@ -1,0 +1,97 @@
+{
+  "HeaderFileName": "spatialaudioclient.h",
+  "ErrorCodes": [
+    {
+      "Id": "SPTLAUDCLNT_E_DESTROYED",
+      "Message": "",
+      "DecimalCode": -2004287232,
+      "HexCode": "0x88890100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_OUT_OF_ORDER",
+      "Message": "",
+      "DecimalCode": -2004287231,
+      "HexCode": "0x88890101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_RESOURCES_INVALIDATED",
+      "Message": "",
+      "DecimalCode": -2004287230,
+      "HexCode": "0x88890102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_NO_MORE_OBJECTS",
+      "Message": "",
+      "DecimalCode": -2004287229,
+      "HexCode": "0x88890103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_PROPERTY_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2004287228,
+      "HexCode": "0x88890104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_ERRORS_IN_OBJECT_CALLS",
+      "Message": "",
+      "DecimalCode": -2004287227,
+      "HexCode": "0x88890105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_METADATA_FORMAT_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2004287226,
+      "HexCode": "0x88890106",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_STREAM_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2004287225,
+      "HexCode": "0x88890107",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_INVALID_LICENSE",
+      "Message": "",
+      "DecimalCode": -2004287224,
+      "HexCode": "0x88890108",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_STREAM_NOT_STOPPED",
+      "Message": "",
+      "DecimalCode": -2004287222,
+      "HexCode": "0x8889010a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_STATIC_OBJECT_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2004287221,
+      "HexCode": "0x8889010b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_OBJECT_ALREADY_ACTIVE",
+      "Message": "",
+      "DecimalCode": -2004287220,
+      "HexCode": "0x8889010c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUDCLNT_E_INTERNAL",
+      "Message": "",
+      "DecimalCode": -2004287219,
+      "HexCode": "0x8889010d",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

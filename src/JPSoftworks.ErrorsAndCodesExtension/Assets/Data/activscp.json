@@ -1,0 +1,27 @@
+{
+  "HeaderFileName": "activscp.h",
+  "ErrorCodes": [
+    {
+      "Id": "SCRIPT_E_RECORDED",
+      "Message": "",
+      "DecimalCode": -2040119292,
+      "HexCode": "0x86664004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SCRIPT_E_REPORTED",
+      "Message": "",
+      "DecimalCode": -2147352319,
+      "HexCode": "0x80020101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SCRIPT_E_PROPAGATE",
+      "Message": "",
+      "DecimalCode": -2147352318,
+      "HexCode": "0x80020102",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

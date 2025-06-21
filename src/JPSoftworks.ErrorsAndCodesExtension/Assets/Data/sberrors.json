@@ -1,0 +1,622 @@
+{
+  "HeaderFileName": "sberrors.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_SB_NO_DISCONNECTED_SESSION",
+      "Message": "",
+      "DecimalCode": -2012020735,
+      "HexCode": "0x88130001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NO_RESOURCE_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020734,
+      "HexCode": "0x88130002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_TARGET_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2012020733,
+      "HexCode": "0x88130003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_ENVIRONMENT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2012020732,
+      "HexCode": "0x88130004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NO_FILTER_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020731,
+      "HexCode": "0x88130005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NO_HINT_DATA",
+      "Message": "",
+      "DecimalCode": -2012020730,
+      "HexCode": "0x88130006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_LOAD_BAL_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020729,
+      "HexCode": "0x88130007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_QUERY_PLACEMENT_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020728,
+      "HexCode": "0x88130008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_CREATE_PLACEMENT_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020727,
+      "HexCode": "0x88130009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_ORCHESTRATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020726,
+      "HexCode": "0x8813000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_DISCONN_SESSION_CHECK_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020725,
+      "HexCode": "0x8813000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_POLICY_PLUGIN_PROC_REQ_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020724,
+      "HexCode": "0x8813000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NO_PLUGIN_CLSID_REG",
+      "Message": "",
+      "DecimalCode": -2012020723,
+      "HexCode": "0x8813000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NO_PLUGIN_PROVIDER_REG",
+      "Message": "",
+      "DecimalCode": -2012020722,
+      "HexCode": "0x8813000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PLUGIN_DISABLED_REG",
+      "Message": "",
+      "DecimalCode": -2012020721,
+      "HexCode": "0x8813000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_BAD_RESOURCE_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020720,
+      "HexCode": "0x88130010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_BAD_FILTER_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020719,
+      "HexCode": "0x88130011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_GROUP_EMPTY",
+      "Message": "",
+      "DecimalCode": -2012020718,
+      "HexCode": "0x88130012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_GROUP_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -2012020717,
+      "HexCode": "0x88130013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NO_TARGET_IP_ADDRESS",
+      "Message": "",
+      "DecimalCode": -2012020716,
+      "HexCode": "0x88130014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_REDIRECT_TO_DESTINATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020715,
+      "HexCode": "0x88130015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_VM_WAKE_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020714,
+      "HexCode": "0x88130016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_VM_BOOT_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020713,
+      "HexCode": "0x88130017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_FARM_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2012020712,
+      "HexCode": "0x88130018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_SERVICE_STOPPING",
+      "Message": "",
+      "DecimalCode": -2012020711,
+      "HexCode": "0x88130019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_TARGET_IN_DIFFERENT_FARM",
+      "Message": "",
+      "DecimalCode": -2012020710,
+      "HexCode": "0x8813001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_TARGET_TYPE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2012020709,
+      "HexCode": "0x8813001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_WRONG_TSV_URL_FORMAT",
+      "Message": "",
+      "DecimalCode": -2012020708,
+      "HexCode": "0x8813001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_UNIDENTIFIED_TARGET_TYPE",
+      "Message": "",
+      "DecimalCode": -2012020707,
+      "HexCode": "0x8813001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_WRONG_USER_DATA_FROM_PUB_SERVICE",
+      "Message": "",
+      "DecimalCode": -2012020706,
+      "HexCode": "0x8813001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_TSV_URL_NOT_PRESENT",
+      "Message": "",
+      "DecimalCode": -2012020705,
+      "HexCode": "0x8813001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_UNKNOWN_RESOURCE_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020704,
+      "HexCode": "0x88130020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_UNKNOWN_CP_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020703,
+      "HexCode": "0x88130021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_NULL_CP_PLUGIN",
+      "Message": "",
+      "DecimalCode": -2012020702,
+      "HexCode": "0x88130022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_RESOURCE_STATE_UNCHANGED",
+      "Message": "",
+      "DecimalCode": -2012020701,
+      "HexCode": "0x88130023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_TARGET_LB_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2012020700,
+      "HexCode": "0x88130024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_TARGET_IN_USE",
+      "Message": "",
+      "DecimalCode": -2012020699,
+      "HexCode": "0x88130025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_SYNCH_CONFLICT",
+      "Message": "",
+      "DecimalCode": -2012020698,
+      "HexCode": "0x88130026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_BROKER_WMI_FAIL",
+      "Message": "",
+      "DecimalCode": -2012020697,
+      "HexCode": "0x88130027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_DELETE_VM_AD_ACCOUNT_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020479,
+      "HexCode": "0x88130101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_HYPERV_HOST_NAME",
+      "Message": "",
+      "DecimalCode": -2012020478,
+      "HexCode": "0x88130102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_HYPERV_HOST_RPC_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020477,
+      "HexCode": "0x88130103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_ALREADY_EXIST",
+      "Message": "",
+      "DecimalCode": -2012020476,
+      "HexCode": "0x88130104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -2012020475,
+      "HexCode": "0x88130105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_OPERATION_CANCELLED",
+      "Message": "",
+      "DecimalCode": -2012020474,
+      "HexCode": "0x88130106",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_NO_HYPERV_HOST_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2012020473,
+      "HexCode": "0x88130107",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_SELECTED_VM_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2012020472,
+      "HexCode": "0x88130108",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_POOL_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2012020471,
+      "HexCode": "0x88130109",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_UNATTEND_XML_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2012020470,
+      "HexCode": "0x8813010a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_UNATTEND_XML",
+      "Message": "",
+      "DecimalCode": -2012020469,
+      "HexCode": "0x8813010b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_AD_ACCOUNT_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2012020468,
+      "HexCode": "0x8813010c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_CREATE_VM_AD_ACCOUNT_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020467,
+      "HexCode": "0x8813010d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_BASE_VM_PATH",
+      "Message": "",
+      "DecimalCode": -2012020224,
+      "HexCode": "0x88130200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_CACHE_PATH",
+      "Message": "",
+      "DecimalCode": -2012020223,
+      "HexCode": "0x88130201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_VM_CREATION_PATH",
+      "Message": "",
+      "DecimalCode": -2012020222,
+      "HexCode": "0x88130202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_SMB_SHARE_PATH",
+      "Message": "",
+      "DecimalCode": -2012020221,
+      "HexCode": "0x88130203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_MASTER_VHD_CACHING_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020220,
+      "HexCode": "0x88130204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_CREATE_DIFF_VHD_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020219,
+      "HexCode": "0x88130205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_CREATE_CLONE_VHD_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020218,
+      "HexCode": "0x88130206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_START_FAIL",
+      "Message": "",
+      "DecimalCode": -2012020217,
+      "HexCode": "0x88130207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_TURN_OFF_FAIL",
+      "Message": "",
+      "DecimalCode": -2012020216,
+      "HexCode": "0x88130208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_SNAPSHOT_FAIL",
+      "Message": "",
+      "DecimalCode": -2012020215,
+      "HexCode": "0x88130209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_BOOT_FAIL",
+      "Message": "",
+      "DecimalCode": -2012020214,
+      "HexCode": "0x8813020a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_MIGRATE_STORAGE_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020213,
+      "HexCode": "0x8813020b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_IMPORT_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020212,
+      "HexCode": "0x8813020c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_CONNECT_VHD_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020211,
+      "HexCode": "0x8813020d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_DISCONNECT_VHD_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020210,
+      "HexCode": "0x8813020e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_SETUP_VHD_FAILED",
+      "Message": "",
+      "DecimalCode": -2012020209,
+      "HexCode": "0x8813020f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_GEN_QUERY_OFFVM_FAILURE",
+      "Message": "",
+      "DecimalCode": -2012020208,
+      "HexCode": "0x88130210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_NOT_TURNED_OFF",
+      "Message": "",
+      "DecimalCode": -2012020207,
+      "HexCode": "0x88130211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_MULTIPLE_VHD_DISKS",
+      "Message": "",
+      "DecimalCode": -2012020206,
+      "HexCode": "0x88130212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_NO_VHD_FOUND",
+      "Message": "",
+      "DecimalCode": -2012020205,
+      "HexCode": "0x88130213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_MULTIPLE_WINDOWS_FOLDERS",
+      "Message": "",
+      "DecimalCode": -2012020204,
+      "HexCode": "0x88130214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_GOLDVM_NOT_GENERALIZED",
+      "Message": "",
+      "DecimalCode": -2012020203,
+      "HexCode": "0x88130215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_GOLDVM_IC_UPGRADE_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2012020202,
+      "HexCode": "0x88130216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_GOLDVM_INVALID_EXPORT_SHARE",
+      "Message": "",
+      "DecimalCode": -2012020201,
+      "HexCode": "0x88130217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_NO_NETWORK_ADAPTER_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2012020200,
+      "HexCode": "0x88130218",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_NETWORK_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": -2012020199,
+      "HexCode": "0x88130219",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_GOLDVM_NOT_ENOUGH_RAM",
+      "Message": "",
+      "DecimalCode": -2012020197,
+      "HexCode": "0x8813021b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_SERVER_SKU_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2012020196,
+      "HexCode": "0x8813021c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_SYSPREP_SPECIALIZE_INCOMPLETE",
+      "Message": "",
+      "DecimalCode": -2012020195,
+      "HexCode": "0x8813021d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_SYSPREP_SPECIALIZE_COMPLETE",
+      "Message": "",
+      "DecimalCode": -2012020194,
+      "HexCode": "0x8813021e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_FAILED_DOMAIN_CHECK",
+      "Message": "",
+      "DecimalCode": -2012020193,
+      "HexCode": "0x8813021f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_FAILED_GUEST_COMMUNICATION",
+      "Message": "",
+      "DecimalCode": -2012020192,
+      "HexCode": "0x88130220",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_NOT_DEPLOYABLE_STATE",
+      "Message": "",
+      "DecimalCode": -2012020191,
+      "HexCode": "0x88130221",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_INVALID_VM_STATE",
+      "Message": "",
+      "DecimalCode": -2012020190,
+      "HexCode": "0x88130222",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_PROV_VM_GENERATION_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2012020189,
+      "HexCode": "0x88130223",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SB_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -2012019456,
+      "HexCode": "0x88130500",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

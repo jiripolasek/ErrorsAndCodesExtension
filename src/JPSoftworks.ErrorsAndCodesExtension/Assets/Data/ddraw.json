@@ -1,0 +1,839 @@
+{
+  "HeaderFileName": "ddraw.h",
+  "ErrorCodes": [
+    {
+      "Id": "DDERR_ALREADYINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2005532667,
+      "HexCode": "0x88760005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANNOTATTACHSURFACE",
+      "Message": "",
+      "DecimalCode": -2005532662,
+      "HexCode": "0x8876000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANNOTDETACHSURFACE",
+      "Message": "",
+      "DecimalCode": -2005532652,
+      "HexCode": "0x88760014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CURRENTLYNOTAVAIL",
+      "Message": "",
+      "DecimalCode": -2005532632,
+      "HexCode": "0x88760028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2005532617,
+      "HexCode": "0x88760037",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_GENERIC",
+      "Message": "",
+      "DecimalCode": -2147467259,
+      "HexCode": "0x80004005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_HEIGHTALIGN",
+      "Message": "",
+      "DecimalCode": -2005532582,
+      "HexCode": "0x8876005a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INCOMPATIBLEPRIMARY",
+      "Message": "",
+      "DecimalCode": -2005532577,
+      "HexCode": "0x8876005f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDCAPS",
+      "Message": "",
+      "DecimalCode": -2005532572,
+      "HexCode": "0x88760064",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDCLIPLIST",
+      "Message": "",
+      "DecimalCode": -2005532562,
+      "HexCode": "0x8876006e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDMODE",
+      "Message": "",
+      "DecimalCode": -2005532552,
+      "HexCode": "0x88760078",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDOBJECT",
+      "Message": "",
+      "DecimalCode": -2005532542,
+      "HexCode": "0x88760082",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDPARAMS",
+      "Message": "",
+      "DecimalCode": -2147024809,
+      "HexCode": "0x80070057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDPIXELFORMAT",
+      "Message": "",
+      "DecimalCode": -2005532527,
+      "HexCode": "0x88760091",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDRECT",
+      "Message": "",
+      "DecimalCode": -2005532522,
+      "HexCode": "0x88760096",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_LOCKEDSURFACES",
+      "Message": "",
+      "DecimalCode": -2005532512,
+      "HexCode": "0x887600a0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NO3D",
+      "Message": "",
+      "DecimalCode": -2005532502,
+      "HexCode": "0x887600aa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOALPHAHW",
+      "Message": "",
+      "DecimalCode": -2005532492,
+      "HexCode": "0x887600b4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOSTEREOHARDWARE",
+      "Message": "",
+      "DecimalCode": -2005532491,
+      "HexCode": "0x887600b5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOSURFACELEFT",
+      "Message": "",
+      "DecimalCode": -2005532490,
+      "HexCode": "0x887600b6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOCLIPLIST",
+      "Message": "",
+      "DecimalCode": -2005532467,
+      "HexCode": "0x887600cd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOCOLORCONVHW",
+      "Message": "",
+      "DecimalCode": -2005532462,
+      "HexCode": "0x887600d2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOCOOPERATIVELEVELSET",
+      "Message": "",
+      "DecimalCode": -2005532460,
+      "HexCode": "0x887600d4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOCOLORKEY",
+      "Message": "",
+      "DecimalCode": -2005532457,
+      "HexCode": "0x887600d7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOCOLORKEYHW",
+      "Message": "",
+      "DecimalCode": -2005532452,
+      "HexCode": "0x887600dc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NODIRECTDRAWSUPPORT",
+      "Message": "",
+      "DecimalCode": -2005532450,
+      "HexCode": "0x887600de",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOEXCLUSIVEMODE",
+      "Message": "",
+      "DecimalCode": -2005532447,
+      "HexCode": "0x887600e1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOFLIPHW",
+      "Message": "",
+      "DecimalCode": -2005532442,
+      "HexCode": "0x887600e6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOGDI",
+      "Message": "",
+      "DecimalCode": -2005532432,
+      "HexCode": "0x887600f0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOMIRRORHW",
+      "Message": "",
+      "DecimalCode": -2005532422,
+      "HexCode": "0x887600fa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005532417,
+      "HexCode": "0x887600ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOOVERLAYHW",
+      "Message": "",
+      "DecimalCode": -2005532412,
+      "HexCode": "0x88760104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OVERLAPPINGRECTS",
+      "Message": "",
+      "DecimalCode": -2005532402,
+      "HexCode": "0x8876010e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NORASTEROPHW",
+      "Message": "",
+      "DecimalCode": -2005532392,
+      "HexCode": "0x88760118",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOROTATIONHW",
+      "Message": "",
+      "DecimalCode": -2005532382,
+      "HexCode": "0x88760122",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOSTRETCHHW",
+      "Message": "",
+      "DecimalCode": -2005532362,
+      "HexCode": "0x88760136",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOT4BITCOLOR",
+      "Message": "",
+      "DecimalCode": -2005532356,
+      "HexCode": "0x8876013c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOT4BITCOLORINDEX",
+      "Message": "",
+      "DecimalCode": -2005532355,
+      "HexCode": "0x8876013d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOT8BITCOLOR",
+      "Message": "",
+      "DecimalCode": -2005532352,
+      "HexCode": "0x88760140",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTEXTUREHW",
+      "Message": "",
+      "DecimalCode": -2005532342,
+      "HexCode": "0x8876014a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOVSYNCHW",
+      "Message": "",
+      "DecimalCode": -2005532337,
+      "HexCode": "0x8876014f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOZBUFFERHW",
+      "Message": "",
+      "DecimalCode": -2005532332,
+      "HexCode": "0x88760154",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOZOVERLAYHW",
+      "Message": "",
+      "DecimalCode": -2005532322,
+      "HexCode": "0x8876015e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OUTOFCAPS",
+      "Message": "",
+      "DecimalCode": -2005532312,
+      "HexCode": "0x88760168",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": -2147024882,
+      "HexCode": "0x8007000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OUTOFVIDEOMEMORY",
+      "Message": "",
+      "DecimalCode": -2005532292,
+      "HexCode": "0x8876017c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OVERLAYCANTCLIP",
+      "Message": "",
+      "DecimalCode": -2005532290,
+      "HexCode": "0x8876017e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OVERLAYCOLORKEYONLYONEACTIVE",
+      "Message": "",
+      "DecimalCode": -2005532288,
+      "HexCode": "0x88760180",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_PALETTEBUSY",
+      "Message": "",
+      "DecimalCode": -2005532285,
+      "HexCode": "0x88760183",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_COLORKEYNOTSET",
+      "Message": "",
+      "DecimalCode": -2005532272,
+      "HexCode": "0x88760190",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_SURFACEALREADYATTACHED",
+      "Message": "",
+      "DecimalCode": -2005532262,
+      "HexCode": "0x8876019a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_SURFACEALREADYDEPENDENT",
+      "Message": "",
+      "DecimalCode": -2005532252,
+      "HexCode": "0x887601a4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_SURFACEBUSY",
+      "Message": "",
+      "DecimalCode": -2005532242,
+      "HexCode": "0x887601ae",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANTLOCKSURFACE",
+      "Message": "",
+      "DecimalCode": -2005532237,
+      "HexCode": "0x887601b3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_SURFACEISOBSCURED",
+      "Message": "",
+      "DecimalCode": -2005532232,
+      "HexCode": "0x887601b8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_SURFACELOST",
+      "Message": "",
+      "DecimalCode": -2005532222,
+      "HexCode": "0x887601c2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_SURFACENOTATTACHED",
+      "Message": "",
+      "DecimalCode": -2005532212,
+      "HexCode": "0x887601cc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_TOOBIGHEIGHT",
+      "Message": "",
+      "DecimalCode": -2005532202,
+      "HexCode": "0x887601d6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_TOOBIGSIZE",
+      "Message": "",
+      "DecimalCode": -2005532192,
+      "HexCode": "0x887601e0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_TOOBIGWIDTH",
+      "Message": "",
+      "DecimalCode": -2005532182,
+      "HexCode": "0x887601ea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147467263,
+      "HexCode": "0x80004001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_UNSUPPORTEDFORMAT",
+      "Message": "",
+      "DecimalCode": -2005532162,
+      "HexCode": "0x887601fe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_UNSUPPORTEDMASK",
+      "Message": "",
+      "DecimalCode": -2005532152,
+      "HexCode": "0x88760208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDSTREAM",
+      "Message": "",
+      "DecimalCode": -2005532151,
+      "HexCode": "0x88760209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_VERTICALBLANKINPROGRESS",
+      "Message": "",
+      "DecimalCode": -2005532135,
+      "HexCode": "0x88760219",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_WASSTILLDRAWING",
+      "Message": "",
+      "DecimalCode": -2005532132,
+      "HexCode": "0x8876021c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_DDSCAPSCOMPLEXREQUIRED",
+      "Message": "",
+      "DecimalCode": -2005532130,
+      "HexCode": "0x8876021e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_XALIGN",
+      "Message": "",
+      "DecimalCode": -2005532112,
+      "HexCode": "0x88760230",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDDIRECTDRAWGUID",
+      "Message": "",
+      "DecimalCode": -2005532111,
+      "HexCode": "0x88760231",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_DIRECTDRAWALREADYCREATED",
+      "Message": "",
+      "DecimalCode": -2005532110,
+      "HexCode": "0x88760232",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NODIRECTDRAWHW",
+      "Message": "",
+      "DecimalCode": -2005532109,
+      "HexCode": "0x88760233",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_PRIMARYSURFACEALREADYEXISTS",
+      "Message": "",
+      "DecimalCode": -2005532108,
+      "HexCode": "0x88760234",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOEMULATION",
+      "Message": "",
+      "DecimalCode": -2005532107,
+      "HexCode": "0x88760235",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_REGIONTOOSMALL",
+      "Message": "",
+      "DecimalCode": -2005532106,
+      "HexCode": "0x88760236",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CLIPPERISUSINGHWND",
+      "Message": "",
+      "DecimalCode": -2005532105,
+      "HexCode": "0x88760237",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOCLIPPERATTACHED",
+      "Message": "",
+      "DecimalCode": -2005532104,
+      "HexCode": "0x88760238",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOHWND",
+      "Message": "",
+      "DecimalCode": -2005532103,
+      "HexCode": "0x88760239",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_HWNDSUBCLASSED",
+      "Message": "",
+      "DecimalCode": -2005532102,
+      "HexCode": "0x8876023a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_HWNDALREADYSET",
+      "Message": "",
+      "DecimalCode": -2005532101,
+      "HexCode": "0x8876023b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOPALETTEATTACHED",
+      "Message": "",
+      "DecimalCode": -2005532100,
+      "HexCode": "0x8876023c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOPALETTEHW",
+      "Message": "",
+      "DecimalCode": -2005532099,
+      "HexCode": "0x8876023d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_BLTFASTCANTCLIP",
+      "Message": "",
+      "DecimalCode": -2005532098,
+      "HexCode": "0x8876023e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOBLTHW",
+      "Message": "",
+      "DecimalCode": -2005532097,
+      "HexCode": "0x8876023f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NODDROPSHW",
+      "Message": "",
+      "DecimalCode": -2005532096,
+      "HexCode": "0x88760240",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_OVERLAYNOTVISIBLE",
+      "Message": "",
+      "DecimalCode": -2005532095,
+      "HexCode": "0x88760241",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOOVERLAYDEST",
+      "Message": "",
+      "DecimalCode": -2005532094,
+      "HexCode": "0x88760242",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDPOSITION",
+      "Message": "",
+      "DecimalCode": -2005532093,
+      "HexCode": "0x88760243",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTAOVERLAYSURFACE",
+      "Message": "",
+      "DecimalCode": -2005532092,
+      "HexCode": "0x88760244",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_EXCLUSIVEMODEALREADYSET",
+      "Message": "",
+      "DecimalCode": -2005532091,
+      "HexCode": "0x88760245",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTFLIPPABLE",
+      "Message": "",
+      "DecimalCode": -2005532090,
+      "HexCode": "0x88760246",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANTDUPLICATE",
+      "Message": "",
+      "DecimalCode": -2005532089,
+      "HexCode": "0x88760247",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTLOCKED",
+      "Message": "",
+      "DecimalCode": -2005532088,
+      "HexCode": "0x88760248",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANTCREATEDC",
+      "Message": "",
+      "DecimalCode": -2005532087,
+      "HexCode": "0x88760249",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NODC",
+      "Message": "",
+      "DecimalCode": -2005532086,
+      "HexCode": "0x8876024a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_WRONGMODE",
+      "Message": "",
+      "DecimalCode": -2005532085,
+      "HexCode": "0x8876024b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_IMPLICITLYCREATED",
+      "Message": "",
+      "DecimalCode": -2005532084,
+      "HexCode": "0x8876024c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTPALETTIZED",
+      "Message": "",
+      "DecimalCode": -2005532083,
+      "HexCode": "0x8876024d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_UNSUPPORTEDMODE",
+      "Message": "",
+      "DecimalCode": -2005532082,
+      "HexCode": "0x8876024e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOMIPMAPHW",
+      "Message": "",
+      "DecimalCode": -2005532081,
+      "HexCode": "0x8876024f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_INVALIDSURFACETYPE",
+      "Message": "",
+      "DecimalCode": -2005532080,
+      "HexCode": "0x88760250",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOOPTIMIZEHW",
+      "Message": "",
+      "DecimalCode": -2005532072,
+      "HexCode": "0x88760258",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTLOADED",
+      "Message": "",
+      "DecimalCode": -2005532071,
+      "HexCode": "0x88760259",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOFOCUSWINDOW",
+      "Message": "",
+      "DecimalCode": -2005532070,
+      "HexCode": "0x8876025a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTONMIPMAPSUBLEVEL",
+      "Message": "",
+      "DecimalCode": -2005532069,
+      "HexCode": "0x8876025b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_DCALREADYCREATED",
+      "Message": "",
+      "DecimalCode": -2005532052,
+      "HexCode": "0x8876026c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NONONLOCALVIDMEM",
+      "Message": "",
+      "DecimalCode": -2005532042,
+      "HexCode": "0x88760276",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANTPAGELOCK",
+      "Message": "",
+      "DecimalCode": -2005532032,
+      "HexCode": "0x88760280",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_CANTPAGEUNLOCK",
+      "Message": "",
+      "DecimalCode": -2005532012,
+      "HexCode": "0x88760294",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTPAGELOCKED",
+      "Message": "",
+      "DecimalCode": -2005531992,
+      "HexCode": "0x887602a8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_MOREDATA",
+      "Message": "",
+      "DecimalCode": -2005531982,
+      "HexCode": "0x887602b2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_EXPIRED",
+      "Message": "",
+      "DecimalCode": -2005531981,
+      "HexCode": "0x887602b3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_TESTFINISHED",
+      "Message": "",
+      "DecimalCode": -2005531980,
+      "HexCode": "0x887602b4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NEWMODE",
+      "Message": "",
+      "DecimalCode": -2005531979,
+      "HexCode": "0x887602b5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_D3DNOTINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2005531978,
+      "HexCode": "0x887602b6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_VIDEONOTACTIVE",
+      "Message": "",
+      "DecimalCode": -2005531977,
+      "HexCode": "0x887602b7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOMONITORINFORMATION",
+      "Message": "",
+      "DecimalCode": -2005531976,
+      "HexCode": "0x887602b8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NODRIVERSUPPORT",
+      "Message": "",
+      "DecimalCode": -2005531975,
+      "HexCode": "0x887602b9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_DEVICEDOESNTOWNSURFACE",
+      "Message": "",
+      "DecimalCode": -2005531973,
+      "HexCode": "0x887602bb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DDERR_NOTINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147221008,
+      "HexCode": "0x800401f0",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

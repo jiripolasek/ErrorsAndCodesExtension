@@ -1,0 +1,153 @@
+{
+  "HeaderFileName": "upnp.h",
+  "ErrorCodes": [
+    {
+      "Id": "UPNP_E_ROOT_ELEMENT_EXPECTED",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DEVICE_ELEMENT_EXPECTED",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_SERVICE_ELEMENT_EXPECTED",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_SERVICE_NODE_INCOMPLETE",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DEVICE_NODE_INCOMPLETE",
+      "Message": "",
+      "DecimalCode": -2147220988,
+      "HexCode": "0x80040204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_ICON_ELEMENT_EXPECTED",
+      "Message": "",
+      "DecimalCode": -2147220987,
+      "HexCode": "0x80040205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_ICON_NODE_INCOMPLETE",
+      "Message": "",
+      "DecimalCode": -2147220986,
+      "HexCode": "0x80040206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_ACTION",
+      "Message": "",
+      "DecimalCode": -2147220985,
+      "HexCode": "0x80040207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_ARGUMENTS",
+      "Message": "",
+      "DecimalCode": -2147220984,
+      "HexCode": "0x80040208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_OUT_OF_SYNC",
+      "Message": "",
+      "DecimalCode": -2147220983,
+      "HexCode": "0x80040209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_ACTION_REQUEST_FAILED",
+      "Message": "",
+      "DecimalCode": -2147220976,
+      "HexCode": "0x80040210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_TRANSPORT_ERROR",
+      "Message": "",
+      "DecimalCode": -2147220975,
+      "HexCode": "0x80040211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_VARIABLE_VALUE_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -2147220974,
+      "HexCode": "0x80040212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_VARIABLE",
+      "Message": "",
+      "DecimalCode": -2147220973,
+      "HexCode": "0x80040213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DEVICE_ERROR",
+      "Message": "",
+      "DecimalCode": -2147220972,
+      "HexCode": "0x80040214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_PROTOCOL_ERROR",
+      "Message": "",
+      "DecimalCode": -2147220971,
+      "HexCode": "0x80040215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_ERROR_PROCESSING_RESPONSE",
+      "Message": "",
+      "DecimalCode": -2147220970,
+      "HexCode": "0x80040216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DEVICE_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -2147220969,
+      "HexCode": "0x80040217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_DOCUMENT",
+      "Message": "",
+      "DecimalCode": -2147220224,
+      "HexCode": "0x80040500",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_EVENT_SUBSCRIPTION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147220223,
+      "HexCode": "0x80040501",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_ACTION_SPECIFIC_BASE",
+      "Message": "",
+      "DecimalCode": -2147220736,
+      "HexCode": "0x80040300",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

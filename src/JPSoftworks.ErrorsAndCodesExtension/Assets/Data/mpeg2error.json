@@ -1,0 +1,265 @@
+{
+  "HeaderFileName": "mpeg2error.h",
+  "ErrorCodes": [
+    {
+      "Id": "MPEG2_S_MORE_DATA_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 262656,
+      "HexCode": "0x40200",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_S_NO_MORE_DATA_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 262657,
+      "HexCode": "0x40201",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_S_SG_INFO_FOUND",
+      "Message": "",
+      "DecimalCode": 262658,
+      "HexCode": "0x40202",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_S_SG_INFO_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 262659,
+      "HexCode": "0x40203",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_S_MPE_INFO_FOUND",
+      "Message": "",
+      "DecimalCode": 262660,
+      "HexCode": "0x40204",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_S_MPE_INFO_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 262661,
+      "HexCode": "0x40205",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_S_NEW_MODULE_VERSION",
+      "Message": "",
+      "DecimalCode": 262662,
+      "HexCode": "0x40206",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MPEG2_E_UNINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_ALREADY_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_OUT_OF_BOUNDS",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_MALFORMED_TABLE",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_UNDEFINED",
+      "Message": "",
+      "DecimalCode": -2147220988,
+      "HexCode": "0x80040204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_NOT_PRESENT",
+      "Message": "",
+      "DecimalCode": -2147220987,
+      "HexCode": "0x80040205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_SECTION_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220986,
+      "HexCode": "0x80040206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_TX_STREAM_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147220985,
+      "HexCode": "0x80040207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_SERVICE_ID_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220984,
+      "HexCode": "0x80040208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_SERVICE_PMT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220983,
+      "HexCode": "0x80040209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_DSI_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220982,
+      "HexCode": "0x8004020a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_SERVER_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147220981,
+      "HexCode": "0x8004020b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_INVALID_CAROUSEL_ID",
+      "Message": "",
+      "DecimalCode": -2147220980,
+      "HexCode": "0x8004020c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_MALFORMED_DSMCC_MESSAGE",
+      "Message": "",
+      "DecimalCode": -2147220979,
+      "HexCode": "0x8004020d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_INVALID_SG_OBJECT_KIND",
+      "Message": "",
+      "DecimalCode": -2147220978,
+      "HexCode": "0x8004020e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_OBJECT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220977,
+      "HexCode": "0x8004020f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_OBJECT_KIND_NOT_A_DIRECTORY",
+      "Message": "",
+      "DecimalCode": -2147220976,
+      "HexCode": "0x80040210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_OBJECT_KIND_NOT_A_FILE",
+      "Message": "",
+      "DecimalCode": -2147220975,
+      "HexCode": "0x80040211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_FILE_OFFSET_TOO_BIG",
+      "Message": "",
+      "DecimalCode": -2147220974,
+      "HexCode": "0x80040212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_STREAM_STOPPED",
+      "Message": "",
+      "DecimalCode": -2147220973,
+      "HexCode": "0x80040213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_REGISTRY_ACCESS_FAILED",
+      "Message": "",
+      "DecimalCode": -2147220972,
+      "HexCode": "0x80040214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_INVALID_UDP_PORT",
+      "Message": "",
+      "DecimalCode": -2147220971,
+      "HexCode": "0x80040215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_DATA_SOURCE_FAILED",
+      "Message": "",
+      "DecimalCode": -2147220970,
+      "HexCode": "0x80040216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_DII_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220969,
+      "HexCode": "0x80040217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_DSHOW_PIN_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220968,
+      "HexCode": "0x80040218",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -2147220967,
+      "HexCode": "0x80040219",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_MISSING_SECTIONS",
+      "Message": "",
+      "DecimalCode": -2147220966,
+      "HexCode": "0x8004021a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_TOO_MANY_SECTIONS",
+      "Message": "",
+      "DecimalCode": -2147220965,
+      "HexCode": "0x8004021b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_NEXT_TABLE_OPS_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147220964,
+      "HexCode": "0x8004021c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MPEG2_E_INCORRECT_DESCRIPTOR_TAG",
+      "Message": "",
+      "DecimalCode": -2147220963,
+      "HexCode": "0x8004021d",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

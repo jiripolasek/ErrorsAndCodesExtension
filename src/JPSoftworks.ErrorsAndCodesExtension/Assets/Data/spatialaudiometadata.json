@@ -1,0 +1,188 @@
+{
+  "HeaderFileName": "spatialaudiometadata.h",
+  "ErrorCodes": [
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_COMMAND_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2004286976,
+      "HexCode": "0x88890200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_OBJECT_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2004286975,
+      "HexCode": "0x88890201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_INVALID_ARGS",
+      "Message": "",
+      "DecimalCode": -2004286974,
+      "HexCode": "0x88890202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_METADATA_FORMAT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2004286973,
+      "HexCode": "0x88890203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_VALUE_BUFFER_INCORRECT_SIZE",
+      "Message": "",
+      "DecimalCode": -2004286972,
+      "HexCode": "0x88890204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_MEMORY_BOUNDS",
+      "Message": "",
+      "DecimalCode": -2004286971,
+      "HexCode": "0x88890205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_MORE_COMMANDS",
+      "Message": "",
+      "DecimalCode": -2004286970,
+      "HexCode": "0x88890206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_BUFFER_ALREADY_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2004286969,
+      "HexCode": "0x88890207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_BUFFER_NOT_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2004286968,
+      "HexCode": "0x88890208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_FRAMECOUNT_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -2004286967,
+      "HexCode": "0x88890209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_ITEMS_FOUND",
+      "Message": "",
+      "DecimalCode": -2004286960,
+      "HexCode": "0x88890210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_ITEM_COPY_OVERFLOW",
+      "Message": "",
+      "DecimalCode": -2004286959,
+      "HexCode": "0x88890211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_ITEMS_OPEN",
+      "Message": "",
+      "DecimalCode": -2004286958,
+      "HexCode": "0x88890212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_ITEMS_ALREADY_OPEN",
+      "Message": "",
+      "DecimalCode": -2004286957,
+      "HexCode": "0x88890213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_ATTACH_FAILED_INTERNAL_BUFFER",
+      "Message": "",
+      "DecimalCode": -2004286956,
+      "HexCode": "0x88890214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_DETACH_FAILED_INTERNAL_BUFFER",
+      "Message": "",
+      "DecimalCode": -2004286955,
+      "HexCode": "0x88890215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_BUFFER_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2004286954,
+      "HexCode": "0x88890216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_MORE_ITEMS",
+      "Message": "",
+      "DecimalCode": -2004286953,
+      "HexCode": "0x88890217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_FRAMEOFFSET_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -2004286952,
+      "HexCode": "0x88890218",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_ITEM_MUST_HAVE_COMMANDS",
+      "Message": "",
+      "DecimalCode": -2004286951,
+      "HexCode": "0x88890219",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_ITEMOFFSET_WRITTEN",
+      "Message": "",
+      "DecimalCode": -2004286944,
+      "HexCode": "0x88890220",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_NO_ITEMS_WRITTEN",
+      "Message": "",
+      "DecimalCode": -2004286943,
+      "HexCode": "0x88890221",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_COMMAND_ALREADY_WRITTEN",
+      "Message": "",
+      "DecimalCode": -2004286942,
+      "HexCode": "0x88890222",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_FORMAT_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2004286941,
+      "HexCode": "0x88890223",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_BUFFER_STILL_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2004286940,
+      "HexCode": "0x88890224",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SPTLAUD_MD_CLNT_E_ITEMS_LOCKED_FOR_WRITING",
+      "Message": "",
+      "DecimalCode": -2004286939,
+      "HexCode": "0x88890225",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

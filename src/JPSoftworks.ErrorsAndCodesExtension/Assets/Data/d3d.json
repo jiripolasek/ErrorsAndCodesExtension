@@ -1,0 +1,559 @@
+{
+  "HeaderFileName": "d3d.h",
+  "ErrorCodes": [
+    {
+      "Id": "D3DERR_BADMAJORVERSION",
+      "Message": "",
+      "DecimalCode": -2005531972,
+      "HexCode": "0x887602bc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_BADMINORVERSION",
+      "Message": "",
+      "DecimalCode": -2005531971,
+      "HexCode": "0x887602bd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALID_DEVICE",
+      "Message": "",
+      "DecimalCode": -2005531967,
+      "HexCode": "0x887602c1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INITFAILED",
+      "Message": "",
+      "DecimalCode": -2005531966,
+      "HexCode": "0x887602c2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_DEVICEAGGREGATED",
+      "Message": "",
+      "DecimalCode": -2005531965,
+      "HexCode": "0x887602c3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_CREATE_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531962,
+      "HexCode": "0x887602c6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_DESTROY_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531961,
+      "HexCode": "0x887602c7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_LOCK_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531960,
+      "HexCode": "0x887602c8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_UNLOCK_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531959,
+      "HexCode": "0x887602c9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_LOCKED",
+      "Message": "",
+      "DecimalCode": -2005531958,
+      "HexCode": "0x887602ca",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_NOT_LOCKED",
+      "Message": "",
+      "DecimalCode": -2005531957,
+      "HexCode": "0x887602cb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531956,
+      "HexCode": "0x887602cc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_EXECUTE_CLIPPED_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531955,
+      "HexCode": "0x887602cd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_NO_SUPPORT",
+      "Message": "",
+      "DecimalCode": -2005531952,
+      "HexCode": "0x887602d0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_CREATE_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531951,
+      "HexCode": "0x887602d1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_DESTROY_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531950,
+      "HexCode": "0x887602d2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_LOCK_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531949,
+      "HexCode": "0x887602d3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_UNLOCK_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531948,
+      "HexCode": "0x887602d4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_LOAD_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531947,
+      "HexCode": "0x887602d5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_SWAP_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531946,
+      "HexCode": "0x887602d6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_LOCKED",
+      "Message": "",
+      "DecimalCode": -2005531945,
+      "HexCode": "0x887602d7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_NOT_LOCKED",
+      "Message": "",
+      "DecimalCode": -2005531944,
+      "HexCode": "0x887602d8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_GETSURF_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531943,
+      "HexCode": "0x887602d9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATRIX_CREATE_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531942,
+      "HexCode": "0x887602da",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATRIX_DESTROY_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531941,
+      "HexCode": "0x887602db",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATRIX_SETDATA_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531940,
+      "HexCode": "0x887602dc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATRIX_GETDATA_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531939,
+      "HexCode": "0x887602dd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_SETVIEWPORTDATA_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531938,
+      "HexCode": "0x887602de",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDCURRENTVIEWPORT",
+      "Message": "",
+      "DecimalCode": -2005531937,
+      "HexCode": "0x887602df",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDPRIMITIVETYPE",
+      "Message": "",
+      "DecimalCode": -2005531936,
+      "HexCode": "0x887602e0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDVERTEXTYPE",
+      "Message": "",
+      "DecimalCode": -2005531935,
+      "HexCode": "0x887602e1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TEXTURE_BADSIZE",
+      "Message": "",
+      "DecimalCode": -2005531934,
+      "HexCode": "0x887602e2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDRAMPTEXTURE",
+      "Message": "",
+      "DecimalCode": -2005531933,
+      "HexCode": "0x887602e3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATERIAL_CREATE_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531932,
+      "HexCode": "0x887602e4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATERIAL_DESTROY_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531931,
+      "HexCode": "0x887602e5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATERIAL_SETDATA_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531930,
+      "HexCode": "0x887602e6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MATERIAL_GETDATA_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531929,
+      "HexCode": "0x887602e7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDPALETTE",
+      "Message": "",
+      "DecimalCode": -2005531928,
+      "HexCode": "0x887602e8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_ZBUFF_NEEDS_SYSTEMMEMORY",
+      "Message": "",
+      "DecimalCode": -2005531927,
+      "HexCode": "0x887602e9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_ZBUFF_NEEDS_VIDEOMEMORY",
+      "Message": "",
+      "DecimalCode": -2005531926,
+      "HexCode": "0x887602ea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_SURFACENOTINVIDMEM",
+      "Message": "",
+      "DecimalCode": -2005531925,
+      "HexCode": "0x887602eb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_LIGHT_SET_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531922,
+      "HexCode": "0x887602ee",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_LIGHTHASVIEWPORT",
+      "Message": "",
+      "DecimalCode": -2005531921,
+      "HexCode": "0x887602ef",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_LIGHTNOTINTHISVIEWPORT",
+      "Message": "",
+      "DecimalCode": -2005531920,
+      "HexCode": "0x887602f0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_SCENE_IN_SCENE",
+      "Message": "",
+      "DecimalCode": -2005531912,
+      "HexCode": "0x887602f8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_SCENE_NOT_IN_SCENE",
+      "Message": "",
+      "DecimalCode": -2005531911,
+      "HexCode": "0x887602f9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_SCENE_BEGIN_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531910,
+      "HexCode": "0x887602fa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_SCENE_END_FAILED",
+      "Message": "",
+      "DecimalCode": -2005531909,
+      "HexCode": "0x887602fb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INBEGIN",
+      "Message": "",
+      "DecimalCode": -2005531902,
+      "HexCode": "0x88760302",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_NOTINBEGIN",
+      "Message": "",
+      "DecimalCode": -2005531901,
+      "HexCode": "0x88760303",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_NOVIEWPORTS",
+      "Message": "",
+      "DecimalCode": -2005531900,
+      "HexCode": "0x88760304",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_VIEWPORTDATANOTSET",
+      "Message": "",
+      "DecimalCode": -2005531899,
+      "HexCode": "0x88760305",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_VIEWPORTHASNODEVICE",
+      "Message": "",
+      "DecimalCode": -2005531898,
+      "HexCode": "0x88760306",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_NOCURRENTVIEWPORT",
+      "Message": "",
+      "DecimalCode": -2005531897,
+      "HexCode": "0x88760307",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDVERTEXFORMAT",
+      "Message": "",
+      "DecimalCode": -2005530624,
+      "HexCode": "0x88760800",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_COLORKEYATTACHED",
+      "Message": "",
+      "DecimalCode": -2005530622,
+      "HexCode": "0x88760802",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_VERTEXBUFFEROPTIMIZED",
+      "Message": "",
+      "DecimalCode": -2005530612,
+      "HexCode": "0x8876080c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_VBUF_CREATE_FAILED",
+      "Message": "",
+      "DecimalCode": -2005530611,
+      "HexCode": "0x8876080d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_VERTEXBUFFERLOCKED",
+      "Message": "",
+      "DecimalCode": -2005530610,
+      "HexCode": "0x8876080e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_VERTEXBUFFERUNLOCKFAILED",
+      "Message": "",
+      "DecimalCode": -2005530609,
+      "HexCode": "0x8876080f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_ZBUFFER_NOTPRESENT",
+      "Message": "",
+      "DecimalCode": -2005530602,
+      "HexCode": "0x88760816",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_STENCILBUFFER_NOTPRESENT",
+      "Message": "",
+      "DecimalCode": -2005530601,
+      "HexCode": "0x88760817",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_WRONGTEXTUREFORMAT",
+      "Message": "",
+      "DecimalCode": -2005530600,
+      "HexCode": "0x88760818",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDCOLOROPERATION",
+      "Message": "",
+      "DecimalCode": -2005530599,
+      "HexCode": "0x88760819",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDCOLORARG",
+      "Message": "",
+      "DecimalCode": -2005530598,
+      "HexCode": "0x8876081a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDALPHAOPERATION",
+      "Message": "",
+      "DecimalCode": -2005530597,
+      "HexCode": "0x8876081b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDALPHAARG",
+      "Message": "",
+      "DecimalCode": -2005530596,
+      "HexCode": "0x8876081c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TOOMANYOPERATIONS",
+      "Message": "",
+      "DecimalCode": -2005530595,
+      "HexCode": "0x8876081d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_CONFLICTINGTEXTUREFILTER",
+      "Message": "",
+      "DecimalCode": -2005530594,
+      "HexCode": "0x8876081e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDFACTORVALUE",
+      "Message": "",
+      "DecimalCode": -2005530593,
+      "HexCode": "0x8876081f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_CONFLICTINGRENDERSTATE",
+      "Message": "",
+      "DecimalCode": -2005530591,
+      "HexCode": "0x88760821",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDTEXTUREFILTER",
+      "Message": "",
+      "DecimalCode": -2005530590,
+      "HexCode": "0x88760822",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TOOMANYPRIMITIVES",
+      "Message": "",
+      "DecimalCode": -2005530589,
+      "HexCode": "0x88760823",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDMATRIX",
+      "Message": "",
+      "DecimalCode": -2005530588,
+      "HexCode": "0x88760824",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TOOMANYVERTICES",
+      "Message": "",
+      "DecimalCode": -2005530587,
+      "HexCode": "0x88760825",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_CONFLICTINGTEXTUREPALETTE",
+      "Message": "",
+      "DecimalCode": -2005530586,
+      "HexCode": "0x88760826",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDSTATEBLOCK",
+      "Message": "",
+      "DecimalCode": -2005530572,
+      "HexCode": "0x88760834",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INBEGINSTATEBLOCK",
+      "Message": "",
+      "DecimalCode": -2005530571,
+      "HexCode": "0x88760835",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_NOTINBEGINSTATEBLOCK",
+      "Message": "",
+      "DecimalCode": -2005530570,
+      "HexCode": "0x88760836",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

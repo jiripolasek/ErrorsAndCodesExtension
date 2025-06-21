@@ -1,0 +1,153 @@
+{
+  "HeaderFileName": "ddeml.h",
+  "ErrorCodes": [
+    {
+      "Id": "DMLERR_NO_ERROR",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_FIRST",
+      "Message": "",
+      "DecimalCode": 16384,
+      "HexCode": "0x4000",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_ADVACKTIMEOUT",
+      "Message": "",
+      "DecimalCode": 16384,
+      "HexCode": "0x4000",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_BUSY",
+      "Message": "",
+      "DecimalCode": 16385,
+      "HexCode": "0x4001",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_DATAACKTIMEOUT",
+      "Message": "",
+      "DecimalCode": 16386,
+      "HexCode": "0x4002",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_DLL_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": 16387,
+      "HexCode": "0x4003",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_DLL_USAGE",
+      "Message": "",
+      "DecimalCode": 16388,
+      "HexCode": "0x4004",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_EXECACKTIMEOUT",
+      "Message": "",
+      "DecimalCode": 16389,
+      "HexCode": "0x4005",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_INVALIDPARAMETER",
+      "Message": "",
+      "DecimalCode": 16390,
+      "HexCode": "0x4006",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_LOW_MEMORY",
+      "Message": "",
+      "DecimalCode": 16391,
+      "HexCode": "0x4007",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_MEMORY_ERROR",
+      "Message": "",
+      "DecimalCode": 16392,
+      "HexCode": "0x4008",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_NOTPROCESSED",
+      "Message": "",
+      "DecimalCode": 16393,
+      "HexCode": "0x4009",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_NO_CONV_ESTABLISHED",
+      "Message": "",
+      "DecimalCode": 16394,
+      "HexCode": "0x400a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_POKEACKTIMEOUT",
+      "Message": "",
+      "DecimalCode": 16395,
+      "HexCode": "0x400b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_POSTMSG_FAILED",
+      "Message": "",
+      "DecimalCode": 16396,
+      "HexCode": "0x400c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_REENTRANCY",
+      "Message": "",
+      "DecimalCode": 16397,
+      "HexCode": "0x400d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_SERVER_DIED",
+      "Message": "",
+      "DecimalCode": 16398,
+      "HexCode": "0x400e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_SYS_ERROR",
+      "Message": "",
+      "DecimalCode": 16399,
+      "HexCode": "0x400f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_UNADVACKTIMEOUT",
+      "Message": "",
+      "DecimalCode": 16400,
+      "HexCode": "0x4010",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_UNFOUND_QUEUE_ID",
+      "Message": "",
+      "DecimalCode": 16401,
+      "HexCode": "0x4011",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DMLERR_LAST",
+      "Message": "",
+      "DecimalCode": 16401,
+      "HexCode": "0x4011",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

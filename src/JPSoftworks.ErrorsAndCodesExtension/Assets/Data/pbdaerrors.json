@@ -1,0 +1,342 @@
+{
+  "HeaderFileName": "pbdaerrors.h",
+  "ErrorCodes": [
+    {
+      "Id": "MSDRI_S_MMI_PENDING",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MSDRI_S_PENDING",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "BDA_E_FAILURE",
+      "Message": "",
+      "DecimalCode": -1073479679,
+      "HexCode": "0xc0040001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": -1073479678,
+      "HexCode": "0xc0040002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_NO_SUCH_COMMAND",
+      "Message": "",
+      "DecimalCode": -1073479677,
+      "HexCode": "0xc0040003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_OUT_OF_BOUNDS",
+      "Message": "",
+      "DecimalCode": -1073479676,
+      "HexCode": "0xc0040004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_SCHEMA",
+      "Message": "",
+      "DecimalCode": -1073479675,
+      "HexCode": "0xc0040005",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_HANDLE",
+      "Message": "",
+      "DecimalCode": -1073479674,
+      "HexCode": "0xc0040006",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_TYPE",
+      "Message": "",
+      "DecimalCode": -1073479673,
+      "HexCode": "0xc0040007",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_READ_ONLY",
+      "Message": "",
+      "DecimalCode": -1073479672,
+      "HexCode": "0xc0040008",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": -1073479671,
+      "HexCode": "0xc0040009",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073479670,
+      "HexCode": "0xc004000a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -1073479669,
+      "HexCode": "0xc004000b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_OUT_OF_RESOURCES",
+      "Message": "",
+      "DecimalCode": -1073479668,
+      "HexCode": "0xc004000c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_OUT_OF_MEMORY",
+      "Message": "",
+      "DecimalCode": -1073479667,
+      "HexCode": "0xc004000d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_DISABLED",
+      "Message": "",
+      "DecimalCode": -1073479666,
+      "HexCode": "0xc004000e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_NO_HANDLER",
+      "Message": "",
+      "DecimalCode": -1073479665,
+      "HexCode": "0xc004000f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_LANGUAGE",
+      "Message": "",
+      "DecimalCode": -1073479664,
+      "HexCode": "0xc0040010",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TIMEOUT_ELAPSED",
+      "Message": "",
+      "DecimalCode": -1073479663,
+      "HexCode": "0xc0040011",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_NO_MORE_EVENTS",
+      "Message": "",
+      "DecimalCode": -1073475583,
+      "HexCode": "0xc0041001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_NO_MORE_DATA",
+      "Message": "",
+      "DecimalCode": -1073475582,
+      "HexCode": "0xc0041002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNER_INITIALIZING",
+      "Message": "",
+      "DecimalCode": -1073467391,
+      "HexCode": "0xc0043001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNER_REQUIRED",
+      "Message": "",
+      "DecimalCode": -1073467390,
+      "HexCode": "0xc0043002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNER_CONFLICT",
+      "Message": "",
+      "DecimalCode": -1073467389,
+      "HexCode": "0xc0043003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_TUNE_REQUEST",
+      "Message": "",
+      "DecimalCode": -1073467388,
+      "HexCode": "0xc0043004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_ENTITLEMENT_TOKEN",
+      "Message": "",
+      "DecimalCode": -1073463295,
+      "HexCode": "0xc0044001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_CAPTURE_TOKEN",
+      "Message": "",
+      "DecimalCode": -1073463294,
+      "HexCode": "0xc0044002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WOULD_DISRUPT_STREAMING",
+      "Message": "",
+      "DecimalCode": -1073463293,
+      "HexCode": "0xc0044003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_INVALID_PURCHASE_TOKEN",
+      "Message": "",
+      "DecimalCode": -1073463292,
+      "HexCode": "0xc0044004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_IPNETWORK_ERROR",
+      "Message": "",
+      "DecimalCode": -1073459199,
+      "HexCode": "0xc0045001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_IPNETWORK_ADDRESS_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073459198,
+      "HexCode": "0xc0045002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_IPNETWORK_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -1073459197,
+      "HexCode": "0xc0045003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_IPNETWORK_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -1073459196,
+      "HexCode": "0xc0045004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV01",
+      "Message": "",
+      "DecimalCode": -1073455103,
+      "HexCode": "0xc0046001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV02",
+      "Message": "",
+      "DecimalCode": -1073455102,
+      "HexCode": "0xc0046002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV03",
+      "Message": "",
+      "DecimalCode": -1073455101,
+      "HexCode": "0xc0046003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV04",
+      "Message": "",
+      "DecimalCode": -1073455100,
+      "HexCode": "0xc0046004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV05",
+      "Message": "",
+      "DecimalCode": -1073455099,
+      "HexCode": "0xc0046005",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV06",
+      "Message": "",
+      "DecimalCode": -1073455098,
+      "HexCode": "0xc0046006",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV07",
+      "Message": "",
+      "DecimalCode": -1073455097,
+      "HexCode": "0xc0046007",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDV08",
+      "Message": "",
+      "DecimalCode": -1073455096,
+      "HexCode": "0xc0046008",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_TUNE_FAILED_SDVFF",
+      "Message": "",
+      "DecimalCode": -1073454849,
+      "HexCode": "0xc00460ff",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WMDRM_INVALID_SIGNATURE",
+      "Message": "",
+      "DecimalCode": -1073418239,
+      "HexCode": "0xc004f001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WMDRM_INVALID_CERTIFICATE",
+      "Message": "",
+      "DecimalCode": -1073418238,
+      "HexCode": "0xc004f002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WMDRM_INVALID_VERSION",
+      "Message": "",
+      "DecimalCode": -1073418236,
+      "HexCode": "0xc004f004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WMDRM_INVALID_DATE",
+      "Message": "",
+      "DecimalCode": -1073418235,
+      "HexCode": "0xc004f005",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WMDRM_INVALID_PROXIMITY",
+      "Message": "",
+      "DecimalCode": -1073418234,
+      "HexCode": "0xc004f006",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "BDA_E_WMDRM_KEY_ID_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073418232,
+      "HexCode": "0xc004f008",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

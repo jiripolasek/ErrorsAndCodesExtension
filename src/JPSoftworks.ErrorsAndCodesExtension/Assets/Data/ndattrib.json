@@ -1,4 +1,61 @@
 {
-  "IsHResult": false,
-  "ErrorCodes": []
+  "ErrorCodes": [
+    {
+      "Id": "NDF_E_LENGTH_EXCEEDED",
+      "Message": "",
+      "DecimalCode": -2146895616,
+      "HexCode": "0x8008f900",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_NOHELPERCLASS",
+      "Message": "",
+      "DecimalCode": -2146895615,
+      "HexCode": "0x8008f901",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_CANCELLED",
+      "Message": "",
+      "DecimalCode": -2146895614,
+      "HexCode": "0x8008f902",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_DISABLED",
+      "Message": "",
+      "DecimalCode": -2146895612,
+      "HexCode": "0x8008f904",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_BAD_PARAM",
+      "Message": "",
+      "DecimalCode": -2146895611,
+      "HexCode": "0x8008f905",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_VALIDATION",
+      "Message": "",
+      "DecimalCode": -2146895610,
+      "HexCode": "0x8008f906",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -2146895609,
+      "HexCode": "0x8008f907",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NDF_E_PROBLEM_PRESENT",
+      "Message": "",
+      "DecimalCode": -2146895608,
+      "HexCode": "0x8008f908",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
 }

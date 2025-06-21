@@ -1,0 +1,202 @@
+{
+  "HeaderFileName": "legacyErrorCodes.h",
+  "ErrorCodes": [
+    {
+      "Id": "MSO_S_TRUNCATED",
+      "Message": "",
+      "DecimalCode": 3473409,
+      "HexCode": "0x350001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_E_DIALOG_VISIBLE",
+      "Message": "",
+      "DecimalCode": -2144010238,
+      "HexCode": "0x80350002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_DIALOG_NOT_VISIBLE",
+      "Message": "",
+      "DecimalCode": -2144010237,
+      "HexCode": "0x80350003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_ERROR_DURING_SEARCH",
+      "Message": "",
+      "DecimalCode": -2144010231,
+      "HexCode": "0x80350009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_IOL_NO_ODMA_MONIKER",
+      "Message": "",
+      "DecimalCode": -2144010230,
+      "HexCode": "0x8035000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_IOL_ODMA_NOT_AVAIL",
+      "Message": "",
+      "DecimalCode": -2144010229,
+      "HexCode": "0x8035000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_S_BSC_BINARY",
+      "Message": "",
+      "DecimalCode": 3473420,
+      "HexCode": "0x35000c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_E_IOL_NOTEMPFILE_USESTREAM",
+      "Message": "",
+      "DecimalCode": -2144010227,
+      "HexCode": "0x8035000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_SYNCCENTER_PAUSED",
+      "Message": "",
+      "DecimalCode": -2144010226,
+      "HexCode": "0x8035000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_MULTIPLE_AUTHORS",
+      "Message": "",
+      "DecimalCode": -2144010225,
+      "HexCode": "0x8035000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_OPEN",
+      "Message": "",
+      "DecimalCode": 3473424,
+      "HexCode": "0x350010",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_OPENRO",
+      "Message": "",
+      "DecimalCode": 3473425,
+      "HexCode": "0x350011",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_NEW",
+      "Message": "",
+      "DecimalCode": 3473426,
+      "HexCode": "0x350012",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_CHECK_IN",
+      "Message": "",
+      "DecimalCode": 3473427,
+      "HexCode": "0x350013",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_CHECK_OUT",
+      "Message": "",
+      "DecimalCode": 3473428,
+      "HexCode": "0x350014",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_SAVE",
+      "Message": "",
+      "DecimalCode": 3473429,
+      "HexCode": "0x350015",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_SAVE_AS_DLG",
+      "Message": "",
+      "DecimalCode": 3473430,
+      "HexCode": "0x350016",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_SAVE_VERSION",
+      "Message": "",
+      "DecimalCode": 3473431,
+      "HexCode": "0x350017",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_CLOSE",
+      "Message": "",
+      "DecimalCode": 3473432,
+      "HexCode": "0x350018",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_APP_MUST_MERGE",
+      "Message": "",
+      "DecimalCode": 3473433,
+      "HexCode": "0x350019",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_ROLLBACK",
+      "Message": "",
+      "DecimalCode": 3473434,
+      "HexCode": "0x35001a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_CANCEL",
+      "Message": "",
+      "DecimalCode": 3473435,
+      "HexCode": "0x35001b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_REFRESH",
+      "Message": "",
+      "DecimalCode": 3473436,
+      "HexCode": "0x35001c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_S_IOLCMD_SAVE_COPY",
+      "Message": "",
+      "DecimalCode": 3473437,
+      "HexCode": "0x35001d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MSO_E_IOLCMD_ALREADY_OPENRO",
+      "Message": "",
+      "DecimalCode": -2144010210,
+      "HexCode": "0x8035001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_NOT_MAIN_THREAD",
+      "Message": "",
+      "DecimalCode": -2144010209,
+      "HexCode": "0x8035001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_E_SERVER_UNREACHABLE_AND_FILE_NOT_CACHED",
+      "Message": "",
+      "DecimalCode": -2144010208,
+      "HexCode": "0x80350020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MSO_S_TEMPFILEALREADYSAVED",
+      "Message": "",
+      "DecimalCode": 3473456,
+      "HexCode": "0x350030",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

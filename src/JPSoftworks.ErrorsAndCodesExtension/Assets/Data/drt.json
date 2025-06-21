@@ -1,0 +1,300 @@
+{
+  "HeaderFileName": "drt.h",
+  "ErrorCodes": [
+    {
+      "Id": "DRT_E_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -2141057023,
+      "HexCode": "0x80621001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_KEY_SIZE",
+      "Message": "",
+      "DecimalCode": -2141057022,
+      "HexCode": "0x80621002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_CERT_CHAIN",
+      "Message": "",
+      "DecimalCode": -2141057020,
+      "HexCode": "0x80621004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_MESSAGE",
+      "Message": "",
+      "DecimalCode": -2141057019,
+      "HexCode": "0x80621005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_NO_MORE",
+      "Message": "",
+      "DecimalCode": -2141057018,
+      "HexCode": "0x80621006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_MAX_ADDRESSES",
+      "Message": "",
+      "DecimalCode": -2141057017,
+      "HexCode": "0x80621007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_SEARCH_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": -2141057016,
+      "HexCode": "0x80621008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_KEY",
+      "Message": "",
+      "DecimalCode": -2141057015,
+      "HexCode": "0x80621009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_MAX_ENDPOINTS",
+      "Message": "",
+      "DecimalCode": -2141057007,
+      "HexCode": "0x80621011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_SEARCH_RANGE",
+      "Message": "",
+      "DecimalCode": -2141057006,
+      "HexCode": "0x80621012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_PORT",
+      "Message": "",
+      "DecimalCode": -2141052928,
+      "HexCode": "0x80622000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_TRANSPORT_PROVIDER",
+      "Message": "",
+      "DecimalCode": -2141052927,
+      "HexCode": "0x80622001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_SECURITY_PROVIDER",
+      "Message": "",
+      "DecimalCode": -2141052926,
+      "HexCode": "0x80622002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_STILL_IN_USE",
+      "Message": "",
+      "DecimalCode": -2141052925,
+      "HexCode": "0x80622003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_BOOTSTRAP_PROVIDER",
+      "Message": "",
+      "DecimalCode": -2141052924,
+      "HexCode": "0x80622004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_ADDRESS",
+      "Message": "",
+      "DecimalCode": -2141052923,
+      "HexCode": "0x80622005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_SCOPE",
+      "Message": "",
+      "DecimalCode": -2141052922,
+      "HexCode": "0x80622006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_SHUTTING_DOWN",
+      "Message": "",
+      "DecimalCode": -2141052921,
+      "HexCode": "0x80622007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_NO_ADDRESSES_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2141052920,
+      "HexCode": "0x80622008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_DUPLICATE_KEY",
+      "Message": "",
+      "DecimalCode": -2141052919,
+      "HexCode": "0x80622009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORTPROVIDER_IN_USE",
+      "Message": "",
+      "DecimalCode": -2141052918,
+      "HexCode": "0x8062200a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORTPROVIDER_NOT_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2141052917,
+      "HexCode": "0x8062200b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_SECURITYPROVIDER_IN_USE",
+      "Message": "",
+      "DecimalCode": -2141052916,
+      "HexCode": "0x8062200c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_SECURITYPROVIDER_NOT_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2141052915,
+      "HexCode": "0x8062200d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_BOOTSTRAPPROVIDER_IN_USE",
+      "Message": "",
+      "DecimalCode": -2141052914,
+      "HexCode": "0x8062200e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_BOOTSTRAPPROVIDER_NOT_ATTACHED",
+      "Message": "",
+      "DecimalCode": -2141052913,
+      "HexCode": "0x8062200f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_ALREADY_BOUND",
+      "Message": "",
+      "DecimalCode": -2141052671,
+      "HexCode": "0x80622101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_NOT_BOUND",
+      "Message": "",
+      "DecimalCode": -2141052670,
+      "HexCode": "0x80622102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_UNEXPECTED",
+      "Message": "",
+      "DecimalCode": -2141052669,
+      "HexCode": "0x80622103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_INVALID_ARGUMENT",
+      "Message": "",
+      "DecimalCode": -2141052668,
+      "HexCode": "0x80622104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_NO_DEST_ADDRESSES",
+      "Message": "",
+      "DecimalCode": -2141052667,
+      "HexCode": "0x80622105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_EXECUTING_CALLBACK",
+      "Message": "",
+      "DecimalCode": -2141052666,
+      "HexCode": "0x80622106",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_ALREADY_EXISTS_FOR_SCOPE",
+      "Message": "",
+      "DecimalCode": -2141052665,
+      "HexCode": "0x80622107",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_SETTINGS",
+      "Message": "",
+      "DecimalCode": -2141052664,
+      "HexCode": "0x80622108",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_SEARCH_INFO",
+      "Message": "",
+      "DecimalCode": -2141052663,
+      "HexCode": "0x80622109",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_FAULTED",
+      "Message": "",
+      "DecimalCode": -2141052662,
+      "HexCode": "0x8062210a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_TRANSPORT_STILL_BOUND",
+      "Message": "",
+      "DecimalCode": -2141052661,
+      "HexCode": "0x8062210b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INSUFFICIENT_BUFFER",
+      "Message": "",
+      "DecimalCode": -2141052660,
+      "HexCode": "0x8062210c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_INSTANCE_PREFIX",
+      "Message": "",
+      "DecimalCode": -2141052659,
+      "HexCode": "0x8062210d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_INVALID_SECURITY_MODE",
+      "Message": "",
+      "DecimalCode": -2141052658,
+      "HexCode": "0x8062210e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_E_CAPABILITY_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2141052657,
+      "HexCode": "0x8062210f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DRT_S_RETRY",
+      "Message": "",
+      "DecimalCode": 6426640,
+      "HexCode": "0x621010",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

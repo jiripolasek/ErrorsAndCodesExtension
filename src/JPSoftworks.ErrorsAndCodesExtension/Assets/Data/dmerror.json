@@ -1,0 +1,860 @@
+{
+  "HeaderFileName": "dmerror.h",
+  "ErrorCodes": [
+    {
+      "Id": "DMUS_S_PARTIALLOAD",
+      "Message": "",
+      "DecimalCode": 142086289,
+      "HexCode": "0x8781091",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_PARTIALDOWNLOAD",
+      "Message": "",
+      "DecimalCode": 142086290,
+      "HexCode": "0x8781092",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_REQUEUE",
+      "Message": "",
+      "DecimalCode": 142086656,
+      "HexCode": "0x8781200",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_FREE",
+      "Message": "",
+      "DecimalCode": 142086657,
+      "HexCode": "0x8781201",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_END",
+      "Message": "",
+      "DecimalCode": 142086658,
+      "HexCode": "0x8781202",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_STRING_TRUNCATED",
+      "Message": "",
+      "DecimalCode": 142086672,
+      "HexCode": "0x8781210",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_LAST_TOOL",
+      "Message": "",
+      "DecimalCode": 142086673,
+      "HexCode": "0x8781211",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_OVER_CHORD",
+      "Message": "",
+      "DecimalCode": 142086674,
+      "HexCode": "0x8781212",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_UP_OCTAVE",
+      "Message": "",
+      "DecimalCode": 142086675,
+      "HexCode": "0x8781213",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_DOWN_OCTAVE",
+      "Message": "",
+      "DecimalCode": 142086676,
+      "HexCode": "0x8781214",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_NOBUFFERCONTROL",
+      "Message": "",
+      "DecimalCode": 142086677,
+      "HexCode": "0x8781215",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_S_GARBAGE_COLLECTED",
+      "Message": "",
+      "DecimalCode": 142086678,
+      "HexCode": "0x8781216",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "DMUS_E_DRIVER_FAILED",
+      "Message": "",
+      "DecimalCode": -2005397247,
+      "HexCode": "0x88781101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_PORTS_OPEN",
+      "Message": "",
+      "DecimalCode": -2005397246,
+      "HexCode": "0x88781102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_DEVICE_IN_USE",
+      "Message": "",
+      "DecimalCode": -2005397245,
+      "HexCode": "0x88781103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INSUFFICIENTBUFFER",
+      "Message": "",
+      "DecimalCode": -2005397244,
+      "HexCode": "0x88781104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BUFFERNOTSET",
+      "Message": "",
+      "DecimalCode": -2005397243,
+      "HexCode": "0x88781105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BUFFERNOTAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2005397242,
+      "HexCode": "0x88781106",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOTADLSCOL",
+      "Message": "",
+      "DecimalCode": -2005397240,
+      "HexCode": "0x88781108",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALIDOFFSET",
+      "Message": "",
+      "DecimalCode": -2005397239,
+      "HexCode": "0x88781109",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADY_LOADED",
+      "Message": "",
+      "DecimalCode": -2005397231,
+      "HexCode": "0x88781111",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALIDPOS",
+      "Message": "",
+      "DecimalCode": -2005397229,
+      "HexCode": "0x88781113",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALIDPATCH",
+      "Message": "",
+      "DecimalCode": -2005397228,
+      "HexCode": "0x88781114",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CANNOTSEEK",
+      "Message": "",
+      "DecimalCode": -2005397227,
+      "HexCode": "0x88781115",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CANNOTWRITE",
+      "Message": "",
+      "DecimalCode": -2005397226,
+      "HexCode": "0x88781116",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CHUNKNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005397225,
+      "HexCode": "0x88781117",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_DOWNLOADID",
+      "Message": "",
+      "DecimalCode": -2005397223,
+      "HexCode": "0x88781119",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOT_DOWNLOADED_TO_PORT",
+      "Message": "",
+      "DecimalCode": -2005397216,
+      "HexCode": "0x88781120",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADY_DOWNLOADED",
+      "Message": "",
+      "DecimalCode": -2005397215,
+      "HexCode": "0x88781121",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_UNKNOWN_PROPERTY",
+      "Message": "",
+      "DecimalCode": -2005397214,
+      "HexCode": "0x88781122",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SET_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005397213,
+      "HexCode": "0x88781123",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_GET_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005397212,
+      "HexCode": "0x88781124",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOTMONO",
+      "Message": "",
+      "DecimalCode": -2005397211,
+      "HexCode": "0x88781125",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BADARTICULATION",
+      "Message": "",
+      "DecimalCode": -2005397210,
+      "HexCode": "0x88781126",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BADINSTRUMENT",
+      "Message": "",
+      "DecimalCode": -2005397209,
+      "HexCode": "0x88781127",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BADWAVELINK",
+      "Message": "",
+      "DecimalCode": -2005397208,
+      "HexCode": "0x88781128",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOARTICULATION",
+      "Message": "",
+      "DecimalCode": -2005397207,
+      "HexCode": "0x88781129",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOTPCM",
+      "Message": "",
+      "DecimalCode": -2005397206,
+      "HexCode": "0x8878112a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BADWAVE",
+      "Message": "",
+      "DecimalCode": -2005397205,
+      "HexCode": "0x8878112b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BADOFFSETTABLE",
+      "Message": "",
+      "DecimalCode": -2005397204,
+      "HexCode": "0x8878112c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_UNKNOWNDOWNLOAD",
+      "Message": "",
+      "DecimalCode": -2005397203,
+      "HexCode": "0x8878112d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOSYNTHSINK",
+      "Message": "",
+      "DecimalCode": -2005397202,
+      "HexCode": "0x8878112e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADYOPEN",
+      "Message": "",
+      "DecimalCode": -2005397201,
+      "HexCode": "0x8878112f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADYCLOSED",
+      "Message": "",
+      "DecimalCode": -2005397200,
+      "HexCode": "0x88781130",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SYNTHNOTCONFIGURED",
+      "Message": "",
+      "DecimalCode": -2005397199,
+      "HexCode": "0x88781131",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SYNTHACTIVE",
+      "Message": "",
+      "DecimalCode": -2005397198,
+      "HexCode": "0x88781132",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CANNOTREAD",
+      "Message": "",
+      "DecimalCode": -2005397197,
+      "HexCode": "0x88781133",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_DMUSIC_RELEASED",
+      "Message": "",
+      "DecimalCode": -2005397196,
+      "HexCode": "0x88781134",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BUFFER_EMPTY",
+      "Message": "",
+      "DecimalCode": -2005397195,
+      "HexCode": "0x88781135",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_BUFFER_FULL",
+      "Message": "",
+      "DecimalCode": -2005397194,
+      "HexCode": "0x88781136",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_PORT_NOT_CAPTURE",
+      "Message": "",
+      "DecimalCode": -2005397193,
+      "HexCode": "0x88781137",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_PORT_NOT_RENDER",
+      "Message": "",
+      "DecimalCode": -2005397192,
+      "HexCode": "0x88781138",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_DSOUND_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2005397191,
+      "HexCode": "0x88781139",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADY_ACTIVATED",
+      "Message": "",
+      "DecimalCode": -2005397190,
+      "HexCode": "0x8878113a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALIDBUFFER",
+      "Message": "",
+      "DecimalCode": -2005397189,
+      "HexCode": "0x8878113b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_WAVEFORMATNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005397188,
+      "HexCode": "0x8878113c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SYNTHINACTIVE",
+      "Message": "",
+      "DecimalCode": -2005397187,
+      "HexCode": "0x8878113d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_DSOUND_ALREADY_SET",
+      "Message": "",
+      "DecimalCode": -2005397186,
+      "HexCode": "0x8878113e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_EVENT",
+      "Message": "",
+      "DecimalCode": -2005397185,
+      "HexCode": "0x8878113f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_UNSUPPORTED_STREAM",
+      "Message": "",
+      "DecimalCode": -2005397168,
+      "HexCode": "0x88781150",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADY_INITED",
+      "Message": "",
+      "DecimalCode": -2005397167,
+      "HexCode": "0x88781151",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_BAND",
+      "Message": "",
+      "DecimalCode": -2005397166,
+      "HexCode": "0x88781152",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TRACK_HDR_NOT_FIRST_CK",
+      "Message": "",
+      "DecimalCode": -2005397163,
+      "HexCode": "0x88781155",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TOOL_HDR_NOT_FIRST_CK",
+      "Message": "",
+      "DecimalCode": -2005397162,
+      "HexCode": "0x88781156",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_TRACK_HDR",
+      "Message": "",
+      "DecimalCode": -2005397161,
+      "HexCode": "0x88781157",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_TOOL_HDR",
+      "Message": "",
+      "DecimalCode": -2005397160,
+      "HexCode": "0x88781158",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALL_TOOLS_FAILED",
+      "Message": "",
+      "DecimalCode": -2005397159,
+      "HexCode": "0x88781159",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALL_TRACKS_FAILED",
+      "Message": "",
+      "DecimalCode": -2005397152,
+      "HexCode": "0x88781160",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2005397151,
+      "HexCode": "0x88781161",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOT_INIT",
+      "Message": "",
+      "DecimalCode": -2005397150,
+      "HexCode": "0x88781162",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TYPE_DISABLED",
+      "Message": "",
+      "DecimalCode": -2005397149,
+      "HexCode": "0x88781163",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TYPE_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005397148,
+      "HexCode": "0x88781164",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TIME_PAST",
+      "Message": "",
+      "DecimalCode": -2005397147,
+      "HexCode": "0x88781165",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TRACK_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2005397146,
+      "HexCode": "0x88781166",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_TRACK_NO_CLOCKTIME_SUPPORT",
+      "Message": "",
+      "DecimalCode": -2005397145,
+      "HexCode": "0x88781167",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NO_MASTER_CLOCK",
+      "Message": "",
+      "DecimalCode": -2005397136,
+      "HexCode": "0x88781170",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_NOCLASSID",
+      "Message": "",
+      "DecimalCode": -2005397120,
+      "HexCode": "0x88781180",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_BADPATH",
+      "Message": "",
+      "DecimalCode": -2005397119,
+      "HexCode": "0x88781181",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_FAILEDOPEN",
+      "Message": "",
+      "DecimalCode": -2005397118,
+      "HexCode": "0x88781182",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_FORMATNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005397117,
+      "HexCode": "0x88781183",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_FAILEDCREATE",
+      "Message": "",
+      "DecimalCode": -2005397116,
+      "HexCode": "0x88781184",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_OBJECTNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005397115,
+      "HexCode": "0x88781185",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_LOADER_NOFILENAME",
+      "Message": "",
+      "DecimalCode": -2005397114,
+      "HexCode": "0x88781186",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALIDFILE",
+      "Message": "",
+      "DecimalCode": -2005396992,
+      "HexCode": "0x88781200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2005396991,
+      "HexCode": "0x88781201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -2005396990,
+      "HexCode": "0x88781202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SEGMENT_INIT_FAILED",
+      "Message": "",
+      "DecimalCode": -2005396989,
+      "HexCode": "0x88781203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_ALREADY_SENT",
+      "Message": "",
+      "DecimalCode": -2005396988,
+      "HexCode": "0x88781204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CANNOT_FREE",
+      "Message": "",
+      "DecimalCode": -2005396987,
+      "HexCode": "0x88781205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CANNOT_OPEN_PORT",
+      "Message": "",
+      "DecimalCode": -2005396986,
+      "HexCode": "0x88781206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CANNOT_CONVERT",
+      "Message": "",
+      "DecimalCode": -2005396985,
+      "HexCode": "0x88781207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_CONNOT_CONVERT",
+      "Message": "",
+      "DecimalCode": -2005396985,
+      "HexCode": "0x88781207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_DESCEND_CHUNK_FAIL",
+      "Message": "",
+      "DecimalCode": -2005396976,
+      "HexCode": "0x88781210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NOT_LOADED",
+      "Message": "",
+      "DecimalCode": -2005396975,
+      "HexCode": "0x88781211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_LANGUAGE_INCOMPATIBLE",
+      "Message": "",
+      "DecimalCode": -2005396973,
+      "HexCode": "0x88781213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_UNSUPPORTED_VARTYPE",
+      "Message": "",
+      "DecimalCode": -2005396972,
+      "HexCode": "0x88781214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_ERROR_IN_SCRIPT",
+      "Message": "",
+      "DecimalCode": -2005396971,
+      "HexCode": "0x88781215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_CANTLOAD_OLEAUT32",
+      "Message": "",
+      "DecimalCode": -2005396970,
+      "HexCode": "0x88781216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_LOADSCRIPT_ERROR",
+      "Message": "",
+      "DecimalCode": -2005396969,
+      "HexCode": "0x88781217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_INVALID_FILE",
+      "Message": "",
+      "DecimalCode": -2005396968,
+      "HexCode": "0x88781218",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_SCRIPTTRACK",
+      "Message": "",
+      "DecimalCode": -2005396967,
+      "HexCode": "0x88781219",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_VARIABLE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2005396966,
+      "HexCode": "0x8878121a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_ROUTINE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2005396965,
+      "HexCode": "0x8878121b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_CONTENT_READONLY",
+      "Message": "",
+      "DecimalCode": -2005396964,
+      "HexCode": "0x8878121c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_NOT_A_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2005396963,
+      "HexCode": "0x8878121d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_SCRIPT_VALUE_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005396962,
+      "HexCode": "0x8878121e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_SEGMENTTRIGGERTRACK",
+      "Message": "",
+      "DecimalCode": -2005396960,
+      "HexCode": "0x88781220",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_LYRICSTRACK",
+      "Message": "",
+      "DecimalCode": -2005396959,
+      "HexCode": "0x88781221",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_PARAMCONTROLTRACK",
+      "Message": "",
+      "DecimalCode": -2005396958,
+      "HexCode": "0x88781222",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOVBSCRIPT_SYNTAXERROR",
+      "Message": "",
+      "DecimalCode": -2005396957,
+      "HexCode": "0x88781223",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOVBSCRIPT_RUNTIMEERROR",
+      "Message": "",
+      "DecimalCode": -2005396956,
+      "HexCode": "0x88781224",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOVBSCRIPT_OPERATIONFAILURE",
+      "Message": "",
+      "DecimalCode": -2005396955,
+      "HexCode": "0x88781225",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOPATHS_NOT_VALID",
+      "Message": "",
+      "DecimalCode": -2005396954,
+      "HexCode": "0x88781226",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOPATHS_IN_USE",
+      "Message": "",
+      "DecimalCode": -2005396953,
+      "HexCode": "0x88781227",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NO_AUDIOPATH_CONFIG",
+      "Message": "",
+      "DecimalCode": -2005396952,
+      "HexCode": "0x88781228",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOPATH_INACTIVE",
+      "Message": "",
+      "DecimalCode": -2005396951,
+      "HexCode": "0x88781229",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOPATH_NOBUFFER",
+      "Message": "",
+      "DecimalCode": -2005396950,
+      "HexCode": "0x8878122a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOPATH_NOPORT",
+      "Message": "",
+      "DecimalCode": -2005396949,
+      "HexCode": "0x8878122b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_NO_AUDIOPATH",
+      "Message": "",
+      "DecimalCode": -2005396948,
+      "HexCode": "0x8878122c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALIDCHUNK",
+      "Message": "",
+      "DecimalCode": -2005396947,
+      "HexCode": "0x8878122d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_AUDIOPATH_NOGLOBALFXBUFFER",
+      "Message": "",
+      "DecimalCode": -2005396946,
+      "HexCode": "0x8878122e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMUS_E_INVALID_CONTAINER_OBJECT",
+      "Message": "",
+      "DecimalCode": -2005396945,
+      "HexCode": "0x8878122f",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,55 @@
+{
+  "HeaderFileName": "ntdsapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "DS_NAME_ERROR_RESOLVING",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DS_NAME_ERROR_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DS_NAME_ERROR_NOT_UNIQUE",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DS_NAME_ERROR_NO_MAPPING",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DS_NAME_ERROR_DOMAIN_ONLY",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DS_NAME_ERROR_NO_SYNTACTICAL_MAPPING",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "DS_NAME_ERROR_TRUST_REFERRAL",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

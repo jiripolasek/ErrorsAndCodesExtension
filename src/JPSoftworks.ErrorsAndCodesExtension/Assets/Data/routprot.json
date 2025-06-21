@@ -1,0 +1,104 @@
+{
+  "HeaderFileName": "routprot.h",
+  "ErrorCodes": [
+    {
+      "Id": "MFE_NO_ERROR",
+      "Message": "none of the below events",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_REACHED_CORE",
+      "Message": "this router is an RP/core for the group",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_OIF_PRUNED",
+      "Message": "no downstream receivers exist on oif",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_PRUNED_UPSTREAM",
+      "Message": "a prune was send upstream",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_OLD_ROUTER",
+      "Message": "upstream nbr doesn\u0026apos;t support mtrace",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_NOT_FORWARDING",
+      "Message": "not fwding for an unspecified reason",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_WRONG_IF",
+      "Message": "mtrace received on iif",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_BOUNDARY_REACHED",
+      "Message": "iif or oif is admin scope boundary",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_NO_MULTICAST",
+      "Message": "oif is not multicast-enabled",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_IIF",
+      "Message": "mtrace arrived on iif",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_NO_ROUTE",
+      "Message": "router has no route that matches",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_NOT_LAST_HOP",
+      "Message": "router is not the proper last-hop router",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_PROHIBITED",
+      "Message": "mtrace is administratively prohibited",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MFE_NO_SPACE",
+      "Message": "not enough room in packet",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

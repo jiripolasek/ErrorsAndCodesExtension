@@ -1,0 +1,55 @@
+{
+  "HeaderFileName": "thumbcache.h",
+  "ErrorCodes": [
+    {
+      "Id": "WTS_E_FAILEDEXTRACTION",
+      "Message": "",
+      "DecimalCode": -2147175936,
+      "HexCode": "0x8004b200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WTS_E_EXTRACTIONTIMEDOUT",
+      "Message": "",
+      "DecimalCode": -2147175935,
+      "HexCode": "0x8004b201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WTS_E_SURROGATEUNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147175934,
+      "HexCode": "0x8004b202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WTS_E_FASTEXTRACTIONNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147175933,
+      "HexCode": "0x8004b203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WTS_E_DATAFILEUNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147175932,
+      "HexCode": "0x8004b204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WTS_E_EXTRACTIONPENDING",
+      "Message": "",
+      "DecimalCode": -2147175931,
+      "HexCode": "0x8004b205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WTS_E_EXTRACTIONBLOCKED",
+      "Message": "",
+      "DecimalCode": -2147175930,
+      "HexCode": "0x8004b206",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

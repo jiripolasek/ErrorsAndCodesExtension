@@ -1,0 +1,1945 @@
+{
+  "HeaderFileName": "raserror.h",
+  "ErrorCodes": [
+    {
+      "Id": "PENDING",
+      "Message": "",
+      "DecimalCode": 600,
+      "HexCode": "0x258",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PORT_HANDLE",
+      "Message": "",
+      "DecimalCode": 601,
+      "HexCode": "0x259",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_ALREADY_OPEN",
+      "Message": "",
+      "DecimalCode": 602,
+      "HexCode": "0x25a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": 603,
+      "HexCode": "0x25b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRONG_INFO_SPECIFIED",
+      "Message": "",
+      "DecimalCode": 604,
+      "HexCode": "0x25c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_SET_PORT_INFO",
+      "Message": "",
+      "DecimalCode": 605,
+      "HexCode": "0x25d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": 606,
+      "HexCode": "0x25e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EVENT_INVALID",
+      "Message": "",
+      "DecimalCode": 607,
+      "HexCode": "0x25f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEVICE_DOES_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": 608,
+      "HexCode": "0x260",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEVICETYPE_DOES_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": 609,
+      "HexCode": "0x261",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BUFFER_INVALID",
+      "Message": "",
+      "DecimalCode": 610,
+      "HexCode": "0x262",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ROUTE_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 611,
+      "HexCode": "0x263",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ROUTE_NOT_ALLOCATED",
+      "Message": "",
+      "DecimalCode": 612,
+      "HexCode": "0x264",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_COMPRESSION_SPECIFIED",
+      "Message": "",
+      "DecimalCode": 613,
+      "HexCode": "0x265",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OUT_OF_BUFFERS",
+      "Message": "",
+      "DecimalCode": 614,
+      "HexCode": "0x266",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 615,
+      "HexCode": "0x267",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ASYNC_REQUEST_PENDING",
+      "Message": "",
+      "DecimalCode": 616,
+      "HexCode": "0x268",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ALREADY_DISCONNECTING",
+      "Message": "",
+      "DecimalCode": 617,
+      "HexCode": "0x269",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_NOT_OPEN",
+      "Message": "",
+      "DecimalCode": 618,
+      "HexCode": "0x26a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": 619,
+      "HexCode": "0x26b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_ENDPOINTS",
+      "Message": "",
+      "DecimalCode": 620,
+      "HexCode": "0x26c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_OPEN_PHONEBOOK",
+      "Message": "",
+      "DecimalCode": 621,
+      "HexCode": "0x26d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_LOAD_PHONEBOOK",
+      "Message": "",
+      "DecimalCode": 622,
+      "HexCode": "0x26e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_FIND_PHONEBOOK_ENTRY",
+      "Message": "",
+      "DecimalCode": 623,
+      "HexCode": "0x26f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_WRITE_PHONEBOOK",
+      "Message": "",
+      "DecimalCode": 624,
+      "HexCode": "0x270",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CORRUPT_PHONEBOOK",
+      "Message": "",
+      "DecimalCode": 625,
+      "HexCode": "0x271",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_LOAD_STRING",
+      "Message": "",
+      "DecimalCode": 626,
+      "HexCode": "0x272",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_KEY_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 627,
+      "HexCode": "0x273",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DISCONNECTION",
+      "Message": "",
+      "DecimalCode": 628,
+      "HexCode": "0x274",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_DISCONNECTION",
+      "Message": "",
+      "DecimalCode": 629,
+      "HexCode": "0x275",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_HARDWARE_FAILURE",
+      "Message": "",
+      "DecimalCode": 630,
+      "HexCode": "0x276",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_USER_DISCONNECTION",
+      "Message": "",
+      "DecimalCode": 631,
+      "HexCode": "0x277",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SIZE",
+      "Message": "",
+      "DecimalCode": 632,
+      "HexCode": "0x278",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 633,
+      "HexCode": "0x279",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_PROJECT_CLIENT",
+      "Message": "",
+      "DecimalCode": 634,
+      "HexCode": "0x27a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNKNOWN",
+      "Message": "",
+      "DecimalCode": 635,
+      "HexCode": "0x27b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRONG_DEVICE_ATTACHED",
+      "Message": "",
+      "DecimalCode": 636,
+      "HexCode": "0x27c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAD_STRING",
+      "Message": "",
+      "DecimalCode": 637,
+      "HexCode": "0x27d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REQUEST_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 638,
+      "HexCode": "0x27e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_GET_LANA",
+      "Message": "",
+      "DecimalCode": 639,
+      "HexCode": "0x27f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NETBIOS_ERROR",
+      "Message": "",
+      "DecimalCode": 640,
+      "HexCode": "0x280",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SERVER_OUT_OF_RESOURCES",
+      "Message": "",
+      "DecimalCode": 641,
+      "HexCode": "0x281",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NAME_EXISTS_ON_NET",
+      "Message": "",
+      "DecimalCode": 642,
+      "HexCode": "0x282",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SERVER_GENERAL_NET_FAILURE",
+      "Message": "",
+      "DecimalCode": 643,
+      "HexCode": "0x283",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WARNING_MSG_ALIAS_NOT_ADDED",
+      "Message": "",
+      "DecimalCode": 644,
+      "HexCode": "0x284",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTH_INTERNAL",
+      "Message": "",
+      "DecimalCode": 645,
+      "HexCode": "0x285",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RESTRICTED_LOGON_HOURS",
+      "Message": "",
+      "DecimalCode": 646,
+      "HexCode": "0x286",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ACCT_DISABLED",
+      "Message": "",
+      "DecimalCode": 647,
+      "HexCode": "0x287",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PASSWD_EXPIRED",
+      "Message": "",
+      "DecimalCode": 648,
+      "HexCode": "0x288",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_DIALIN_PERMISSION",
+      "Message": "",
+      "DecimalCode": 649,
+      "HexCode": "0x289",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SERVER_NOT_RESPONDING",
+      "Message": "",
+      "DecimalCode": 650,
+      "HexCode": "0x28a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FROM_DEVICE",
+      "Message": "",
+      "DecimalCode": 651,
+      "HexCode": "0x28b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNRECOGNIZED_RESPONSE",
+      "Message": "",
+      "DecimalCode": 652,
+      "HexCode": "0x28c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MACRO_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 653,
+      "HexCode": "0x28d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MACRO_NOT_DEFINED",
+      "Message": "",
+      "DecimalCode": 654,
+      "HexCode": "0x28e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MESSAGE_MACRO_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 655,
+      "HexCode": "0x28f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEFAULTOFF_MACRO_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 656,
+      "HexCode": "0x290",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FILE_COULD_NOT_BE_OPENED",
+      "Message": "",
+      "DecimalCode": 657,
+      "HexCode": "0x291",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEVICENAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": 658,
+      "HexCode": "0x292",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEVICENAME_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 659,
+      "HexCode": "0x293",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_RESPONSES",
+      "Message": "",
+      "DecimalCode": 660,
+      "HexCode": "0x294",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_COMMAND_FOUND",
+      "Message": "",
+      "DecimalCode": 661,
+      "HexCode": "0x295",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRONG_KEY_SPECIFIED",
+      "Message": "",
+      "DecimalCode": 662,
+      "HexCode": "0x296",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNKNOWN_DEVICE_TYPE",
+      "Message": "",
+      "DecimalCode": 663,
+      "HexCode": "0x297",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ALLOCATING_MEMORY",
+      "Message": "",
+      "DecimalCode": 664,
+      "HexCode": "0x298",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_NOT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": 665,
+      "HexCode": "0x299",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEVICE_NOT_READY",
+      "Message": "",
+      "DecimalCode": 666,
+      "HexCode": "0x29a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_INI_FILE",
+      "Message": "",
+      "DecimalCode": 667,
+      "HexCode": "0x29b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_CONNECTION",
+      "Message": "",
+      "DecimalCode": 668,
+      "HexCode": "0x29c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAD_USAGE_IN_INI_FILE",
+      "Message": "",
+      "DecimalCode": 669,
+      "HexCode": "0x29d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_SECTIONNAME",
+      "Message": "",
+      "DecimalCode": 670,
+      "HexCode": "0x29e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_DEVICETYPE",
+      "Message": "",
+      "DecimalCode": 671,
+      "HexCode": "0x29f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_DEVICENAME",
+      "Message": "",
+      "DecimalCode": 672,
+      "HexCode": "0x2a0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_USAGE",
+      "Message": "",
+      "DecimalCode": 673,
+      "HexCode": "0x2a1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_MAXCONNECTBPS",
+      "Message": "",
+      "DecimalCode": 674,
+      "HexCode": "0x2a2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_MAXCARRIERBPS",
+      "Message": "",
+      "DecimalCode": 675,
+      "HexCode": "0x2a3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_LINE_BUSY",
+      "Message": "",
+      "DecimalCode": 676,
+      "HexCode": "0x2a4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VOICE_ANSWER",
+      "Message": "",
+      "DecimalCode": 677,
+      "HexCode": "0x2a5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_ANSWER",
+      "Message": "",
+      "DecimalCode": 678,
+      "HexCode": "0x2a6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_CARRIER",
+      "Message": "",
+      "DecimalCode": 679,
+      "HexCode": "0x2a7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_DIALTONE",
+      "Message": "",
+      "DecimalCode": 680,
+      "HexCode": "0x2a8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IN_COMMAND",
+      "Message": "",
+      "DecimalCode": 681,
+      "HexCode": "0x2a9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_SECTIONNAME",
+      "Message": "",
+      "DecimalCode": 682,
+      "HexCode": "0x2aa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_DEVICETYPE",
+      "Message": "",
+      "DecimalCode": 683,
+      "HexCode": "0x2ab",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_DEVICENAME",
+      "Message": "",
+      "DecimalCode": 684,
+      "HexCode": "0x2ac",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_MAXCONNECTBPS",
+      "Message": "",
+      "DecimalCode": 685,
+      "HexCode": "0x2ad",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_MAXCARRIERBPS",
+      "Message": "",
+      "DecimalCode": 686,
+      "HexCode": "0x2ae",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_USAGE",
+      "Message": "",
+      "DecimalCode": 687,
+      "HexCode": "0x2af",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_DEFAULTOFF",
+      "Message": "",
+      "DecimalCode": 688,
+      "HexCode": "0x2b0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_DEFAULTOFF",
+      "Message": "",
+      "DecimalCode": 689,
+      "HexCode": "0x2b1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EMPTY_INI_FILE",
+      "Message": "",
+      "DecimalCode": 690,
+      "HexCode": "0x2b2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTHENTICATION_FAILURE",
+      "Message": "",
+      "DecimalCode": 691,
+      "HexCode": "0x2b3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PORT_OR_DEVICE",
+      "Message": "",
+      "DecimalCode": 692,
+      "HexCode": "0x2b4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NOT_BINARY_MACRO",
+      "Message": "",
+      "DecimalCode": 693,
+      "HexCode": "0x2b5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DCB_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 694,
+      "HexCode": "0x2b6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_STATE_MACHINES_NOT_STARTED",
+      "Message": "",
+      "DecimalCode": 695,
+      "HexCode": "0x2b7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_STATE_MACHINES_ALREADY_STARTED",
+      "Message": "",
+      "DecimalCode": 696,
+      "HexCode": "0x2b8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PARTIAL_RESPONSE_LOOPING",
+      "Message": "",
+      "DecimalCode": 697,
+      "HexCode": "0x2b9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNKNOWN_RESPONSE_KEY",
+      "Message": "",
+      "DecimalCode": 698,
+      "HexCode": "0x2ba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RECV_BUF_FULL",
+      "Message": "",
+      "DecimalCode": 699,
+      "HexCode": "0x2bb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CMD_TOO_LONG",
+      "Message": "",
+      "DecimalCode": 700,
+      "HexCode": "0x2bc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNSUPPORTED_BPS",
+      "Message": "",
+      "DecimalCode": 701,
+      "HexCode": "0x2bd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNEXPECTED_RESPONSE",
+      "Message": "",
+      "DecimalCode": 702,
+      "HexCode": "0x2be",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERACTIVE_MODE",
+      "Message": "",
+      "DecimalCode": 703,
+      "HexCode": "0x2bf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAD_CALLBACK_NUMBER",
+      "Message": "",
+      "DecimalCode": 704,
+      "HexCode": "0x2c0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_AUTH_STATE",
+      "Message": "",
+      "DecimalCode": 705,
+      "HexCode": "0x2c1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRITING_INITBPS",
+      "Message": "",
+      "DecimalCode": 706,
+      "HexCode": "0x2c2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_X25_DIAGNOSTIC",
+      "Message": "",
+      "DecimalCode": 707,
+      "HexCode": "0x2c3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ACCT_EXPIRED",
+      "Message": "",
+      "DecimalCode": 708,
+      "HexCode": "0x2c4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CHANGING_PASSWORD",
+      "Message": "",
+      "DecimalCode": 709,
+      "HexCode": "0x2c5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OVERRUN",
+      "Message": "",
+      "DecimalCode": 710,
+      "HexCode": "0x2c6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASMAN_CANNOT_INITIALIZE",
+      "Message": "",
+      "DecimalCode": 711,
+      "HexCode": "0x2c7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BIPLEX_PORT_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 712,
+      "HexCode": "0x2c8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_ACTIVE_ISDN_LINES",
+      "Message": "",
+      "DecimalCode": 713,
+      "HexCode": "0x2c9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_ISDN_CHANNELS_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 714,
+      "HexCode": "0x2ca",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TOO_MANY_LINE_ERRORS",
+      "Message": "",
+      "DecimalCode": 715,
+      "HexCode": "0x2cb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IP_CONFIGURATION",
+      "Message": "",
+      "DecimalCode": 716,
+      "HexCode": "0x2cc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_IP_ADDRESSES",
+      "Message": "",
+      "DecimalCode": 717,
+      "HexCode": "0x2cd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 718,
+      "HexCode": "0x2ce",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_REMOTE_TERMINATED",
+      "Message": "",
+      "DecimalCode": 719,
+      "HexCode": "0x2cf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_NO_PROTOCOLS_CONFIGURED",
+      "Message": "",
+      "DecimalCode": 720,
+      "HexCode": "0x2d0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_NO_RESPONSE",
+      "Message": "",
+      "DecimalCode": 721,
+      "HexCode": "0x2d1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_INVALID_PACKET",
+      "Message": "",
+      "DecimalCode": 722,
+      "HexCode": "0x2d2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PHONE_NUMBER_TOO_LONG",
+      "Message": "",
+      "DecimalCode": 723,
+      "HexCode": "0x2d3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IPXCP_NO_DIALOUT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": 724,
+      "HexCode": "0x2d4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IPXCP_NO_DIALIN_CONFIGURED",
+      "Message": "",
+      "DecimalCode": 725,
+      "HexCode": "0x2d5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IPXCP_DIALOUT_ALREADY_ACTIVE",
+      "Message": "",
+      "DecimalCode": 726,
+      "HexCode": "0x2d6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ACCESSING_TCPCFGDLL",
+      "Message": "",
+      "DecimalCode": 727,
+      "HexCode": "0x2d7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_IP_RAS_ADAPTER",
+      "Message": "",
+      "DecimalCode": 728,
+      "HexCode": "0x2d8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SLIP_REQUIRES_IP",
+      "Message": "",
+      "DecimalCode": 729,
+      "HexCode": "0x2d9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PROJECTION_NOT_COMPLETE",
+      "Message": "",
+      "DecimalCode": 730,
+      "HexCode": "0x2da",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PROTOCOL_NOT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": 731,
+      "HexCode": "0x2db",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_NOT_CONVERGING",
+      "Message": "",
+      "DecimalCode": 732,
+      "HexCode": "0x2dc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_CP_REJECTED",
+      "Message": "",
+      "DecimalCode": 733,
+      "HexCode": "0x2dd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_LCP_TERMINATED",
+      "Message": "",
+      "DecimalCode": 734,
+      "HexCode": "0x2de",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_REQUIRED_ADDRESS_REJECTED",
+      "Message": "",
+      "DecimalCode": 735,
+      "HexCode": "0x2df",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_NCP_TERMINATED",
+      "Message": "",
+      "DecimalCode": 736,
+      "HexCode": "0x2e0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_LOOPBACK_DETECTED",
+      "Message": "",
+      "DecimalCode": 737,
+      "HexCode": "0x2e1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PPP_NO_ADDRESS_ASSIGNED",
+      "Message": "",
+      "DecimalCode": 738,
+      "HexCode": "0x2e2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_USE_LOGON_CREDENTIALS",
+      "Message": "",
+      "DecimalCode": 739,
+      "HexCode": "0x2e3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TAPI_CONFIGURATION",
+      "Message": "",
+      "DecimalCode": 740,
+      "HexCode": "0x2e4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_LOCAL_ENCRYPTION",
+      "Message": "",
+      "DecimalCode": 741,
+      "HexCode": "0x2e5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_REMOTE_ENCRYPTION",
+      "Message": "",
+      "DecimalCode": 742,
+      "HexCode": "0x2e6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_REMOTE_REQUIRES_ENCRYPTION",
+      "Message": "",
+      "DecimalCode": 743,
+      "HexCode": "0x2e7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IPXCP_NET_NUMBER_CONFLICT",
+      "Message": "",
+      "DecimalCode": 744,
+      "HexCode": "0x2e8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SMM",
+      "Message": "",
+      "DecimalCode": 745,
+      "HexCode": "0x2e9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SMM_UNINITIALIZED",
+      "Message": "",
+      "DecimalCode": 746,
+      "HexCode": "0x2ea",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_MAC_FOR_PORT",
+      "Message": "",
+      "DecimalCode": 747,
+      "HexCode": "0x2eb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SMM_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 748,
+      "HexCode": "0x2ec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAD_PHONE_NUMBER",
+      "Message": "",
+      "DecimalCode": 749,
+      "HexCode": "0x2ed",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRONG_MODULE",
+      "Message": "",
+      "DecimalCode": 750,
+      "HexCode": "0x2ee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_CALLBACK_NUMBER",
+      "Message": "",
+      "DecimalCode": 751,
+      "HexCode": "0x2ef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SCRIPT_SYNTAX",
+      "Message": "",
+      "DecimalCode": 752,
+      "HexCode": "0x2f0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_HANGUP_FAILED",
+      "Message": "",
+      "DecimalCode": 753,
+      "HexCode": "0x2f1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BUNDLE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 754,
+      "HexCode": "0x2f2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_DO_CUSTOMDIAL",
+      "Message": "",
+      "DecimalCode": 755,
+      "HexCode": "0x2f3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DIAL_ALREADY_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": 756,
+      "HexCode": "0x2f4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASAUTO_CANNOT_INITIALIZE",
+      "Message": "",
+      "DecimalCode": 757,
+      "HexCode": "0x2f5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CONNECTION_ALREADY_SHARED",
+      "Message": "",
+      "DecimalCode": 758,
+      "HexCode": "0x2f6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_CHANGE_FAILED",
+      "Message": "",
+      "DecimalCode": 759,
+      "HexCode": "0x2f7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_ROUTER_INSTALL",
+      "Message": "",
+      "DecimalCode": 760,
+      "HexCode": "0x2f8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARE_CONNECTION_FAILED",
+      "Message": "",
+      "DecimalCode": 761,
+      "HexCode": "0x2f9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_PRIVATE_INSTALL",
+      "Message": "",
+      "DecimalCode": 762,
+      "HexCode": "0x2fa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_SHARE_CONNECTION",
+      "Message": "",
+      "DecimalCode": 763,
+      "HexCode": "0x2fb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_SMART_CARD_READER",
+      "Message": "",
+      "DecimalCode": 764,
+      "HexCode": "0x2fc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_ADDRESS_EXISTS",
+      "Message": "",
+      "DecimalCode": 765,
+      "HexCode": "0x2fd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_CERTIFICATE",
+      "Message": "",
+      "DecimalCode": 766,
+      "HexCode": "0x2fe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_MULTIPLE_ADDRESSES",
+      "Message": "",
+      "DecimalCode": 767,
+      "HexCode": "0x2ff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FAILED_TO_ENCRYPT",
+      "Message": "",
+      "DecimalCode": 768,
+      "HexCode": "0x300",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BAD_ADDRESS_SPECIFIED",
+      "Message": "",
+      "DecimalCode": 769,
+      "HexCode": "0x301",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CONNECTION_REJECT",
+      "Message": "",
+      "DecimalCode": 770,
+      "HexCode": "0x302",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CONGESTION",
+      "Message": "",
+      "DecimalCode": 771,
+      "HexCode": "0x303",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INCOMPATIBLE",
+      "Message": "",
+      "DecimalCode": 772,
+      "HexCode": "0x304",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NUMBERCHANGED",
+      "Message": "",
+      "DecimalCode": 773,
+      "HexCode": "0x305",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TEMPFAILURE",
+      "Message": "",
+      "DecimalCode": 774,
+      "HexCode": "0x306",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BLOCKED",
+      "Message": "",
+      "DecimalCode": 775,
+      "HexCode": "0x307",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DONOTDISTURB",
+      "Message": "",
+      "DecimalCode": 776,
+      "HexCode": "0x308",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OUTOFORDER",
+      "Message": "",
+      "DecimalCode": 777,
+      "HexCode": "0x309",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNABLE_TO_AUTHENTICATE_SERVER",
+      "Message": "",
+      "DecimalCode": 778,
+      "HexCode": "0x30a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SMART_CARD_REQUIRED",
+      "Message": "",
+      "DecimalCode": 779,
+      "HexCode": "0x30b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_FUNCTION_FOR_ENTRY",
+      "Message": "",
+      "DecimalCode": 780,
+      "HexCode": "0x30c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CERT_FOR_ENCRYPTION_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 781,
+      "HexCode": "0x30d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_RRAS_CONFLICT",
+      "Message": "",
+      "DecimalCode": 782,
+      "HexCode": "0x30e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_NO_PRIVATE_LAN",
+      "Message": "",
+      "DecimalCode": 783,
+      "HexCode": "0x30f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_DIFF_USER_AT_LOGON",
+      "Message": "",
+      "DecimalCode": 784,
+      "HexCode": "0x310",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_REG_CERT_AT_LOGON",
+      "Message": "",
+      "DecimalCode": 785,
+      "HexCode": "0x311",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_NO_CERT",
+      "Message": "",
+      "DecimalCode": 786,
+      "HexCode": "0x312",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_AUTH_FAIL",
+      "Message": "",
+      "DecimalCode": 787,
+      "HexCode": "0x313",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_ATTRIB_FAIL",
+      "Message": "",
+      "DecimalCode": 788,
+      "HexCode": "0x314",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_GENERAL_PROCESSING",
+      "Message": "",
+      "DecimalCode": 789,
+      "HexCode": "0x315",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_NO_PEER_CERT",
+      "Message": "",
+      "DecimalCode": 790,
+      "HexCode": "0x316",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_NO_POLICY",
+      "Message": "",
+      "DecimalCode": 791,
+      "HexCode": "0x317",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_TIMED_OUT",
+      "Message": "",
+      "DecimalCode": 792,
+      "HexCode": "0x318",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_OAKLEY_ERROR",
+      "Message": "",
+      "DecimalCode": 793,
+      "HexCode": "0x319",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNKNOWN_FRAMED_PROTOCOL",
+      "Message": "",
+      "DecimalCode": 794,
+      "HexCode": "0x31a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WRONG_TUNNEL_TYPE",
+      "Message": "",
+      "DecimalCode": 795,
+      "HexCode": "0x31b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNKNOWN_SERVICE_TYPE",
+      "Message": "",
+      "DecimalCode": 796,
+      "HexCode": "0x31c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CONNECTING_DEVICE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 797,
+      "HexCode": "0x31d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NO_EAPTLS_CERTIFICATE",
+      "Message": "",
+      "DecimalCode": 798,
+      "HexCode": "0x31e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SHARING_HOST_ADDRESS_CONFLICT",
+      "Message": "",
+      "DecimalCode": 799,
+      "HexCode": "0x31f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_AUTOMATIC_VPN_FAILED",
+      "Message": "",
+      "DecimalCode": 800,
+      "HexCode": "0x320",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VALIDATING_SERVER_CERT",
+      "Message": "",
+      "DecimalCode": 801,
+      "HexCode": "0x321",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_READING_SCARD",
+      "Message": "",
+      "DecimalCode": 802,
+      "HexCode": "0x322",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PEAP_COOKIE_CONFIG",
+      "Message": "",
+      "DecimalCode": 803,
+      "HexCode": "0x323",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PEAP_COOKIE_USER",
+      "Message": "",
+      "DecimalCode": 804,
+      "HexCode": "0x324",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_MSCHAPV2_CONFIG",
+      "Message": "",
+      "DecimalCode": 805,
+      "HexCode": "0x325",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_GRE_BLOCKED",
+      "Message": "",
+      "DecimalCode": 806,
+      "HexCode": "0x326",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_DISCONNECT",
+      "Message": "",
+      "DecimalCode": 807,
+      "HexCode": "0x327",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_REFUSED",
+      "Message": "",
+      "DecimalCode": 808,
+      "HexCode": "0x328",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 809,
+      "HexCode": "0x329",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_BAD_CERT",
+      "Message": "",
+      "DecimalCode": 810,
+      "HexCode": "0x32a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_BAD_PSK",
+      "Message": "",
+      "DecimalCode": 811,
+      "HexCode": "0x32b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SERVER_POLICY",
+      "Message": "",
+      "DecimalCode": 812,
+      "HexCode": "0x32c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BROADBAND_ACTIVE",
+      "Message": "",
+      "DecimalCode": 813,
+      "HexCode": "0x32d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BROADBAND_NO_NIC",
+      "Message": "",
+      "DecimalCode": 814,
+      "HexCode": "0x32e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_BROADBAND_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 815,
+      "HexCode": "0x32f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FEATURE_DEPRECATED",
+      "Message": "",
+      "DecimalCode": 816,
+      "HexCode": "0x330",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_DELETE",
+      "Message": "",
+      "DecimalCode": 817,
+      "HexCode": "0x331",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASQEC_RESOURCE_CREATION_FAILED",
+      "Message": "",
+      "DecimalCode": 818,
+      "HexCode": "0x332",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASQEC_NAPAGENT_NOT_ENABLED",
+      "Message": "",
+      "DecimalCode": 819,
+      "HexCode": "0x333",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASQEC_NAPAGENT_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": 820,
+      "HexCode": "0x334",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASQEC_CONN_DOESNOTEXIST",
+      "Message": "",
+      "DecimalCode": 821,
+      "HexCode": "0x335",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASQEC_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 822,
+      "HexCode": "0x336",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PEAP_CRYPTOBINDING_INVALID",
+      "Message": "",
+      "DecimalCode": 823,
+      "HexCode": "0x337",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PEAP_CRYPTOBINDING_NOTRECEIVED",
+      "Message": "",
+      "DecimalCode": 824,
+      "HexCode": "0x338",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_VPNSTRATEGY",
+      "Message": "",
+      "DecimalCode": 825,
+      "HexCode": "0x339",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAPTLS_CACHE_CREDENTIALS_INVALID",
+      "Message": "",
+      "DecimalCode": 826,
+      "HexCode": "0x33a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IPSEC_SERVICE_STOPPED",
+      "Message": "",
+      "DecimalCode": 827,
+      "HexCode": "0x33b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IDLE_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 828,
+      "HexCode": "0x33c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_LINK_FAILURE",
+      "Message": "",
+      "DecimalCode": 829,
+      "HexCode": "0x33d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_USER_LOGOFF",
+      "Message": "",
+      "DecimalCode": 830,
+      "HexCode": "0x33e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FAST_USER_SWITCH",
+      "Message": "",
+      "DecimalCode": 831,
+      "HexCode": "0x33f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_HIBERNATION",
+      "Message": "",
+      "DecimalCode": 832,
+      "HexCode": "0x340",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SYSTEM_SUSPENDED",
+      "Message": "",
+      "DecimalCode": 833,
+      "HexCode": "0x341",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_RASMAN_SERVICE_STOPPED",
+      "Message": "",
+      "DecimalCode": 834,
+      "HexCode": "0x342",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SERVER_CERT",
+      "Message": "",
+      "DecimalCode": 835,
+      "HexCode": "0x343",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_NOT_NAP_CAPABLE",
+      "Message": "",
+      "DecimalCode": 836,
+      "HexCode": "0x344",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_TUNNELID",
+      "Message": "",
+      "DecimalCode": 837,
+      "HexCode": "0x345",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS",
+      "Message": "",
+      "DecimalCode": 838,
+      "HexCode": "0x346",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PROTOCOL_ENGINE_DISABLED",
+      "Message": "",
+      "DecimalCode": 839,
+      "HexCode": "0x347",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INTERNAL_ADDRESS_FAILURE",
+      "Message": "",
+      "DecimalCode": 840,
+      "HexCode": "0x348",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FAILED_CP_REQUIRED",
+      "Message": "",
+      "DecimalCode": 841,
+      "HexCode": "0x349",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TS_UNACCEPTABLE",
+      "Message": "",
+      "DecimalCode": 842,
+      "HexCode": "0x34a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_MOBIKE_DISABLED",
+      "Message": "",
+      "DecimalCode": 843,
+      "HexCode": "0x34b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_CANNOT_INITIATE_MOBIKE_UPDATE",
+      "Message": "",
+      "DecimalCode": 844,
+      "HexCode": "0x34c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PEAP_SERVER_REJECTED_CLIENT_TLV",
+      "Message": "",
+      "DecimalCode": 845,
+      "HexCode": "0x34d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PREFERENCES",
+      "Message": "",
+      "DecimalCode": 846,
+      "HexCode": "0x34e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAPTLS_SCARD_CACHE_CREDENTIALS_INVALID",
+      "Message": "",
+      "DecimalCode": 847,
+      "HexCode": "0x34f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SSTP_COOKIE_SET_FAILURE",
+      "Message": "",
+      "DecimalCode": 848,
+      "HexCode": "0x350",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PEAP_COOKIE_ATTRIBUTES",
+      "Message": "",
+      "DecimalCode": 849,
+      "HexCode": "0x351",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_METHOD_NOT_INSTALLED",
+      "Message": "",
+      "DecimalCode": 850,
+      "HexCode": "0x352",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_METHOD_DOES_NOT_SUPPORT_SSO",
+      "Message": "",
+      "DecimalCode": 851,
+      "HexCode": "0x353",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_METHOD_OPERATION_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 852,
+      "HexCode": "0x354",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": 853,
+      "HexCode": "0x355",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_CERT_EXPIRED",
+      "Message": "",
+      "DecimalCode": 854,
+      "HexCode": "0x356",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": 855,
+      "HexCode": "0x357",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_CERT_OTHER_ERROR",
+      "Message": "",
+      "DecimalCode": 856,
+      "HexCode": "0x358",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": 857,
+      "HexCode": "0x359",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_CERT_EXPIRED",
+      "Message": "",
+      "DecimalCode": 858,
+      "HexCode": "0x35a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": 859,
+      "HexCode": "0x35b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_CERT_OTHER_ERROR",
+      "Message": "",
+      "DecimalCode": 860,
+      "HexCode": "0x35c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_ROOT_CERT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 861,
+      "HexCode": "0x35d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_ROOT_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": 862,
+      "HexCode": "0x35e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_USER_ROOT_CERT_EXPIRED",
+      "Message": "",
+      "DecimalCode": 863,
+      "HexCode": "0x35f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_ROOT_CERT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 864,
+      "HexCode": "0x360",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_ROOT_CERT_INVALID",
+      "Message": "",
+      "DecimalCode": 865,
+      "HexCode": "0x361",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAP_SERVER_ROOT_CERT_NAME_REQUIRED",
+      "Message": "",
+      "DecimalCode": 866,
+      "HexCode": "0x362",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_PEAP_IDENTITY_MISMATCH",
+      "Message": "",
+      "DecimalCode": 867,
+      "HexCode": "0x363",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DNSNAME_NOT_RESOLVABLE",
+      "Message": "",
+      "DecimalCode": 868,
+      "HexCode": "0x364",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_EAPTLS_PASSWD_INVALID",
+      "Message": "",
+      "DecimalCode": 869,
+      "HexCode": "0x365",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IKEV2_PSK_INTERFACE_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 870,
+      "HexCode": "0x366",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_DESTINATION_IP",
+      "Message": "",
+      "DecimalCode": 871,
+      "HexCode": "0x367",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_INTERFACE_CONFIG",
+      "Message": "",
+      "DecimalCode": 872,
+      "HexCode": "0x368",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "RASBASEEND",
+      "Message": "",
+      "DecimalCode": 872,
+      "HexCode": "0x368",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VPN_PLUGIN_GENERIC",
+      "Message": "",
+      "DecimalCode": 873,
+      "HexCode": "0x369",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SSO_CERT_MISSING",
+      "Message": "",
+      "DecimalCode": 874,
+      "HexCode": "0x36a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DEVICE_COMPLIANCE",
+      "Message": "",
+      "DecimalCode": 875,
+      "HexCode": "0x36b",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

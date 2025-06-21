@@ -1,0 +1,55 @@
+{
+  "HeaderFileName": "winioctl.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_LABEL_UNREADABLE",
+      "Message": "Bar code scanner could not read bar code label.",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_LABEL_QUESTIONABLE",
+      "Message": "Label could be invalid due to unit attention condition.",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_SLOT_NOT_PRESENT",
+      "Message": "Slot is currently not addressable in the device.",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DRIVE_NOT_INSTALLED",
+      "Message": "Drive is not installed.",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TRAY_MALFUNCTION",
+      "Message": "Media tray is malfunctioning/broken.",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INIT_STATUS_NEEDED",
+      "Message": "An Initialize Element Status command is needed.",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_UNHANDLED_ERROR",
+      "Message": "Unknown error condition",
+      "DecimalCode": -1,
+      "HexCode": "0xffffffff",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

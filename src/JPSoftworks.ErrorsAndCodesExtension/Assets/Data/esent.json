@@ -1,0 +1,5585 @@
+{
+  "HeaderFileName": "esent.h",
+  "ErrorCodes": [
+    {
+      "Id": "JET_errSuccess",
+      "Message": "/* Successful Operation */",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_errRfsFailure",
+      "Message": "/* Resource Failure Simulator failure */",
+      "DecimalCode": -100,
+      "HexCode": "0xffffff9c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRfsNotArmed",
+      "Message": "/* Resource Failure Simulator not initialized */",
+      "DecimalCode": -101,
+      "HexCode": "0xffffff9b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileClose",
+      "Message": "/* Could not close file */",
+      "DecimalCode": -102,
+      "HexCode": "0xffffff9a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfThreads",
+      "Message": "/* Could not start thread */",
+      "DecimalCode": -103,
+      "HexCode": "0xffffff99",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyIO",
+      "Message": "/* System busy due to too many IOs */",
+      "DecimalCode": -105,
+      "HexCode": "0xffffff97",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTaskDropped",
+      "Message": "/* A requested async task could not be executed */",
+      "DecimalCode": -106,
+      "HexCode": "0xffffff96",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInternalError",
+      "Message": "/* Fatal internal error */",
+      "DecimalCode": -107,
+      "HexCode": "0xffffff95",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDisabledFunctionality",
+      "Message": "/* You are running MinESE, that does not have all features compiled in.  This functionality is only supported in a full version of ESE. */",
+      "DecimalCode": -112,
+      "HexCode": "0xffffff90",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUnloadableOSFunctionality",
+      "Message": "/* The desired OS functionality could not be located and loaded / linked. */",
+      "DecimalCode": -113,
+      "HexCode": "0xffffff8f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseBufferDependenciesCorrupted",
+      "Message": "/* Buffer dependencies improperly set. Recovery failure */",
+      "DecimalCode": -255,
+      "HexCode": "0xffffff01",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPreviousVersion",
+      "Message": "/* Version already existed. Recovery failure */",
+      "DecimalCode": -322,
+      "HexCode": "0xfffffebe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPageBoundary",
+      "Message": "/* Reached Page Boundary */",
+      "DecimalCode": -323,
+      "HexCode": "0xfffffebd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errKeyBoundary",
+      "Message": "/* Reached Key Boundary */",
+      "DecimalCode": -324,
+      "HexCode": "0xfffffebc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadPageLink",
+      "Message": "/* Database corrupted */",
+      "DecimalCode": -327,
+      "HexCode": "0xfffffeb9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadBookmark",
+      "Message": "/* Bookmark has no corresponding address in database */",
+      "DecimalCode": -328,
+      "HexCode": "0xfffffeb8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNTSystemCallFailed",
+      "Message": "// A call to the operating system failed",
+      "DecimalCode": -334,
+      "HexCode": "0xfffffeb2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadParentPageLink",
+      "Message": "// Database corrupted",
+      "DecimalCode": -338,
+      "HexCode": "0xfffffeae",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSPAvailExtCacheOutOfSync",
+      "Message": "// AvailExt cache doesn\u0026apos;t match btree",
+      "DecimalCode": -340,
+      "HexCode": "0xfffffeac",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSPAvailExtCorrupted",
+      "Message": "// AvailExt space tree is corrupt",
+      "DecimalCode": -341,
+      "HexCode": "0xfffffeab",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSPAvailExtCacheOutOfMemory",
+      "Message": "// Out of memory allocating an AvailExt cache node",
+      "DecimalCode": -342,
+      "HexCode": "0xfffffeaa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSPOwnExtCorrupted",
+      "Message": "// OwnExt space tree is corrupt",
+      "DecimalCode": -343,
+      "HexCode": "0xfffffea9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDbTimeCorrupted",
+      "Message": "// Dbtime on current page is greater than global database dbtime",
+      "DecimalCode": -344,
+      "HexCode": "0xfffffea8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errKeyTruncated",
+      "Message": "// key truncated on index that disallows key truncation",
+      "DecimalCode": -346,
+      "HexCode": "0xfffffea6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseLeakInSpace",
+      "Message": "// Some database pages have become unreachable even from the avail tree, only an offline defragmentation can return the lost space.",
+      "DecimalCode": -348,
+      "HexCode": "0xfffffea4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadEmptyPage",
+      "Message": "// Database corrupted. Searching an unexpectedly empty page.",
+      "DecimalCode": -351,
+      "HexCode": "0xfffffea1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadLineCount",
+      "Message": "/* Number of lines on the page is too few compared to the line being operated on */",
+      "DecimalCode": -354,
+      "HexCode": "0xfffffe9e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnIllegalNull",
+      "Message": " ",
+      "DecimalCode": -1504,
+      "HexCode": "0xfffffa20",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errKeyTooBig",
+      "Message": "/* Key is too large */",
+      "DecimalCode": -408,
+      "HexCode": "0xfffffe68",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotSeparateIntrinsicLV",
+      "Message": "// illegal attempt to separate an LV which must be intrinsic",
+      "DecimalCode": -416,
+      "HexCode": "0xfffffe60",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSeparatedLongValue",
+      "Message": "/* Operation not supported on separated long-value */",
+      "DecimalCode": -421,
+      "HexCode": "0xfffffe5b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMustBeSeparateLongValue",
+      "Message": "/* Can only preread long value columns that can be separate, e.g. not size constrained so that they are fixed or variable columns */",
+      "DecimalCode": -423,
+      "HexCode": "0xfffffe59",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidPreread",
+      "Message": "/* Cannot preread long values when current index secondary */",
+      "DecimalCode": -424,
+      "HexCode": "0xfffffe58",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidLoggedOperation",
+      "Message": "/* Logged operation cannot be redone */",
+      "DecimalCode": -500,
+      "HexCode": "0xfffffe0c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogFileCorrupt",
+      "Message": "/* Log file is corrupt */",
+      "DecimalCode": -501,
+      "HexCode": "0xfffffe0b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNoBackupDirectory",
+      "Message": "/* No backup directory given */",
+      "DecimalCode": -503,
+      "HexCode": "0xfffffe09",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBackupDirectoryNotEmpty",
+      "Message": "/* The backup directory is not emtpy */",
+      "DecimalCode": -504,
+      "HexCode": "0xfffffe08",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBackupInProgress",
+      "Message": "/* Backup is active already */",
+      "DecimalCode": -505,
+      "HexCode": "0xfffffe07",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRestoreInProgress",
+      "Message": "/* Restore in progress */",
+      "DecimalCode": -506,
+      "HexCode": "0xfffffe06",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingPreviousLogFile",
+      "Message": "/* Missing the log file for check point */",
+      "DecimalCode": -509,
+      "HexCode": "0xfffffe03",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogWriteFail",
+      "Message": "/* Failure writing to log file */",
+      "DecimalCode": -510,
+      "HexCode": "0xfffffe02",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogDisabledDueToRecoveryFailure",
+      "Message": "/* Try to log something after recovery faild */",
+      "DecimalCode": -511,
+      "HexCode": "0xfffffe01",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotLogDuringRecoveryRedo",
+      "Message": "/* Try to log something during recovery redo */",
+      "DecimalCode": -512,
+      "HexCode": "0xfffffe00",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogGenerationMismatch",
+      "Message": "/* Name of logfile does not match internal generation number */",
+      "DecimalCode": -513,
+      "HexCode": "0xfffffdff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadLogVersion",
+      "Message": "/* Version of log file is not compatible with Jet version */",
+      "DecimalCode": -514,
+      "HexCode": "0xfffffdfe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidLogSequence",
+      "Message": "/* Timestamp in next log does not match expected */",
+      "DecimalCode": -515,
+      "HexCode": "0xfffffdfd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLoggingDisabled",
+      "Message": "/* Log is not active */",
+      "DecimalCode": -516,
+      "HexCode": "0xfffffdfc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogBufferTooSmall",
+      "Message": "/* Log buffer is too small for recovery */",
+      "DecimalCode": -517,
+      "HexCode": "0xfffffdfb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogSequenceEnd",
+      "Message": "/* Maximum log file number exceeded */",
+      "DecimalCode": -519,
+      "HexCode": "0xfffffdf9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNoBackup",
+      "Message": "/* No backup in progress */",
+      "DecimalCode": -520,
+      "HexCode": "0xfffffdf8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidBackupSequence",
+      "Message": "/* Backup call out of sequence */",
+      "DecimalCode": -521,
+      "HexCode": "0xfffffdf7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBackupNotAllowedYet",
+      "Message": "/* Cannot do backup now */",
+      "DecimalCode": -523,
+      "HexCode": "0xfffffdf5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDeleteBackupFileFail",
+      "Message": "/* Could not delete backup file */",
+      "DecimalCode": -524,
+      "HexCode": "0xfffffdf4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMakeBackupDirectoryFail",
+      "Message": "/* Could not make backup temp directory */",
+      "DecimalCode": -525,
+      "HexCode": "0xfffffdf3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidBackup",
+      "Message": "/* Cannot perform incremental backup when circular logging enabled */",
+      "DecimalCode": -526,
+      "HexCode": "0xfffffdf2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecoveredWithErrors",
+      "Message": "/* Restored with errors */",
+      "DecimalCode": -527,
+      "HexCode": "0xfffffdf1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingLogFile",
+      "Message": "/* Current log file missing */",
+      "DecimalCode": -528,
+      "HexCode": "0xfffffdf0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogDiskFull",
+      "Message": "/* Log disk full */",
+      "DecimalCode": -529,
+      "HexCode": "0xfffffdef",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadLogSignature",
+      "Message": "/* Bad signature for a log file */",
+      "DecimalCode": -530,
+      "HexCode": "0xfffffdee",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadDbSignature",
+      "Message": "/* Bad signature for a db file */",
+      "DecimalCode": -531,
+      "HexCode": "0xfffffded",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadCheckpointSignature",
+      "Message": "/* Bad signature for a checkpoint file */",
+      "DecimalCode": -532,
+      "HexCode": "0xfffffdec",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCheckpointCorrupt",
+      "Message": "/* Checkpoint file not found or corrupt */",
+      "DecimalCode": -533,
+      "HexCode": "0xfffffdeb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingPatchPage",
+      "Message": "/* Patch file page not found during recovery */",
+      "DecimalCode": -534,
+      "HexCode": "0xfffffdea",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadPatchPage",
+      "Message": "/* Patch file page is not valid */",
+      "DecimalCode": -535,
+      "HexCode": "0xfffffde9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRedoAbruptEnded",
+      "Message": "/* Redo abruptly ended due to sudden failure in reading logs from log file */",
+      "DecimalCode": -536,
+      "HexCode": "0xfffffde8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPatchFileMissing",
+      "Message": "/* Hard restore detected that patch file is missing from backup set */",
+      "DecimalCode": -538,
+      "HexCode": "0xfffffde6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseLogSetMismatch",
+      "Message": "/* Database does not belong with the current set of log files */",
+      "DecimalCode": -539,
+      "HexCode": "0xfffffde5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseStreamingFileMismatch",
+      "Message": "/* Database and streaming file do not match each other */",
+      "DecimalCode": -540,
+      "HexCode": "0xfffffde4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogFileSizeMismatch",
+      "Message": "/* actual log file size does not match JET_paramLogFileSize */",
+      "DecimalCode": -541,
+      "HexCode": "0xfffffde3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCheckpointFileNotFound",
+      "Message": "/* Could not locate checkpoint file */",
+      "DecimalCode": -542,
+      "HexCode": "0xfffffde2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRequiredLogFilesMissing",
+      "Message": "/* The required log files for recovery is missing. */",
+      "DecimalCode": -543,
+      "HexCode": "0xfffffde1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSoftRecoveryOnBackupDatabase",
+      "Message": "/* Soft recovery is intended on a backup database. Restore should be used instead */",
+      "DecimalCode": -544,
+      "HexCode": "0xfffffde0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogFileSizeMismatchDatabasesConsistent",
+      "Message": "/* databases have been recovered, but the log file size used during recovery does not match JET_paramLogFileSize */",
+      "DecimalCode": -545,
+      "HexCode": "0xfffffddf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogSectorSizeMismatch",
+      "Message": "/* the log file sector size does not match the current volume\u0026apos;s sector size */",
+      "DecimalCode": -546,
+      "HexCode": "0xfffffdde",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogSectorSizeMismatchDatabasesConsistent",
+      "Message": "/* databases have been recovered, but the log file sector size (used during recovery) does not match the current volume\u0026apos;s sector size */",
+      "DecimalCode": -547,
+      "HexCode": "0xfffffddd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogSequenceEndDatabasesConsistent",
+      "Message": "/* databases have been recovered, but all possible log generations in the current sequence are used; delete all log files and the checkpoint file and backup the databases before continuing */",
+      "DecimalCode": -548,
+      "HexCode": "0xfffffddc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errStreamingDataNotLogged",
+      "Message": "/* Illegal attempt to replay a streaming file operation where the data wasn\u0026apos;t logged. Probably caused by an attempt to roll-forward with circular logging enabled */",
+      "DecimalCode": -549,
+      "HexCode": "0xfffffddb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseDirtyShutdown",
+      "Message": "/* Database was not shutdown cleanly. Recovery must first be run to properly complete database operations for the previous shutdown. */",
+      "DecimalCode": -550,
+      "HexCode": "0xfffffdda",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseInconsistent",
+      "Message": "/* OBSOLETE */",
+      "DecimalCode": -550,
+      "HexCode": "0xfffffdda",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errConsistentTimeMismatch",
+      "Message": "/* Database last consistent time unmatched */",
+      "DecimalCode": -551,
+      "HexCode": "0xfffffdd9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabasePatchFileMismatch",
+      "Message": "/* Patch file is not generated from this backup */",
+      "DecimalCode": -552,
+      "HexCode": "0xfffffdd8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEndingRestoreLogTooLow",
+      "Message": "/* The starting log number too low for the restore */",
+      "DecimalCode": -553,
+      "HexCode": "0xfffffdd7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errStartingRestoreLogTooHigh",
+      "Message": "/* The starting log number too high for the restore */",
+      "DecimalCode": -554,
+      "HexCode": "0xfffffdd6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errGivenLogFileHasBadSignature",
+      "Message": "/* Restore log file has bad signature */",
+      "DecimalCode": -555,
+      "HexCode": "0xfffffdd5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errGivenLogFileIsNotContiguous",
+      "Message": "/* Restore log file is not contiguous */",
+      "DecimalCode": -556,
+      "HexCode": "0xfffffdd4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingRestoreLogFiles",
+      "Message": "/* Some restore log files are missing */",
+      "DecimalCode": -557,
+      "HexCode": "0xfffffdd3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingFullBackup",
+      "Message": "/* The database missed a previous full backup before incremental backup */",
+      "DecimalCode": -560,
+      "HexCode": "0xfffffdd0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadBackupDatabaseSize",
+      "Message": "/* The backup database size is not in 4k */",
+      "DecimalCode": -561,
+      "HexCode": "0xfffffdcf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseAlreadyUpgraded",
+      "Message": "/* Attempted to upgrade a database that is already current */",
+      "DecimalCode": -562,
+      "HexCode": "0xfffffdce",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseIncompleteUpgrade",
+      "Message": "/* Attempted to use a database which was only partially converted to the current format -- must restore from backup */",
+      "DecimalCode": -563,
+      "HexCode": "0xfffffdcd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingCurrentLogFiles",
+      "Message": "/* Some current log files are missing for continuous restore */",
+      "DecimalCode": -565,
+      "HexCode": "0xfffffdcb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDbTimeTooOld",
+      "Message": "/* dbtime on page smaller than dbtimeBefore in record */",
+      "DecimalCode": -566,
+      "HexCode": "0xfffffdca",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDbTimeTooNew",
+      "Message": "/* dbtime on page in advance of the dbtimeBefore in record */",
+      "DecimalCode": -567,
+      "HexCode": "0xfffffdc9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMissingFileToBackup",
+      "Message": "/* Some log or patch files are missing during backup */",
+      "DecimalCode": -569,
+      "HexCode": "0xfffffdc7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogTornWriteDuringHardRestore",
+      "Message": "/* torn-write was detected in a backup set during hard restore */",
+      "DecimalCode": -570,
+      "HexCode": "0xfffffdc6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogTornWriteDuringHardRecovery",
+      "Message": "/* torn-write was detected during hard recovery (log was not part of a backup set) */",
+      "DecimalCode": -571,
+      "HexCode": "0xfffffdc5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogCorruptDuringHardRestore",
+      "Message": "/* corruption was detected in a backup set during hard restore */",
+      "DecimalCode": -573,
+      "HexCode": "0xfffffdc3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogCorruptDuringHardRecovery",
+      "Message": "/* corruption was detected during hard recovery (log was not part of a backup set) */",
+      "DecimalCode": -574,
+      "HexCode": "0xfffffdc2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMustDisableLoggingForDbUpgrade",
+      "Message": "/* Cannot have logging enabled while attempting to upgrade db */",
+      "DecimalCode": -575,
+      "HexCode": "0xfffffdc1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadRestoreTargetInstance",
+      "Message": "/* TargetInstance specified for restore is not found or log files don\u0026apos;t match */",
+      "DecimalCode": -577,
+      "HexCode": "0xfffffdbf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecoveredWithoutUndo",
+      "Message": "/* Soft recovery successfully replayed all operations, but the Undo phase of recovery was skipped */",
+      "DecimalCode": -579,
+      "HexCode": "0xfffffdbd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabasesNotFromSameSnapshot",
+      "Message": "/* Databases to be restored are not from the same shadow copy backup */",
+      "DecimalCode": -580,
+      "HexCode": "0xfffffdbc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSoftRecoveryOnSnapshot",
+      "Message": "/* Soft recovery on a database from a shadow copy backup set */",
+      "DecimalCode": -581,
+      "HexCode": "0xfffffdbb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCommittedLogFilesMissing",
+      "Message": "/* One or more logs that were committed to this database, are missing.  These log files are required to maintain durable ACID semantics, but not required to maintain consistency if the JET_bitReplayIgnoreLostLogs bit is specified during recovery. */",
+      "DecimalCode": -582,
+      "HexCode": "0xfffffdba",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSectorSizeNotSupported",
+      "Message": "/* The physical sector size reported by the disk subsystem, is unsupported by ESE for a specific file type. */",
+      "DecimalCode": -583,
+      "HexCode": "0xfffffdb9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecoveredWithoutUndoDatabasesConsistent",
+      "Message": "/* Soft recovery successfully replayed all operations and intended to skip the Undo phase of recovery, but the Undo phase was not required */",
+      "DecimalCode": -584,
+      "HexCode": "0xfffffdb8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCommittedLogFileCorrupt",
+      "Message": "/* One or more logs were found to be corrupt during recovery.  These log files are required to maintain durable ACID semantics, but not required to maintain consistency if the JET_bitIgnoreLostLogs bit and JET_paramDeleteOutOfRangeLogs is specified during recovery. */",
+      "DecimalCode": -586,
+      "HexCode": "0xfffffdb6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogSequenceChecksumMismatch",
+      "Message": "/* The previous log\u0026apos;s accumulated segment checksum doesn\u0026apos;t match the next log */",
+      "DecimalCode": -590,
+      "HexCode": "0xfffffdb2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPageInitializedMismatch",
+      "Message": "/* Database divergence mismatch. Page was uninitialized on remote node, but initialized on local node. */",
+      "DecimalCode": -596,
+      "HexCode": "0xfffffdac",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUnicodeTranslationBufferTooSmall",
+      "Message": "/* Unicode translation buffer too small */",
+      "DecimalCode": -601,
+      "HexCode": "0xfffffda7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUnicodeTranslationFail",
+      "Message": "/* Unicode normalization failed */",
+      "DecimalCode": -602,
+      "HexCode": "0xfffffda6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUnicodeNormalizationNotSupported",
+      "Message": "/* OS does not provide support for Unicode normalisation (and no normalisation callback was specified) */",
+      "DecimalCode": -603,
+      "HexCode": "0xfffffda5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUnicodeLanguageValidationFailure",
+      "Message": "/* Can not validate the language */",
+      "DecimalCode": -604,
+      "HexCode": "0xfffffda4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errExistingLogFileHasBadSignature",
+      "Message": "/* Existing log file has bad signature */",
+      "DecimalCode": -610,
+      "HexCode": "0xfffffd9e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errExistingLogFileIsNotContiguous",
+      "Message": "/* Existing log file is not contiguous */",
+      "DecimalCode": -611,
+      "HexCode": "0xfffffd9d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogReadVerifyFailure",
+      "Message": "/* Checksum error in log file during backup */",
+      "DecimalCode": -612,
+      "HexCode": "0xfffffd9c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCheckpointDepthTooDeep",
+      "Message": "// too many outstanding generations between checkpoint and current generation",
+      "DecimalCode": -614,
+      "HexCode": "0xfffffd9a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRestoreOfNonBackupDatabase",
+      "Message": "// hard recovery attempted on a database that wasn\u0026apos;t a backup database",
+      "DecimalCode": -615,
+      "HexCode": "0xfffffd99",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogFileNotCopied",
+      "Message": "// log truncation attempted but not all required logs were copied",
+      "DecimalCode": -616,
+      "HexCode": "0xfffffd98",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTransactionTooLong",
+      "Message": "// Too many outstanding generations between JetBeginTransaction and current generation.",
+      "DecimalCode": -618,
+      "HexCode": "0xfffffd96",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionNoLongerSupportedTooLow",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION value is too low to be supported by this version of ESE. */",
+      "DecimalCode": -619,
+      "HexCode": "0xfffffd95",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionNotYetImplementedTooHigh",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION value is too high, higher than this version of ESE knows about. */",
+      "DecimalCode": -620,
+      "HexCode": "0xfffffd94",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionParamTooLowForRequestedFeature",
+      "Message": "/* Thrown by a format feature (not at JetSetSystemParameter) if the client requests a feature that requires a version higher than that set for the JET_paramEngineFormatVersion. */",
+      "DecimalCode": -621,
+      "HexCode": "0xfffffd93",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionSpecifiedTooLowForLogVersion",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION is set too low for this log stream, the log files have already been upgraded to a higher version.  A higher JET_ENGINEFORMATVERSION value must be set in the param. */",
+      "DecimalCode": -622,
+      "HexCode": "0xfffffd92",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionSpecifiedTooLowForDatabaseVersion",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION is set too low for this database file, the database file has already been upgraded to a higher version.  A higher JET_ENGINEFORMATVERSION value must be set in the param. */",
+      "DecimalCode": -623,
+      "HexCode": "0xfffffd91",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBackupAbortByServer",
+      "Message": "/* Backup was aborted by server by calling JetTerm with JET_bitTermStopBackup or by calling JetStopBackup */",
+      "DecimalCode": -801,
+      "HexCode": "0xfffffcdf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidGrbit",
+      "Message": "/* Invalid flags parameter */",
+      "DecimalCode": -900,
+      "HexCode": "0xfffffc7c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTermInProgress",
+      "Message": "/* Termination in progress */",
+      "DecimalCode": -1000,
+      "HexCode": "0xfffffc18",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFeatureNotAvailable",
+      "Message": "/* API not supported */",
+      "DecimalCode": -1001,
+      "HexCode": "0xfffffc17",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidName",
+      "Message": "/* Invalid name */",
+      "DecimalCode": -1002,
+      "HexCode": "0xfffffc16",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidParameter",
+      "Message": "/* Invalid API parameter */",
+      "DecimalCode": -1003,
+      "HexCode": "0xfffffc15",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseFileReadOnly",
+      "Message": "/* Tried to attach a read-only database file for read/write operations */",
+      "DecimalCode": -1008,
+      "HexCode": "0xfffffc10",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidDatabaseId",
+      "Message": "/* Invalid database id */",
+      "DecimalCode": -1010,
+      "HexCode": "0xfffffc0e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfMemory",
+      "Message": "/* Out of Memory */",
+      "DecimalCode": -1011,
+      "HexCode": "0xfffffc0d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfDatabaseSpace",
+      "Message": "/* Maximum database size reached */",
+      "DecimalCode": -1012,
+      "HexCode": "0xfffffc0c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfCursors",
+      "Message": "/* Out of table cursors */",
+      "DecimalCode": -1013,
+      "HexCode": "0xfffffc0b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfBuffers",
+      "Message": "/* Out of database page buffers */",
+      "DecimalCode": -1014,
+      "HexCode": "0xfffffc0a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyIndexes",
+      "Message": "/* Too many indexes */",
+      "DecimalCode": -1015,
+      "HexCode": "0xfffffc09",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyKeys",
+      "Message": "/* Too many columns in an index */",
+      "DecimalCode": -1016,
+      "HexCode": "0xfffffc08",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordDeleted",
+      "Message": "/* Record has been deleted */",
+      "DecimalCode": -1017,
+      "HexCode": "0xfffffc07",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errReadVerifyFailure",
+      "Message": "/* Checksum error on a database page */",
+      "DecimalCode": -1018,
+      "HexCode": "0xfffffc06",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPageNotInitialized",
+      "Message": "/* Blank database page */",
+      "DecimalCode": -1019,
+      "HexCode": "0xfffffc05",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfFileHandles",
+      "Message": "/* Out of file handles */",
+      "DecimalCode": -1020,
+      "HexCode": "0xfffffc04",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDiskReadVerificationFailure",
+      "Message": "/* The OS returned ERROR_CRC from file IO */",
+      "DecimalCode": -1021,
+      "HexCode": "0xfffffc03",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDiskIO",
+      "Message": "/* Disk IO error */",
+      "DecimalCode": -1022,
+      "HexCode": "0xfffffc02",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidPath",
+      "Message": "/* Invalid file path */",
+      "DecimalCode": -1023,
+      "HexCode": "0xfffffc01",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidSystemPath",
+      "Message": "/* Invalid system path */",
+      "DecimalCode": -1024,
+      "HexCode": "0xfffffc00",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidLogDirectory",
+      "Message": "/* Invalid log directory */",
+      "DecimalCode": -1025,
+      "HexCode": "0xfffffbff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordTooBig",
+      "Message": "/* Record larger than maximum size */",
+      "DecimalCode": -1026,
+      "HexCode": "0xfffffbfe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyOpenDatabases",
+      "Message": "/* Too many open databases */",
+      "DecimalCode": -1027,
+      "HexCode": "0xfffffbfd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidDatabase",
+      "Message": "/* Not a database file */",
+      "DecimalCode": -1028,
+      "HexCode": "0xfffffbfc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNotInitialized",
+      "Message": "/* Database engine not initialized */",
+      "DecimalCode": -1029,
+      "HexCode": "0xfffffbfb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errAlreadyInitialized",
+      "Message": "/* Database engine already initialized */",
+      "DecimalCode": -1030,
+      "HexCode": "0xfffffbfa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInitInProgress",
+      "Message": "/* Database engine is being initialized */",
+      "DecimalCode": -1031,
+      "HexCode": "0xfffffbf9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileAccessDenied",
+      "Message": "/* Cannot access file, the file is locked or in use */",
+      "DecimalCode": -1032,
+      "HexCode": "0xfffffbf8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBufferTooSmall",
+      "Message": "/* Buffer is too small */",
+      "DecimalCode": -1038,
+      "HexCode": "0xfffffbf2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyColumns",
+      "Message": "/* Too many columns defined */",
+      "DecimalCode": -1040,
+      "HexCode": "0xfffffbf0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errContainerNotEmpty",
+      "Message": "/* Container is not empty */",
+      "DecimalCode": -1043,
+      "HexCode": "0xfffffbed",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidFilename",
+      "Message": "/* Filename is invalid */",
+      "DecimalCode": -1044,
+      "HexCode": "0xfffffbec",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidBookmark",
+      "Message": "/* Invalid bookmark */",
+      "DecimalCode": -1045,
+      "HexCode": "0xfffffbeb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnInUse",
+      "Message": "/* Column used in an index */",
+      "DecimalCode": -1046,
+      "HexCode": "0xfffffbea",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidBufferSize",
+      "Message": "/* Data buffer doesn\u0026apos;t match column size */",
+      "DecimalCode": -1047,
+      "HexCode": "0xfffffbe9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnNotUpdatable",
+      "Message": "/* Cannot set column value */",
+      "DecimalCode": -1048,
+      "HexCode": "0xfffffbe8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexInUse",
+      "Message": "/* Index is in use */",
+      "DecimalCode": -1051,
+      "HexCode": "0xfffffbe5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLinkNotSupported",
+      "Message": "/* Link support unavailable */",
+      "DecimalCode": -1052,
+      "HexCode": "0xfffffbe4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNullKeyDisallowed",
+      "Message": "/* Null keys are disallowed on index */",
+      "DecimalCode": -1053,
+      "HexCode": "0xfffffbe3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNotInTransaction",
+      "Message": "/* Operation must be within a transaction */",
+      "DecimalCode": -1054,
+      "HexCode": "0xfffffbe2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMustRollback",
+      "Message": "/* Transaction must rollback because failure of unversioned update */",
+      "DecimalCode": -1057,
+      "HexCode": "0xfffffbdf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyActiveUsers",
+      "Message": "/* Too many active database users */",
+      "DecimalCode": -1059,
+      "HexCode": "0xfffffbdd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidCountry",
+      "Message": "/* Invalid or unknown country/region code */",
+      "DecimalCode": -1061,
+      "HexCode": "0xfffffbdb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidLanguageId",
+      "Message": "/* Invalid or unknown language id */",
+      "DecimalCode": -1062,
+      "HexCode": "0xfffffbda",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidCodePage",
+      "Message": "/* Invalid or unknown code page */",
+      "DecimalCode": -1063,
+      "HexCode": "0xfffffbd9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidLCMapStringFlags",
+      "Message": "/* Invalid flags for LCMapString() */",
+      "DecimalCode": -1064,
+      "HexCode": "0xfffffbd8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errVersionStoreEntryTooBig",
+      "Message": "/* Attempted to create a version store entry (RCE) larger than a version bucket */",
+      "DecimalCode": -1065,
+      "HexCode": "0xfffffbd7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errVersionStoreOutOfMemoryAndCleanupTimedOut",
+      "Message": "/* Version store out of memory (and cleanup attempt failed to complete) */",
+      "DecimalCode": -1066,
+      "HexCode": "0xfffffbd6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errVersionStoreOutOfMemory",
+      "Message": "/* Version store out of memory (cleanup already attempted) */",
+      "DecimalCode": -1069,
+      "HexCode": "0xfffffbd3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotIndex",
+      "Message": "/* Cannot index escrow column */",
+      "DecimalCode": -1071,
+      "HexCode": "0xfffffbd1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordNotDeleted",
+      "Message": "/* Record has not been deleted */",
+      "DecimalCode": -1072,
+      "HexCode": "0xfffffbd0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyMempoolEntries",
+      "Message": "/* Too many mempool entries requested */",
+      "DecimalCode": -1073,
+      "HexCode": "0xfffffbcf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfObjectIDs",
+      "Message": "/* Out of btree ObjectIDs (perform offline defrag to reclaim freed/unused ObjectIds) */",
+      "DecimalCode": -1074,
+      "HexCode": "0xfffffbce",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfLongValueIDs",
+      "Message": "/* Long-value ID counter has reached maximum value. (perform offline defrag to reclaim free/unused LongValueIDs) */",
+      "DecimalCode": -1075,
+      "HexCode": "0xfffffbcd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfAutoincrementValues",
+      "Message": "/* Auto-increment counter has reached maximum value (offline defrag WILL NOT be able to reclaim free/unused Auto-increment values). */",
+      "DecimalCode": -1076,
+      "HexCode": "0xfffffbcc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfDbtimeValues",
+      "Message": "/* Dbtime counter has reached maximum value (perform offline defrag to reclaim free/unused Dbtime values) */",
+      "DecimalCode": -1077,
+      "HexCode": "0xfffffbcb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfSequentialIndexValues",
+      "Message": "/* Sequential index counter has reached maximum value (perform offline defrag to reclaim free/unused SequentialIndex values) */",
+      "DecimalCode": -1078,
+      "HexCode": "0xfffffbca",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRunningInOneInstanceMode",
+      "Message": "/* Multi-instance call with single-instance mode enabled */",
+      "DecimalCode": -1080,
+      "HexCode": "0xfffffbc8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRunningInMultiInstanceMode",
+      "Message": "/* Single-instance call with multi-instance mode enabled */",
+      "DecimalCode": -1081,
+      "HexCode": "0xfffffbc7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSystemParamsAlreadySet",
+      "Message": "/* Global system parameters have already been set */",
+      "DecimalCode": -1082,
+      "HexCode": "0xfffffbc6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSystemPathInUse",
+      "Message": "/* System path already used by another database instance */",
+      "DecimalCode": -1083,
+      "HexCode": "0xfffffbc5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogFilePathInUse",
+      "Message": "/* Logfile path already used by another database instance */",
+      "DecimalCode": -1084,
+      "HexCode": "0xfffffbc4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTempPathInUse",
+      "Message": "/* Temp path already used by another database instance */",
+      "DecimalCode": -1085,
+      "HexCode": "0xfffffbc3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInstanceNameInUse",
+      "Message": "/* Instance Name already in use */",
+      "DecimalCode": -1086,
+      "HexCode": "0xfffffbc2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSystemParameterConflict",
+      "Message": "/* Global system parameters have already been set, but to a conflicting or disagreeable state to the specified values. */",
+      "DecimalCode": -1087,
+      "HexCode": "0xfffffbc1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInstanceUnavailable",
+      "Message": "/* This instance cannot be used because it encountered a fatal error */",
+      "DecimalCode": -1090,
+      "HexCode": "0xfffffbbe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseUnavailable",
+      "Message": "/* This database cannot be used because it encountered a fatal error */",
+      "DecimalCode": -1091,
+      "HexCode": "0xfffffbbd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInstanceUnavailableDueToFatalLogDiskFull",
+      "Message": "/* This instance cannot be used because it encountered a log-disk-full error performing an operation (likely transaction rollback) that could not tolerate failure */",
+      "DecimalCode": -1092,
+      "HexCode": "0xfffffbbc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidSesparamId",
+      "Message": "/* This JET_sesparam* identifier is not known to the ESE engine. */",
+      "DecimalCode": -1093,
+      "HexCode": "0xfffffbbb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyRecords",
+      "Message": "/* There are too many records to enumerate, switch to an API that handles 64-bit numbers */",
+      "DecimalCode": -1094,
+      "HexCode": "0xfffffbba",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidDbparamId",
+      "Message": "/* This JET_dbparam* identifier is not known to the ESE engine. */",
+      "DecimalCode": -1095,
+      "HexCode": "0xfffffbb9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOutOfSessions",
+      "Message": "/* Out of sessions */",
+      "DecimalCode": -1101,
+      "HexCode": "0xfffffbb3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errWriteConflict",
+      "Message": "/* Write lock failed due to outstanding write lock */",
+      "DecimalCode": -1102,
+      "HexCode": "0xfffffbb2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTransTooDeep",
+      "Message": "/* Transactions nested too deeply */",
+      "DecimalCode": -1103,
+      "HexCode": "0xfffffbb1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidSesid",
+      "Message": "/* Invalid session handle */",
+      "DecimalCode": -1104,
+      "HexCode": "0xfffffbb0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errWriteConflictPrimaryIndex",
+      "Message": "/* Update attempted on uncommitted primary index */",
+      "DecimalCode": -1105,
+      "HexCode": "0xfffffbaf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInTransaction",
+      "Message": "/* Operation not allowed within a transaction */",
+      "DecimalCode": -1108,
+      "HexCode": "0xfffffbac",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRollbackRequired",
+      "Message": "/* Must rollback current transaction -- cannot commit or begin a new one */",
+      "DecimalCode": -1109,
+      "HexCode": "0xfffffbab",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTransReadOnly",
+      "Message": "/* Read-only transaction tried to modify the database */",
+      "DecimalCode": -1110,
+      "HexCode": "0xfffffbaa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSessionWriteConflict",
+      "Message": "/* Attempt to replace the same record by two diffrerent cursors in the same session */",
+      "DecimalCode": -1111,
+      "HexCode": "0xfffffba9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordTooBigForBackwardCompatibility",
+      "Message": "/* record would be too big if represented in a database format from a previous version of Jet */",
+      "DecimalCode": -1112,
+      "HexCode": "0xfffffba8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotMaterializeForwardOnlySort",
+      "Message": "/* The temp table could not be created due to parameters that conflict with JET_bitTTForwardOnly */",
+      "DecimalCode": -1113,
+      "HexCode": "0xfffffba7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSesidTableIdMismatch",
+      "Message": "/* This session handle can\u0026apos;t be used with this table id */",
+      "DecimalCode": -1114,
+      "HexCode": "0xfffffba6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidInstance",
+      "Message": "/* Invalid instance handle */",
+      "DecimalCode": -1115,
+      "HexCode": "0xfffffba5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDirtyShutdown",
+      "Message": "/* The instance was shutdown successfully but all the attached databases were left in a dirty state by request via JET_bitTermDirty */",
+      "DecimalCode": -1116,
+      "HexCode": "0xfffffba4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errReadPgnoVerifyFailure",
+      "Message": "/* The database page read from disk had the wrong page number. */",
+      "DecimalCode": -1118,
+      "HexCode": "0xfffffba2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errReadLostFlushVerifyFailure",
+      "Message": "/* The database page read from disk had a previous write not represented on the page. */",
+      "DecimalCode": -1119,
+      "HexCode": "0xfffffba1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileSystemCorruption",
+      "Message": "/* File system operation failed with an error indicating the file system is corrupt. */",
+      "DecimalCode": -1121,
+      "HexCode": "0xfffffb9f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecoveryVerifyFailure",
+      "Message": "/* One or more database pages read from disk during recovery do not match the expected state. */",
+      "DecimalCode": -1123,
+      "HexCode": "0xfffffb9d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFilteredMoveNotSupported",
+      "Message": "/* Attempted to provide a filter to JetSetCursorFilter() in an unsupported scenario. */",
+      "DecimalCode": -1124,
+      "HexCode": "0xfffffb9c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseDuplicate",
+      "Message": "/* Database already exists */",
+      "DecimalCode": -1201,
+      "HexCode": "0xfffffb4f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseInUse",
+      "Message": "/* Database in use */",
+      "DecimalCode": -1202,
+      "HexCode": "0xfffffb4e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseNotFound",
+      "Message": "/* No such database */",
+      "DecimalCode": -1203,
+      "HexCode": "0xfffffb4d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseInvalidName",
+      "Message": "/* Invalid database name */",
+      "DecimalCode": -1204,
+      "HexCode": "0xfffffb4c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseInvalidPages",
+      "Message": "/* Invalid number of pages */",
+      "DecimalCode": -1205,
+      "HexCode": "0xfffffb4b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseCorrupted",
+      "Message": "/* Non database file or corrupted db */",
+      "DecimalCode": -1206,
+      "HexCode": "0xfffffb4a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseLocked",
+      "Message": "/* Database exclusively locked */",
+      "DecimalCode": -1207,
+      "HexCode": "0xfffffb49",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotDisableVersioning",
+      "Message": "/* Cannot disable versioning for this database */",
+      "DecimalCode": -1208,
+      "HexCode": "0xfffffb48",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidDatabaseVersion",
+      "Message": "/* Database engine is incompatible with database */",
+      "DecimalCode": -1209,
+      "HexCode": "0xfffffb47",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabase200Format",
+      "Message": "/* The database is in an older (200) format */",
+      "DecimalCode": -1210,
+      "HexCode": "0xfffffb46",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabase400Format",
+      "Message": "/* The database is in an older (400) format */",
+      "DecimalCode": -1211,
+      "HexCode": "0xfffffb45",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabase500Format",
+      "Message": "/* The database is in an older (500) format */",
+      "DecimalCode": -1212,
+      "HexCode": "0xfffffb44",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPageSizeMismatch",
+      "Message": "/* The database page size does not match the engine */",
+      "DecimalCode": -1213,
+      "HexCode": "0xfffffb43",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyInstances",
+      "Message": "/* Cannot start any more database instances */",
+      "DecimalCode": -1214,
+      "HexCode": "0xfffffb42",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseSharingViolation",
+      "Message": "/* A different database instance is using this database */",
+      "DecimalCode": -1215,
+      "HexCode": "0xfffffb41",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errAttachedDatabaseMismatch",
+      "Message": "/* An outstanding database attachment has been detected at the start or end of recovery, but database is missing or does not match attachment info */",
+      "DecimalCode": -1216,
+      "HexCode": "0xfffffb40",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseInvalidPath",
+      "Message": "/* Specified path to database file is illegal */",
+      "DecimalCode": -1217,
+      "HexCode": "0xfffffb3f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseIdInUse",
+      "Message": "/* A database is being assigned an id already in use */",
+      "DecimalCode": -1218,
+      "HexCode": "0xfffffb3e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errForceDetachNotAllowed",
+      "Message": "/* Force Detach allowed only after normal detach errored out */",
+      "DecimalCode": -1219,
+      "HexCode": "0xfffffb3d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCatalogCorrupted",
+      "Message": "/* Corruption detected in catalog */",
+      "DecimalCode": -1220,
+      "HexCode": "0xfffffb3c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPartiallyAttachedDB",
+      "Message": "/* Database is partially attached. Cannot complete attach operation */",
+      "DecimalCode": -1221,
+      "HexCode": "0xfffffb3b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseSignInUse",
+      "Message": "/* Database with same signature in use */",
+      "DecimalCode": -1222,
+      "HexCode": "0xfffffb3a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseCorruptedNoRepair",
+      "Message": "/* Corrupted db but repair not allowed */",
+      "DecimalCode": -1224,
+      "HexCode": "0xfffffb38",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidCreateDbVersion",
+      "Message": "/* recovery tried to replay a database creation, but the database was originally created with an incompatible (likely older) version of the database engine */",
+      "DecimalCode": -1225,
+      "HexCode": "0xfffffb37",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseNotReady",
+      "Message": "/* Recovery on this database has not yet completed enough to permit access. */",
+      "DecimalCode": -1230,
+      "HexCode": "0xfffffb32",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseAttachedForRecovery",
+      "Message": "/* Database is attached but only for recovery.  It must be explicitly attached before it can be opened.  */",
+      "DecimalCode": -1231,
+      "HexCode": "0xfffffb31",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTransactionsNotReadyDuringRecovery",
+      "Message": "/* Recovery has not seen any Begin0/Commit0 records and so does not know what trxBegin0 to assign to this transaction */",
+      "DecimalCode": -1232,
+      "HexCode": "0xfffffb30",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTableLocked",
+      "Message": "/* Table is exclusively locked */",
+      "DecimalCode": -1302,
+      "HexCode": "0xfffffaea",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTableDuplicate",
+      "Message": "/* Table already exists */",
+      "DecimalCode": -1303,
+      "HexCode": "0xfffffae9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTableInUse",
+      "Message": "/* Table is in use, cannot lock */",
+      "DecimalCode": -1304,
+      "HexCode": "0xfffffae8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errObjectNotFound",
+      "Message": "/* No such table or object */",
+      "DecimalCode": -1305,
+      "HexCode": "0xfffffae7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDensityInvalid",
+      "Message": "/* Bad file/index density */",
+      "DecimalCode": -1307,
+      "HexCode": "0xfffffae5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTableNotEmpty",
+      "Message": "/* Table is not empty */",
+      "DecimalCode": -1308,
+      "HexCode": "0xfffffae4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidTableId",
+      "Message": "/* Invalid table id */",
+      "DecimalCode": -1310,
+      "HexCode": "0xfffffae2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyOpenTables",
+      "Message": "/* Cannot open any more tables (cleanup already attempted) */",
+      "DecimalCode": -1311,
+      "HexCode": "0xfffffae1",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIllegalOperation",
+      "Message": "/* Oper. not supported on table */",
+      "DecimalCode": -1312,
+      "HexCode": "0xfffffae0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyOpenTablesAndCleanupTimedOut",
+      "Message": "/* Cannot open any more tables (cleanup attempt failed to complete) */",
+      "DecimalCode": -1313,
+      "HexCode": "0xfffffadf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errObjectDuplicate",
+      "Message": "/* Table or object name in use */",
+      "DecimalCode": -1314,
+      "HexCode": "0xfffffade",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidObject",
+      "Message": "/* Object is invalid for operation */",
+      "DecimalCode": -1316,
+      "HexCode": "0xfffffadc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotDeleteTempTable",
+      "Message": "/* Use CloseTable instead of DeleteTable to delete temp table */",
+      "DecimalCode": -1317,
+      "HexCode": "0xfffffadb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotDeleteSystemTable",
+      "Message": "/* Illegal attempt to delete a system table */",
+      "DecimalCode": -1318,
+      "HexCode": "0xfffffada",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotDeleteTemplateTable",
+      "Message": "/* Illegal attempt to delete a template table */",
+      "DecimalCode": -1319,
+      "HexCode": "0xfffffad9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errExclusiveTableLockRequired",
+      "Message": "/* Must have exclusive lock on table. */",
+      "DecimalCode": -1322,
+      "HexCode": "0xfffffad6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFixedDDL",
+      "Message": "/* DDL operations prohibited on this table */",
+      "DecimalCode": -1323,
+      "HexCode": "0xfffffad5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFixedInheritedDDL",
+      "Message": "/* On a derived table, DDL operations are prohibited on inherited portion of DDL */",
+      "DecimalCode": -1324,
+      "HexCode": "0xfffffad4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotNestDDL",
+      "Message": "/* Nesting of hierarchical DDL is not currently supported. */",
+      "DecimalCode": -1325,
+      "HexCode": "0xfffffad3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDDLNotInheritable",
+      "Message": "/* Tried to inherit DDL from a table not marked as a template table. */",
+      "DecimalCode": -1326,
+      "HexCode": "0xfffffad2",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidSettings",
+      "Message": "/* System parameters were set improperly */",
+      "DecimalCode": -1328,
+      "HexCode": "0xfffffad0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errClientRequestToStopJetService",
+      "Message": "/* Client has requested stop service */",
+      "DecimalCode": -1329,
+      "HexCode": "0xfffffacf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotAddFixedVarColumnToDerivedTable",
+      "Message": "/* Template table was created with NoFixedVarColumnsInDerivedTables */",
+      "DecimalCode": -1330,
+      "HexCode": "0xffffface",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexCantBuild",
+      "Message": "/* Index build failed */",
+      "DecimalCode": -1401,
+      "HexCode": "0xfffffa87",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexHasPrimary",
+      "Message": "/* Primary index already defined */",
+      "DecimalCode": -1402,
+      "HexCode": "0xfffffa86",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexDuplicate",
+      "Message": "/* Index is already defined */",
+      "DecimalCode": -1403,
+      "HexCode": "0xfffffa85",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexNotFound",
+      "Message": "/* No such index */",
+      "DecimalCode": -1404,
+      "HexCode": "0xfffffa84",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexMustStay",
+      "Message": "/* Cannot delete clustered index */",
+      "DecimalCode": -1405,
+      "HexCode": "0xfffffa83",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexInvalidDef",
+      "Message": "/* Illegal index definition */",
+      "DecimalCode": -1406,
+      "HexCode": "0xfffffa82",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidCreateIndex",
+      "Message": "/* Invalid create index description */",
+      "DecimalCode": -1409,
+      "HexCode": "0xfffffa7f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyOpenIndexes",
+      "Message": "/* Out of index description blocks */",
+      "DecimalCode": -1410,
+      "HexCode": "0xfffffa7e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMultiValuedIndexViolation",
+      "Message": "/* Non-unique inter-record index keys generated for a multivalued index */",
+      "DecimalCode": -1411,
+      "HexCode": "0xfffffa7d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexBuildCorrupted",
+      "Message": "/* Failed to build a secondary index that properly reflects primary index */",
+      "DecimalCode": -1412,
+      "HexCode": "0xfffffa7c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPrimaryIndexCorrupted",
+      "Message": "/* Primary index is corrupt. The database must be defragmented or the table deleted. */",
+      "DecimalCode": -1413,
+      "HexCode": "0xfffffa7b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSecondaryIndexCorrupted",
+      "Message": "/* Secondary index is corrupt. The database must be defragmented or the affected index must be deleted. If the corrupt index is over Unicode text, a likely cause is a sort-order change. */",
+      "DecimalCode": -1414,
+      "HexCode": "0xfffffa7a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidIndexId",
+      "Message": "/* Illegal index id */",
+      "DecimalCode": -1416,
+      "HexCode": "0xfffffa78",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesSecondaryIndexOnly",
+      "Message": "// tuple index can only be on a secondary index",
+      "DecimalCode": -1430,
+      "HexCode": "0xfffffa6a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesTooManyColumns",
+      "Message": "// tuple index may only have eleven columns in the index",
+      "DecimalCode": -1431,
+      "HexCode": "0xfffffa69",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesOneColumnOnly",
+      "Message": "/* OBSOLETE */",
+      "DecimalCode": -1431,
+      "HexCode": "0xfffffa69",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesNonUniqueOnly",
+      "Message": "// tuple index must be a non-unique index",
+      "DecimalCode": -1432,
+      "HexCode": "0xfffffa68",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesTextBinaryColumnsOnly",
+      "Message": "// tuple index must be on a text/binary column",
+      "DecimalCode": -1433,
+      "HexCode": "0xfffffa67",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesTextColumnsOnly",
+      "Message": "/* OBSOLETE */",
+      "DecimalCode": -1433,
+      "HexCode": "0xfffffa67",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesVarSegMacNotAllowed",
+      "Message": "// tuple index does not allow setting cbVarSegMac",
+      "DecimalCode": -1434,
+      "HexCode": "0xfffffa66",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesInvalidLimits",
+      "Message": "// invalid min/max tuple length or max characters to index specified",
+      "DecimalCode": -1435,
+      "HexCode": "0xfffffa65",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesCannotRetrieveFromIndex",
+      "Message": "// cannot call RetrieveColumn() with RetrieveFromIndex on a tuple index",
+      "DecimalCode": -1436,
+      "HexCode": "0xfffffa64",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errIndexTuplesKeyTooSmall",
+      "Message": "// specified key does not meet minimum tuple length",
+      "DecimalCode": -1437,
+      "HexCode": "0xfffffa63",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidLVChunkSize",
+      "Message": "// Specified LV chunk size is not supported",
+      "DecimalCode": -1438,
+      "HexCode": "0xfffffa62",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnCannotBeEncrypted",
+      "Message": "// Only JET_coltypLongText and JET_coltypLongBinary columns without default values can be encrypted",
+      "DecimalCode": -1439,
+      "HexCode": "0xfffffa61",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotIndexOnEncryptedColumn",
+      "Message": "// Cannot index encrypted column",
+      "DecimalCode": -1440,
+      "HexCode": "0xfffffa60",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnLong",
+      "Message": "/* Column value is long */",
+      "DecimalCode": -1501,
+      "HexCode": "0xfffffa23",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnNoChunk",
+      "Message": "/* No such chunk in long value */",
+      "DecimalCode": -1502,
+      "HexCode": "0xfffffa22",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnDoesNotFit",
+      "Message": "/* Field will not fit in record */",
+      "DecimalCode": -1503,
+      "HexCode": "0xfffffa21",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNullInvalid",
+      "Message": "/* Null not valid */",
+      "DecimalCode": -1504,
+      "HexCode": "0xfffffa20",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnIndexed",
+      "Message": "/* Column indexed, cannot delete */",
+      "DecimalCode": -1505,
+      "HexCode": "0xfffffa1f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnTooBig",
+      "Message": "/* Field length is greater than maximum */",
+      "DecimalCode": -1506,
+      "HexCode": "0xfffffa1e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnNotFound",
+      "Message": "/* No such column */",
+      "DecimalCode": -1507,
+      "HexCode": "0xfffffa1d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnDuplicate",
+      "Message": "/* Field is already defined */",
+      "DecimalCode": -1508,
+      "HexCode": "0xfffffa1c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMultiValuedColumnMustBeTagged",
+      "Message": "/* Attempted to create a multi-valued column, but column was not Tagged */",
+      "DecimalCode": -1509,
+      "HexCode": "0xfffffa1b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnRedundant",
+      "Message": "/* Second autoincrement or version column */",
+      "DecimalCode": -1510,
+      "HexCode": "0xfffffa1a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidColumnType",
+      "Message": "/* Invalid column data type */",
+      "DecimalCode": -1511,
+      "HexCode": "0xfffffa19",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTaggedNotNULL",
+      "Message": "/* No non-NULL tagged columns */",
+      "DecimalCode": -1514,
+      "HexCode": "0xfffffa16",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNoCurrentIndex",
+      "Message": "/* Invalid w/o a current index */",
+      "DecimalCode": -1515,
+      "HexCode": "0xfffffa15",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errKeyIsMade",
+      "Message": "/* The key is completely made */",
+      "DecimalCode": -1516,
+      "HexCode": "0xfffffa14",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadColumnId",
+      "Message": "/* Column Id Incorrect */",
+      "DecimalCode": -1517,
+      "HexCode": "0xfffffa13",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errBadItagSequence",
+      "Message": "/* Bad itagSequence for tagged column */",
+      "DecimalCode": -1518,
+      "HexCode": "0xfffffa12",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnInRelationship",
+      "Message": "/* Cannot delete, column participates in relationship */",
+      "DecimalCode": -1519,
+      "HexCode": "0xfffffa11",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCannotBeTagged",
+      "Message": "/* AutoIncrement and Version cannot be tagged */",
+      "DecimalCode": -1521,
+      "HexCode": "0xfffffa0f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDefaultValueTooBig",
+      "Message": "/* Default value exceeds maximum size */",
+      "DecimalCode": -1524,
+      "HexCode": "0xfffffa0c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMultiValuedDuplicate",
+      "Message": "/* Duplicate detected on a unique multi-valued column */",
+      "DecimalCode": -1525,
+      "HexCode": "0xfffffa0b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLVCorrupted",
+      "Message": "/* Corruption encountered in long-value tree */",
+      "DecimalCode": -1526,
+      "HexCode": "0xfffffa0a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errMultiValuedDuplicateAfterTruncation",
+      "Message": "/* Duplicate detected on a unique multi-valued column after data was normalized, and normalizing truncated the data before comparison */",
+      "DecimalCode": -1528,
+      "HexCode": "0xfffffa08",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDerivedColumnCorruption",
+      "Message": "/* Invalid column in derived table */",
+      "DecimalCode": -1529,
+      "HexCode": "0xfffffa07",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidPlaceholderColumn",
+      "Message": "/* Tried to convert column to a primary index placeholder, but column doesn\u0026apos;t meet necessary criteria */",
+      "DecimalCode": -1530,
+      "HexCode": "0xfffffa06",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnCannotBeCompressed",
+      "Message": "/* Only JET_coltypLongText and JET_coltypLongBinary columns can be compressed */",
+      "DecimalCode": -1538,
+      "HexCode": "0xfffff9fe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errColumnNoEncryptionKey",
+      "Message": "/* Cannot retrieve/set encrypted column without an encryption key */",
+      "DecimalCode": -1540,
+      "HexCode": "0xfffff9fc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordNotFound",
+      "Message": "/* The key was not found */",
+      "DecimalCode": -1601,
+      "HexCode": "0xfffff9bf",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordNoCopy",
+      "Message": "/* No working buffer */",
+      "DecimalCode": -1602,
+      "HexCode": "0xfffff9be",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errNoCurrentRecord",
+      "Message": "/* Currency not on a record */",
+      "DecimalCode": -1603,
+      "HexCode": "0xfffff9bd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordPrimaryChanged",
+      "Message": "/* Primary key may not change */",
+      "DecimalCode": -1604,
+      "HexCode": "0xfffff9bc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errKeyDuplicate",
+      "Message": "/* Illegal duplicate key */",
+      "DecimalCode": -1605,
+      "HexCode": "0xfffff9bb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errAlreadyPrepared",
+      "Message": "/* Attempted to update record when record update was already in progress */",
+      "DecimalCode": -1607,
+      "HexCode": "0xfffff9b9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errKeyNotMade",
+      "Message": "/* No call to JetMakeKey */",
+      "DecimalCode": -1608,
+      "HexCode": "0xfffff9b8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUpdateNotPrepared",
+      "Message": "/* No call to JetPrepareUpdate */",
+      "DecimalCode": -1609,
+      "HexCode": "0xfffff9b7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDataHasChanged",
+      "Message": "/* Data has changed, operation aborted */",
+      "DecimalCode": -1611,
+      "HexCode": "0xfffff9b5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLanguageNotSupported",
+      "Message": "/* Windows installation does not support language */",
+      "DecimalCode": -1619,
+      "HexCode": "0xfffff9ad",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDecompressionFailed",
+      "Message": "/* Internal error: data could not be decompressed */",
+      "DecimalCode": -1620,
+      "HexCode": "0xfffff9ac",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errUpdateMustVersion",
+      "Message": "/* No version updates only for uncommitted tables */",
+      "DecimalCode": -1621,
+      "HexCode": "0xfffff9ab",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDecryptionFailed",
+      "Message": "/* Data could not be decrypted */",
+      "DecimalCode": -1622,
+      "HexCode": "0xfffff9aa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEncryptionBadItag",
+      "Message": "/* Cannot encrypt tagged columns with itag\u0026gt;1 */",
+      "DecimalCode": -1623,
+      "HexCode": "0xfffff9a9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManySorts",
+      "Message": "/* Too many sort processes */",
+      "DecimalCode": -1701,
+      "HexCode": "0xfffff95b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidOnSort",
+      "Message": "/* Invalid operation on Sort */",
+      "DecimalCode": -1702,
+      "HexCode": "0xfffff95a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTempFileOpenError",
+      "Message": "/* Temp file could not be opened */",
+      "DecimalCode": -1803,
+      "HexCode": "0xfffff8f5",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManyAttachedDatabases",
+      "Message": "/* Too many open databases */",
+      "DecimalCode": -1805,
+      "HexCode": "0xfffff8f3",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDiskFull",
+      "Message": "/* No space left on disk */",
+      "DecimalCode": -1808,
+      "HexCode": "0xfffff8f0",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errPermissionDenied",
+      "Message": "/* Permission denied */",
+      "DecimalCode": -1809,
+      "HexCode": "0xfffff8ef",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileNotFound",
+      "Message": "/* File not found */",
+      "DecimalCode": -1811,
+      "HexCode": "0xfffff8ed",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileInvalidType",
+      "Message": "/* Invalid file type */",
+      "DecimalCode": -1812,
+      "HexCode": "0xfffff8ec",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileAlreadyExists",
+      "Message": "/* File already exists */",
+      "DecimalCode": -1814,
+      "HexCode": "0xfffff8ea",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errAfterInitialization",
+      "Message": "/* Cannot Restore after init. */",
+      "DecimalCode": -1850,
+      "HexCode": "0xfffff8c6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLogCorrupted",
+      "Message": "/* Logs could not be interpreted */",
+      "DecimalCode": -1852,
+      "HexCode": "0xfffff8c4",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errInvalidOperation",
+      "Message": "/* Invalid operation */",
+      "DecimalCode": -1906,
+      "HexCode": "0xfffff88e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errAccessDenied",
+      "Message": "/* Access denied */",
+      "DecimalCode": -1907,
+      "HexCode": "0xfffff88d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errTooManySplits",
+      "Message": "/* Infinite split */",
+      "DecimalCode": -1909,
+      "HexCode": "0xfffff88b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSessionSharingViolation",
+      "Message": "/* Multiple threads are using the same session */",
+      "DecimalCode": -1910,
+      "HexCode": "0xfffff88a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errEntryPointNotFound",
+      "Message": "/* An entry point in a DLL we require could not be found */",
+      "DecimalCode": -1911,
+      "HexCode": "0xfffff889",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSessionContextAlreadySet",
+      "Message": "/* Specified session already has a session context set */",
+      "DecimalCode": -1912,
+      "HexCode": "0xfffff888",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSessionContextNotSetByThisThread",
+      "Message": "/* Tried to reset session context, but current thread did not orignally set the session context */",
+      "DecimalCode": -1913,
+      "HexCode": "0xfffff887",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSessionInUse",
+      "Message": "/* Tried to terminate session in use */",
+      "DecimalCode": -1914,
+      "HexCode": "0xfffff886",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRecordFormatConversionFailed",
+      "Message": "/* Internal error during dynamic record format conversion */",
+      "DecimalCode": -1915,
+      "HexCode": "0xfffff885",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOneDatabasePerSession",
+      "Message": "/* Just one open user database per session is allowed (JET_paramOneDatabasePerSession) */",
+      "DecimalCode": -1916,
+      "HexCode": "0xfffff884",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errRollbackError",
+      "Message": "/* error during rollback */",
+      "DecimalCode": -1917,
+      "HexCode": "0xfffff883",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFlushMapVersionUnsupported",
+      "Message": "/* The version of the persisted flush map is not supported by this version of the engine. */",
+      "DecimalCode": -1918,
+      "HexCode": "0xfffff882",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFlushMapDatabaseMismatch",
+      "Message": "/* The persisted flush map and the database do not match. */",
+      "DecimalCode": -1919,
+      "HexCode": "0xfffff881",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFlushMapUnrecoverable",
+      "Message": "/* The persisted flush map cannot be reconstructed. */",
+      "DecimalCode": -1920,
+      "HexCode": "0xfffff880",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errDatabaseAlreadyRunningMaintenance",
+      "Message": "/* The operation did not complete successfully because the database is already running maintenance on specified database */",
+      "DecimalCode": -2004,
+      "HexCode": "0xfffff82c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCallbackFailed",
+      "Message": "/* A callback failed */",
+      "DecimalCode": -2101,
+      "HexCode": "0xfffff7cb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errCallbackNotResolved",
+      "Message": "/* A callback function could not be found */",
+      "DecimalCode": -2102,
+      "HexCode": "0xfffff7ca",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSpaceHintsInvalid",
+      "Message": "/* An element of the JET space hints structure was not correct or actionable. */",
+      "DecimalCode": -2103,
+      "HexCode": "0xfffff7c9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOSSnapshotInvalidSequence",
+      "Message": "/* OS Shadow copy API used in an invalid sequence */",
+      "DecimalCode": -2401,
+      "HexCode": "0xfffff69f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOSSnapshotTimeOut",
+      "Message": "/* OS Shadow copy ended with time-out */",
+      "DecimalCode": -2402,
+      "HexCode": "0xfffff69e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOSSnapshotNotAllowed",
+      "Message": "/* OS Shadow copy not allowed (backup or recovery in progress) */",
+      "DecimalCode": -2403,
+      "HexCode": "0xfffff69d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errOSSnapshotInvalidSnapId",
+      "Message": "/* invalid JET_OSSNAPID */",
+      "DecimalCode": -2404,
+      "HexCode": "0xfffff69c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLSCallbackNotSpecified",
+      "Message": "/* Attempted to use Local Storage without a callback function being specified */",
+      "DecimalCode": -3000,
+      "HexCode": "0xfffff448",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLSAlreadySet",
+      "Message": "/* Attempted to set Local Storage for an object which already had it set */",
+      "DecimalCode": -3001,
+      "HexCode": "0xfffff447",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errLSNotSet",
+      "Message": "/* Attempted to retrieve Local Storage from an object which didn\u0026apos;t have it set */",
+      "DecimalCode": -3002,
+      "HexCode": "0xfffff446",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileIOSparse",
+      "Message": "/* an I/O was issued to a location that was sparse */",
+      "DecimalCode": -4000,
+      "HexCode": "0xfffff060",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileIOBeyondEOF",
+      "Message": "/* a read was issued to a location beyond EOF (writes will expand the file) */",
+      "DecimalCode": -4001,
+      "HexCode": "0xfffff05f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileIOAbort",
+      "Message": "/* instructs the JET_ABORTRETRYFAILCALLBACK caller to abort the specified I/O */",
+      "DecimalCode": -4002,
+      "HexCode": "0xfffff05e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileIORetry",
+      "Message": "/* instructs the JET_ABORTRETRYFAILCALLBACK caller to retry the specified I/O */",
+      "DecimalCode": -4003,
+      "HexCode": "0xfffff05d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileIOFail",
+      "Message": "/* instructs the JET_ABORTRETRYFAILCALLBACK caller to fail the specified I/O */",
+      "DecimalCode": -4004,
+      "HexCode": "0xfffff05c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errFileCompressed",
+      "Message": "/* read/write access is not supported on compressed files */",
+      "DecimalCode": -4005,
+      "HexCode": "0xfffff05b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_errSuccess",
+      "Message": "/* Successful Operation */",
+      "DecimalCode": -1906442240,
+      "HexCode": "0x8e5e0000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRfsFailure",
+      "Message": "/* Resource Failure Simulator failure */",
+      "DecimalCode": -1906442140,
+      "HexCode": "0x8e5e0064",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRfsNotArmed",
+      "Message": "/* Resource Failure Simulator not initialized */",
+      "DecimalCode": -1906442139,
+      "HexCode": "0x8e5e0065",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileClose",
+      "Message": "/* Could not close file */",
+      "DecimalCode": -1906442138,
+      "HexCode": "0x8e5e0066",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfThreads",
+      "Message": "/* Could not start thread */",
+      "DecimalCode": -1906442137,
+      "HexCode": "0x8e5e0067",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyIO",
+      "Message": "/* System busy due to too many IOs */",
+      "DecimalCode": -1906442135,
+      "HexCode": "0x8e5e0069",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTaskDropped",
+      "Message": "/* A requested async task could not be executed */",
+      "DecimalCode": -1906442134,
+      "HexCode": "0x8e5e006a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInternalError",
+      "Message": "/* Fatal internal error */",
+      "DecimalCode": -1906442133,
+      "HexCode": "0x8e5e006b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDisabledFunctionality",
+      "Message": "/* You are running MinESE, that does not have all features compiled in.  This functionality is only supported in a full version of ESE. */",
+      "DecimalCode": -1906442128,
+      "HexCode": "0x8e5e0070",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUnloadableOSFunctionality",
+      "Message": "/* The desired OS functionality could not be located and loaded / linked. */",
+      "DecimalCode": -1906442127,
+      "HexCode": "0x8e5e0071",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseBufferDependenciesCorrupted",
+      "Message": "/* Buffer dependencies improperly set. Recovery failure */",
+      "DecimalCode": -1906441985,
+      "HexCode": "0x8e5e00ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPreviousVersion",
+      "Message": "/* Version already existed. Recovery failure */",
+      "DecimalCode": -1906441918,
+      "HexCode": "0x8e5e0142",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPageBoundary",
+      "Message": "/* Reached Page Boundary */",
+      "DecimalCode": -1906441917,
+      "HexCode": "0x8e5e0143",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errKeyBoundary",
+      "Message": "/* Reached Key Boundary */",
+      "DecimalCode": -1906441916,
+      "HexCode": "0x8e5e0144",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadPageLink",
+      "Message": "/* Database corrupted */",
+      "DecimalCode": -1906441913,
+      "HexCode": "0x8e5e0147",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadBookmark",
+      "Message": "/* Bookmark has no corresponding address in database */",
+      "DecimalCode": -1906441912,
+      "HexCode": "0x8e5e0148",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNTSystemCallFailed",
+      "Message": "// A call to the operating system failed",
+      "DecimalCode": -1906441906,
+      "HexCode": "0x8e5e014e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadParentPageLink",
+      "Message": "// Database corrupted",
+      "DecimalCode": -1906441902,
+      "HexCode": "0x8e5e0152",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSPAvailExtCacheOutOfSync",
+      "Message": "// AvailExt cache doesn\u0026apos;t match btree",
+      "DecimalCode": -1906441900,
+      "HexCode": "0x8e5e0154",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSPAvailExtCorrupted",
+      "Message": "// AvailExt space tree is corrupt",
+      "DecimalCode": -1906441899,
+      "HexCode": "0x8e5e0155",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSPAvailExtCacheOutOfMemory",
+      "Message": "// Out of memory allocating an AvailExt cache node",
+      "DecimalCode": -1906441898,
+      "HexCode": "0x8e5e0156",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSPOwnExtCorrupted",
+      "Message": "// OwnExt space tree is corrupt",
+      "DecimalCode": -1906441897,
+      "HexCode": "0x8e5e0157",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDbTimeCorrupted",
+      "Message": "// Dbtime on current page is greater than global database dbtime",
+      "DecimalCode": -1906441896,
+      "HexCode": "0x8e5e0158",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errKeyTruncated",
+      "Message": "// key truncated on index that disallows key truncation",
+      "DecimalCode": -1906441894,
+      "HexCode": "0x8e5e015a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseLeakInSpace",
+      "Message": "// Some database pages have become unreachable even from the avail tree, only an offline defragmentation can return the lost space.",
+      "DecimalCode": -1906441892,
+      "HexCode": "0x8e5e015c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadEmptyPage",
+      "Message": "// Database corrupted. Searching an unexpectedly empty page.",
+      "DecimalCode": -1906441889,
+      "HexCode": "0x8e5e015f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadLineCount",
+      "Message": "/* Number of lines on the page is too few compared to the line being operated on */",
+      "DecimalCode": -1906441886,
+      "HexCode": "0x8e5e0162",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnIllegalNull",
+      "Message": " ",
+      "DecimalCode": -1906440736,
+      "HexCode": "0x8e5e05e0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errKeyTooBig",
+      "Message": "/* Key is too large */",
+      "DecimalCode": -1906441832,
+      "HexCode": "0x8e5e0198",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotSeparateIntrinsicLV",
+      "Message": "// illegal attempt to separate an LV which must be intrinsic",
+      "DecimalCode": -1906441824,
+      "HexCode": "0x8e5e01a0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSeparatedLongValue",
+      "Message": "/* Operation not supported on separated long-value */",
+      "DecimalCode": -1906441819,
+      "HexCode": "0x8e5e01a5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMustBeSeparateLongValue",
+      "Message": "/* Can only preread long value columns that can be separate, e.g. not size constrained so that they are fixed or variable columns */",
+      "DecimalCode": -1906441817,
+      "HexCode": "0x8e5e01a7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidPreread",
+      "Message": "/* Cannot preread long values when current index secondary */",
+      "DecimalCode": -1906441816,
+      "HexCode": "0x8e5e01a8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidLoggedOperation",
+      "Message": "/* Logged operation cannot be redone */",
+      "DecimalCode": -1906441740,
+      "HexCode": "0x8e5e01f4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogFileCorrupt",
+      "Message": "/* Log file is corrupt */",
+      "DecimalCode": -1906441739,
+      "HexCode": "0x8e5e01f5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNoBackupDirectory",
+      "Message": "/* No backup directory given */",
+      "DecimalCode": -1906441737,
+      "HexCode": "0x8e5e01f7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBackupDirectoryNotEmpty",
+      "Message": "/* The backup directory is not emtpy */",
+      "DecimalCode": -1906441736,
+      "HexCode": "0x8e5e01f8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBackupInProgress",
+      "Message": "/* Backup is active already */",
+      "DecimalCode": -1906441735,
+      "HexCode": "0x8e5e01f9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRestoreInProgress",
+      "Message": "/* Restore in progress */",
+      "DecimalCode": -1906441734,
+      "HexCode": "0x8e5e01fa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingPreviousLogFile",
+      "Message": "/* Missing the log file for check point */",
+      "DecimalCode": -1906441731,
+      "HexCode": "0x8e5e01fd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogWriteFail",
+      "Message": "/* Failure writing to log file */",
+      "DecimalCode": -1906441730,
+      "HexCode": "0x8e5e01fe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogDisabledDueToRecoveryFailure",
+      "Message": "/* Try to log something after recovery faild */",
+      "DecimalCode": -1906441729,
+      "HexCode": "0x8e5e01ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotLogDuringRecoveryRedo",
+      "Message": "/* Try to log something during recovery redo */",
+      "DecimalCode": -1906441728,
+      "HexCode": "0x8e5e0200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogGenerationMismatch",
+      "Message": "/* Name of logfile does not match internal generation number */",
+      "DecimalCode": -1906441727,
+      "HexCode": "0x8e5e0201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadLogVersion",
+      "Message": "/* Version of log file is not compatible with Jet version */",
+      "DecimalCode": -1906441726,
+      "HexCode": "0x8e5e0202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidLogSequence",
+      "Message": "/* Timestamp in next log does not match expected */",
+      "DecimalCode": -1906441725,
+      "HexCode": "0x8e5e0203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLoggingDisabled",
+      "Message": "/* Log is not active */",
+      "DecimalCode": -1906441724,
+      "HexCode": "0x8e5e0204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogBufferTooSmall",
+      "Message": "/* Log buffer is too small for recovery */",
+      "DecimalCode": -1906441723,
+      "HexCode": "0x8e5e0205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogSequenceEnd",
+      "Message": "/* Maximum log file number exceeded */",
+      "DecimalCode": -1906441721,
+      "HexCode": "0x8e5e0207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNoBackup",
+      "Message": "/* No backup in progress */",
+      "DecimalCode": -1906441720,
+      "HexCode": "0x8e5e0208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidBackupSequence",
+      "Message": "/* Backup call out of sequence */",
+      "DecimalCode": -1906441719,
+      "HexCode": "0x8e5e0209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBackupNotAllowedYet",
+      "Message": "/* Cannot do backup now */",
+      "DecimalCode": -1906441717,
+      "HexCode": "0x8e5e020b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDeleteBackupFileFail",
+      "Message": "/* Could not delete backup file */",
+      "DecimalCode": -1906441716,
+      "HexCode": "0x8e5e020c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMakeBackupDirectoryFail",
+      "Message": "/* Could not make backup temp directory */",
+      "DecimalCode": -1906441715,
+      "HexCode": "0x8e5e020d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidBackup",
+      "Message": "/* Cannot perform incremental backup when circular logging enabled */",
+      "DecimalCode": -1906441714,
+      "HexCode": "0x8e5e020e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecoveredWithErrors",
+      "Message": "/* Restored with errors */",
+      "DecimalCode": -1906441713,
+      "HexCode": "0x8e5e020f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingLogFile",
+      "Message": "/* Current log file missing */",
+      "DecimalCode": -1906441712,
+      "HexCode": "0x8e5e0210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogDiskFull",
+      "Message": "/* Log disk full */",
+      "DecimalCode": -1906441711,
+      "HexCode": "0x8e5e0211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadLogSignature",
+      "Message": "/* Bad signature for a log file */",
+      "DecimalCode": -1906441710,
+      "HexCode": "0x8e5e0212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadDbSignature",
+      "Message": "/* Bad signature for a db file */",
+      "DecimalCode": -1906441709,
+      "HexCode": "0x8e5e0213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadCheckpointSignature",
+      "Message": "/* Bad signature for a checkpoint file */",
+      "DecimalCode": -1906441708,
+      "HexCode": "0x8e5e0214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCheckpointCorrupt",
+      "Message": "/* Checkpoint file not found or corrupt */",
+      "DecimalCode": -1906441707,
+      "HexCode": "0x8e5e0215",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingPatchPage",
+      "Message": "/* Patch file page not found during recovery */",
+      "DecimalCode": -1906441706,
+      "HexCode": "0x8e5e0216",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadPatchPage",
+      "Message": "/* Patch file page is not valid */",
+      "DecimalCode": -1906441705,
+      "HexCode": "0x8e5e0217",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRedoAbruptEnded",
+      "Message": "/* Redo abruptly ended due to sudden failure in reading logs from log file */",
+      "DecimalCode": -1906441704,
+      "HexCode": "0x8e5e0218",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPatchFileMissing",
+      "Message": "/* Hard restore detected that patch file is missing from backup set */",
+      "DecimalCode": -1906441702,
+      "HexCode": "0x8e5e021a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseLogSetMismatch",
+      "Message": "/* Database does not belong with the current set of log files */",
+      "DecimalCode": -1906441701,
+      "HexCode": "0x8e5e021b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseStreamingFileMismatch",
+      "Message": "/* Database and streaming file do not match each other */",
+      "DecimalCode": -1906441700,
+      "HexCode": "0x8e5e021c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogFileSizeMismatch",
+      "Message": "/* actual log file size does not match JET_paramLogFileSize */",
+      "DecimalCode": -1906441699,
+      "HexCode": "0x8e5e021d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCheckpointFileNotFound",
+      "Message": "/* Could not locate checkpoint file */",
+      "DecimalCode": -1906441698,
+      "HexCode": "0x8e5e021e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRequiredLogFilesMissing",
+      "Message": "/* The required log files for recovery is missing. */",
+      "DecimalCode": -1906441697,
+      "HexCode": "0x8e5e021f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSoftRecoveryOnBackupDatabase",
+      "Message": "/* Soft recovery is intended on a backup database. Restore should be used instead */",
+      "DecimalCode": -1906441696,
+      "HexCode": "0x8e5e0220",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogFileSizeMismatchDatabasesConsistent",
+      "Message": "/* databases have been recovered, but the log file size used during recovery does not match JET_paramLogFileSize */",
+      "DecimalCode": -1906441695,
+      "HexCode": "0x8e5e0221",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogSectorSizeMismatch",
+      "Message": "/* the log file sector size does not match the current volume\u0026apos;s sector size */",
+      "DecimalCode": -1906441694,
+      "HexCode": "0x8e5e0222",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogSectorSizeMismatchDatabasesConsistent",
+      "Message": "/* databases have been recovered, but the log file sector size (used during recovery) does not match the current volume\u0026apos;s sector size */",
+      "DecimalCode": -1906441693,
+      "HexCode": "0x8e5e0223",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogSequenceEndDatabasesConsistent",
+      "Message": "/* databases have been recovered, but all possible log generations in the current sequence are used; delete all log files and the checkpoint file and backup the databases before continuing */",
+      "DecimalCode": -1906441692,
+      "HexCode": "0x8e5e0224",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errStreamingDataNotLogged",
+      "Message": "/* Illegal attempt to replay a streaming file operation where the data wasn\u0026apos;t logged. Probably caused by an attempt to roll-forward with circular logging enabled */",
+      "DecimalCode": -1906441691,
+      "HexCode": "0x8e5e0225",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseDirtyShutdown",
+      "Message": "/* Database was not shutdown cleanly. Recovery must first be run to properly complete database operations for the previous shutdown. */",
+      "DecimalCode": -1906441690,
+      "HexCode": "0x8e5e0226",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseInconsistent",
+      "Message": "/* OBSOLETE */",
+      "DecimalCode": -1906441690,
+      "HexCode": "0x8e5e0226",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errConsistentTimeMismatch",
+      "Message": "/* Database last consistent time unmatched */",
+      "DecimalCode": -1906441689,
+      "HexCode": "0x8e5e0227",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabasePatchFileMismatch",
+      "Message": "/* Patch file is not generated from this backup */",
+      "DecimalCode": -1906441688,
+      "HexCode": "0x8e5e0228",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEndingRestoreLogTooLow",
+      "Message": "/* The starting log number too low for the restore */",
+      "DecimalCode": -1906441687,
+      "HexCode": "0x8e5e0229",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errStartingRestoreLogTooHigh",
+      "Message": "/* The starting log number too high for the restore */",
+      "DecimalCode": -1906441686,
+      "HexCode": "0x8e5e022a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errGivenLogFileHasBadSignature",
+      "Message": "/* Restore log file has bad signature */",
+      "DecimalCode": -1906441685,
+      "HexCode": "0x8e5e022b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errGivenLogFileIsNotContiguous",
+      "Message": "/* Restore log file is not contiguous */",
+      "DecimalCode": -1906441684,
+      "HexCode": "0x8e5e022c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingRestoreLogFiles",
+      "Message": "/* Some restore log files are missing */",
+      "DecimalCode": -1906441683,
+      "HexCode": "0x8e5e022d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingFullBackup",
+      "Message": "/* The database missed a previous full backup before incremental backup */",
+      "DecimalCode": -1906441680,
+      "HexCode": "0x8e5e0230",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadBackupDatabaseSize",
+      "Message": "/* The backup database size is not in 4k */",
+      "DecimalCode": -1906441679,
+      "HexCode": "0x8e5e0231",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseAlreadyUpgraded",
+      "Message": "/* Attempted to upgrade a database that is already current */",
+      "DecimalCode": -1906441678,
+      "HexCode": "0x8e5e0232",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseIncompleteUpgrade",
+      "Message": "/* Attempted to use a database which was only partially converted to the current format -- must restore from backup */",
+      "DecimalCode": -1906441677,
+      "HexCode": "0x8e5e0233",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingCurrentLogFiles",
+      "Message": "/* Some current log files are missing for continuous restore */",
+      "DecimalCode": -1906441675,
+      "HexCode": "0x8e5e0235",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDbTimeTooOld",
+      "Message": "/* dbtime on page smaller than dbtimeBefore in record */",
+      "DecimalCode": -1906441674,
+      "HexCode": "0x8e5e0236",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDbTimeTooNew",
+      "Message": "/* dbtime on page in advance of the dbtimeBefore in record */",
+      "DecimalCode": -1906441673,
+      "HexCode": "0x8e5e0237",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMissingFileToBackup",
+      "Message": "/* Some log or patch files are missing during backup */",
+      "DecimalCode": -1906441671,
+      "HexCode": "0x8e5e0239",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogTornWriteDuringHardRestore",
+      "Message": "/* torn-write was detected in a backup set during hard restore */",
+      "DecimalCode": -1906441670,
+      "HexCode": "0x8e5e023a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogTornWriteDuringHardRecovery",
+      "Message": "/* torn-write was detected during hard recovery (log was not part of a backup set) */",
+      "DecimalCode": -1906441669,
+      "HexCode": "0x8e5e023b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogCorruptDuringHardRestore",
+      "Message": "/* corruption was detected in a backup set during hard restore */",
+      "DecimalCode": -1906441667,
+      "HexCode": "0x8e5e023d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogCorruptDuringHardRecovery",
+      "Message": "/* corruption was detected during hard recovery (log was not part of a backup set) */",
+      "DecimalCode": -1906441666,
+      "HexCode": "0x8e5e023e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMustDisableLoggingForDbUpgrade",
+      "Message": "/* Cannot have logging enabled while attempting to upgrade db */",
+      "DecimalCode": -1906441665,
+      "HexCode": "0x8e5e023f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadRestoreTargetInstance",
+      "Message": "/* TargetInstance specified for restore is not found or log files don\u0026apos;t match */",
+      "DecimalCode": -1906441663,
+      "HexCode": "0x8e5e0241",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecoveredWithoutUndo",
+      "Message": "/* Soft recovery successfully replayed all operations, but the Undo phase of recovery was skipped */",
+      "DecimalCode": -1906441661,
+      "HexCode": "0x8e5e0243",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabasesNotFromSameSnapshot",
+      "Message": "/* Databases to be restored are not from the same shadow copy backup */",
+      "DecimalCode": -1906441660,
+      "HexCode": "0x8e5e0244",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSoftRecoveryOnSnapshot",
+      "Message": "/* Soft recovery on a database from a shadow copy backup set */",
+      "DecimalCode": -1906441659,
+      "HexCode": "0x8e5e0245",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCommittedLogFilesMissing",
+      "Message": "/* One or more logs that were committed to this database, are missing.  These log files are required to maintain durable ACID semantics, but not required to maintain consistency if the JET_bitReplayIgnoreLostLogs bit is specified during recovery. */",
+      "DecimalCode": -1906441658,
+      "HexCode": "0x8e5e0246",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSectorSizeNotSupported",
+      "Message": "/* The physical sector size reported by the disk subsystem, is unsupported by ESE for a specific file type. */",
+      "DecimalCode": -1906441657,
+      "HexCode": "0x8e5e0247",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecoveredWithoutUndoDatabasesConsistent",
+      "Message": "/* Soft recovery successfully replayed all operations and intended to skip the Undo phase of recovery, but the Undo phase was not required */",
+      "DecimalCode": -1906441656,
+      "HexCode": "0x8e5e0248",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCommittedLogFileCorrupt",
+      "Message": "/* One or more logs were found to be corrupt during recovery.  These log files are required to maintain durable ACID semantics, but not required to maintain consistency if the JET_bitIgnoreLostLogs bit and JET_paramDeleteOutOfRangeLogs is specified during recovery. */",
+      "DecimalCode": -1906441654,
+      "HexCode": "0x8e5e024a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogSequenceChecksumMismatch",
+      "Message": "/* The previous log\u0026apos;s accumulated segment checksum doesn\u0026apos;t match the next log */",
+      "DecimalCode": -1906441650,
+      "HexCode": "0x8e5e024e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPageInitializedMismatch",
+      "Message": "/* Database divergence mismatch. Page was uninitialized on remote node, but initialized on local node. */",
+      "DecimalCode": -1906441644,
+      "HexCode": "0x8e5e0254",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUnicodeTranslationBufferTooSmall",
+      "Message": "/* Unicode translation buffer too small */",
+      "DecimalCode": -1906441639,
+      "HexCode": "0x8e5e0259",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUnicodeTranslationFail",
+      "Message": "/* Unicode normalization failed */",
+      "DecimalCode": -1906441638,
+      "HexCode": "0x8e5e025a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUnicodeNormalizationNotSupported",
+      "Message": "/* OS does not provide support for Unicode normalisation (and no normalisation callback was specified) */",
+      "DecimalCode": -1906441637,
+      "HexCode": "0x8e5e025b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUnicodeLanguageValidationFailure",
+      "Message": "/* Can not validate the language */",
+      "DecimalCode": -1906441636,
+      "HexCode": "0x8e5e025c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errExistingLogFileHasBadSignature",
+      "Message": "/* Existing log file has bad signature */",
+      "DecimalCode": -1906441630,
+      "HexCode": "0x8e5e0262",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errExistingLogFileIsNotContiguous",
+      "Message": "/* Existing log file is not contiguous */",
+      "DecimalCode": -1906441629,
+      "HexCode": "0x8e5e0263",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogReadVerifyFailure",
+      "Message": "/* Checksum error in log file during backup */",
+      "DecimalCode": -1906441628,
+      "HexCode": "0x8e5e0264",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCheckpointDepthTooDeep",
+      "Message": "// too many outstanding generations between checkpoint and current generation",
+      "DecimalCode": -1906441626,
+      "HexCode": "0x8e5e0266",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRestoreOfNonBackupDatabase",
+      "Message": "// hard recovery attempted on a database that wasn\u0026apos;t a backup database",
+      "DecimalCode": -1906441625,
+      "HexCode": "0x8e5e0267",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogFileNotCopied",
+      "Message": "// log truncation attempted but not all required logs were copied",
+      "DecimalCode": -1906441624,
+      "HexCode": "0x8e5e0268",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTransactionTooLong",
+      "Message": "// Too many outstanding generations between JetBeginTransaction and current generation.",
+      "DecimalCode": -1906441622,
+      "HexCode": "0x8e5e026a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionNoLongerSupportedTooLow",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION value is too low to be supported by this version of ESE. */",
+      "DecimalCode": -1906441621,
+      "HexCode": "0x8e5e026b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionNotYetImplementedTooHigh",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION value is too high, higher than this version of ESE knows about. */",
+      "DecimalCode": -1906441620,
+      "HexCode": "0x8e5e026c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionParamTooLowForRequestedFeature",
+      "Message": "/* Thrown by a format feature (not at JetSetSystemParameter) if the client requests a feature that requires a version higher than that set for the JET_paramEngineFormatVersion. */",
+      "DecimalCode": -1906441619,
+      "HexCode": "0x8e5e026d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionSpecifiedTooLowForLogVersion",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION is set too low for this log stream, the log files have already been upgraded to a higher version.  A higher JET_ENGINEFORMATVERSION value must be set in the param. */",
+      "DecimalCode": -1906441618,
+      "HexCode": "0x8e5e026e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEngineFormatVersionSpecifiedTooLowForDatabaseVersion",
+      "Message": "/* The specified JET_ENGINEFORMATVERSION is set too low for this database file, the database file has already been upgraded to a higher version.  A higher JET_ENGINEFORMATVERSION value must be set in the param. */",
+      "DecimalCode": -1906441617,
+      "HexCode": "0x8e5e026f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBackupAbortByServer",
+      "Message": "/* Backup was aborted by server by calling JetTerm with JET_bitTermStopBackup or by calling JetStopBackup */",
+      "DecimalCode": -1906441439,
+      "HexCode": "0x8e5e0321",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidGrbit",
+      "Message": "/* Invalid flags parameter */",
+      "DecimalCode": -1906441340,
+      "HexCode": "0x8e5e0384",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTermInProgress",
+      "Message": "/* Termination in progress */",
+      "DecimalCode": -1906441240,
+      "HexCode": "0x8e5e03e8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFeatureNotAvailable",
+      "Message": "/* API not supported */",
+      "DecimalCode": -1906441239,
+      "HexCode": "0x8e5e03e9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidName",
+      "Message": "/* Invalid name */",
+      "DecimalCode": -1906441238,
+      "HexCode": "0x8e5e03ea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidParameter",
+      "Message": "/* Invalid API parameter */",
+      "DecimalCode": -1906441237,
+      "HexCode": "0x8e5e03eb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseFileReadOnly",
+      "Message": "/* Tried to attach a read-only database file for read/write operations */",
+      "DecimalCode": -1906441232,
+      "HexCode": "0x8e5e03f0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidDatabaseId",
+      "Message": "/* Invalid database id */",
+      "DecimalCode": -1906441230,
+      "HexCode": "0x8e5e03f2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfMemory",
+      "Message": "/* Out of Memory */",
+      "DecimalCode": -1906441229,
+      "HexCode": "0x8e5e03f3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfDatabaseSpace",
+      "Message": "/* Maximum database size reached */",
+      "DecimalCode": -1906441228,
+      "HexCode": "0x8e5e03f4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfCursors",
+      "Message": "/* Out of table cursors */",
+      "DecimalCode": -1906441227,
+      "HexCode": "0x8e5e03f5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfBuffers",
+      "Message": "/* Out of database page buffers */",
+      "DecimalCode": -1906441226,
+      "HexCode": "0x8e5e03f6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyIndexes",
+      "Message": "/* Too many indexes */",
+      "DecimalCode": -1906441225,
+      "HexCode": "0x8e5e03f7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyKeys",
+      "Message": "/* Too many columns in an index */",
+      "DecimalCode": -1906441224,
+      "HexCode": "0x8e5e03f8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordDeleted",
+      "Message": "/* Record has been deleted */",
+      "DecimalCode": -1906441223,
+      "HexCode": "0x8e5e03f9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errReadVerifyFailure",
+      "Message": "/* Checksum error on a database page */",
+      "DecimalCode": -1906441222,
+      "HexCode": "0x8e5e03fa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPageNotInitialized",
+      "Message": "/* Blank database page */",
+      "DecimalCode": -1906441221,
+      "HexCode": "0x8e5e03fb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfFileHandles",
+      "Message": "/* Out of file handles */",
+      "DecimalCode": -1906441220,
+      "HexCode": "0x8e5e03fc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDiskReadVerificationFailure",
+      "Message": "/* The OS returned ERROR_CRC from file IO */",
+      "DecimalCode": -1906441219,
+      "HexCode": "0x8e5e03fd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDiskIO",
+      "Message": "/* Disk IO error */",
+      "DecimalCode": -1906441218,
+      "HexCode": "0x8e5e03fe",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidPath",
+      "Message": "/* Invalid file path */",
+      "DecimalCode": -1906441217,
+      "HexCode": "0x8e5e03ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidSystemPath",
+      "Message": "/* Invalid system path */",
+      "DecimalCode": -1906441216,
+      "HexCode": "0x8e5e0400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidLogDirectory",
+      "Message": "/* Invalid log directory */",
+      "DecimalCode": -1906441215,
+      "HexCode": "0x8e5e0401",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordTooBig",
+      "Message": "/* Record larger than maximum size */",
+      "DecimalCode": -1906441214,
+      "HexCode": "0x8e5e0402",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyOpenDatabases",
+      "Message": "/* Too many open databases */",
+      "DecimalCode": -1906441213,
+      "HexCode": "0x8e5e0403",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidDatabase",
+      "Message": "/* Not a database file */",
+      "DecimalCode": -1906441212,
+      "HexCode": "0x8e5e0404",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNotInitialized",
+      "Message": "/* Database engine not initialized */",
+      "DecimalCode": -1906441211,
+      "HexCode": "0x8e5e0405",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errAlreadyInitialized",
+      "Message": "/* Database engine already initialized */",
+      "DecimalCode": -1906441210,
+      "HexCode": "0x8e5e0406",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInitInProgress",
+      "Message": "/* Database engine is being initialized */",
+      "DecimalCode": -1906441209,
+      "HexCode": "0x8e5e0407",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileAccessDenied",
+      "Message": "/* Cannot access file, the file is locked or in use */",
+      "DecimalCode": -1906441208,
+      "HexCode": "0x8e5e0408",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBufferTooSmall",
+      "Message": "/* Buffer is too small */",
+      "DecimalCode": -1906441202,
+      "HexCode": "0x8e5e040e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyColumns",
+      "Message": "/* Too many columns defined */",
+      "DecimalCode": -1906441200,
+      "HexCode": "0x8e5e0410",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errContainerNotEmpty",
+      "Message": "/* Container is not empty */",
+      "DecimalCode": -1906441197,
+      "HexCode": "0x8e5e0413",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidFilename",
+      "Message": "/* Filename is invalid */",
+      "DecimalCode": -1906441196,
+      "HexCode": "0x8e5e0414",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidBookmark",
+      "Message": "/* Invalid bookmark */",
+      "DecimalCode": -1906441195,
+      "HexCode": "0x8e5e0415",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnInUse",
+      "Message": "/* Column used in an index */",
+      "DecimalCode": -1906441194,
+      "HexCode": "0x8e5e0416",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidBufferSize",
+      "Message": "/* Data buffer doesn\u0026apos;t match column size */",
+      "DecimalCode": -1906441193,
+      "HexCode": "0x8e5e0417",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnNotUpdatable",
+      "Message": "/* Cannot set column value */",
+      "DecimalCode": -1906441192,
+      "HexCode": "0x8e5e0418",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexInUse",
+      "Message": "/* Index is in use */",
+      "DecimalCode": -1906441189,
+      "HexCode": "0x8e5e041b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLinkNotSupported",
+      "Message": "/* Link support unavailable */",
+      "DecimalCode": -1906441188,
+      "HexCode": "0x8e5e041c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNullKeyDisallowed",
+      "Message": "/* Null keys are disallowed on index */",
+      "DecimalCode": -1906441187,
+      "HexCode": "0x8e5e041d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNotInTransaction",
+      "Message": "/* Operation must be within a transaction */",
+      "DecimalCode": -1906441186,
+      "HexCode": "0x8e5e041e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMustRollback",
+      "Message": "/* Transaction must rollback because failure of unversioned update */",
+      "DecimalCode": -1906441183,
+      "HexCode": "0x8e5e0421",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyActiveUsers",
+      "Message": "/* Too many active database users */",
+      "DecimalCode": -1906441181,
+      "HexCode": "0x8e5e0423",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidCountry",
+      "Message": "/* Invalid or unknown country/region code */",
+      "DecimalCode": -1906441179,
+      "HexCode": "0x8e5e0425",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidLanguageId",
+      "Message": "/* Invalid or unknown language id */",
+      "DecimalCode": -1906441178,
+      "HexCode": "0x8e5e0426",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidCodePage",
+      "Message": "/* Invalid or unknown code page */",
+      "DecimalCode": -1906441177,
+      "HexCode": "0x8e5e0427",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidLCMapStringFlags",
+      "Message": "/* Invalid flags for LCMapString() */",
+      "DecimalCode": -1906441176,
+      "HexCode": "0x8e5e0428",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errVersionStoreEntryTooBig",
+      "Message": "/* Attempted to create a version store entry (RCE) larger than a version bucket */",
+      "DecimalCode": -1906441175,
+      "HexCode": "0x8e5e0429",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errVersionStoreOutOfMemoryAndCleanupTimedOut",
+      "Message": "/* Version store out of memory (and cleanup attempt failed to complete) */",
+      "DecimalCode": -1906441174,
+      "HexCode": "0x8e5e042a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errVersionStoreOutOfMemory",
+      "Message": "/* Version store out of memory (cleanup already attempted) */",
+      "DecimalCode": -1906441171,
+      "HexCode": "0x8e5e042d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotIndex",
+      "Message": "/* Cannot index escrow column */",
+      "DecimalCode": -1906441169,
+      "HexCode": "0x8e5e042f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordNotDeleted",
+      "Message": "/* Record has not been deleted */",
+      "DecimalCode": -1906441168,
+      "HexCode": "0x8e5e0430",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyMempoolEntries",
+      "Message": "/* Too many mempool entries requested */",
+      "DecimalCode": -1906441167,
+      "HexCode": "0x8e5e0431",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfObjectIDs",
+      "Message": "/* Out of btree ObjectIDs (perform offline defrag to reclaim freed/unused ObjectIds) */",
+      "DecimalCode": -1906441166,
+      "HexCode": "0x8e5e0432",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfLongValueIDs",
+      "Message": "/* Long-value ID counter has reached maximum value. (perform offline defrag to reclaim free/unused LongValueIDs) */",
+      "DecimalCode": -1906441165,
+      "HexCode": "0x8e5e0433",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfAutoincrementValues",
+      "Message": "/* Auto-increment counter has reached maximum value (offline defrag WILL NOT be able to reclaim free/unused Auto-increment values). */",
+      "DecimalCode": -1906441164,
+      "HexCode": "0x8e5e0434",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfDbtimeValues",
+      "Message": "/* Dbtime counter has reached maximum value (perform offline defrag to reclaim free/unused Dbtime values) */",
+      "DecimalCode": -1906441163,
+      "HexCode": "0x8e5e0435",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfSequentialIndexValues",
+      "Message": "/* Sequential index counter has reached maximum value (perform offline defrag to reclaim free/unused SequentialIndex values) */",
+      "DecimalCode": -1906441162,
+      "HexCode": "0x8e5e0436",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRunningInOneInstanceMode",
+      "Message": "/* Multi-instance call with single-instance mode enabled */",
+      "DecimalCode": -1906441160,
+      "HexCode": "0x8e5e0438",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRunningInMultiInstanceMode",
+      "Message": "/* Single-instance call with multi-instance mode enabled */",
+      "DecimalCode": -1906441159,
+      "HexCode": "0x8e5e0439",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSystemParamsAlreadySet",
+      "Message": "/* Global system parameters have already been set */",
+      "DecimalCode": -1906441158,
+      "HexCode": "0x8e5e043a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSystemPathInUse",
+      "Message": "/* System path already used by another database instance */",
+      "DecimalCode": -1906441157,
+      "HexCode": "0x8e5e043b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogFilePathInUse",
+      "Message": "/* Logfile path already used by another database instance */",
+      "DecimalCode": -1906441156,
+      "HexCode": "0x8e5e043c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTempPathInUse",
+      "Message": "/* Temp path already used by another database instance */",
+      "DecimalCode": -1906441155,
+      "HexCode": "0x8e5e043d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInstanceNameInUse",
+      "Message": "/* Instance Name already in use */",
+      "DecimalCode": -1906441154,
+      "HexCode": "0x8e5e043e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSystemParameterConflict",
+      "Message": "/* Global system parameters have already been set, but to a conflicting or disagreeable state to the specified values. */",
+      "DecimalCode": -1906441153,
+      "HexCode": "0x8e5e043f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInstanceUnavailable",
+      "Message": "/* This instance cannot be used because it encountered a fatal error */",
+      "DecimalCode": -1906441150,
+      "HexCode": "0x8e5e0442",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseUnavailable",
+      "Message": "/* This database cannot be used because it encountered a fatal error */",
+      "DecimalCode": -1906441149,
+      "HexCode": "0x8e5e0443",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInstanceUnavailableDueToFatalLogDiskFull",
+      "Message": "/* This instance cannot be used because it encountered a log-disk-full error performing an operation (likely transaction rollback) that could not tolerate failure */",
+      "DecimalCode": -1906441148,
+      "HexCode": "0x8e5e0444",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidSesparamId",
+      "Message": "/* This JET_sesparam* identifier is not known to the ESE engine. */",
+      "DecimalCode": -1906441147,
+      "HexCode": "0x8e5e0445",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyRecords",
+      "Message": "/* There are too many records to enumerate, switch to an API that handles 64-bit numbers */",
+      "DecimalCode": -1906441146,
+      "HexCode": "0x8e5e0446",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidDbparamId",
+      "Message": "/* This JET_dbparam* identifier is not known to the ESE engine. */",
+      "DecimalCode": -1906441145,
+      "HexCode": "0x8e5e0447",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOutOfSessions",
+      "Message": "/* Out of sessions */",
+      "DecimalCode": -1906441139,
+      "HexCode": "0x8e5e044d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errWriteConflict",
+      "Message": "/* Write lock failed due to outstanding write lock */",
+      "DecimalCode": -1906441138,
+      "HexCode": "0x8e5e044e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTransTooDeep",
+      "Message": "/* Transactions nested too deeply */",
+      "DecimalCode": -1906441137,
+      "HexCode": "0x8e5e044f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidSesid",
+      "Message": "/* Invalid session handle */",
+      "DecimalCode": -1906441136,
+      "HexCode": "0x8e5e0450",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errWriteConflictPrimaryIndex",
+      "Message": "/* Update attempted on uncommitted primary index */",
+      "DecimalCode": -1906441135,
+      "HexCode": "0x8e5e0451",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInTransaction",
+      "Message": "/* Operation not allowed within a transaction */",
+      "DecimalCode": -1906441132,
+      "HexCode": "0x8e5e0454",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRollbackRequired",
+      "Message": "/* Must rollback current transaction -- cannot commit or begin a new one */",
+      "DecimalCode": -1906441131,
+      "HexCode": "0x8e5e0455",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTransReadOnly",
+      "Message": "/* Read-only transaction tried to modify the database */",
+      "DecimalCode": -1906441130,
+      "HexCode": "0x8e5e0456",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSessionWriteConflict",
+      "Message": "/* Attempt to replace the same record by two diffrerent cursors in the same session */",
+      "DecimalCode": -1906441129,
+      "HexCode": "0x8e5e0457",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordTooBigForBackwardCompatibility",
+      "Message": "/* record would be too big if represented in a database format from a previous version of Jet */",
+      "DecimalCode": -1906441128,
+      "HexCode": "0x8e5e0458",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotMaterializeForwardOnlySort",
+      "Message": "/* The temp table could not be created due to parameters that conflict with JET_bitTTForwardOnly */",
+      "DecimalCode": -1906441127,
+      "HexCode": "0x8e5e0459",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSesidTableIdMismatch",
+      "Message": "/* This session handle can\u0026apos;t be used with this table id */",
+      "DecimalCode": -1906441126,
+      "HexCode": "0x8e5e045a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidInstance",
+      "Message": "/* Invalid instance handle */",
+      "DecimalCode": -1906441125,
+      "HexCode": "0x8e5e045b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDirtyShutdown",
+      "Message": "/* The instance was shutdown successfully but all the attached databases were left in a dirty state by request via JET_bitTermDirty */",
+      "DecimalCode": -1906441124,
+      "HexCode": "0x8e5e045c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errReadPgnoVerifyFailure",
+      "Message": "/* The database page read from disk had the wrong page number. */",
+      "DecimalCode": -1906441122,
+      "HexCode": "0x8e5e045e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errReadLostFlushVerifyFailure",
+      "Message": "/* The database page read from disk had a previous write not represented on the page. */",
+      "DecimalCode": -1906441121,
+      "HexCode": "0x8e5e045f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileSystemCorruption",
+      "Message": "/* File system operation failed with an error indicating the file system is corrupt. */",
+      "DecimalCode": -1906441119,
+      "HexCode": "0x8e5e0461",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecoveryVerifyFailure",
+      "Message": "/* One or more database pages read from disk during recovery do not match the expected state. */",
+      "DecimalCode": -1906441117,
+      "HexCode": "0x8e5e0463",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFilteredMoveNotSupported",
+      "Message": "/* Attempted to provide a filter to JetSetCursorFilter() in an unsupported scenario. */",
+      "DecimalCode": -1906441116,
+      "HexCode": "0x8e5e0464",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseDuplicate",
+      "Message": "/* Database already exists */",
+      "DecimalCode": -1906441039,
+      "HexCode": "0x8e5e04b1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseInUse",
+      "Message": "/* Database in use */",
+      "DecimalCode": -1906441038,
+      "HexCode": "0x8e5e04b2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseNotFound",
+      "Message": "/* No such database */",
+      "DecimalCode": -1906441037,
+      "HexCode": "0x8e5e04b3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseInvalidName",
+      "Message": "/* Invalid database name */",
+      "DecimalCode": -1906441036,
+      "HexCode": "0x8e5e04b4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseInvalidPages",
+      "Message": "/* Invalid number of pages */",
+      "DecimalCode": -1906441035,
+      "HexCode": "0x8e5e04b5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseCorrupted",
+      "Message": "/* Non database file or corrupted db */",
+      "DecimalCode": -1906441034,
+      "HexCode": "0x8e5e04b6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseLocked",
+      "Message": "/* Database exclusively locked */",
+      "DecimalCode": -1906441033,
+      "HexCode": "0x8e5e04b7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotDisableVersioning",
+      "Message": "/* Cannot disable versioning for this database */",
+      "DecimalCode": -1906441032,
+      "HexCode": "0x8e5e04b8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidDatabaseVersion",
+      "Message": "/* Database engine is incompatible with database */",
+      "DecimalCode": -1906441031,
+      "HexCode": "0x8e5e04b9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabase200Format",
+      "Message": "/* The database is in an older (200) format */",
+      "DecimalCode": -1906441030,
+      "HexCode": "0x8e5e04ba",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabase400Format",
+      "Message": "/* The database is in an older (400) format */",
+      "DecimalCode": -1906441029,
+      "HexCode": "0x8e5e04bb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabase500Format",
+      "Message": "/* The database is in an older (500) format */",
+      "DecimalCode": -1906441028,
+      "HexCode": "0x8e5e04bc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPageSizeMismatch",
+      "Message": "/* The database page size does not match the engine */",
+      "DecimalCode": -1906441027,
+      "HexCode": "0x8e5e04bd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyInstances",
+      "Message": "/* Cannot start any more database instances */",
+      "DecimalCode": -1906441026,
+      "HexCode": "0x8e5e04be",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseSharingViolation",
+      "Message": "/* A different database instance is using this database */",
+      "DecimalCode": -1906441025,
+      "HexCode": "0x8e5e04bf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errAttachedDatabaseMismatch",
+      "Message": "/* An outstanding database attachment has been detected at the start or end of recovery, but database is missing or does not match attachment info */",
+      "DecimalCode": -1906441024,
+      "HexCode": "0x8e5e04c0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseInvalidPath",
+      "Message": "/* Specified path to database file is illegal */",
+      "DecimalCode": -1906441023,
+      "HexCode": "0x8e5e04c1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseIdInUse",
+      "Message": "/* A database is being assigned an id already in use */",
+      "DecimalCode": -1906441022,
+      "HexCode": "0x8e5e04c2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errForceDetachNotAllowed",
+      "Message": "/* Force Detach allowed only after normal detach errored out */",
+      "DecimalCode": -1906441021,
+      "HexCode": "0x8e5e04c3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCatalogCorrupted",
+      "Message": "/* Corruption detected in catalog */",
+      "DecimalCode": -1906441020,
+      "HexCode": "0x8e5e04c4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPartiallyAttachedDB",
+      "Message": "/* Database is partially attached. Cannot complete attach operation */",
+      "DecimalCode": -1906441019,
+      "HexCode": "0x8e5e04c5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseSignInUse",
+      "Message": "/* Database with same signature in use */",
+      "DecimalCode": -1906441018,
+      "HexCode": "0x8e5e04c6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseCorruptedNoRepair",
+      "Message": "/* Corrupted db but repair not allowed */",
+      "DecimalCode": -1906441016,
+      "HexCode": "0x8e5e04c8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidCreateDbVersion",
+      "Message": "/* recovery tried to replay a database creation, but the database was originally created with an incompatible (likely older) version of the database engine */",
+      "DecimalCode": -1906441015,
+      "HexCode": "0x8e5e04c9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseNotReady",
+      "Message": "/* Recovery on this database has not yet completed enough to permit access. */",
+      "DecimalCode": -1906441010,
+      "HexCode": "0x8e5e04ce",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseAttachedForRecovery",
+      "Message": "/* Database is attached but only for recovery.  It must be explicitly attached before it can be opened.  */",
+      "DecimalCode": -1906441009,
+      "HexCode": "0x8e5e04cf",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTransactionsNotReadyDuringRecovery",
+      "Message": "/* Recovery has not seen any Begin0/Commit0 records and so does not know what trxBegin0 to assign to this transaction */",
+      "DecimalCode": -1906441008,
+      "HexCode": "0x8e5e04d0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTableLocked",
+      "Message": "/* Table is exclusively locked */",
+      "DecimalCode": -1906440938,
+      "HexCode": "0x8e5e0516",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTableDuplicate",
+      "Message": "/* Table already exists */",
+      "DecimalCode": -1906440937,
+      "HexCode": "0x8e5e0517",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTableInUse",
+      "Message": "/* Table is in use, cannot lock */",
+      "DecimalCode": -1906440936,
+      "HexCode": "0x8e5e0518",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errObjectNotFound",
+      "Message": "/* No such table or object */",
+      "DecimalCode": -1906440935,
+      "HexCode": "0x8e5e0519",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDensityInvalid",
+      "Message": "/* Bad file/index density */",
+      "DecimalCode": -1906440933,
+      "HexCode": "0x8e5e051b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTableNotEmpty",
+      "Message": "/* Table is not empty */",
+      "DecimalCode": -1906440932,
+      "HexCode": "0x8e5e051c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidTableId",
+      "Message": "/* Invalid table id */",
+      "DecimalCode": -1906440930,
+      "HexCode": "0x8e5e051e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyOpenTables",
+      "Message": "/* Cannot open any more tables (cleanup already attempted) */",
+      "DecimalCode": -1906440929,
+      "HexCode": "0x8e5e051f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIllegalOperation",
+      "Message": "/* Oper. not supported on table */",
+      "DecimalCode": -1906440928,
+      "HexCode": "0x8e5e0520",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyOpenTablesAndCleanupTimedOut",
+      "Message": "/* Cannot open any more tables (cleanup attempt failed to complete) */",
+      "DecimalCode": -1906440927,
+      "HexCode": "0x8e5e0521",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errObjectDuplicate",
+      "Message": "/* Table or object name in use */",
+      "DecimalCode": -1906440926,
+      "HexCode": "0x8e5e0522",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidObject",
+      "Message": "/* Object is invalid for operation */",
+      "DecimalCode": -1906440924,
+      "HexCode": "0x8e5e0524",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotDeleteTempTable",
+      "Message": "/* Use CloseTable instead of DeleteTable to delete temp table */",
+      "DecimalCode": -1906440923,
+      "HexCode": "0x8e5e0525",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotDeleteSystemTable",
+      "Message": "/* Illegal attempt to delete a system table */",
+      "DecimalCode": -1906440922,
+      "HexCode": "0x8e5e0526",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotDeleteTemplateTable",
+      "Message": "/* Illegal attempt to delete a template table */",
+      "DecimalCode": -1906440921,
+      "HexCode": "0x8e5e0527",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errExclusiveTableLockRequired",
+      "Message": "/* Must have exclusive lock on table. */",
+      "DecimalCode": -1906440918,
+      "HexCode": "0x8e5e052a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFixedDDL",
+      "Message": "/* DDL operations prohibited on this table */",
+      "DecimalCode": -1906440917,
+      "HexCode": "0x8e5e052b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFixedInheritedDDL",
+      "Message": "/* On a derived table, DDL operations are prohibited on inherited portion of DDL */",
+      "DecimalCode": -1906440916,
+      "HexCode": "0x8e5e052c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotNestDDL",
+      "Message": "/* Nesting of hierarchical DDL is not currently supported. */",
+      "DecimalCode": -1906440915,
+      "HexCode": "0x8e5e052d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDDLNotInheritable",
+      "Message": "/* Tried to inherit DDL from a table not marked as a template table. */",
+      "DecimalCode": -1906440914,
+      "HexCode": "0x8e5e052e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidSettings",
+      "Message": "/* System parameters were set improperly */",
+      "DecimalCode": -1906440912,
+      "HexCode": "0x8e5e0530",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errClientRequestToStopJetService",
+      "Message": "/* Client has requested stop service */",
+      "DecimalCode": -1906440911,
+      "HexCode": "0x8e5e0531",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotAddFixedVarColumnToDerivedTable",
+      "Message": "/* Template table was created with NoFixedVarColumnsInDerivedTables */",
+      "DecimalCode": -1906440910,
+      "HexCode": "0x8e5e0532",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexCantBuild",
+      "Message": "/* Index build failed */",
+      "DecimalCode": -1906440839,
+      "HexCode": "0x8e5e0579",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexHasPrimary",
+      "Message": "/* Primary index already defined */",
+      "DecimalCode": -1906440838,
+      "HexCode": "0x8e5e057a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexDuplicate",
+      "Message": "/* Index is already defined */",
+      "DecimalCode": -1906440837,
+      "HexCode": "0x8e5e057b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexNotFound",
+      "Message": "/* No such index */",
+      "DecimalCode": -1906440836,
+      "HexCode": "0x8e5e057c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexMustStay",
+      "Message": "/* Cannot delete clustered index */",
+      "DecimalCode": -1906440835,
+      "HexCode": "0x8e5e057d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexInvalidDef",
+      "Message": "/* Illegal index definition */",
+      "DecimalCode": -1906440834,
+      "HexCode": "0x8e5e057e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidCreateIndex",
+      "Message": "/* Invalid create index description */",
+      "DecimalCode": -1906440831,
+      "HexCode": "0x8e5e0581",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyOpenIndexes",
+      "Message": "/* Out of index description blocks */",
+      "DecimalCode": -1906440830,
+      "HexCode": "0x8e5e0582",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMultiValuedIndexViolation",
+      "Message": "/* Non-unique inter-record index keys generated for a multivalued index */",
+      "DecimalCode": -1906440829,
+      "HexCode": "0x8e5e0583",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexBuildCorrupted",
+      "Message": "/* Failed to build a secondary index that properly reflects primary index */",
+      "DecimalCode": -1906440828,
+      "HexCode": "0x8e5e0584",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPrimaryIndexCorrupted",
+      "Message": "/* Primary index is corrupt. The database must be defragmented or the table deleted. */",
+      "DecimalCode": -1906440827,
+      "HexCode": "0x8e5e0585",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSecondaryIndexCorrupted",
+      "Message": "/* Secondary index is corrupt. The database must be defragmented or the affected index must be deleted. If the corrupt index is over Unicode text, a likely cause is a sort-order change. */",
+      "DecimalCode": -1906440826,
+      "HexCode": "0x8e5e0586",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidIndexId",
+      "Message": "/* Illegal index id */",
+      "DecimalCode": -1906440824,
+      "HexCode": "0x8e5e0588",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesSecondaryIndexOnly",
+      "Message": "// tuple index can only be on a secondary index",
+      "DecimalCode": -1906440810,
+      "HexCode": "0x8e5e0596",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesTooManyColumns",
+      "Message": "// tuple index may only have eleven columns in the index",
+      "DecimalCode": -1906440809,
+      "HexCode": "0x8e5e0597",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesOneColumnOnly",
+      "Message": "/* OBSOLETE */",
+      "DecimalCode": -1906440809,
+      "HexCode": "0x8e5e0597",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesNonUniqueOnly",
+      "Message": "// tuple index must be a non-unique index",
+      "DecimalCode": -1906440808,
+      "HexCode": "0x8e5e0598",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesTextBinaryColumnsOnly",
+      "Message": "// tuple index must be on a text/binary column",
+      "DecimalCode": -1906440807,
+      "HexCode": "0x8e5e0599",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesTextColumnsOnly",
+      "Message": "/* OBSOLETE */",
+      "DecimalCode": -1906440807,
+      "HexCode": "0x8e5e0599",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesVarSegMacNotAllowed",
+      "Message": "// tuple index does not allow setting cbVarSegMac",
+      "DecimalCode": -1906440806,
+      "HexCode": "0x8e5e059a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesInvalidLimits",
+      "Message": "// invalid min/max tuple length or max characters to index specified",
+      "DecimalCode": -1906440805,
+      "HexCode": "0x8e5e059b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesCannotRetrieveFromIndex",
+      "Message": "// cannot call RetrieveColumn() with RetrieveFromIndex on a tuple index",
+      "DecimalCode": -1906440804,
+      "HexCode": "0x8e5e059c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errIndexTuplesKeyTooSmall",
+      "Message": "// specified key does not meet minimum tuple length",
+      "DecimalCode": -1906440803,
+      "HexCode": "0x8e5e059d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidLVChunkSize",
+      "Message": "// Specified LV chunk size is not supported",
+      "DecimalCode": -1906440802,
+      "HexCode": "0x8e5e059e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnCannotBeEncrypted",
+      "Message": "// Only JET_coltypLongText and JET_coltypLongBinary columns without default values can be encrypted",
+      "DecimalCode": -1906440801,
+      "HexCode": "0x8e5e059f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotIndexOnEncryptedColumn",
+      "Message": "// Cannot index encrypted column",
+      "DecimalCode": -1906440800,
+      "HexCode": "0x8e5e05a0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnLong",
+      "Message": "/* Column value is long */",
+      "DecimalCode": -1906440739,
+      "HexCode": "0x8e5e05dd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnNoChunk",
+      "Message": "/* No such chunk in long value */",
+      "DecimalCode": -1906440738,
+      "HexCode": "0x8e5e05de",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnDoesNotFit",
+      "Message": "/* Field will not fit in record */",
+      "DecimalCode": -1906440737,
+      "HexCode": "0x8e5e05df",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNullInvalid",
+      "Message": "/* Null not valid */",
+      "DecimalCode": -1906440736,
+      "HexCode": "0x8e5e05e0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnIndexed",
+      "Message": "/* Column indexed, cannot delete */",
+      "DecimalCode": -1906440735,
+      "HexCode": "0x8e5e05e1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnTooBig",
+      "Message": "/* Field length is greater than maximum */",
+      "DecimalCode": -1906440734,
+      "HexCode": "0x8e5e05e2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnNotFound",
+      "Message": "/* No such column */",
+      "DecimalCode": -1906440733,
+      "HexCode": "0x8e5e05e3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnDuplicate",
+      "Message": "/* Field is already defined */",
+      "DecimalCode": -1906440732,
+      "HexCode": "0x8e5e05e4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMultiValuedColumnMustBeTagged",
+      "Message": "/* Attempted to create a multi-valued column, but column was not Tagged */",
+      "DecimalCode": -1906440731,
+      "HexCode": "0x8e5e05e5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnRedundant",
+      "Message": "/* Second autoincrement or version column */",
+      "DecimalCode": -1906440730,
+      "HexCode": "0x8e5e05e6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidColumnType",
+      "Message": "/* Invalid column data type */",
+      "DecimalCode": -1906440729,
+      "HexCode": "0x8e5e05e7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTaggedNotNULL",
+      "Message": "/* No non-NULL tagged columns */",
+      "DecimalCode": -1906440726,
+      "HexCode": "0x8e5e05ea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNoCurrentIndex",
+      "Message": "/* Invalid w/o a current index */",
+      "DecimalCode": -1906440725,
+      "HexCode": "0x8e5e05eb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errKeyIsMade",
+      "Message": "/* The key is completely made */",
+      "DecimalCode": -1906440724,
+      "HexCode": "0x8e5e05ec",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadColumnId",
+      "Message": "/* Column Id Incorrect */",
+      "DecimalCode": -1906440723,
+      "HexCode": "0x8e5e05ed",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errBadItagSequence",
+      "Message": "/* Bad itagSequence for tagged column */",
+      "DecimalCode": -1906440722,
+      "HexCode": "0x8e5e05ee",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnInRelationship",
+      "Message": "/* Cannot delete, column participates in relationship */",
+      "DecimalCode": -1906440721,
+      "HexCode": "0x8e5e05ef",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCannotBeTagged",
+      "Message": "/* AutoIncrement and Version cannot be tagged */",
+      "DecimalCode": -1906440719,
+      "HexCode": "0x8e5e05f1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDefaultValueTooBig",
+      "Message": "/* Default value exceeds maximum size */",
+      "DecimalCode": -1906440716,
+      "HexCode": "0x8e5e05f4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMultiValuedDuplicate",
+      "Message": "/* Duplicate detected on a unique multi-valued column */",
+      "DecimalCode": -1906440715,
+      "HexCode": "0x8e5e05f5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLVCorrupted",
+      "Message": "/* Corruption encountered in long-value tree */",
+      "DecimalCode": -1906440714,
+      "HexCode": "0x8e5e05f6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errMultiValuedDuplicateAfterTruncation",
+      "Message": "/* Duplicate detected on a unique multi-valued column after data was normalized, and normalizing truncated the data before comparison */",
+      "DecimalCode": -1906440712,
+      "HexCode": "0x8e5e05f8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDerivedColumnCorruption",
+      "Message": "/* Invalid column in derived table */",
+      "DecimalCode": -1906440711,
+      "HexCode": "0x8e5e05f9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidPlaceholderColumn",
+      "Message": "/* Tried to convert column to a primary index placeholder, but column doesn\u0026apos;t meet necessary criteria */",
+      "DecimalCode": -1906440710,
+      "HexCode": "0x8e5e05fa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnCannotBeCompressed",
+      "Message": "/* Only JET_coltypLongText and JET_coltypLongBinary columns can be compressed */",
+      "DecimalCode": -1906440702,
+      "HexCode": "0x8e5e0602",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errColumnNoEncryptionKey",
+      "Message": "/* Cannot retrieve/set encrypted column without an encryption key */",
+      "DecimalCode": -1906440700,
+      "HexCode": "0x8e5e0604",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordNotFound",
+      "Message": "/* The key was not found */",
+      "DecimalCode": -1906440639,
+      "HexCode": "0x8e5e0641",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordNoCopy",
+      "Message": "/* No working buffer */",
+      "DecimalCode": -1906440638,
+      "HexCode": "0x8e5e0642",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errNoCurrentRecord",
+      "Message": "/* Currency not on a record */",
+      "DecimalCode": -1906440637,
+      "HexCode": "0x8e5e0643",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordPrimaryChanged",
+      "Message": "/* Primary key may not change */",
+      "DecimalCode": -1906440636,
+      "HexCode": "0x8e5e0644",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errKeyDuplicate",
+      "Message": "/* Illegal duplicate key */",
+      "DecimalCode": -1906440635,
+      "HexCode": "0x8e5e0645",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errAlreadyPrepared",
+      "Message": "/* Attempted to update record when record update was already in progress */",
+      "DecimalCode": -1906440633,
+      "HexCode": "0x8e5e0647",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errKeyNotMade",
+      "Message": "/* No call to JetMakeKey */",
+      "DecimalCode": -1906440632,
+      "HexCode": "0x8e5e0648",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUpdateNotPrepared",
+      "Message": "/* No call to JetPrepareUpdate */",
+      "DecimalCode": -1906440631,
+      "HexCode": "0x8e5e0649",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDataHasChanged",
+      "Message": "/* Data has changed, operation aborted */",
+      "DecimalCode": -1906440629,
+      "HexCode": "0x8e5e064b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLanguageNotSupported",
+      "Message": "/* Windows installation does not support language */",
+      "DecimalCode": -1906440621,
+      "HexCode": "0x8e5e0653",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDecompressionFailed",
+      "Message": "/* Internal error: data could not be decompressed */",
+      "DecimalCode": -1906440620,
+      "HexCode": "0x8e5e0654",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errUpdateMustVersion",
+      "Message": "/* No version updates only for uncommitted tables */",
+      "DecimalCode": -1906440619,
+      "HexCode": "0x8e5e0655",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDecryptionFailed",
+      "Message": "/* Data could not be decrypted */",
+      "DecimalCode": -1906440618,
+      "HexCode": "0x8e5e0656",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEncryptionBadItag",
+      "Message": "/* Cannot encrypt tagged columns with itag\u0026gt;1 */",
+      "DecimalCode": -1906440617,
+      "HexCode": "0x8e5e0657",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManySorts",
+      "Message": "/* Too many sort processes */",
+      "DecimalCode": -1906440539,
+      "HexCode": "0x8e5e06a5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidOnSort",
+      "Message": "/* Invalid operation on Sort */",
+      "DecimalCode": -1906440538,
+      "HexCode": "0x8e5e06a6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTempFileOpenError",
+      "Message": "/* Temp file could not be opened */",
+      "DecimalCode": -1906440437,
+      "HexCode": "0x8e5e070b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManyAttachedDatabases",
+      "Message": "/* Too many open databases */",
+      "DecimalCode": -1906440435,
+      "HexCode": "0x8e5e070d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDiskFull",
+      "Message": "/* No space left on disk */",
+      "DecimalCode": -1906440432,
+      "HexCode": "0x8e5e0710",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errPermissionDenied",
+      "Message": "/* Permission denied */",
+      "DecimalCode": -1906440431,
+      "HexCode": "0x8e5e0711",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileNotFound",
+      "Message": "/* File not found */",
+      "DecimalCode": -1906440429,
+      "HexCode": "0x8e5e0713",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileInvalidType",
+      "Message": "/* Invalid file type */",
+      "DecimalCode": -1906440428,
+      "HexCode": "0x8e5e0714",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileAlreadyExists",
+      "Message": "/* File already exists */",
+      "DecimalCode": -1906440426,
+      "HexCode": "0x8e5e0716",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errAfterInitialization",
+      "Message": "/* Cannot Restore after init. */",
+      "DecimalCode": -1906440390,
+      "HexCode": "0x8e5e073a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLogCorrupted",
+      "Message": "/* Logs could not be interpreted */",
+      "DecimalCode": -1906440388,
+      "HexCode": "0x8e5e073c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errInvalidOperation",
+      "Message": "/* Invalid operation */",
+      "DecimalCode": -1906440334,
+      "HexCode": "0x8e5e0772",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errAccessDenied",
+      "Message": "/* Access denied */",
+      "DecimalCode": -1906440333,
+      "HexCode": "0x8e5e0773",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errTooManySplits",
+      "Message": "/* Infinite split */",
+      "DecimalCode": -1906440331,
+      "HexCode": "0x8e5e0775",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSessionSharingViolation",
+      "Message": "/* Multiple threads are using the same session */",
+      "DecimalCode": -1906440330,
+      "HexCode": "0x8e5e0776",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errEntryPointNotFound",
+      "Message": "/* An entry point in a DLL we require could not be found */",
+      "DecimalCode": -1906440329,
+      "HexCode": "0x8e5e0777",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSessionContextAlreadySet",
+      "Message": "/* Specified session already has a session context set */",
+      "DecimalCode": -1906440328,
+      "HexCode": "0x8e5e0778",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSessionContextNotSetByThisThread",
+      "Message": "/* Tried to reset session context, but current thread did not orignally set the session context */",
+      "DecimalCode": -1906440327,
+      "HexCode": "0x8e5e0779",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSessionInUse",
+      "Message": "/* Tried to terminate session in use */",
+      "DecimalCode": -1906440326,
+      "HexCode": "0x8e5e077a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRecordFormatConversionFailed",
+      "Message": "/* Internal error during dynamic record format conversion */",
+      "DecimalCode": -1906440325,
+      "HexCode": "0x8e5e077b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOneDatabasePerSession",
+      "Message": "/* Just one open user database per session is allowed (JET_paramOneDatabasePerSession) */",
+      "DecimalCode": -1906440324,
+      "HexCode": "0x8e5e077c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errRollbackError",
+      "Message": "/* error during rollback */",
+      "DecimalCode": -1906440323,
+      "HexCode": "0x8e5e077d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFlushMapVersionUnsupported",
+      "Message": "/* The version of the persisted flush map is not supported by this version of the engine. */",
+      "DecimalCode": -1906440322,
+      "HexCode": "0x8e5e077e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFlushMapDatabaseMismatch",
+      "Message": "/* The persisted flush map and the database do not match. */",
+      "DecimalCode": -1906440321,
+      "HexCode": "0x8e5e077f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFlushMapUnrecoverable",
+      "Message": "/* The persisted flush map cannot be reconstructed. */",
+      "DecimalCode": -1906440320,
+      "HexCode": "0x8e5e0780",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errDatabaseAlreadyRunningMaintenance",
+      "Message": "/* The operation did not complete successfully because the database is already running maintenance on specified database */",
+      "DecimalCode": -1906440236,
+      "HexCode": "0x8e5e07d4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCallbackFailed",
+      "Message": "/* A callback failed */",
+      "DecimalCode": -1906440139,
+      "HexCode": "0x8e5e0835",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errCallbackNotResolved",
+      "Message": "/* A callback function could not be found */",
+      "DecimalCode": -1906440138,
+      "HexCode": "0x8e5e0836",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errSpaceHintsInvalid",
+      "Message": "/* An element of the JET space hints structure was not correct or actionable. */",
+      "DecimalCode": -1906440137,
+      "HexCode": "0x8e5e0837",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOSSnapshotInvalidSequence",
+      "Message": "/* OS Shadow copy API used in an invalid sequence */",
+      "DecimalCode": -1906439839,
+      "HexCode": "0x8e5e0961",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOSSnapshotTimeOut",
+      "Message": "/* OS Shadow copy ended with time-out */",
+      "DecimalCode": -1906439838,
+      "HexCode": "0x8e5e0962",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOSSnapshotNotAllowed",
+      "Message": "/* OS Shadow copy not allowed (backup or recovery in progress) */",
+      "DecimalCode": -1906439837,
+      "HexCode": "0x8e5e0963",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errOSSnapshotInvalidSnapId",
+      "Message": "/* invalid JET_OSSNAPID */",
+      "DecimalCode": -1906439836,
+      "HexCode": "0x8e5e0964",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLSCallbackNotSpecified",
+      "Message": "/* Attempted to use Local Storage without a callback function being specified */",
+      "DecimalCode": -1906439240,
+      "HexCode": "0x8e5e0bb8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLSAlreadySet",
+      "Message": "/* Attempted to set Local Storage for an object which already had it set */",
+      "DecimalCode": -1906439239,
+      "HexCode": "0x8e5e0bb9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errLSNotSet",
+      "Message": "/* Attempted to retrieve Local Storage from an object which didn\u0026apos;t have it set */",
+      "DecimalCode": -1906439238,
+      "HexCode": "0x8e5e0bba",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileIOSparse",
+      "Message": "/* an I/O was issued to a location that was sparse */",
+      "DecimalCode": -1906438240,
+      "HexCode": "0x8e5e0fa0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileIOBeyondEOF",
+      "Message": "/* a read was issued to a location beyond EOF (writes will expand the file) */",
+      "DecimalCode": -1906438239,
+      "HexCode": "0x8e5e0fa1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileIOAbort",
+      "Message": "/* instructs the JET_ABORTRETRYFAILCALLBACK caller to abort the specified I/O */",
+      "DecimalCode": -1906438238,
+      "HexCode": "0x8e5e0fa2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileIORetry",
+      "Message": "/* instructs the JET_ABORTRETRYFAILCALLBACK caller to retry the specified I/O */",
+      "DecimalCode": -1906438237,
+      "HexCode": "0x8e5e0fa3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileIOFail",
+      "Message": "/* instructs the JET_ABORTRETRYFAILCALLBACK caller to fail the specified I/O */",
+      "DecimalCode": -1906438236,
+      "HexCode": "0x8e5e0fa4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_errFileCompressed",
+      "Message": "/* read/write access is not supported on compressed files */",
+      "DecimalCode": -1906438235,
+      "HexCode": "0x8e5e0fa5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "JET_wrnNyi",
+      "Message": "/* Function Not Yet Implemented */",
+      "DecimalCode": -1,
+      "HexCode": "0xffffffff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "JET_wrnRemainingVersions",
+      "Message": "/* The version store is still active */",
+      "DecimalCode": 321,
+      "HexCode": "0x141",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnUniqueKey",
+      "Message": "// seek on non-unique index yielded a unique key",
+      "DecimalCode": 345,
+      "HexCode": "0x159",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnSeparateLongValue",
+      "Message": "/* Column is a separated long-value */",
+      "DecimalCode": 406,
+      "HexCode": "0x196",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnRecordFoundGreater",
+      "Message": " ",
+      "DecimalCode": 1039,
+      "HexCode": "0x40f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnRecordFoundLess",
+      "Message": " ",
+      "DecimalCode": 1039,
+      "HexCode": "0x40f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnExistingLogFileHasBadSignature",
+      "Message": "/* Existing log file has bad signature */",
+      "DecimalCode": 558,
+      "HexCode": "0x22e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnExistingLogFileIsNotContiguous",
+      "Message": "/* Existing log file is not contiguous */",
+      "DecimalCode": 559,
+      "HexCode": "0x22f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnSkipThisRecord",
+      "Message": "/* INTERNAL ERROR */",
+      "DecimalCode": 564,
+      "HexCode": "0x234",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnTargetInstanceRunning",
+      "Message": "/* TargetInstance specified for restore is running */",
+      "DecimalCode": 578,
+      "HexCode": "0x242",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnCommittedLogFilesLost",
+      "Message": "/* One or more logs that were committed to this database, were not recovered.  The database is still clean/consistent, as though the lost log\u0026apos;s transactions were committed lazily (and lost). */",
+      "DecimalCode": 585,
+      "HexCode": "0x249",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnCommittedLogFilesRemoved",
+      "Message": "/* One or more logs that were committed to this database, were no recovered.  The database is still clean/consistent, as though the corrupted log\u0026apos;s transactions were committed lazily (and lost). */",
+      "DecimalCode": 587,
+      "HexCode": "0x24b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnFinishWithUndo",
+      "Message": "/* Signal used by clients to indicate JetInit() finished with undo */",
+      "DecimalCode": 588,
+      "HexCode": "0x24c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnDatabaseRepaired",
+      "Message": "/* Database corruption has been repaired */",
+      "DecimalCode": 595,
+      "HexCode": "0x253",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnNull",
+      "Message": "/* Column is NULL-valued */",
+      "DecimalCode": 1004,
+      "HexCode": "0x3ec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnBufferTruncated",
+      "Message": "/* Buffer too small for data */",
+      "DecimalCode": 1006,
+      "HexCode": "0x3ee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnDatabaseAttached",
+      "Message": "/* Database is already attached */",
+      "DecimalCode": 1007,
+      "HexCode": "0x3ef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnSortOverflow",
+      "Message": "/* Sort does not fit in memory */",
+      "DecimalCode": 1009,
+      "HexCode": "0x3f1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnSeekNotEqual",
+      "Message": "/* Exact match not found during seek */",
+      "DecimalCode": 1039,
+      "HexCode": "0x40f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnNoErrorInfo",
+      "Message": "/* No extended error information */",
+      "DecimalCode": 1055,
+      "HexCode": "0x41f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnNoIdleActivity",
+      "Message": "/* No idle activity occured */",
+      "DecimalCode": 1058,
+      "HexCode": "0x422",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnNoWriteLock",
+      "Message": "/* No write lock at transaction level 0 */",
+      "DecimalCode": 1067,
+      "HexCode": "0x42b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnSetNull",
+      "Message": "/* Column set to NULL-value */",
+      "DecimalCode": 1068,
+      "HexCode": "0x42c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnShrinkNotPossible",
+      "Message": "/* Database file could not be shrunk because there is not enough internal free space available or there is unmovable data present. */",
+      "DecimalCode": 1122,
+      "HexCode": "0x462",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnTableEmpty",
+      "Message": "/* Opened an empty table */",
+      "DecimalCode": 1301,
+      "HexCode": "0x515",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnTableInUseBySystem",
+      "Message": "/* System cleanup has a cursor open on the table */",
+      "DecimalCode": 1327,
+      "HexCode": "0x52f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnCorruptIndexDeleted",
+      "Message": "/* Out of date index removed */",
+      "DecimalCode": 1415,
+      "HexCode": "0x587",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnPrimaryIndexOutOfDate",
+      "Message": "/* The Primary index is created with an incompatible OS sort version. The table can not be safely modified. */",
+      "DecimalCode": 1417,
+      "HexCode": "0x589",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnSecondaryIndexOutOfDate",
+      "Message": "/* One or more Secondary index is created with an incompatible OS sort version. Any index over Unicode text should be deleted. */",
+      "DecimalCode": 1418,
+      "HexCode": "0x58a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnMaxTruncated",
+      "Message": "/* Max length too big, truncated */",
+      "DecimalCode": 1512,
+      "HexCode": "0x5e8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnCopyLongValue",
+      "Message": "/* Single instance column bursted */",
+      "DecimalCode": 1520,
+      "HexCode": "0x5f0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnSkipped",
+      "Message": "/* Column value(s) not returned because the corresponding column id or itagSequence requested for enumeration was null */",
+      "DecimalCode": 1531,
+      "HexCode": "0x5fb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnNotLocal",
+      "Message": "/* Column value(s) not returned because they could not be reconstructed from the data at hand */",
+      "DecimalCode": 1532,
+      "HexCode": "0x5fc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnMoreTags",
+      "Message": "/* Column values exist that were not requested for enumeration */",
+      "DecimalCode": 1533,
+      "HexCode": "0x5fd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnTruncated",
+      "Message": "/* Column value truncated at the requested size limit during enumeration */",
+      "DecimalCode": 1534,
+      "HexCode": "0x5fe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnPresent",
+      "Message": "/* Column values exist but were not returned by request */",
+      "DecimalCode": 1535,
+      "HexCode": "0x5ff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnSingleValue",
+      "Message": "/* Column value returned in JET_COLUMNENUM as a result of JET_bitEnumerateCompressOutput */",
+      "DecimalCode": 1536,
+      "HexCode": "0x600",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnDefault",
+      "Message": "/* Column value(s) not returned because they were set to their default value(s) and JET_bitEnumerateIgnoreDefault was specified */",
+      "DecimalCode": 1537,
+      "HexCode": "0x601",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnNotInRecord",
+      "Message": "/* Column value(s) not returned because they could not be reconstructed from the data in the record */",
+      "DecimalCode": 1539,
+      "HexCode": "0x603",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnColumnReference",
+      "Message": "/* Column value returned as a reference because it could not be reconstructed from the data in the record */",
+      "DecimalCode": 1541,
+      "HexCode": "0x605",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnDataHasChanged",
+      "Message": "/* Data has changed */",
+      "DecimalCode": 1610,
+      "HexCode": "0x64a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnKeyChanged",
+      "Message": "/* Moved to new key */",
+      "DecimalCode": 1618,
+      "HexCode": "0x652",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnFileOpenReadOnly",
+      "Message": "/* Database file is read only */",
+      "DecimalCode": 1813,
+      "HexCode": "0x715",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnIdleFull",
+      "Message": "/* Idle registry full */",
+      "DecimalCode": 1908,
+      "HexCode": "0x774",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnDefragAlreadyRunning",
+      "Message": "/* Online defrag already running on specified database */",
+      "DecimalCode": 2000,
+      "HexCode": "0x7d0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnDefragNotRunning",
+      "Message": "/* Online defrag not running on specified database */",
+      "DecimalCode": 2001,
+      "HexCode": "0x7d1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "JET_wrnCallbackNotRegistered",
+      "Message": "/* Unregistered a non-existant callback function */",
+      "DecimalCode": 2100,
+      "HexCode": "0x834",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,601 @@
+{
+  "HeaderFileName": "xmllite.h",
+  "ErrorCodes": [
+    {
+      "Id": "MX_E_MX",
+      "Message": "%0 ",
+      "DecimalCode": -1072894464,
+      "HexCode": "0xc00cee00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "MX_E_INPUTEND",
+      "Message": "unexpected end of input ",
+      "DecimalCode": -1072894463,
+      "HexCode": "0xc00cee01",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "MX_E_ENCODING",
+      "Message": "unrecognized encoding ",
+      "DecimalCode": -1072894462,
+      "HexCode": "0xc00cee02",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "MX_E_ENCODINGSWITCH",
+      "Message": "unable to switch the encoding ",
+      "DecimalCode": -1072894461,
+      "HexCode": "0xc00cee03",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "MX_E_ENCODINGSIGNATURE",
+      "Message": "unrecognized input signature ",
+      "DecimalCode": -1072894460,
+      "HexCode": "0xc00cee04",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_WC",
+      "Message": "%0 ",
+      "DecimalCode": -1072894432,
+      "HexCode": "0xc00cee20",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_WHITESPACE",
+      "Message": "whitespace expected ",
+      "DecimalCode": -1072894431,
+      "HexCode": "0xc00cee21",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_SEMICOLON",
+      "Message": "semicolon expected ",
+      "DecimalCode": -1072894430,
+      "HexCode": "0xc00cee22",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_GREATERTHAN",
+      "Message": "\u0026apos;\u0026gt;\u0026apos; expected ",
+      "DecimalCode": -1072894429,
+      "HexCode": "0xc00cee23",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_QUOTE",
+      "Message": "quote expected ",
+      "DecimalCode": -1072894428,
+      "HexCode": "0xc00cee24",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_EQUAL",
+      "Message": "equal expected ",
+      "DecimalCode": -1072894427,
+      "HexCode": "0xc00cee25",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_LESSTHAN",
+      "Message": "wfc: no \u0026apos;\u0026lt;\u0026apos; in attribute value ",
+      "DecimalCode": -1072894426,
+      "HexCode": "0xc00cee26",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_HEXDIGIT",
+      "Message": "hexadecimal digit expected ",
+      "DecimalCode": -1072894425,
+      "HexCode": "0xc00cee27",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DIGIT",
+      "Message": "decimal digit expected ",
+      "DecimalCode": -1072894424,
+      "HexCode": "0xc00cee28",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_LEFTBRACKET",
+      "Message": "\u0026apos;[\u0026apos; expected ",
+      "DecimalCode": -1072894423,
+      "HexCode": "0xc00cee29",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_LEFTPAREN",
+      "Message": "\u0026apos;(\u0026apos; expected ",
+      "DecimalCode": -1072894422,
+      "HexCode": "0xc00cee2a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_XMLCHARACTER",
+      "Message": "illegal xml character ",
+      "DecimalCode": -1072894421,
+      "HexCode": "0xc00cee2b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_NAMECHARACTER",
+      "Message": "illegal name character ",
+      "DecimalCode": -1072894420,
+      "HexCode": "0xc00cee2c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_SYNTAX",
+      "Message": "incorrect document syntax ",
+      "DecimalCode": -1072894419,
+      "HexCode": "0xc00cee2d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_CDSECT",
+      "Message": "incorrect CDATA section syntax ",
+      "DecimalCode": -1072894418,
+      "HexCode": "0xc00cee2e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_COMMENT",
+      "Message": "incorrect comment syntax ",
+      "DecimalCode": -1072894417,
+      "HexCode": "0xc00cee2f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_CONDSECT",
+      "Message": "incorrect conditional section syntax ",
+      "DecimalCode": -1072894416,
+      "HexCode": "0xc00cee30",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DECLATTLIST",
+      "Message": "incorrect ATTLIST declaration syntax ",
+      "DecimalCode": -1072894415,
+      "HexCode": "0xc00cee31",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DECLDOCTYPE",
+      "Message": "incorrect DOCTYPE declaration syntax ",
+      "DecimalCode": -1072894414,
+      "HexCode": "0xc00cee32",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DECLELEMENT",
+      "Message": "incorrect ELEMENT declaration syntax ",
+      "DecimalCode": -1072894413,
+      "HexCode": "0xc00cee33",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DECLENTITY",
+      "Message": "incorrect ENTITY declaration syntax ",
+      "DecimalCode": -1072894412,
+      "HexCode": "0xc00cee34",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DECLNOTATION",
+      "Message": "incorrect NOTATION declaration syntax ",
+      "DecimalCode": -1072894411,
+      "HexCode": "0xc00cee35",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_NDATA",
+      "Message": "NDATA expected ",
+      "DecimalCode": -1072894410,
+      "HexCode": "0xc00cee36",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_PUBLIC",
+      "Message": "PUBLIC expected ",
+      "DecimalCode": -1072894409,
+      "HexCode": "0xc00cee37",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_SYSTEM",
+      "Message": "SYSTEM expected ",
+      "DecimalCode": -1072894408,
+      "HexCode": "0xc00cee38",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_NAME",
+      "Message": "name expected ",
+      "DecimalCode": -1072894407,
+      "HexCode": "0xc00cee39",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_ROOTELEMENT",
+      "Message": "one root element  ",
+      "DecimalCode": -1072894406,
+      "HexCode": "0xc00cee3a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_ELEMENTMATCH",
+      "Message": "wfc: element type match ",
+      "DecimalCode": -1072894405,
+      "HexCode": "0xc00cee3b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_UNIQUEATTRIBUTE",
+      "Message": "wfc: unique attribute spec ",
+      "DecimalCode": -1072894404,
+      "HexCode": "0xc00cee3c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_TEXTXMLDECL",
+      "Message": "text/xmldecl not at the beginning of input ",
+      "DecimalCode": -1072894403,
+      "HexCode": "0xc00cee3d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_LEADINGXML",
+      "Message": "leading \u0026quot;xml\u0026quot;  ",
+      "DecimalCode": -1072894402,
+      "HexCode": "0xc00cee3e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_TEXTDECL",
+      "Message": "incorrect text declaration syntax ",
+      "DecimalCode": -1072894401,
+      "HexCode": "0xc00cee3f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_XMLDECL",
+      "Message": "incorrect xml declaration syntax ",
+      "DecimalCode": -1072894400,
+      "HexCode": "0xc00cee40",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_ENCNAME",
+      "Message": "incorrect encoding name syntax ",
+      "DecimalCode": -1072894399,
+      "HexCode": "0xc00cee41",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_PUBLICID",
+      "Message": "incorrect public identifier syntax ",
+      "DecimalCode": -1072894398,
+      "HexCode": "0xc00cee42",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_PESINTERNALSUBSET",
+      "Message": "wfc: pes in internal subset ",
+      "DecimalCode": -1072894397,
+      "HexCode": "0xc00cee43",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_PESBETWEENDECLS",
+      "Message": "wfc: pes between declarations ",
+      "DecimalCode": -1072894396,
+      "HexCode": "0xc00cee44",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_NORECURSION",
+      "Message": "wfc: no recursion ",
+      "DecimalCode": -1072894395,
+      "HexCode": "0xc00cee45",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_ENTITYCONTENT",
+      "Message": "entity content not well formed ",
+      "DecimalCode": -1072894394,
+      "HexCode": "0xc00cee46",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_UNDECLAREDENTITY",
+      "Message": "wfc: undeclared entity  ",
+      "DecimalCode": -1072894393,
+      "HexCode": "0xc00cee47",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_PARSEDENTITY",
+      "Message": "wfc: parsed entity ",
+      "DecimalCode": -1072894392,
+      "HexCode": "0xc00cee48",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_NOEXTERNALENTITYREF",
+      "Message": "wfc: no external entity references ",
+      "DecimalCode": -1072894391,
+      "HexCode": "0xc00cee49",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_PI",
+      "Message": "incorrect processing instruction syntax ",
+      "DecimalCode": -1072894390,
+      "HexCode": "0xc00cee4a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_SYSTEMID",
+      "Message": "incorrect system identifier syntax ",
+      "DecimalCode": -1072894389,
+      "HexCode": "0xc00cee4b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_QUESTIONMARK",
+      "Message": "\u0026apos;?\u0026apos; expected ",
+      "DecimalCode": -1072894388,
+      "HexCode": "0xc00cee4c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_CDSECTEND",
+      "Message": "no \u0026apos;]]\u0026gt;\u0026apos; in element content ",
+      "DecimalCode": -1072894387,
+      "HexCode": "0xc00cee4d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_MOREDATA",
+      "Message": "not all chunks of value have been read ",
+      "DecimalCode": -1072894386,
+      "HexCode": "0xc00cee4e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_DTDPROHIBITED",
+      "Message": "DTD was found but is prohibited ",
+      "DecimalCode": -1072894385,
+      "HexCode": "0xc00cee4f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WC_E_INVALIDXMLSPACE",
+      "Message": "Invalid xml:space value ",
+      "DecimalCode": -1072894384,
+      "HexCode": "0xc00cee50",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_NC",
+      "Message": "%0 ",
+      "DecimalCode": -1072894368,
+      "HexCode": "0xc00cee60",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_QNAMECHARACTER",
+      "Message": "illegal qualified name character ",
+      "DecimalCode": -1072894367,
+      "HexCode": "0xc00cee61",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_QNAMECOLON",
+      "Message": "multiple colons in qualified name ",
+      "DecimalCode": -1072894366,
+      "HexCode": "0xc00cee62",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_NAMECOLON",
+      "Message": "colon in name ",
+      "DecimalCode": -1072894365,
+      "HexCode": "0xc00cee63",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_DECLAREDPREFIX",
+      "Message": "declared prefix ",
+      "DecimalCode": -1072894364,
+      "HexCode": "0xc00cee64",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_UNDECLAREDPREFIX",
+      "Message": "undeclared prefix ",
+      "DecimalCode": -1072894363,
+      "HexCode": "0xc00cee65",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_EMPTYURI",
+      "Message": "non default namespace with empty uri ",
+      "DecimalCode": -1072894362,
+      "HexCode": "0xc00cee66",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_XMLPREFIXRESERVED",
+      "Message": "\u0026quot;xml\u0026quot; prefix is reserved and must have the http:www.w3.org/XML/1998/namespace URI ",
+      "DecimalCode": -1072894361,
+      "HexCode": "0xc00cee67",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_XMLNSPREFIXRESERVED",
+      "Message": "\u0026quot;xmlns\u0026quot; prefix is reserved for use by XML ",
+      "DecimalCode": -1072894360,
+      "HexCode": "0xc00cee68",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_XMLURIRESERVED",
+      "Message": "xml namespace URI (http:www.w3.org/XML/1998/namespace) must be assigned only to prefix \u0026quot;xml\u0026quot; ",
+      "DecimalCode": -1072894359,
+      "HexCode": "0xc00cee69",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "NC_E_XMLNSURIRESERVED",
+      "Message": "xmlns namespace URI (http:www.w3.org/2000/xmlns/) is reserved and must not be used ",
+      "DecimalCode": -1072894358,
+      "HexCode": "0xc00cee6a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "SC_E_SC",
+      "Message": "%0 ",
+      "DecimalCode": -1072894336,
+      "HexCode": "0xc00cee80",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "SC_E_MAXELEMENTDEPTH",
+      "Message": "max element depth was exceeded ",
+      "DecimalCode": -1072894335,
+      "HexCode": "0xc00cee81",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "SC_E_MAXENTITYEXPANSION",
+      "Message": "max number of expanded entities was exceeded ",
+      "DecimalCode": -1072894334,
+      "HexCode": "0xc00cee82",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_WR",
+      "Message": "%0 ",
+      "DecimalCode": -1072894208,
+      "HexCode": "0xc00cef00",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_NONWHITESPACE",
+      "Message": "writer: specified string is not whitespace ",
+      "DecimalCode": -1072894207,
+      "HexCode": "0xc00cef01",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_NSPREFIXDECLARED",
+      "Message": "writer: namespace prefix is already declared with a different namespace ",
+      "DecimalCode": -1072894206,
+      "HexCode": "0xc00cef02",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_NSPREFIXWITHEMPTYNSURI",
+      "Message": "writer: cannot use prefix with empty namespace URI ",
+      "DecimalCode": -1072894205,
+      "HexCode": "0xc00cef03",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_DUPLICATEATTRIBUTE",
+      "Message": "writer: duplicate attribute ",
+      "DecimalCode": -1072894204,
+      "HexCode": "0xc00cef04",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_XMLNSPREFIXDECLARATION",
+      "Message": "writer: can not redefine the xmlns prefix ",
+      "DecimalCode": -1072894203,
+      "HexCode": "0xc00cef05",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_XMLPREFIXDECLARATION",
+      "Message": "writer: xml prefix must have the http:www.w3.org/XML/1998/namespace URI ",
+      "DecimalCode": -1072894202,
+      "HexCode": "0xc00cef06",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_XMLURIDECLARATION",
+      "Message": "writer: xml namespace URI (http:www.w3.org/XML/1998/namespace) must be assigned only to prefix \u0026quot;xml\u0026quot; ",
+      "DecimalCode": -1072894201,
+      "HexCode": "0xc00cef07",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_XMLNSURIDECLARATION",
+      "Message": "writer: xmlns namespace URI (http:www.w3.org/2000/xmlns/) is reserved and must not be used ",
+      "DecimalCode": -1072894200,
+      "HexCode": "0xc00cef08",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_NAMESPACEUNDECLARED",
+      "Message": "writer: namespace is not declared ",
+      "DecimalCode": -1072894199,
+      "HexCode": "0xc00cef09",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_INVALIDXMLSPACE",
+      "Message": "writer: invalid value of xml:space attribute (allowed values are \u0026quot;default\u0026quot; and \u0026quot;preserve\u0026quot;) ",
+      "DecimalCode": -1072894198,
+      "HexCode": "0xc00cef0a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_INVALIDACTION",
+      "Message": "writer: performing the requested action would result in invalid XML document ",
+      "DecimalCode": -1072894197,
+      "HexCode": "0xc00cef0b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "WR_E_INVALIDSURROGATEPAIR",
+      "Message": "writer: input contains invalid or incomplete surrogate pair ",
+      "DecimalCode": -1072894196,
+      "HexCode": "0xc00cef0c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "XML_E_INVALID_DECIMAL",
+      "Message": "%0 ",
+      "DecimalCode": -1072898019,
+      "HexCode": "0xc00ce01d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "XML_E_INVALID_HEXIDECIMAL",
+      "Message": "%0 ",
+      "DecimalCode": -1072898018,
+      "HexCode": "0xc00ce01e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "XML_E_INVALID_UNICODE",
+      "Message": "%0 ",
+      "DecimalCode": -1072898017,
+      "HexCode": "0xc00ce01f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "XML_E_INVALIDENCODING",
+      "Message": "%0 ",
+      "DecimalCode": -1072897938,
+      "HexCode": "0xc00ce06e",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

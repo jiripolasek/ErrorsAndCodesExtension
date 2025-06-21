@@ -1,0 +1,650 @@
+{
+  "HeaderFileName": "winhttp.h",
+  "ErrorCodes": [
+    {
+      "Id": "HTTP_STATUS_CONTINUE",
+      "Message": "OK to continue with request",
+      "DecimalCode": 100,
+      "HexCode": "0x64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_SWITCH_PROTOCOLS",
+      "Message": "server has switched protocols in upgrade header",
+      "DecimalCode": 101,
+      "HexCode": "0x65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_OK",
+      "Message": "request completed",
+      "DecimalCode": 200,
+      "HexCode": "0xc8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_CREATED",
+      "Message": "object created, reason = new URI",
+      "DecimalCode": 201,
+      "HexCode": "0xc9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_ACCEPTED",
+      "Message": "async completion (TBS)",
+      "DecimalCode": 202,
+      "HexCode": "0xca",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_PARTIAL",
+      "Message": "partial completion",
+      "DecimalCode": 203,
+      "HexCode": "0xcb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_NO_CONTENT",
+      "Message": "no info to return",
+      "DecimalCode": 204,
+      "HexCode": "0xcc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_RESET_CONTENT",
+      "Message": "request completed, but clear form",
+      "DecimalCode": 205,
+      "HexCode": "0xcd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_PARTIAL_CONTENT",
+      "Message": "partial GET fulfilled",
+      "DecimalCode": 206,
+      "HexCode": "0xce",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_WEBDAV_MULTI_STATUS",
+      "Message": "WebDAV Multi-Status",
+      "DecimalCode": 207,
+      "HexCode": "0xcf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_AMBIGUOUS",
+      "Message": "server couldn\u0026apos;t decide what to return",
+      "DecimalCode": 300,
+      "HexCode": "0x12c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_MOVED",
+      "Message": "object permanently moved",
+      "DecimalCode": 301,
+      "HexCode": "0x12d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_REDIRECT",
+      "Message": "object temporarily moved",
+      "DecimalCode": 302,
+      "HexCode": "0x12e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_REDIRECT_METHOD",
+      "Message": "redirection w/ new access method",
+      "DecimalCode": 303,
+      "HexCode": "0x12f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_NOT_MODIFIED",
+      "Message": "if-modified-since was not modified",
+      "DecimalCode": 304,
+      "HexCode": "0x130",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_USE_PROXY",
+      "Message": "redirection to proxy, location header specifies proxy to use",
+      "DecimalCode": 305,
+      "HexCode": "0x131",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_REDIRECT_KEEP_VERB",
+      "Message": "HTTP/1.1: keep same verb",
+      "DecimalCode": 307,
+      "HexCode": "0x133",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_PERMANENT_REDIRECT",
+      "Message": "Object permanently moved keep verb",
+      "DecimalCode": 308,
+      "HexCode": "0x134",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_BAD_REQUEST",
+      "Message": "invalid syntax",
+      "DecimalCode": 400,
+      "HexCode": "0x190",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_DENIED",
+      "Message": "access denied",
+      "DecimalCode": 401,
+      "HexCode": "0x191",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_PAYMENT_REQ",
+      "Message": "payment required",
+      "DecimalCode": 402,
+      "HexCode": "0x192",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_FORBIDDEN",
+      "Message": "request forbidden",
+      "DecimalCode": 403,
+      "HexCode": "0x193",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_NOT_FOUND",
+      "Message": "object not found",
+      "DecimalCode": 404,
+      "HexCode": "0x194",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_BAD_METHOD",
+      "Message": "method is not allowed",
+      "DecimalCode": 405,
+      "HexCode": "0x195",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_NONE_ACCEPTABLE",
+      "Message": "no response acceptable to client found",
+      "DecimalCode": 406,
+      "HexCode": "0x196",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_PROXY_AUTH_REQ",
+      "Message": "proxy authentication required",
+      "DecimalCode": 407,
+      "HexCode": "0x197",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_REQUEST_TIMEOUT",
+      "Message": "server timed out waiting for request",
+      "DecimalCode": 408,
+      "HexCode": "0x198",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_CONFLICT",
+      "Message": "user should resubmit with more info",
+      "DecimalCode": 409,
+      "HexCode": "0x199",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_GONE",
+      "Message": "the resource is no longer available",
+      "DecimalCode": 410,
+      "HexCode": "0x19a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_LENGTH_REQUIRED",
+      "Message": "the server refused to accept request w/o a length",
+      "DecimalCode": 411,
+      "HexCode": "0x19b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_PRECOND_FAILED",
+      "Message": "precondition given in request failed",
+      "DecimalCode": 412,
+      "HexCode": "0x19c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_REQUEST_TOO_LARGE",
+      "Message": "request entity was too large",
+      "DecimalCode": 413,
+      "HexCode": "0x19d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_URI_TOO_LONG",
+      "Message": "request URI too long",
+      "DecimalCode": 414,
+      "HexCode": "0x19e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_UNSUPPORTED_MEDIA",
+      "Message": "unsupported media type",
+      "DecimalCode": 415,
+      "HexCode": "0x19f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_RETRY_WITH",
+      "Message": "retry after doing the appropriate action.",
+      "DecimalCode": 449,
+      "HexCode": "0x1c1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_SERVER_ERROR",
+      "Message": "internal server error",
+      "DecimalCode": 500,
+      "HexCode": "0x1f4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_NOT_SUPPORTED",
+      "Message": "required not supported",
+      "DecimalCode": 501,
+      "HexCode": "0x1f5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_BAD_GATEWAY",
+      "Message": "error response received from gateway",
+      "DecimalCode": 502,
+      "HexCode": "0x1f6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_SERVICE_UNAVAIL",
+      "Message": "temporarily overloaded",
+      "DecimalCode": 503,
+      "HexCode": "0x1f7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_GATEWAY_TIMEOUT",
+      "Message": "timed out waiting for gateway",
+      "DecimalCode": 504,
+      "HexCode": "0x1f8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "HTTP_STATUS_VERSION_NOT_SUP",
+      "Message": "HTTP version not supported",
+      "DecimalCode": 505,
+      "HexCode": "0x1f9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_OUT_OF_HANDLES",
+      "Message": "",
+      "DecimalCode": 12001,
+      "HexCode": "0x2ee1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 12002,
+      "HexCode": "0x2ee2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": 12004,
+      "HexCode": "0x2ee4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INVALID_URL",
+      "Message": "",
+      "DecimalCode": 12005,
+      "HexCode": "0x2ee5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_UNRECOGNIZED_SCHEME",
+      "Message": "",
+      "DecimalCode": 12006,
+      "HexCode": "0x2ee6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_NAME_NOT_RESOLVED",
+      "Message": "",
+      "DecimalCode": 12007,
+      "HexCode": "0x2ee7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INVALID_OPTION",
+      "Message": "",
+      "DecimalCode": 12009,
+      "HexCode": "0x2ee9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_OPTION_NOT_SETTABLE",
+      "Message": "",
+      "DecimalCode": 12011,
+      "HexCode": "0x2eeb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SHUTDOWN",
+      "Message": "",
+      "DecimalCode": 12012,
+      "HexCode": "0x2eec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_LOGIN_FAILURE",
+      "Message": "",
+      "DecimalCode": 12015,
+      "HexCode": "0x2eef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_OPERATION_CANCELLED",
+      "Message": "",
+      "DecimalCode": 12017,
+      "HexCode": "0x2ef1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INCORRECT_HANDLE_TYPE",
+      "Message": "",
+      "DecimalCode": 12018,
+      "HexCode": "0x2ef2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INCORRECT_HANDLE_STATE",
+      "Message": "",
+      "DecimalCode": 12019,
+      "HexCode": "0x2ef3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CANNOT_CONNECT",
+      "Message": "",
+      "DecimalCode": 12029,
+      "HexCode": "0x2efd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CONNECTION_ERROR",
+      "Message": "",
+      "DecimalCode": 12030,
+      "HexCode": "0x2efe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_RESEND_REQUEST",
+      "Message": "",
+      "DecimalCode": 12032,
+      "HexCode": "0x2f00",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED",
+      "Message": "",
+      "DecimalCode": 12044,
+      "HexCode": "0x2f0c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CANNOT_CALL_BEFORE_OPEN",
+      "Message": "",
+      "DecimalCode": 12100,
+      "HexCode": "0x2f44",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CANNOT_CALL_BEFORE_SEND",
+      "Message": "",
+      "DecimalCode": 12101,
+      "HexCode": "0x2f45",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CANNOT_CALL_AFTER_SEND",
+      "Message": "",
+      "DecimalCode": 12102,
+      "HexCode": "0x2f46",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CANNOT_CALL_AFTER_OPEN",
+      "Message": "",
+      "DecimalCode": 12103,
+      "HexCode": "0x2f47",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_HEADER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 12150,
+      "HexCode": "0x2f76",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INVALID_SERVER_RESPONSE",
+      "Message": "",
+      "DecimalCode": 12152,
+      "HexCode": "0x2f78",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INVALID_HEADER",
+      "Message": "",
+      "DecimalCode": 12153,
+      "HexCode": "0x2f79",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_INVALID_QUERY_REQUEST",
+      "Message": "",
+      "DecimalCode": 12154,
+      "HexCode": "0x2f7a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_HEADER_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 12155,
+      "HexCode": "0x2f7b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_REDIRECT_FAILED",
+      "Message": "",
+      "DecimalCode": 12156,
+      "HexCode": "0x2f7c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_AUTO_PROXY_SERVICE_ERROR",
+      "Message": "",
+      "DecimalCode": 12178,
+      "HexCode": "0x2f92",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_BAD_AUTO_PROXY_SCRIPT",
+      "Message": "",
+      "DecimalCode": 12166,
+      "HexCode": "0x2f86",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_UNABLE_TO_DOWNLOAD_SCRIPT",
+      "Message": "",
+      "DecimalCode": 12167,
+      "HexCode": "0x2f87",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_UNHANDLED_SCRIPT_TYPE",
+      "Message": "",
+      "DecimalCode": 12176,
+      "HexCode": "0x2f90",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SCRIPT_EXECUTION_ERROR",
+      "Message": "",
+      "DecimalCode": 12177,
+      "HexCode": "0x2f91",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": 12172,
+      "HexCode": "0x2f8c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_FAILURE",
+      "Message": "",
+      "DecimalCode": 12175,
+      "HexCode": "0x2f8f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_CERT_DATE_INVALID",
+      "Message": "",
+      "DecimalCode": 12037,
+      "HexCode": "0x2f05",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_CERT_CN_INVALID",
+      "Message": "",
+      "DecimalCode": 12038,
+      "HexCode": "0x2f06",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_INVALID_CA",
+      "Message": "",
+      "DecimalCode": 12045,
+      "HexCode": "0x2f0d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_CERT_REV_FAILED",
+      "Message": "",
+      "DecimalCode": 12057,
+      "HexCode": "0x2f19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_CHANNEL_ERROR",
+      "Message": "",
+      "DecimalCode": 12157,
+      "HexCode": "0x2f7d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_INVALID_CERT",
+      "Message": "",
+      "DecimalCode": 12169,
+      "HexCode": "0x2f89",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_CERT_REVOKED",
+      "Message": "",
+      "DecimalCode": 12170,
+      "HexCode": "0x2f8a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_CERT_WRONG_USAGE",
+      "Message": "",
+      "DecimalCode": 12179,
+      "HexCode": "0x2f93",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_AUTODETECTION_FAILED",
+      "Message": "",
+      "DecimalCode": 12180,
+      "HexCode": "0x2f94",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_HEADER_COUNT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 12181,
+      "HexCode": "0x2f95",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_HEADER_SIZE_OVERFLOW",
+      "Message": "",
+      "DecimalCode": 12182,
+      "HexCode": "0x2f96",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CHUNKED_ENCODING_HEADER_SIZE_OVERFLOW",
+      "Message": "",
+      "DecimalCode": 12183,
+      "HexCode": "0x2f97",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_RESPONSE_DRAIN_OVERFLOW",
+      "Message": "",
+      "DecimalCode": 12184,
+      "HexCode": "0x2f98",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CLIENT_CERT_NO_PRIVATE_KEY",
+      "Message": "",
+      "DecimalCode": 12185,
+      "HexCode": "0x2f99",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CLIENT_CERT_NO_ACCESS_PRIVATE_KEY",
+      "Message": "",
+      "DecimalCode": 12186,
+      "HexCode": "0x2f9a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_CLIENT_AUTH_CERT_NEEDED_PROXY",
+      "Message": "",
+      "DecimalCode": 12187,
+      "HexCode": "0x2f9b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_WINHTTP_SECURE_FAILURE_PROXY",
+      "Message": "",
+      "DecimalCode": 12188,
+      "HexCode": "0x2f9c",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

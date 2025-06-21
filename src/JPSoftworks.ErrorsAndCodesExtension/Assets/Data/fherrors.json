@@ -1,0 +1,167 @@
+{
+  "HeaderFileName": "fherrors.h",
+  "ErrorCodes": [
+    {
+      "Id": "FHCFG_E_CORRUPT_CONFIG_FILE",
+      "Message": "",
+      "DecimalCode": -2147220736,
+      "HexCode": "0x80040300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_CONFIG_FILE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220735,
+      "HexCode": "0x80040301",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_CONFIG_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2147220734,
+      "HexCode": "0x80040302",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_NO_VALID_CONFIGURATION_LOADED",
+      "Message": "",
+      "DecimalCode": -2147220733,
+      "HexCode": "0x80040303",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_TARGET_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": -2147220732,
+      "HexCode": "0x80040304",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_CONFIGURATION_PREVIOUSLY_LOADED",
+      "Message": "",
+      "DecimalCode": -2147220731,
+      "HexCode": "0x80040305",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_TARGET_VERIFICATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147220730,
+      "HexCode": "0x80040306",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_TARGET_NOT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": -2147220729,
+      "HexCode": "0x80040307",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_TARGET_NOT_ENOUGH_FREE_SPACE",
+      "Message": "",
+      "DecimalCode": -2147220728,
+      "HexCode": "0x80040308",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_TARGET_CANNOT_BE_USED",
+      "Message": "",
+      "DecimalCode": -2147220727,
+      "HexCode": "0x80040309",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_INVALID_REHYDRATION_STATE",
+      "Message": "",
+      "DecimalCode": -2147220726,
+      "HexCode": "0x8004030a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_RECOMMENDATION_CHANGE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147220720,
+      "HexCode": "0x80040310",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_TARGET_REHYDRATED_ELSEWHERE",
+      "Message": "",
+      "DecimalCode": -2147220719,
+      "HexCode": "0x80040311",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_LEGACY_TARGET_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147220718,
+      "HexCode": "0x80040312",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_LEGACY_TARGET_VALIDATION_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147220717,
+      "HexCode": "0x80040313",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_LEGACY_BACKUP_USER_EXCLUDED",
+      "Message": "",
+      "DecimalCode": -2147220716,
+      "HexCode": "0x80040314",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHCFG_E_LEGACY_BACKUP_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147220715,
+      "HexCode": "0x80040315",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHSVC_E_BACKUP_BLOCKED",
+      "Message": "",
+      "DecimalCode": -2147219968,
+      "HexCode": "0x80040600",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHSVC_E_NOT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": -2147219967,
+      "HexCode": "0x80040601",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHSVC_E_CONFIG_DISABLED",
+      "Message": "",
+      "DecimalCode": -2147219966,
+      "HexCode": "0x80040602",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHSVC_E_CONFIG_DISABLED_GP",
+      "Message": "",
+      "DecimalCode": -2147219965,
+      "HexCode": "0x80040603",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHSVC_E_FATAL_CONFIG_ERROR",
+      "Message": "",
+      "DecimalCode": -2147219964,
+      "HexCode": "0x80040604",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FHSVC_E_CONFIG_REHYDRATING",
+      "Message": "",
+      "DecimalCode": -2147219963,
+      "HexCode": "0x80040605",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

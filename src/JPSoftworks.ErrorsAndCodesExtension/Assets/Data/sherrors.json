@@ -1,0 +1,804 @@
+{
+  "HeaderFileName": "sherrors.h",
+  "ErrorCodes": [
+    {
+      "Id": "COPYENGINE_S_NOT_HANDLED",
+      "Message": "",
+      "DecimalCode": 2555907,
+      "HexCode": "0x270003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_USER_RETRY",
+      "Message": "",
+      "DecimalCode": 2555908,
+      "HexCode": "0x270004",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_USER_IGNORED",
+      "Message": "",
+      "DecimalCode": 2555909,
+      "HexCode": "0x270005",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_MERGE",
+      "Message": "",
+      "DecimalCode": 2555910,
+      "HexCode": "0x270006",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_DONT_PROCESS_CHILDREN",
+      "Message": "",
+      "DecimalCode": 2555912,
+      "HexCode": "0x270008",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_ALREADY_DONE",
+      "Message": "",
+      "DecimalCode": 2555914,
+      "HexCode": "0x27000a",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_PENDING",
+      "Message": "",
+      "DecimalCode": 2555915,
+      "HexCode": "0x27000b",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_KEEP_BOTH",
+      "Message": "",
+      "DecimalCode": 2555916,
+      "HexCode": "0x27000c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_CLOSE_PROGRAM",
+      "Message": "Close the program using the current file",
+      "DecimalCode": 2555917,
+      "HexCode": "0x27000d",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_COLLISIONRESOLVED",
+      "Message": "Returned by a transfer source when a collision occurs",
+      "DecimalCode": 2555918,
+      "HexCode": "0x27000e",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_S_PROGRESS_PAUSE",
+      "Message": "",
+      "DecimalCode": 2555919,
+      "HexCode": "0x27000f",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "COPYENGINE_E_USER_CANCELLED",
+      "Message": "User wants to canceled entire job",
+      "DecimalCode": -2144927744,
+      "HexCode": "0x80270000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_CANCELLED",
+      "Message": "Engine wants to canceled entire job, don\u0026apos;t set the CANCELLED bit",
+      "DecimalCode": -2144927743,
+      "HexCode": "0x80270001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_REQUIRES_ELEVATION",
+      "Message": "Need to elevate the process to complete the operation",
+      "DecimalCode": -2144927742,
+      "HexCode": "0x80270002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SAME_FILE",
+      "Message": "Source and destination file are the same",
+      "DecimalCode": -2144927741,
+      "HexCode": "0x80270003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DIFF_DIR",
+      "Message": "Trying to rename a file into a different location, use move instead",
+      "DecimalCode": -2144927740,
+      "HexCode": "0x80270004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_MANY_SRC_1_DEST",
+      "Message": "One source specified, multiple destinations",
+      "DecimalCode": -2144927739,
+      "HexCode": "0x80270005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_SUBTREE",
+      "Message": "The destination is a sub-tree of the source",
+      "DecimalCode": -2144927735,
+      "HexCode": "0x80270009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_SAME_TREE",
+      "Message": "The destination is the same folder as the source",
+      "DecimalCode": -2144927734,
+      "HexCode": "0x8027000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_FLD_IS_FILE_DEST",
+      "Message": "Existing destination file with same name as folder",
+      "DecimalCode": -2144927733,
+      "HexCode": "0x8027000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_FILE_IS_FLD_DEST",
+      "Message": "Existing destination folder with same name as file",
+      "DecimalCode": -2144927732,
+      "HexCode": "0x8027000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_FILE_TOO_LARGE",
+      "Message": "File too large for destination file system",
+      "DecimalCode": -2144927731,
+      "HexCode": "0x8027000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_REMOVABLE_FULL",
+      "Message": "Destination device is full and happens to be removable",
+      "DecimalCode": -2144927730,
+      "HexCode": "0x8027000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_IS_RO_CD",
+      "Message": "Destination is a Read-Only CDRom, possibly unformatted",
+      "DecimalCode": -2144927729,
+      "HexCode": "0x8027000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_IS_RW_CD",
+      "Message": "Destination is a Read/Write CDRom, possibly unformatted",
+      "DecimalCode": -2144927728,
+      "HexCode": "0x80270010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_IS_R_CD",
+      "Message": "Destination is a Recordable (AudioL) CDRom, possibly unformatted",
+      "DecimalCode": -2144927727,
+      "HexCode": "0x80270011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_IS_RO_DVD",
+      "Message": "Destination is a Read-Only DVD, possibly unformatted",
+      "DecimalCode": -2144927726,
+      "HexCode": "0x80270012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_IS_RW_DVD",
+      "Message": "Destination is a Read/Wrote DVD, possibly unformatted",
+      "DecimalCode": -2144927725,
+      "HexCode": "0x80270013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DEST_IS_R_DVD",
+      "Message": "Destination is a Recordable (AudioL) DVD, possibly unformatted",
+      "DecimalCode": -2144927724,
+      "HexCode": "0x80270014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SRC_IS_RO_CD",
+      "Message": "Source is a Read-Only CDRom, possibly unformatted",
+      "DecimalCode": -2144927723,
+      "HexCode": "0x80270015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SRC_IS_RW_CD",
+      "Message": "Source is a Read/Write CDRom, possibly unformatted",
+      "DecimalCode": -2144927722,
+      "HexCode": "0x80270016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SRC_IS_R_CD",
+      "Message": "Source is a Recordable (AudioL) CDRom, possibly unformatted",
+      "DecimalCode": -2144927721,
+      "HexCode": "0x80270017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SRC_IS_RO_DVD",
+      "Message": "Source is a Read-Only DVD, possibly unformatted",
+      "DecimalCode": -2144927720,
+      "HexCode": "0x80270018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SRC_IS_RW_DVD",
+      "Message": "Source is a Read/Wrote DVD, possibly unformatted",
+      "DecimalCode": -2144927719,
+      "HexCode": "0x80270019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SRC_IS_R_DVD",
+      "Message": "Source is a Recordable (AudioL) DVD, possibly unformatted",
+      "DecimalCode": -2144927718,
+      "HexCode": "0x8027001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_INVALID_FILES_SRC",
+      "Message": "Invalid source path",
+      "DecimalCode": -2144927717,
+      "HexCode": "0x8027001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_INVALID_FILES_DEST",
+      "Message": "Invalid destination path",
+      "DecimalCode": -2144927716,
+      "HexCode": "0x8027001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_PATH_TOO_DEEP_SRC",
+      "Message": "Source Files within folders where the overall path is longer than MAX_PATH",
+      "DecimalCode": -2144927715,
+      "HexCode": "0x8027001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_PATH_TOO_DEEP_DEST",
+      "Message": "Destination files would be within folders where the overall path is longer than MAX_PATH",
+      "DecimalCode": -2144927714,
+      "HexCode": "0x8027001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ROOT_DIR_SRC",
+      "Message": "Source is a root directory, cannot be moved or renamed",
+      "DecimalCode": -2144927713,
+      "HexCode": "0x8027001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ROOT_DIR_DEST",
+      "Message": "Destination is a root directory, cannot be renamed",
+      "DecimalCode": -2144927712,
+      "HexCode": "0x80270020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ACCESS_DENIED_SRC",
+      "Message": "Security problem on source",
+      "DecimalCode": -2144927711,
+      "HexCode": "0x80270021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ACCESS_DENIED_DEST",
+      "Message": "Security problem on destination",
+      "DecimalCode": -2144927710,
+      "HexCode": "0x80270022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_PATH_NOT_FOUND_SRC",
+      "Message": "Source file does not exist, or is unavailable",
+      "DecimalCode": -2144927709,
+      "HexCode": "0x80270023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_PATH_NOT_FOUND_DEST",
+      "Message": "Destination file does not exist, or is unavailable",
+      "DecimalCode": -2144927708,
+      "HexCode": "0x80270024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_NET_DISCONNECT_SRC",
+      "Message": "Source file is on a disconnected network location",
+      "DecimalCode": -2144927707,
+      "HexCode": "0x80270025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_NET_DISCONNECT_DEST",
+      "Message": "Destination file is on a disconnected network location",
+      "DecimalCode": -2144927706,
+      "HexCode": "0x80270026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SHARING_VIOLATION_SRC",
+      "Message": "Sharing Violation on source",
+      "DecimalCode": -2144927705,
+      "HexCode": "0x80270027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SHARING_VIOLATION_DEST",
+      "Message": "Sharing Violation on destination",
+      "DecimalCode": -2144927704,
+      "HexCode": "0x80270028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ALREADY_EXISTS_NORMAL",
+      "Message": "Destination exists, cannot replace",
+      "DecimalCode": -2144927703,
+      "HexCode": "0x80270029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ALREADY_EXISTS_READONLY",
+      "Message": "Destination with read-only attribute exists, cannot replace",
+      "DecimalCode": -2144927702,
+      "HexCode": "0x8027002a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ALREADY_EXISTS_SYSTEM",
+      "Message": "Destination with system attribute exists, cannot replace",
+      "DecimalCode": -2144927701,
+      "HexCode": "0x8027002b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ALREADY_EXISTS_FOLDER",
+      "Message": "Destination folder exists, cannot replace",
+      "DecimalCode": -2144927700,
+      "HexCode": "0x8027002c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_STREAM_LOSS",
+      "Message": "Secondary Stream information would be lost",
+      "DecimalCode": -2144927699,
+      "HexCode": "0x8027002d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_EA_LOSS",
+      "Message": "Extended Attributes would be lost",
+      "DecimalCode": -2144927698,
+      "HexCode": "0x8027002e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_PROPERTY_LOSS",
+      "Message": "Property would be lost",
+      "DecimalCode": -2144927697,
+      "HexCode": "0x8027002f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_PROPERTIES_LOSS",
+      "Message": "Properties would be lost",
+      "DecimalCode": -2144927696,
+      "HexCode": "0x80270030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ENCRYPTION_LOSS",
+      "Message": "Encryption would be lost",
+      "DecimalCode": -2144927695,
+      "HexCode": "0x80270031",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DISK_FULL",
+      "Message": "Entire operation likely won\u0026apos;t fit",
+      "DecimalCode": -2144927694,
+      "HexCode": "0x80270032",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DISK_FULL_CLEAN",
+      "Message": "Entire operation likely won\u0026apos;t fit, clean-up wizard available",
+      "DecimalCode": -2144927693,
+      "HexCode": "0x80270033",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_EA_NOT_SUPPORTED",
+      "Message": "Volume does not support Extended Attributes",
+      "DecimalCode": -2144927692,
+      "HexCode": "0x80270034",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_CANT_REACH_SOURCE",
+      "Message": "Can\u0026apos;t reach source folder",
+      "DecimalCode": -2144927691,
+      "HexCode": "0x80270035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RECYCLE_UNKNOWN_ERROR",
+      "Message": "???",
+      "DecimalCode": -2144927691,
+      "HexCode": "0x80270035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RECYCLE_FORCE_NUKE",
+      "Message": "Recycling not available (usually turned offL)",
+      "DecimalCode": -2144927690,
+      "HexCode": "0x80270036",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RECYCLE_SIZE_TOO_BIG",
+      "Message": "Item is too large for the recycle-bin",
+      "DecimalCode": -2144927689,
+      "HexCode": "0x80270037",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RECYCLE_PATH_TOO_LONG",
+      "Message": "Folder is too deep to fit in the recycle-bin",
+      "DecimalCode": -2144927688,
+      "HexCode": "0x80270038",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RECYCLE_BIN_NOT_FOUND",
+      "Message": "Recycle bin could not be found or is unavailable",
+      "DecimalCode": -2144927686,
+      "HexCode": "0x8027003a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_NEWFILE_NAME_TOO_LONG",
+      "Message": "Name of the new file being created is too long",
+      "DecimalCode": -2144927685,
+      "HexCode": "0x8027003b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_NEWFOLDER_NAME_TOO_LONG",
+      "Message": "Name of the new folder being created is too long",
+      "DecimalCode": -2144927684,
+      "HexCode": "0x8027003c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_DIR_NOT_EMPTY",
+      "Message": "The directory being processed is not empty",
+      "DecimalCode": -2144927683,
+      "HexCode": "0x8027003d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_FAT_MAX_IN_ROOT",
+      "Message": "A Fat drive cannot only store and rename a limited number of items on the root.",
+      "DecimalCode": -2144927682,
+      "HexCode": "0x8027003e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_ACCESSDENIED_READONLY",
+      "Message": "The item cannot be modified because it is set to readonly.",
+      "DecimalCode": -2144927681,
+      "HexCode": "0x8027003f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_REDIRECTED_TO_WEBPAGE",
+      "Message": "The server redirected the download request to a web page.",
+      "DecimalCode": -2144927680,
+      "HexCode": "0x80270040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_SERVER_BAD_FILE_TYPE",
+      "Message": "The server returned data with an unexpected MIME type or extension.",
+      "DecimalCode": -2144927679,
+      "HexCode": "0x80270041",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_INTERNET_ITEM_UNAVAILABLE",
+      "Message": "The item is unavailable currently due to no internet connectivity",
+      "DecimalCode": -2144927678,
+      "HexCode": "0x80270042",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_CANNOT_MOVE_FROM_RECYCLE_BIN",
+      "Message": "The item cannot be moved out of the recycle bin, can perform other operations like restored/delete",
+      "DecimalCode": -2144927677,
+      "HexCode": "0x80270043",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_CANNOT_MOVE_SHARED_FOLDER",
+      "Message": "The item cannot be moved from a grouped folder to another shared folder",
+      "DecimalCode": -2144927676,
+      "HexCode": "0x80270044",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_INTERNET_ITEM_STORAGE_PROVIDER_ERROR",
+      "Message": "The item is unavailable currently due to storage provider being in error state",
+      "DecimalCode": -2144927675,
+      "HexCode": "0x80270045",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_INTERNET_ITEM_STORAGE_PROVIDER_PAUSED",
+      "Message": "The item is unavailable currently due to storage provider being paused",
+      "DecimalCode": -2144927674,
+      "HexCode": "0x80270046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_REQUIRES_EDP_CONSENT",
+      "Message": "The file can only be copied if the user consents to override the EDP block",
+      "DecimalCode": -2144927673,
+      "HexCode": "0x80270047",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_BLOCKED_BY_EDP_POLICY",
+      "Message": "The file cannot be copied per EDP policy",
+      "DecimalCode": -2144927672,
+      "HexCode": "0x80270048",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_REQUIRES_EDP_CONSENT_FOR_REMOVABLE_DRIVE",
+      "Message": "The file can be copied as personal if the user consents to override the EDP block",
+      "DecimalCode": -2144927671,
+      "HexCode": "0x80270049",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_BLOCKED_BY_EDP_FOR_REMOVABLE_DRIVE",
+      "Message": "The file can only be copied as work protected per EDP policy",
+      "DecimalCode": -2144927670,
+      "HexCode": "0x8027004a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RMS_REQUIRES_EDP_CONSENT_FOR_REMOVABLE_DRIVE",
+      "Message": "The file can be copied as personal if the user consents to override the EDP block",
+      "DecimalCode": -2144927669,
+      "HexCode": "0x8027004b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "COPYENGINE_E_RMS_BLOCKED_BY_EDP_FOR_REMOVABLE_DRIVE",
+      "Message": "The file can only be copied as work protected per EDP policy",
+      "DecimalCode": -2144927668,
+      "HexCode": "0x8027004c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NETCACHE_E_NEGATIVE_CACHE",
+      "Message": "The item requested is in the negative net parsing cache",
+      "DecimalCode": -2144927488,
+      "HexCode": "0x80270100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "EXECUTE_E_LAUNCH_APPLICATION",
+      "Message": "for returned by command delegates to indicate that they did no work ",
+      "DecimalCode": -2144927487,
+      "HexCode": "0x80270101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SHELL_E_WRONG_BITDEPTH",
+      "Message": "returned when trying to create a thumbnail extractor at too low a bitdepth for high fidelity",
+      "DecimalCode": -2144927486,
+      "HexCode": "0x80270102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LINK_E_DELETE",
+      "Message": "returned from IShellLink::Resolve when SLR_OFFER_DELETE_WITHOUT_FILE is passed and the user requested to delete the item",
+      "DecimalCode": -2144927485,
+      "HexCode": "0x80270103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "STORE_E_NEWER_VERSION_AVAILABLE",
+      "Message": "returned from IAppItemsStateModify to indicate a commit failed because there is newer version already available",
+      "DecimalCode": -2144927484,
+      "HexCode": "0x80270104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_FILE_PLACEHOLDER_NOT_INITIALIZED",
+      "Message": "The placeholder file or property store isn\u0026apos;t initialized.",
+      "DecimalCode": -2144927472,
+      "HexCode": "0x80270110",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_FILE_PLACEHOLDER_VERSION_MISMATCH",
+      "Message": "The sync engine detected that the local placeholder file\u0026apos;s version doesn\u0026apos;t match the latest version.",
+      "DecimalCode": -2144927471,
+      "HexCode": "0x80270111",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_FILE_PLACEHOLDER_SERVER_TIMED_OUT",
+      "Message": "The placeholder platform timed out waiting for a stream resolver call that didn\u0026apos;t complete in time.",
+      "DecimalCode": -2144927470,
+      "HexCode": "0x80270112",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_FILE_PLACEHOLDER_STORAGEPROVIDER_NOT_FOUND",
+      "Message": "The placeholder platform cannot find the storage provider for the placeholder.",
+      "DecimalCode": -2144927469,
+      "HexCode": "0x80270113",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CAMERAROLL_E_NO_DOWNSAMPLING_REQUIRED",
+      "Message": "The provided image didn\u0026apos;t require downsampling because it was small enough already",
+      "DecimalCode": -2144927456,
+      "HexCode": "0x80270120",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_ACTIVATIONDENIED_USERCLOSE",
+      "Message": "",
+      "DecimalCode": -2144927440,
+      "HexCode": "0x80270130",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_ACTIVATIONDENIED_SHELLERROR",
+      "Message": "",
+      "DecimalCode": -2144927439,
+      "HexCode": "0x80270131",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_ACTIVATIONDENIED_SHELLRESTART",
+      "Message": "",
+      "DecimalCode": -2144927438,
+      "HexCode": "0x80270132",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_ACTIVATIONDENIED_UNEXPECTED",
+      "Message": "",
+      "DecimalCode": -2144927437,
+      "HexCode": "0x80270133",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_ACTIVATIONDENIED_SHELLNOTREADY",
+      "Message": "",
+      "DecimalCode": -2144927436,
+      "HexCode": "0x80270134",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LIBRARY_E_NO_SAVE_LOCATION",
+      "Message": "",
+      "DecimalCode": -2144927232,
+      "HexCode": "0x80270200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "LIBRARY_E_NO_ACCESSIBLE_LOCATION",
+      "Message": "",
+      "DecimalCode": -2144927231,
+      "HexCode": "0x80270201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_USERTILE_UNSUPPORTEDFILETYPE",
+      "Message": "",
+      "DecimalCode": -2144927216,
+      "HexCode": "0x80270210",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_USERTILE_CHANGEDISABLED",
+      "Message": "",
+      "DecimalCode": -2144927215,
+      "HexCode": "0x80270211",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_USERTILE_LARGEORDYNAMIC",
+      "Message": "",
+      "DecimalCode": -2144927214,
+      "HexCode": "0x80270212",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_USERTILE_VIDEOFRAMESIZE",
+      "Message": "",
+      "DecimalCode": -2144927213,
+      "HexCode": "0x80270213",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_USERTILE_FILESIZE",
+      "Message": "",
+      "DecimalCode": -2144927212,
+      "HexCode": "0x80270214",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMM_ACC_DOCKING_E_INSUFFICIENTHEIGHT",
+      "Message": "",
+      "DecimalCode": -2144927184,
+      "HexCode": "0x80270230",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMM_ACC_DOCKING_E_DOCKOCCUPIED",
+      "Message": "",
+      "DecimalCode": -2144927183,
+      "HexCode": "0x80270231",
+      "Type": "HResult"
+    },
+    {
+      "Id": "IMSC_E_SHELL_COMPONENT_STARTUP_FAILURE",
+      "Message": "An immersive shell component failed to start correctly",
+      "DecimalCode": -2144927181,
+      "HexCode": "0x80270233",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SHC_E_SHELL_COMPONENT_STARTUP_FAILURE",
+      "Message": "A shell service host component failed to start correctly",
+      "DecimalCode": -2144927180,
+      "HexCode": "0x80270234",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_TILE_NOTIFICATIONS_PLATFORM_FAILURE",
+      "Message": "",
+      "DecimalCode": -2144927159,
+      "HexCode": "0x80270249",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_SHELL_EXTENSION_BLOCKED",
+      "Message": "",
+      "DecimalCode": -2144926975,
+      "HexCode": "0x80270301",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_IMAGEFEED_CHANGEDISABLED",
+      "Message": "",
+      "DecimalCode": -2144926960,
+      "HexCode": "0x80270310",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

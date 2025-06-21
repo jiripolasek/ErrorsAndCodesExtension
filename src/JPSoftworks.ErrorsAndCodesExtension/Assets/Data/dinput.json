@@ -1,0 +1,230 @@
+{
+  "HeaderFileName": "dinput.h",
+  "ErrorCodes": [
+    {
+      "Id": "DIERR_OLDDIRECTINPUTVERSION",
+      "Message": "",
+      "DecimalCode": -2147023746,
+      "HexCode": "0x8007047e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_BETADIRECTINPUTVERSION",
+      "Message": "",
+      "DecimalCode": -2147023743,
+      "HexCode": "0x80070481",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_BADDRIVERVER",
+      "Message": "",
+      "DecimalCode": -2147024777,
+      "HexCode": "0x80070077",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_DEVICENOTREG",
+      "Message": "",
+      "DecimalCode": -2147221164,
+      "HexCode": "0x80040154",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOTFOUND",
+      "Message": "",
+      "DecimalCode": -2147024894,
+      "HexCode": "0x80070002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_OBJECTNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2147024894,
+      "HexCode": "0x80070002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_INVALIDPARAM",
+      "Message": "",
+      "DecimalCode": -2147024809,
+      "HexCode": "0x80070057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOINTERFACE",
+      "Message": "",
+      "DecimalCode": -2147467262,
+      "HexCode": "0x80004002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_GENERIC",
+      "Message": "",
+      "DecimalCode": -2147467259,
+      "HexCode": "0x80004005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": -2147024882,
+      "HexCode": "0x8007000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147467263,
+      "HexCode": "0x80004001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOTINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147024875,
+      "HexCode": "0x80070015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_ALREADYINITIALIZED",
+      "Message": "",
+      "DecimalCode": -2147023649,
+      "HexCode": "0x800704df",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOAGGREGATION",
+      "Message": "",
+      "DecimalCode": -2147221232,
+      "HexCode": "0x80040110",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_OTHERAPPHASPRIO",
+      "Message": "",
+      "DecimalCode": -2147024891,
+      "HexCode": "0x80070005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_INPUTLOST",
+      "Message": "",
+      "DecimalCode": -2147024866,
+      "HexCode": "0x8007001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_ACQUIRED",
+      "Message": "",
+      "DecimalCode": -2147024726,
+      "HexCode": "0x800700aa",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOTACQUIRED",
+      "Message": "",
+      "DecimalCode": -2147024884,
+      "HexCode": "0x8007000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_READONLY",
+      "Message": "",
+      "DecimalCode": -2147024891,
+      "HexCode": "0x80070005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_HANDLEEXISTS",
+      "Message": "",
+      "DecimalCode": -2147024891,
+      "HexCode": "0x80070005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_INSUFFICIENTPRIVS",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_DEVICEFULL",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_MOREDATA",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOTDOWNLOADED",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_HASEFFECTS",
+      "Message": "",
+      "DecimalCode": -2147220988,
+      "HexCode": "0x80040204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOTEXCLUSIVEACQUIRED",
+      "Message": "",
+      "DecimalCode": -2147220987,
+      "HexCode": "0x80040205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_INCOMPLETEEFFECT",
+      "Message": "",
+      "DecimalCode": -2147220986,
+      "HexCode": "0x80040206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_NOTBUFFERED",
+      "Message": "",
+      "DecimalCode": -2147220985,
+      "HexCode": "0x80040207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_EFFECTPLAYING",
+      "Message": "",
+      "DecimalCode": -2147220984,
+      "HexCode": "0x80040208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_UNPLUGGED",
+      "Message": "",
+      "DecimalCode": -2147220983,
+      "HexCode": "0x80040209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_REPORTFULL",
+      "Message": "",
+      "DecimalCode": -2147220982,
+      "HexCode": "0x8004020a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_MAPFILEFAIL",
+      "Message": "",
+      "DecimalCode": -2147220981,
+      "HexCode": "0x8004020b",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

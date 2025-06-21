@@ -1,0 +1,97 @@
+{
+  "HeaderFileName": "mmstream.h",
+  "ErrorCodes": [
+    {
+      "Id": "MS_S_PENDING",
+      "Message": "",
+      "DecimalCode": 262145,
+      "HexCode": "0x40001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MS_S_NOUPDATE",
+      "Message": "",
+      "DecimalCode": 262146,
+      "HexCode": "0x40002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MS_S_ENDOFSTREAM",
+      "Message": "",
+      "DecimalCode": 262147,
+      "HexCode": "0x40003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MS_E_SAMPLEALLOC",
+      "Message": "",
+      "DecimalCode": -2147220479,
+      "HexCode": "0x80040401",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_PURPOSEID",
+      "Message": "",
+      "DecimalCode": -2147220478,
+      "HexCode": "0x80040402",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_NOSTREAM",
+      "Message": "",
+      "DecimalCode": -2147220477,
+      "HexCode": "0x80040403",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_NOSEEKING",
+      "Message": "",
+      "DecimalCode": -2147220476,
+      "HexCode": "0x80040404",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_INCOMPATIBLE",
+      "Message": "",
+      "DecimalCode": -2147220475,
+      "HexCode": "0x80040405",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_BUSY",
+      "Message": "",
+      "DecimalCode": -2147220474,
+      "HexCode": "0x80040406",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_NOTINIT",
+      "Message": "",
+      "DecimalCode": -2147220473,
+      "HexCode": "0x80040407",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_SOURCEALREADYDEFINED",
+      "Message": "",
+      "DecimalCode": -2147220472,
+      "HexCode": "0x80040408",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_INVALIDSTREAMTYPE",
+      "Message": "",
+      "DecimalCode": -2147220471,
+      "HexCode": "0x80040409",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MS_E_NOTRUNNING",
+      "Message": "",
+      "DecimalCode": -2147220470,
+      "HexCode": "0x8004040a",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

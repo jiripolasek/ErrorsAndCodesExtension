@@ -1,0 +1,48 @@
+{
+  "HeaderFileName": "mediaerr.h",
+  "ErrorCodes": [
+    {
+      "Id": "DMO_E_INVALIDSTREAMINDEX",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMO_E_INVALIDTYPE",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMO_E_TYPE_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMO_E_NOTACCEPTING",
+      "Message": "",
+      "DecimalCode": -2147220988,
+      "HexCode": "0x80040204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMO_E_TYPE_NOT_ACCEPTED",
+      "Message": "",
+      "DecimalCode": -2147220987,
+      "HexCode": "0x80040205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DMO_E_NO_MORE_ITEMS",
+      "Message": "",
+      "DecimalCode": -2147220986,
+      "HexCode": "0x80040206",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

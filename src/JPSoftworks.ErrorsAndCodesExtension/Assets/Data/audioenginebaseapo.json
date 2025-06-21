@@ -1,0 +1,97 @@
+{
+  "HeaderFileName": "audioenginebaseapo.h",
+  "ErrorCodes": [
+    {
+      "Id": "APOERR_ALREADY_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2005073919,
+      "HexCode": "0x887d0001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2005073918,
+      "HexCode": "0x887d0002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_FORMAT_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005073917,
+      "HexCode": "0x887d0003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_INVALID_APO_CLSID",
+      "Message": "",
+      "DecimalCode": -2005073916,
+      "HexCode": "0x887d0004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_BUFFERS_OVERLAP",
+      "Message": "",
+      "DecimalCode": -2005073915,
+      "HexCode": "0x887d0005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_ALREADY_UNLOCKED",
+      "Message": "",
+      "DecimalCode": -2005073914,
+      "HexCode": "0x887d0006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_NUM_CONNECTIONS_INVALID",
+      "Message": "",
+      "DecimalCode": -2005073913,
+      "HexCode": "0x887d0007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_INVALID_OUTPUT_MAXFRAMECOUNT",
+      "Message": "",
+      "DecimalCode": -2005073912,
+      "HexCode": "0x887d0008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_INVALID_CONNECTION_FORMAT",
+      "Message": "",
+      "DecimalCode": -2005073911,
+      "HexCode": "0x887d0009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_APO_LOCKED",
+      "Message": "",
+      "DecimalCode": -2005073910,
+      "HexCode": "0x887d000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_INVALID_COEFFCOUNT",
+      "Message": "",
+      "DecimalCode": -2005073909,
+      "HexCode": "0x887d000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_INVALID_COEFFICIENT",
+      "Message": "",
+      "DecimalCode": -2005073908,
+      "HexCode": "0x887d000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "APOERR_INVALID_CURVE_PARAM",
+      "Message": "",
+      "DecimalCode": -2005073907,
+      "HexCode": "0x887d000d",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

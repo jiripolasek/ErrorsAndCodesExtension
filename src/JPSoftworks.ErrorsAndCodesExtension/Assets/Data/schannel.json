@@ -1,0 +1,188 @@
+{
+  "HeaderFileName": "schannel.h",
+  "ErrorCodes": [
+    {
+      "Id": "TLS1_ALERT_CLOSE_NOTIFY",
+      "Message": "warning ",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_UNEXPECTED_MESSAGE",
+      "Message": "error ",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_BAD_RECORD_MAC",
+      "Message": "error ",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_DECRYPTION_FAILED",
+      "Message": "reserved ",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_RECORD_OVERFLOW",
+      "Message": "error ",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_DECOMPRESSION_FAIL",
+      "Message": "error ",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_HANDSHAKE_FAILURE",
+      "Message": "error ",
+      "DecimalCode": 40,
+      "HexCode": "0x28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_BAD_CERTIFICATE",
+      "Message": "warning or error",
+      "DecimalCode": 42,
+      "HexCode": "0x2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_UNSUPPORTED_CERT",
+      "Message": "warning or error",
+      "DecimalCode": 43,
+      "HexCode": "0x2b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_CERTIFICATE_REVOKED",
+      "Message": "warning or error",
+      "DecimalCode": 44,
+      "HexCode": "0x2c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_CERTIFICATE_EXPIRED",
+      "Message": "warning or error",
+      "DecimalCode": 45,
+      "HexCode": "0x2d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_CERTIFICATE_UNKNOWN",
+      "Message": "warning or error",
+      "DecimalCode": 46,
+      "HexCode": "0x2e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_ILLEGAL_PARAMETER",
+      "Message": "error ",
+      "DecimalCode": 47,
+      "HexCode": "0x2f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_UNKNOWN_CA",
+      "Message": "error ",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_ACCESS_DENIED",
+      "Message": "error ",
+      "DecimalCode": 49,
+      "HexCode": "0x31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_DECODE_ERROR",
+      "Message": "error ",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_DECRYPT_ERROR",
+      "Message": "error ",
+      "DecimalCode": 51,
+      "HexCode": "0x33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_EXPORT_RESTRICTION",
+      "Message": "reserved ",
+      "DecimalCode": 60,
+      "HexCode": "0x3c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_PROTOCOL_VERSION",
+      "Message": "error ",
+      "DecimalCode": 70,
+      "HexCode": "0x46",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_INSUFFIENT_SECURITY",
+      "Message": "error ",
+      "DecimalCode": 71,
+      "HexCode": "0x47",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_INTERNAL_ERROR",
+      "Message": "error ",
+      "DecimalCode": 80,
+      "HexCode": "0x50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_USER_CANCELED",
+      "Message": "warning or error",
+      "DecimalCode": 90,
+      "HexCode": "0x5a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_NO_RENEGOTIATION",
+      "Message": "warning ",
+      "DecimalCode": 100,
+      "HexCode": "0x64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_UNSUPPORTED_EXT",
+      "Message": "error ",
+      "DecimalCode": 110,
+      "HexCode": "0x6e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_UNKNOWN_PSK_IDENTITY",
+      "Message": "error ",
+      "DecimalCode": 115,
+      "HexCode": "0x73",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "TLS1_ALERT_NO_APP_PROTOCOL",
+      "Message": "error ",
+      "DecimalCode": 120,
+      "HexCode": "0x78",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

@@ -3339,6 +3339,13 @@
       "DecimalCode": -2145078524,
       "HexCode": "0x8024B304",
       "Type": "HResult"
+    },
+    {
+      "Id": "WU_E_NOTSUPPORTED",
+      "Message": "This error (0x80240047) has been removed to avoid confusion with WU_E_NOT_SUPPORTED (note the underscore).\u0026#10;MessageId: WU_E_INVALID_NOTIFICATION_INFO\u0026#10;The featured update notification info returned by the server is invalid.",
+      "DecimalCode": -2145124280,
+      "HexCode": "0x80240048",
+      "Type": "HResult"
     }
   ],
   "Facilities": []

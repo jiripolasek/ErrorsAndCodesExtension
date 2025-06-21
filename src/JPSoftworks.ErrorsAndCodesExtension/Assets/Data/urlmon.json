@@ -7,6 +7,342 @@
       "DecimalCode": 262632,
       "HexCode": "0x000401E8",
       "Type": "HResult"
+    },
+    {
+      "Id": "E_PENDING",
+      "Message": "",
+      "DecimalCode": -2147483638,
+      "HexCode": "0x8000000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_INVALID_URL",
+      "Message": "",
+      "DecimalCode": -2146697214,
+      "HexCode": "0x800c0002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_NO_SESSION",
+      "Message": "",
+      "DecimalCode": -2146697213,
+      "HexCode": "0x800c0003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CANNOT_CONNECT",
+      "Message": "",
+      "DecimalCode": -2146697212,
+      "HexCode": "0x800c0004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_RESOURCE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2146697211,
+      "HexCode": "0x800c0005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_OBJECT_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2146697210,
+      "HexCode": "0x800c0006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_DATA_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2146697209,
+      "HexCode": "0x800c0007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_DOWNLOAD_FAILURE",
+      "Message": "",
+      "DecimalCode": -2146697208,
+      "HexCode": "0x800c0008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_AUTHENTICATION_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2146697207,
+      "HexCode": "0x800c0009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_NO_VALID_MEDIA",
+      "Message": "",
+      "DecimalCode": -2146697206,
+      "HexCode": "0x800c000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CONNECTION_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -2146697205,
+      "HexCode": "0x800c000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_INVALID_REQUEST",
+      "Message": "",
+      "DecimalCode": -2146697204,
+      "HexCode": "0x800c000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_UNKNOWN_PROTOCOL",
+      "Message": "",
+      "DecimalCode": -2146697203,
+      "HexCode": "0x800c000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_SECURITY_PROBLEM",
+      "Message": "",
+      "DecimalCode": -2146697202,
+      "HexCode": "0x800c000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CANNOT_LOAD_DATA",
+      "Message": "",
+      "DecimalCode": -2146697201,
+      "HexCode": "0x800c000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CANNOT_INSTANTIATE_OBJECT",
+      "Message": "",
+      "DecimalCode": -2146697200,
+      "HexCode": "0x800c0010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_INVALID_CERTIFICATE",
+      "Message": "",
+      "DecimalCode": -2146697191,
+      "HexCode": "0x800c0019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_REDIRECT_FAILED",
+      "Message": "",
+      "DecimalCode": -2146697196,
+      "HexCode": "0x800c0014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_REDIRECT_TO_DIR",
+      "Message": "",
+      "DecimalCode": -2146697195,
+      "HexCode": "0x800c0015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CANNOT_LOCK_REQUEST",
+      "Message": "",
+      "DecimalCode": -2146697194,
+      "HexCode": "0x800c0016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_USE_EXTEND_BINDING",
+      "Message": "",
+      "DecimalCode": -2146697193,
+      "HexCode": "0x800c0017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_TERMINATED_BIND",
+      "Message": "",
+      "DecimalCode": -2146697192,
+      "HexCode": "0x800c0018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_RESERVED_1",
+      "Message": "",
+      "DecimalCode": -2146697190,
+      "HexCode": "0x800c001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_BLOCKED_REDIRECT_XSECURITYID",
+      "Message": "",
+      "DecimalCode": -2146697189,
+      "HexCode": "0x800c001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_DOMINJECTIONVALIDATION",
+      "Message": "",
+      "DecimalCode": -2146697188,
+      "HexCode": "0x800c001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_VTAB_SWITCH_FORCE_ENGINE",
+      "Message": "",
+      "DecimalCode": -2146697187,
+      "HexCode": "0x800c001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_HSTS_CERTIFICATE_ERROR",
+      "Message": "",
+      "DecimalCode": -2146697186,
+      "HexCode": "0x800c001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_RESERVED_2",
+      "Message": "",
+      "DecimalCode": -2146697185,
+      "HexCode": "0x800c001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_RESERVED_3",
+      "Message": "",
+      "DecimalCode": -2146697184,
+      "HexCode": "0x800c0020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_RESERVED_4",
+      "Message": "",
+      "DecimalCode": -2146697183,
+      "HexCode": "0x800c0021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_ERROR_FIRST",
+      "Message": "",
+      "DecimalCode": -2146697214,
+      "HexCode": "0x800c0002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CODE_DOWNLOAD_DECLINED",
+      "Message": "",
+      "DecimalCode": -2146696960,
+      "HexCode": "0x800c0100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_RESULT_DISPATCHED",
+      "Message": "",
+      "DecimalCode": -2146696704,
+      "HexCode": "0x800c0200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CANNOT_REPLACE_SFP_FILE",
+      "Message": "",
+      "DecimalCode": -2146696448,
+      "HexCode": "0x800c0300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CODE_INSTALL_SUPPRESSED",
+      "Message": "",
+      "DecimalCode": -2146696192,
+      "HexCode": "0x800c0400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CODE_INSTALL_BLOCKED_BY_HASH_POLICY",
+      "Message": "",
+      "DecimalCode": -2146695936,
+      "HexCode": "0x800c0500",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_DOWNLOAD_BLOCKED_BY_INPRIVATE",
+      "Message": "",
+      "DecimalCode": -2146695935,
+      "HexCode": "0x800c0501",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CODE_INSTALL_BLOCKED_IMMERSIVE",
+      "Message": "",
+      "DecimalCode": -2146695934,
+      "HexCode": "0x800c0502",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_FORBIDFRAMING",
+      "Message": "",
+      "DecimalCode": -2146695933,
+      "HexCode": "0x800c0503",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CODE_INSTALL_BLOCKED_ARM",
+      "Message": "",
+      "DecimalCode": -2146695932,
+      "HexCode": "0x800c0504",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_BLOCKED_PLUGGABLE_PROTOCOL",
+      "Message": "",
+      "DecimalCode": -2146695931,
+      "HexCode": "0x800c0505",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_BLOCKED_ENHANCEDPROTECTEDMODE",
+      "Message": "",
+      "DecimalCode": -2146695930,
+      "HexCode": "0x800c0506",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_CODE_INSTALL_BLOCKED_BITNESS",
+      "Message": "",
+      "DecimalCode": -2146695929,
+      "HexCode": "0x800c0507",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_DOWNLOAD_BLOCKED_BY_CSP",
+      "Message": "",
+      "DecimalCode": -2146695928,
+      "HexCode": "0x800c0508",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_USE_DEFAULT_PROTOCOLHANDLER",
+      "Message": "",
+      "DecimalCode": -2146697199,
+      "HexCode": "0x800c0011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_USE_DEFAULT_SETTING",
+      "Message": "",
+      "DecimalCode": -2146697198,
+      "HexCode": "0x800c0012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_QUERYOPTION_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -2146697197,
+      "HexCode": "0x800c0013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "INET_E_REDIRECTING",
+      "Message": "",
+      "DecimalCode": -2146697196,
+      "HexCode": "0x800c0014",
+      "Type": "HResult"
     }
   ],
   "Facilities": []

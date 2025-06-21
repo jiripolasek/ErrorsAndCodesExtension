@@ -1,0 +1,34 @@
+{
+  "HeaderFileName": "shobjidl_core.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_PREVIEWHANDLER_DRM_FAIL",
+      "Message": "",
+      "DecimalCode": -2042494975,
+      "HexCode": "0x86420001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_PREVIEWHANDLER_NOAUTH",
+      "Message": "",
+      "DecimalCode": -2042494974,
+      "HexCode": "0x86420002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_PREVIEWHANDLER_NOTFOUND",
+      "Message": "",
+      "DecimalCode": -2042494973,
+      "HexCode": "0x86420003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_PREVIEWHANDLER_CORRUPT",
+      "Message": "",
+      "DecimalCode": -2042494972,
+      "HexCode": "0x86420004",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

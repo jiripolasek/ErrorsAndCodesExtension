@@ -1,0 +1,41 @@
+{
+  "HeaderFileName": "fltdefs.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_BASE",
+      "Message": "",
+      "DecimalCode": 23000,
+      "HexCode": "0x59d8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PFERROR_NO_PF_INTERFACE",
+      "Message": "",
+      "DecimalCode": 23000,
+      "HexCode": "0x59d8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PFERROR_NO_FILTERS_GIVEN",
+      "Message": "",
+      "DecimalCode": 23001,
+      "HexCode": "0x59d9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PFERROR_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": 23002,
+      "HexCode": "0x59da",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_IPV6_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": 23003,
+      "HexCode": "0x59db",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

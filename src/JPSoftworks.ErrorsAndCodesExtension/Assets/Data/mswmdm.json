@@ -1,0 +1,167 @@
+{
+  "HeaderFileName": "mswmdm.h",
+  "ErrorCodes": [
+    {
+      "Id": "WMDM_S_NOT_ALL_PROPERTIES_APPLIED",
+      "Message": "",
+      "DecimalCode": 282625,
+      "HexCode": "0x45001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WMDM_S_NOT_ALL_PROPERTIES_RETRIEVED",
+      "Message": "",
+      "DecimalCode": 282626,
+      "HexCode": "0x45002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WMDM_E_BUSY",
+      "Message": "",
+      "DecimalCode": -2147201024,
+      "HexCode": "0x80045000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_INTERFACEDEAD",
+      "Message": "",
+      "DecimalCode": -2147201023,
+      "HexCode": "0x80045001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_INVALIDTYPE",
+      "Message": "",
+      "DecimalCode": -2147201022,
+      "HexCode": "0x80045002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_PROCESSFAILED",
+      "Message": "",
+      "DecimalCode": -2147201021,
+      "HexCode": "0x80045003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_NOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147201020,
+      "HexCode": "0x80045004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_NOTCERTIFIED",
+      "Message": "",
+      "DecimalCode": -2147201019,
+      "HexCode": "0x80045005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_NORIGHTS",
+      "Message": "",
+      "DecimalCode": -2147201018,
+      "HexCode": "0x80045006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_CALL_OUT_OF_SEQUENCE",
+      "Message": "",
+      "DecimalCode": -2147201017,
+      "HexCode": "0x80045007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_BUFFERTOOSMALL",
+      "Message": "",
+      "DecimalCode": -2147201016,
+      "HexCode": "0x80045008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_MOREDATA",
+      "Message": "",
+      "DecimalCode": -2147201015,
+      "HexCode": "0x80045009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_MAC_CHECK_FAILED",
+      "Message": "",
+      "DecimalCode": -2147201014,
+      "HexCode": "0x8004500a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_USER_CANCELLED",
+      "Message": "",
+      "DecimalCode": -2147201013,
+      "HexCode": "0x8004500b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_SDMI_TRIGGER",
+      "Message": "",
+      "DecimalCode": -2147201012,
+      "HexCode": "0x8004500c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_SDMI_NOMORECOPIES",
+      "Message": "",
+      "DecimalCode": -2147201011,
+      "HexCode": "0x8004500d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_REVOKED",
+      "Message": "",
+      "DecimalCode": -2147201010,
+      "HexCode": "0x8004500e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_LICENSE_NOTEXIST",
+      "Message": "",
+      "DecimalCode": -2147201009,
+      "HexCode": "0x8004500f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_INCORRECT_APPSEC",
+      "Message": "",
+      "DecimalCode": -2147201008,
+      "HexCode": "0x80045010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_INCORRECT_RIGHTS",
+      "Message": "",
+      "DecimalCode": -2147201007,
+      "HexCode": "0x80045011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_LICENSE_EXPIRED",
+      "Message": "",
+      "DecimalCode": -2147201006,
+      "HexCode": "0x80045012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_CANTOPEN_PMSN_SERVICE_PIPE",
+      "Message": "",
+      "DecimalCode": -2147201005,
+      "HexCode": "0x80045013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WMDM_E_TOO_MANY_SESSIONS",
+      "Message": "",
+      "DecimalCode": -2147201005,
+      "HexCode": "0x80045013",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

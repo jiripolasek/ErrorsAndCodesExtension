@@ -1,0 +1,41 @@
+{
+  "HeaderFileName": "dinputd.h",
+  "ErrorCodes": [
+    {
+      "Id": "DIERR_DRIVERFIRST",
+      "Message": "",
+      "DecimalCode": -2147220736,
+      "HexCode": "0x80040300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_DRIVERLAST",
+      "Message": "",
+      "DecimalCode": -2147220481,
+      "HexCode": "0x800403ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_INVALIDCLASSINSTALLER",
+      "Message": "",
+      "DecimalCode": -2147220480,
+      "HexCode": "0x80040400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_CANCELLED",
+      "Message": "",
+      "DecimalCode": -2147220479,
+      "HexCode": "0x80040401",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DIERR_BADINF",
+      "Message": "",
+      "DecimalCode": -2147220478,
+      "HexCode": "0x80040402",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,328 @@
+{
+  "HeaderFileName": "lmsvc.h",
+  "ErrorCodes": [
+    {
+      "Id": "SERVICE_UIC_BADPARMVAL",
+      "Message": "",
+      "DecimalCode": 3051,
+      "HexCode": "0xbeb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_MISSPARM",
+      "Message": "",
+      "DecimalCode": 3052,
+      "HexCode": "0xbec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_UNKPARM",
+      "Message": "",
+      "DecimalCode": 3053,
+      "HexCode": "0xbed",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_RESOURCE",
+      "Message": "",
+      "DecimalCode": 3054,
+      "HexCode": "0xbee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_CONFIG",
+      "Message": "",
+      "DecimalCode": 3055,
+      "HexCode": "0xbef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_SYSTEM",
+      "Message": "",
+      "DecimalCode": 3056,
+      "HexCode": "0xbf0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_INTERNAL",
+      "Message": "",
+      "DecimalCode": 3057,
+      "HexCode": "0xbf1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_AMBIGPARM",
+      "Message": "",
+      "DecimalCode": 3058,
+      "HexCode": "0xbf2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_DUPPARM",
+      "Message": "",
+      "DecimalCode": 3059,
+      "HexCode": "0xbf3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_KILL",
+      "Message": "",
+      "DecimalCode": 3060,
+      "HexCode": "0xbf4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_EXEC",
+      "Message": "",
+      "DecimalCode": 3061,
+      "HexCode": "0xbf5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_SUBSERV",
+      "Message": "",
+      "DecimalCode": 3062,
+      "HexCode": "0xbf6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_CONFLPARM",
+      "Message": "",
+      "DecimalCode": 3063,
+      "HexCode": "0xbf7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_FILE",
+      "Message": "",
+      "DecimalCode": 3064,
+      "HexCode": "0xbf8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_MEMORY",
+      "Message": "",
+      "DecimalCode": 3070,
+      "HexCode": "0xbfe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_DISK",
+      "Message": "",
+      "DecimalCode": 3071,
+      "HexCode": "0xbff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_THREADS",
+      "Message": "",
+      "DecimalCode": 3072,
+      "HexCode": "0xc00",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_PROCESSES",
+      "Message": "",
+      "DecimalCode": 3073,
+      "HexCode": "0xc01",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_SECURITY",
+      "Message": "",
+      "DecimalCode": 3074,
+      "HexCode": "0xc02",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_LANROOT",
+      "Message": "",
+      "DecimalCode": 3075,
+      "HexCode": "0xc03",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_REDIR",
+      "Message": "",
+      "DecimalCode": 3076,
+      "HexCode": "0xc04",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_SERVER",
+      "Message": "",
+      "DecimalCode": 3077,
+      "HexCode": "0xc05",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_SEC_FILE_ERR",
+      "Message": "",
+      "DecimalCode": 3078,
+      "HexCode": "0xc06",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_FILES",
+      "Message": "",
+      "DecimalCode": 3079,
+      "HexCode": "0xc07",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_LOGS",
+      "Message": "",
+      "DecimalCode": 3080,
+      "HexCode": "0xc08",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_LANGROUP",
+      "Message": "",
+      "DecimalCode": 3081,
+      "HexCode": "0xc09",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_MSGNAME",
+      "Message": "",
+      "DecimalCode": 3082,
+      "HexCode": "0xc0a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_ANNOUNCE",
+      "Message": "",
+      "DecimalCode": 3083,
+      "HexCode": "0xc0b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_UAS",
+      "Message": "",
+      "DecimalCode": 3084,
+      "HexCode": "0xc0c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_SERVER_SEC_ERR",
+      "Message": "",
+      "DecimalCode": 3085,
+      "HexCode": "0xc0d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_WKSTA",
+      "Message": "",
+      "DecimalCode": 3087,
+      "HexCode": "0xc0f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_ERRLOG",
+      "Message": "",
+      "DecimalCode": 3088,
+      "HexCode": "0xc10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_FILE_UW",
+      "Message": "",
+      "DecimalCode": 3089,
+      "HexCode": "0xc11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_ADDPAK",
+      "Message": "",
+      "DecimalCode": 3090,
+      "HexCode": "0xc12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_LAZY",
+      "Message": "",
+      "DecimalCode": 3091,
+      "HexCode": "0xc13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_UAS_MACHINE_ACCT",
+      "Message": "",
+      "DecimalCode": 3092,
+      "HexCode": "0xc14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_UAS_SERVERS_NMEMB",
+      "Message": "",
+      "DecimalCode": 3093,
+      "HexCode": "0xc15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_UAS_SERVERS_NOGRP",
+      "Message": "",
+      "DecimalCode": 3094,
+      "HexCode": "0xc16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_UAS_INVALID_ROLE",
+      "Message": "",
+      "DecimalCode": 3095,
+      "HexCode": "0xc17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_NETLOGON_NO_DC",
+      "Message": "",
+      "DecimalCode": 3096,
+      "HexCode": "0xc18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_NETLOGON_DC_CFLCT",
+      "Message": "",
+      "DecimalCode": 3097,
+      "HexCode": "0xc19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_NETLOGON_AUTH",
+      "Message": "",
+      "DecimalCode": 3098,
+      "HexCode": "0xc1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_UAS_PROLOG",
+      "Message": "",
+      "DecimalCode": 3099,
+      "HexCode": "0xc1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_NETLOGON_MPATH",
+      "Message": "",
+      "DecimalCode": 5600,
+      "HexCode": "0x15e0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_LSA_MACHINE_ACCT",
+      "Message": "",
+      "DecimalCode": 5601,
+      "HexCode": "0x15e1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SERVICE_UIC_M_DATABASE_ERROR",
+      "Message": "",
+      "DecimalCode": 5602,
+      "HexCode": "0x15e2",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

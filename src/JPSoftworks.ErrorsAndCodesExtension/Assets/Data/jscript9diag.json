@@ -1,0 +1,48 @@
+{
+  "HeaderFileName": "jscript9diag.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_JsDEBUG_MISMATCHED_RUNTIME",
+      "Message": "",
+      "DecimalCode": -1916338175,
+      "HexCode": "0x8dc70001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_JsDEBUG_UNKNOWN_THREAD",
+      "Message": "",
+      "DecimalCode": -1916338174,
+      "HexCode": "0x8dc70002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_JsDEBUG_OUTSIDE_OF_VM",
+      "Message": "",
+      "DecimalCode": -1916338172,
+      "HexCode": "0x8dc70004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_JsDEBUG_INVALID_MEMORY_ADDRESS",
+      "Message": "",
+      "DecimalCode": -1916338171,
+      "HexCode": "0x8dc70005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_JsDEBUG_SOURCE_LOCATION_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1916338170,
+      "HexCode": "0x8dc70006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_JsDEBUG_RUNTIME_NOT_IN_DEBUG_MODE",
+      "Message": "",
+      "DecimalCode": -1916338169,
+      "HexCode": "0x8dc70007",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

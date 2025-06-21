@@ -1,0 +1,90 @@
+{
+  "HeaderFileName": "textstor.h",
+  "ErrorCodes": [
+    {
+      "Id": "TS_E_INVALIDPOS",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_NOLOCK",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_NOOBJECT",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_NOSERVICE",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_NOINTERFACE",
+      "Message": "",
+      "DecimalCode": -2147220988,
+      "HexCode": "0x80040204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_NOSELECTION",
+      "Message": "",
+      "DecimalCode": -2147220987,
+      "HexCode": "0x80040205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_NOLAYOUT",
+      "Message": "",
+      "DecimalCode": -2147220986,
+      "HexCode": "0x80040206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_INVALIDPOINT",
+      "Message": "",
+      "DecimalCode": -2147220985,
+      "HexCode": "0x80040207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_SYNCHRONOUS",
+      "Message": "",
+      "DecimalCode": -2147220984,
+      "HexCode": "0x80040208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_READONLY",
+      "Message": "",
+      "DecimalCode": -2147220983,
+      "HexCode": "0x80040209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_E_FORMAT",
+      "Message": "",
+      "DecimalCode": -2147220982,
+      "HexCode": "0x8004020a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TS_S_ASYNC",
+      "Message": "",
+      "DecimalCode": 262912,
+      "HexCode": "0x40300",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

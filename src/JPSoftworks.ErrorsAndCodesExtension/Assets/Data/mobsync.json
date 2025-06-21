@@ -1,0 +1,48 @@
+{
+  "HeaderFileName": "mobsync.h",
+  "ErrorCodes": [
+    {
+      "Id": "S_SYNCMGR_MISSINGITEMS",
+      "Message": "",
+      "DecimalCode": 262657,
+      "HexCode": "0x40201",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_SYNCMGR_RETRYSYNC",
+      "Message": "",
+      "DecimalCode": 262658,
+      "HexCode": "0x40202",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_SYNCMGR_CANCELITEM",
+      "Message": "",
+      "DecimalCode": 262659,
+      "HexCode": "0x40203",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_SYNCMGR_CANCELALL",
+      "Message": "",
+      "DecimalCode": 262660,
+      "HexCode": "0x40204",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_SYNCMGR_ITEMDELETED",
+      "Message": "",
+      "DecimalCode": 262672,
+      "HexCode": "0x40210",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "S_SYNCMGR_ENUMITEMS",
+      "Message": "",
+      "DecimalCode": 262673,
+      "HexCode": "0x40211",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

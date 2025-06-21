@@ -1,0 +1,195 @@
+{
+  "HeaderFileName": "dxfile.h",
+  "ErrorCodes": [
+    {
+      "Id": "DXFILEERR_BADOBJECT",
+      "Message": "",
+      "DecimalCode": -2005531822,
+      "HexCode": "0x88760352",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADVALUE",
+      "Message": "",
+      "DecimalCode": -2005531821,
+      "HexCode": "0x88760353",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADTYPE",
+      "Message": "",
+      "DecimalCode": -2005531820,
+      "HexCode": "0x88760354",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADSTREAMHANDLE",
+      "Message": "",
+      "DecimalCode": -2005531819,
+      "HexCode": "0x88760355",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADALLOC",
+      "Message": "",
+      "DecimalCode": -2005531818,
+      "HexCode": "0x88760356",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531817,
+      "HexCode": "0x88760357",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOTDONEYET",
+      "Message": "",
+      "DecimalCode": -2005531816,
+      "HexCode": "0x88760358",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_FILENOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531815,
+      "HexCode": "0x88760359",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_RESOURCENOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531814,
+      "HexCode": "0x8876035a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_URLNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005531813,
+      "HexCode": "0x8876035b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADRESOURCE",
+      "Message": "",
+      "DecimalCode": -2005531812,
+      "HexCode": "0x8876035c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADFILETYPE",
+      "Message": "",
+      "DecimalCode": -2005531811,
+      "HexCode": "0x8876035d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADFILEVERSION",
+      "Message": "",
+      "DecimalCode": -2005531810,
+      "HexCode": "0x8876035e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADFILEFLOATSIZE",
+      "Message": "",
+      "DecimalCode": -2005531809,
+      "HexCode": "0x8876035f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADFILECOMPRESSIONTYPE",
+      "Message": "",
+      "DecimalCode": -2005531808,
+      "HexCode": "0x88760360",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADFILE",
+      "Message": "",
+      "DecimalCode": -2005531807,
+      "HexCode": "0x88760361",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_PARSEERROR",
+      "Message": "",
+      "DecimalCode": -2005531806,
+      "HexCode": "0x88760362",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOTEMPLATE",
+      "Message": "",
+      "DecimalCode": -2005531805,
+      "HexCode": "0x88760363",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADARRAYSIZE",
+      "Message": "",
+      "DecimalCode": -2005531804,
+      "HexCode": "0x88760364",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADDATAREFERENCE",
+      "Message": "",
+      "DecimalCode": -2005531803,
+      "HexCode": "0x88760365",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_INTERNALERROR",
+      "Message": "",
+      "DecimalCode": -2005531802,
+      "HexCode": "0x88760366",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOMOREOBJECTS",
+      "Message": "",
+      "DecimalCode": -2005531801,
+      "HexCode": "0x88760367",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADINTRINSICS",
+      "Message": "",
+      "DecimalCode": -2005531800,
+      "HexCode": "0x88760368",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOMORESTREAMHANDLES",
+      "Message": "",
+      "DecimalCode": -2005531799,
+      "HexCode": "0x88760369",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOMOREDATA",
+      "Message": "",
+      "DecimalCode": -2005531798,
+      "HexCode": "0x8876036a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_BADCACHEFILE",
+      "Message": "",
+      "DecimalCode": -2005531797,
+      "HexCode": "0x8876036b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "DXFILEERR_NOINTERNET",
+      "Message": "",
+      "DecimalCode": -2005531796,
+      "HexCode": "0x8876036c",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

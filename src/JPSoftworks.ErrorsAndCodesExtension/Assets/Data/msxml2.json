@@ -1,0 +1,34 @@
+{
+  "HeaderFileName": "msxml2.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_XML_NOTWF",
+      "Message": "Validate failed because the document is not well formed.",
+      "DecimalCode": -1072897501,
+      "HexCode": "0xc00ce223",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "E_XML_NODTD",
+      "Message": "The node is neither Valid nor Invalid because no DTD/Schema declaration was found.",
+      "DecimalCode": -1072897500,
+      "HexCode": "0xc00ce224",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "E_XML_INVALID",
+      "Message": "Validate failed because of a DTD/Schema violation.",
+      "DecimalCode": -1072897499,
+      "HexCode": "0xc00ce225",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "E_XML_BUFFERTOOSMALL",
+      "Message": "Buffer passed in is too small to receive the data.",
+      "DecimalCode": -1072897498,
+      "HexCode": "0xc00ce226",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

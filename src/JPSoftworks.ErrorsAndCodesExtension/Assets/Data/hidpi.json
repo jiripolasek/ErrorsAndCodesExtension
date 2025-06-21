@@ -1,0 +1,139 @@
+{
+  "HeaderFileName": "hidpi.h",
+  "ErrorCodes": [
+    {
+      "Id": "HIDP_STATUS_SUCCESS",
+      "Message": "",
+      "DecimalCode": 1114112,
+      "HexCode": "0x110000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "HIDP_STATUS_NULL",
+      "Message": "",
+      "DecimalCode": -2146369535,
+      "HexCode": "0x80110001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "HIDP_STATUS_INVALID_PREPARSED_DATA",
+      "Message": "",
+      "DecimalCode": -1072627711,
+      "HexCode": "0xc0110001",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_INVALID_REPORT_TYPE",
+      "Message": "",
+      "DecimalCode": -1072627710,
+      "HexCode": "0xc0110002",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_INVALID_REPORT_LENGTH",
+      "Message": "",
+      "DecimalCode": -1072627709,
+      "HexCode": "0xc0110003",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_USAGE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1072627708,
+      "HexCode": "0xc0110004",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_VALUE_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -1072627707,
+      "HexCode": "0xc0110005",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_BAD_LOG_PHY_VALUES",
+      "Message": "",
+      "DecimalCode": -1072627706,
+      "HexCode": "0xc0110006",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -1072627705,
+      "HexCode": "0xc0110007",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": -1072627704,
+      "HexCode": "0xc0110008",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_I8042_TRANS_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -1072627703,
+      "HexCode": "0xc0110009",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_INCOMPATIBLE_REPORT_ID",
+      "Message": "",
+      "DecimalCode": -1072627702,
+      "HexCode": "0xc011000a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_NOT_VALUE_ARRAY",
+      "Message": "",
+      "DecimalCode": -1072627701,
+      "HexCode": "0xc011000b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_IS_VALUE_ARRAY",
+      "Message": "",
+      "DecimalCode": -1072627700,
+      "HexCode": "0xc011000c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_DATA_INDEX_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1072627699,
+      "HexCode": "0xc011000d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_DATA_INDEX_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -1072627698,
+      "HexCode": "0xc011000e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_BUTTON_NOT_PRESSED",
+      "Message": "",
+      "DecimalCode": -1072627697,
+      "HexCode": "0xc011000f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_REPORT_DOES_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -1072627696,
+      "HexCode": "0xc0110010",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "HIDP_STATUS_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": -1072627680,
+      "HexCode": "0xc0110020",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

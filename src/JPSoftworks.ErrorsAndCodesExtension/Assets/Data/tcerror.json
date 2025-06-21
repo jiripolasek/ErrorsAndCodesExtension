@@ -1,0 +1,153 @@
+{
+  "HeaderFileName": "tcerror.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_INCOMPATIBLE_TCI_VERSION",
+      "Message": "",
+      "DecimalCode": 7501,
+      "HexCode": "0x1d4d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SERVICE_TYPE",
+      "Message": "",
+      "DecimalCode": 7502,
+      "HexCode": "0x1d4e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_TOKEN_RATE",
+      "Message": "",
+      "DecimalCode": 7503,
+      "HexCode": "0x1d4f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 7504,
+      "HexCode": "0x1d50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SD_MODE",
+      "Message": "",
+      "DecimalCode": 7505,
+      "HexCode": "0x1d51",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_QOS_PRIORITY",
+      "Message": "",
+      "DecimalCode": 7506,
+      "HexCode": "0x1d52",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_TRAFFIC_CLASS",
+      "Message": "",
+      "DecimalCode": 7507,
+      "HexCode": "0x1d53",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_ADDRESS_TYPE",
+      "Message": "",
+      "DecimalCode": 7508,
+      "HexCode": "0x1d54",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DUPLICATE_FILTER",
+      "Message": "",
+      "DecimalCode": 7509,
+      "HexCode": "0x1d55",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_FILTER_CONFLICT",
+      "Message": "",
+      "DecimalCode": 7510,
+      "HexCode": "0x1d56",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_ADDRESS_TYPE_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 7511,
+      "HexCode": "0x1d57",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TC_SUPPORTED_OBJECTS_EXIST",
+      "Message": "",
+      "DecimalCode": 7512,
+      "HexCode": "0x1d58",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INCOMPATABLE_QOS",
+      "Message": "",
+      "DecimalCode": 7513,
+      "HexCode": "0x1d59",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TC_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": 7514,
+      "HexCode": "0x1d5a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TC_OBJECT_LENGTH_INVALID",
+      "Message": "",
+      "DecimalCode": 7515,
+      "HexCode": "0x1d5b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_FLOW_MODE",
+      "Message": "",
+      "DecimalCode": 7516,
+      "HexCode": "0x1d5c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_DIFFSERV_FLOW",
+      "Message": "",
+      "DecimalCode": 7517,
+      "HexCode": "0x1d5d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_DS_MAPPING_EXISTS",
+      "Message": "",
+      "DecimalCode": 7518,
+      "HexCode": "0x1d5e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_SHAPE_RATE",
+      "Message": "",
+      "DecimalCode": 7519,
+      "HexCode": "0x1d5f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_INVALID_DS_CLASS",
+      "Message": "",
+      "DecimalCode": 7520,
+      "HexCode": "0x1d60",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_TOO_MANY_CLIENTS",
+      "Message": "",
+      "DecimalCode": 7521,
+      "HexCode": "0x1d61",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

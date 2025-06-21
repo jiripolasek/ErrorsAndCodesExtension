@@ -49770,6 +49770,83 @@
       "DecimalCode": -920190976,
       "HexCode": "0xC9270000",
       "Type": "HResult"
+    },
+    {
+      "Id": "ERROR_TIME_CRITICAL_THREAD",
+      "Message": "Operation cannot be performed on a time critical thread.",
+      "DecimalCode": 422,
+      "HexCode": "0x1a6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ERROR_VRF_CFG_ENABLED",
+      "Message": "Driver Verifier Volatile settings cannot be set when CFG is enabled.",
+      "DecimalCode": 1183,
+      "HexCode": "0x49f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "UTC_E_NETWORK_CAPTURE_NOT_ALLOWED",
+      "Message": "A network capture trace is not allowed.",
+      "DecimalCode": -2017128395,
+      "HexCode": "0x87c51035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "NO_ERROR",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "SEC_E_OK",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "OLE_E_FIRST",
+      "Message": "",
+      "DecimalCode": -2147221504,
+      "HexCode": "0x80040000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OLE_E_LAST",
+      "Message": "",
+      "DecimalCode": -2147221249,
+      "HexCode": "0x800400ff",
+      "Type": "HResult"
+    },
+    {
+      "Id": "OLE_S_FIRST",
+      "Message": "",
+      "DecimalCode": 262144,
+      "HexCode": "0x40000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "OLE_S_LAST",
+      "Message": "",
+      "DecimalCode": 262399,
+      "HexCode": "0x400ff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "SQLITE_E_MISSING_COLLSEQ",
+      "Message": "SQLITE_ERROR_MISSING_COLLSEQ",
+      "DecimalCode": -2018574079,
+      "HexCode": "0x87af0101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SQLITE_E_RETRY",
+      "Message": "SQLITE_ERROR_RETRY",
+      "DecimalCode": -2018573823,
+      "HexCode": "0x87af0201",
+      "Type": "HResult"
     }
   ],
   "Facilities": [

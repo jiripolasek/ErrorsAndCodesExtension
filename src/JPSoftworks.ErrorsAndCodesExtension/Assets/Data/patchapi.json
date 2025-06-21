@@ -1,0 +1,90 @@
+{
+  "HeaderFileName": "patchapi.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_PATCH_ENCODE_FAILURE",
+      "Message": "create",
+      "DecimalCode": -1072811775,
+      "HexCode": "0xc00e3101",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_INVALID_OPTIONS",
+      "Message": "create",
+      "DecimalCode": -1072811774,
+      "HexCode": "0xc00e3102",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_SAME_FILE",
+      "Message": "create",
+      "DecimalCode": -1072811773,
+      "HexCode": "0xc00e3103",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_RETAIN_RANGES_DIFFER",
+      "Message": "create",
+      "DecimalCode": -1072811772,
+      "HexCode": "0xc00e3104",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_BIGGER_THAN_COMPRESSED",
+      "Message": "create",
+      "DecimalCode": -1072811771,
+      "HexCode": "0xc00e3105",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_IMAGEHLP_FAILURE",
+      "Message": "create",
+      "DecimalCode": -1072811770,
+      "HexCode": "0xc00e3106",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_DECODE_FAILURE",
+      "Message": "apply",
+      "DecimalCode": -1072807679,
+      "HexCode": "0xc00e4101",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_CORRUPT",
+      "Message": "apply",
+      "DecimalCode": -1072807678,
+      "HexCode": "0xc00e4102",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_NEWER_FORMAT",
+      "Message": "apply",
+      "DecimalCode": -1072807677,
+      "HexCode": "0xc00e4103",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_WRONG_FILE",
+      "Message": "apply",
+      "DecimalCode": -1072807676,
+      "HexCode": "0xc00e4104",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_NOT_NECESSARY",
+      "Message": "apply",
+      "DecimalCode": -1072807675,
+      "HexCode": "0xc00e4105",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PATCH_NOT_AVAILABLE",
+      "Message": "apply",
+      "DecimalCode": -1072807674,
+      "HexCode": "0xc00e4106",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

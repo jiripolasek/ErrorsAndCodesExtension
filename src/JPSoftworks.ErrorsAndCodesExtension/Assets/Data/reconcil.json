@@ -1,0 +1,62 @@
+{
+  "HeaderFileName": "reconcil.h",
+  "ErrorCodes": [
+    {
+      "Id": "REC_S_IDIDTHEUPDATES",
+      "Message": "",
+      "DecimalCode": 266240,
+      "HexCode": "0x41000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "REC_S_NOTCOMPLETE",
+      "Message": "",
+      "DecimalCode": 266241,
+      "HexCode": "0x41001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "REC_S_NOTCOMPLETEBUTPROPAGATE",
+      "Message": "",
+      "DecimalCode": 266242,
+      "HexCode": "0x41002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "REC_E_ABORTED",
+      "Message": "",
+      "DecimalCode": -2147217408,
+      "HexCode": "0x80041000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "REC_E_NOCALLBACK",
+      "Message": "",
+      "DecimalCode": -2147217407,
+      "HexCode": "0x80041001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "REC_E_NORESIDUES",
+      "Message": "",
+      "DecimalCode": -2147217406,
+      "HexCode": "0x80041002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "REC_E_TOODIFFERENT",
+      "Message": "",
+      "DecimalCode": -2147217405,
+      "HexCode": "0x80041003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "REC_E_INEEDTODOTHEUPDATES",
+      "Message": "",
+      "DecimalCode": -2147217404,
+      "HexCode": "0x80041004",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

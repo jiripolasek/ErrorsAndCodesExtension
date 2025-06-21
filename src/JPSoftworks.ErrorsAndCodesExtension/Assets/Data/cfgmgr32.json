@@ -1,0 +1,426 @@
+{
+  "HeaderFileName": "cfgmgr32.h",
+  "ErrorCodes": [
+    {
+      "Id": "CR_SUCCESS",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_DEFAULT",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_OUT_OF_MEMORY",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_POINTER",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_FLAG",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_DEVNODE",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_RES_DES",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_LOG_CONF",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_ARBITRATOR",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_NODELIST",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_DEVNODE_HAS_REQS",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_RESOURCEID",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_DLVXD_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_SUCH_DEVNODE",
+      "Message": "",
+      "DecimalCode": 13,
+      "HexCode": "0xd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_MORE_LOG_CONF",
+      "Message": "",
+      "DecimalCode": 14,
+      "HexCode": "0xe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_MORE_RES_DES",
+      "Message": "",
+      "DecimalCode": 15,
+      "HexCode": "0xf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_ALREADY_SUCH_DEVNODE",
+      "Message": "",
+      "DecimalCode": 16,
+      "HexCode": "0x10",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_RANGE_LIST",
+      "Message": "",
+      "DecimalCode": 17,
+      "HexCode": "0x11",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_RANGE",
+      "Message": "",
+      "DecimalCode": 18,
+      "HexCode": "0x12",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_FAILURE",
+      "Message": "",
+      "DecimalCode": 19,
+      "HexCode": "0x13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_SUCH_LOGICAL_DEV",
+      "Message": "",
+      "DecimalCode": 20,
+      "HexCode": "0x14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_CREATE_BLOCKED",
+      "Message": "",
+      "DecimalCode": 21,
+      "HexCode": "0x15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NOT_SYSTEM_VM",
+      "Message": "",
+      "DecimalCode": 22,
+      "HexCode": "0x16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_REMOVE_VETOED",
+      "Message": "",
+      "DecimalCode": 23,
+      "HexCode": "0x17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_APM_VETOED",
+      "Message": "",
+      "DecimalCode": 24,
+      "HexCode": "0x18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_LOAD_TYPE",
+      "Message": "",
+      "DecimalCode": 25,
+      "HexCode": "0x19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_BUFFER_SMALL",
+      "Message": "",
+      "DecimalCode": 26,
+      "HexCode": "0x1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_ARBITRATOR",
+      "Message": "",
+      "DecimalCode": 27,
+      "HexCode": "0x1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_REGISTRY_HANDLE",
+      "Message": "",
+      "DecimalCode": 28,
+      "HexCode": "0x1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_REGISTRY_ERROR",
+      "Message": "",
+      "DecimalCode": 29,
+      "HexCode": "0x1d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_DEVICE_ID",
+      "Message": "",
+      "DecimalCode": 30,
+      "HexCode": "0x1e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": 31,
+      "HexCode": "0x1f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_API",
+      "Message": "",
+      "DecimalCode": 32,
+      "HexCode": "0x20",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_DEVLOADER_NOT_READY",
+      "Message": "",
+      "DecimalCode": 33,
+      "HexCode": "0x21",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NEED_RESTART",
+      "Message": "",
+      "DecimalCode": 34,
+      "HexCode": "0x22",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_MORE_HW_PROFILES",
+      "Message": "",
+      "DecimalCode": 35,
+      "HexCode": "0x23",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_DEVICE_NOT_THERE",
+      "Message": "",
+      "DecimalCode": 36,
+      "HexCode": "0x24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_SUCH_VALUE",
+      "Message": "",
+      "DecimalCode": 37,
+      "HexCode": "0x25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_WRONG_TYPE",
+      "Message": "",
+      "DecimalCode": 38,
+      "HexCode": "0x26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_PRIORITY",
+      "Message": "",
+      "DecimalCode": 39,
+      "HexCode": "0x27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NOT_DISABLEABLE",
+      "Message": "",
+      "DecimalCode": 40,
+      "HexCode": "0x28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_FREE_RESOURCES",
+      "Message": "",
+      "DecimalCode": 41,
+      "HexCode": "0x29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_QUERY_VETOED",
+      "Message": "",
+      "DecimalCode": 42,
+      "HexCode": "0x2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_CANT_SHARE_IRQ",
+      "Message": "",
+      "DecimalCode": 43,
+      "HexCode": "0x2b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_DEPENDENT",
+      "Message": "",
+      "DecimalCode": 44,
+      "HexCode": "0x2c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_SAME_RESOURCES",
+      "Message": "",
+      "DecimalCode": 45,
+      "HexCode": "0x2d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_SUCH_REGISTRY_KEY",
+      "Message": "",
+      "DecimalCode": 46,
+      "HexCode": "0x2e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_MACHINENAME",
+      "Message": "",
+      "DecimalCode": 47,
+      "HexCode": "0x2f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_REMOTE_COMM_FAILURE",
+      "Message": "",
+      "DecimalCode": 48,
+      "HexCode": "0x30",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_MACHINE_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": 49,
+      "HexCode": "0x31",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_CM_SERVICES",
+      "Message": "",
+      "DecimalCode": 50,
+      "HexCode": "0x32",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 51,
+      "HexCode": "0x33",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_CALL_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": 52,
+      "HexCode": "0x34",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_PROPERTY",
+      "Message": "",
+      "DecimalCode": 53,
+      "HexCode": "0x35",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_DEVICE_INTERFACE_ACTIVE",
+      "Message": "",
+      "DecimalCode": 54,
+      "HexCode": "0x36",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_NO_SUCH_DEVICE_INTERFACE",
+      "Message": "",
+      "DecimalCode": 55,
+      "HexCode": "0x37",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_REFERENCE_STRING",
+      "Message": "",
+      "DecimalCode": 56,
+      "HexCode": "0x38",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_CONFLICT_LIST",
+      "Message": "",
+      "DecimalCode": 57,
+      "HexCode": "0x39",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_INDEX",
+      "Message": "",
+      "DecimalCode": 58,
+      "HexCode": "0x3a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CR_INVALID_STRUCTURE_SIZE",
+      "Message": "",
+      "DecimalCode": 59,
+      "HexCode": "0x3b",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,20 @@
+{
+  "HeaderFileName": "d3dx10core.h",
+  "ErrorCodes": [
+    {
+      "Id": "D3DERR_INVALIDCALL",
+      "Message": "",
+      "DecimalCode": -2005530516,
+      "HexCode": "0x8876086c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_WASSTILLDRAWING",
+      "Message": "",
+      "DecimalCode": -2005532132,
+      "HexCode": "0x8876021c",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

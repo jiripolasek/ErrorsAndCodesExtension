@@ -1,0 +1,279 @@
+{
+  "HeaderFileName": "audioclient.h",
+  "ErrorCodes": [
+    {
+      "Id": "AUDCLNT_E_NOT_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2004287487,
+      "HexCode": "0x88890001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_ALREADY_INITIALIZED",
+      "Message": "",
+      "DecimalCode": -2004287486,
+      "HexCode": "0x88890002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_WRONG_ENDPOINT_TYPE",
+      "Message": "",
+      "DecimalCode": -2004287485,
+      "HexCode": "0x88890003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_DEVICE_INVALIDATED",
+      "Message": "",
+      "DecimalCode": -2004287484,
+      "HexCode": "0x88890004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_NOT_STOPPED",
+      "Message": "",
+      "DecimalCode": -2004287483,
+      "HexCode": "0x88890005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_BUFFER_TOO_LARGE",
+      "Message": "",
+      "DecimalCode": -2004287482,
+      "HexCode": "0x88890006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_OUT_OF_ORDER",
+      "Message": "",
+      "DecimalCode": -2004287481,
+      "HexCode": "0x88890007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_UNSUPPORTED_FORMAT",
+      "Message": "",
+      "DecimalCode": -2004287480,
+      "HexCode": "0x88890008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_INVALID_SIZE",
+      "Message": "",
+      "DecimalCode": -2004287479,
+      "HexCode": "0x88890009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_DEVICE_IN_USE",
+      "Message": "",
+      "DecimalCode": -2004287478,
+      "HexCode": "0x8889000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_BUFFER_OPERATION_PENDING",
+      "Message": "",
+      "DecimalCode": -2004287477,
+      "HexCode": "0x8889000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_THREAD_NOT_REGISTERED",
+      "Message": "",
+      "DecimalCode": -2004287476,
+      "HexCode": "0x8889000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_EXCLUSIVE_MODE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2004287474,
+      "HexCode": "0x8889000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_ENDPOINT_CREATE_FAILED",
+      "Message": "",
+      "DecimalCode": -2004287473,
+      "HexCode": "0x8889000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_SERVICE_NOT_RUNNING",
+      "Message": "",
+      "DecimalCode": -2004287472,
+      "HexCode": "0x88890010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_EVENTHANDLE_NOT_EXPECTED",
+      "Message": "",
+      "DecimalCode": -2004287471,
+      "HexCode": "0x88890011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_EXCLUSIVE_MODE_ONLY",
+      "Message": "",
+      "DecimalCode": -2004287470,
+      "HexCode": "0x88890012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_BUFDURATION_PERIOD_NOT_EQUAL",
+      "Message": "",
+      "DecimalCode": -2004287469,
+      "HexCode": "0x88890013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_EVENTHANDLE_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2004287468,
+      "HexCode": "0x88890014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_INCORRECT_BUFFER_SIZE",
+      "Message": "",
+      "DecimalCode": -2004287467,
+      "HexCode": "0x88890015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_BUFFER_SIZE_ERROR",
+      "Message": "",
+      "DecimalCode": -2004287466,
+      "HexCode": "0x88890016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_CPUUSAGE_EXCEEDED",
+      "Message": "",
+      "DecimalCode": -2004287465,
+      "HexCode": "0x88890017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_BUFFER_ERROR",
+      "Message": "",
+      "DecimalCode": -2004287464,
+      "HexCode": "0x88890018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED",
+      "Message": "",
+      "DecimalCode": -2004287463,
+      "HexCode": "0x88890019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_INVALID_DEVICE_PERIOD",
+      "Message": "",
+      "DecimalCode": -2004287456,
+      "HexCode": "0x88890020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_INVALID_STREAM_FLAG",
+      "Message": "",
+      "DecimalCode": -2004287455,
+      "HexCode": "0x88890021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_ENDPOINT_OFFLOAD_NOT_CAPABLE",
+      "Message": "",
+      "DecimalCode": -2004287454,
+      "HexCode": "0x88890022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_OUT_OF_OFFLOAD_RESOURCES",
+      "Message": "",
+      "DecimalCode": -2004287453,
+      "HexCode": "0x88890023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_OFFLOAD_MODE_ONLY",
+      "Message": "",
+      "DecimalCode": -2004287452,
+      "HexCode": "0x88890024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_NONOFFLOAD_MODE_ONLY",
+      "Message": "",
+      "DecimalCode": -2004287451,
+      "HexCode": "0x88890025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_RESOURCES_INVALIDATED",
+      "Message": "",
+      "DecimalCode": -2004287450,
+      "HexCode": "0x88890026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_RAW_MODE_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2004287449,
+      "HexCode": "0x88890027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_ENGINE_PERIODICITY_LOCKED",
+      "Message": "",
+      "DecimalCode": -2004287448,
+      "HexCode": "0x88890028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_ENGINE_FORMAT_LOCKED",
+      "Message": "",
+      "DecimalCode": -2004287447,
+      "HexCode": "0x88890029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_HEADTRACKING_ENABLED",
+      "Message": "",
+      "DecimalCode": -2004287440,
+      "HexCode": "0x88890030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_E_HEADTRACKING_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2004287424,
+      "HexCode": "0x88890040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "AUDCLNT_S_BUFFER_EMPTY",
+      "Message": "",
+      "DecimalCode": 143196161,
+      "HexCode": "0x8890001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "AUDCLNT_S_THREAD_ALREADY_REGISTERED",
+      "Message": "",
+      "DecimalCode": 143196162,
+      "HexCode": "0x8890002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "AUDCLNT_S_POSITION_STALLED",
+      "Message": "",
+      "DecimalCode": 143196163,
+      "HexCode": "0x8890003",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

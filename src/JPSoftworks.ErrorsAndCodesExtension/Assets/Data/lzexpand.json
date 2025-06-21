@@ -1,0 +1,62 @@
+{
+  "HeaderFileName": "lzexpand.h",
+  "ErrorCodes": [
+    {
+      "Id": "LZERROR_BADINHANDLE",
+      "Message": "/* invalid input handle */",
+      "DecimalCode": -1,
+      "HexCode": "0xffffffff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_BADOUTHANDLE",
+      "Message": "/* invalid output handle */",
+      "DecimalCode": -2,
+      "HexCode": "0xfffffffe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_READ",
+      "Message": "/* corrupt compressed file format */",
+      "DecimalCode": -3,
+      "HexCode": "0xfffffffd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_WRITE",
+      "Message": "/* out of space for output file */",
+      "DecimalCode": -4,
+      "HexCode": "0xfffffffc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_GLOBALLOC",
+      "Message": "/* insufficient memory for LZFile struct */",
+      "DecimalCode": -5,
+      "HexCode": "0xfffffffb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_GLOBLOCK",
+      "Message": "/* bad global handle */",
+      "DecimalCode": -6,
+      "HexCode": "0xfffffffa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_BADVALUE",
+      "Message": "/* input parameter out of acceptable range*/",
+      "DecimalCode": -7,
+      "HexCode": "0xfffffff9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "LZERROR_UNKNOWNALG",
+      "Message": "/* compression algorithm not recognized */",
+      "DecimalCode": -8,
+      "HexCode": "0xfffffff8",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

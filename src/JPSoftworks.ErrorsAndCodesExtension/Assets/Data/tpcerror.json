@@ -1,0 +1,76 @@
+{
+  "HeaderFileName": "tpcerror.h",
+  "ErrorCodes": [
+    {
+      "Id": "E_INK_EXCEPTION",
+      "Message": "",
+      "DecimalCode": -2144862207,
+      "HexCode": "0x80280001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_MISMATCHED_INK_OBJECT",
+      "Message": "",
+      "DecimalCode": -2144862206,
+      "HexCode": "0x80280002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_COLLECTOR_BUSY",
+      "Message": "",
+      "DecimalCode": -2144862205,
+      "HexCode": "0x80280003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_INCOMPATIBLE_OBJECT",
+      "Message": "",
+      "DecimalCode": -2144862204,
+      "HexCode": "0x80280004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_WINDOW_NOT_SET",
+      "Message": "",
+      "DecimalCode": -2144862203,
+      "HexCode": "0x80280005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_INVALID_MODE",
+      "Message": "",
+      "DecimalCode": -2144862202,
+      "HexCode": "0x80280006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_COLLECTOR_ENABLED",
+      "Message": "",
+      "DecimalCode": -2144862201,
+      "HexCode": "0x80280007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_NO_STROKES_TO_RECOGNIZE",
+      "Message": "",
+      "DecimalCode": -2144862200,
+      "HexCode": "0x80280008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_EMPTY_RECOGNITION_RESULT",
+      "Message": "",
+      "DecimalCode": -2144862199,
+      "HexCode": "0x80280009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "E_INK_OVERLAPPING_INPUT_RECT",
+      "Message": "",
+      "DecimalCode": -2144862192,
+      "HexCode": "0x80280010",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

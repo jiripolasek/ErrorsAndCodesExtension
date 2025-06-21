@@ -1,0 +1,531 @@
+{
+  "HeaderFileName": "xpsobjectmodel.h",
+  "ErrorCodes": [
+    {
+      "Id": "XPS_E_INVALID_LANGUAGE",
+      "Message": "",
+      "DecimalCode": -2142109696,
+      "HexCode": "0x80520000",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_NAME",
+      "Message": "",
+      "DecimalCode": -2142109695,
+      "HexCode": "0x80520001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_RESOURCE_KEY",
+      "Message": "",
+      "DecimalCode": -2142109694,
+      "HexCode": "0x80520002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_PAGE_SIZE",
+      "Message": "",
+      "DecimalCode": -2142109693,
+      "HexCode": "0x80520003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_BLEED_BOX",
+      "Message": "",
+      "DecimalCode": -2142109692,
+      "HexCode": "0x80520004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE",
+      "Message": "",
+      "DecimalCode": -2142109691,
+      "HexCode": "0x80520005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_LOOKUP_TYPE",
+      "Message": "",
+      "DecimalCode": -2142109690,
+      "HexCode": "0x80520006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_FLOAT",
+      "Message": "",
+      "DecimalCode": -2142109689,
+      "HexCode": "0x80520007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_UNEXPECTED_CONTENT_TYPE",
+      "Message": "",
+      "DecimalCode": -2142109688,
+      "HexCode": "0x80520008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_FONT_URI",
+      "Message": "",
+      "DecimalCode": -2142109686,
+      "HexCode": "0x8052000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_CONTENT_BOX",
+      "Message": "",
+      "DecimalCode": -2142109685,
+      "HexCode": "0x8052000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_MARKUP",
+      "Message": "",
+      "DecimalCode": -2142109684,
+      "HexCode": "0x8052000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_XML_ENCODING",
+      "Message": "",
+      "DecimalCode": -2142109683,
+      "HexCode": "0x8052000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_CONTENT_TYPE",
+      "Message": "",
+      "DecimalCode": -2142109682,
+      "HexCode": "0x8052000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_OBFUSCATED_FONT_URI",
+      "Message": "",
+      "DecimalCode": -2142109681,
+      "HexCode": "0x8052000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_UNEXPECTED_RELATIONSHIP_TYPE",
+      "Message": "",
+      "DecimalCode": -2142109680,
+      "HexCode": "0x80520010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_UNEXPECTED_RESTRICTED_FONT_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142109679,
+      "HexCode": "0x80520011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_NAME",
+      "Message": "",
+      "DecimalCode": -2142109440,
+      "HexCode": "0x80520100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_LOOKUP",
+      "Message": "",
+      "DecimalCode": -2142109439,
+      "HexCode": "0x80520101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_GLYPHS",
+      "Message": "",
+      "DecimalCode": -2142109438,
+      "HexCode": "0x80520102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_SEGMENT_DATA",
+      "Message": "",
+      "DecimalCode": -2142109437,
+      "HexCode": "0x80520103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_COLORPROFILE",
+      "Message": "",
+      "DecimalCode": -2142109436,
+      "HexCode": "0x80520104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_RELATIONSHIP_TARGET",
+      "Message": "",
+      "DecimalCode": -2142109435,
+      "HexCode": "0x80520105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_RESOURCE_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142109434,
+      "HexCode": "0x80520106",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_FONTURI",
+      "Message": "",
+      "DecimalCode": -2142109433,
+      "HexCode": "0x80520107",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_DOCUMENTSEQUENCE_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142109432,
+      "HexCode": "0x80520108",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_DOCUMENT",
+      "Message": "",
+      "DecimalCode": -2142109431,
+      "HexCode": "0x80520109",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_REFERRED_DOCUMENT",
+      "Message": "",
+      "DecimalCode": -2142109430,
+      "HexCode": "0x8052010a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_REFERRED_PAGE",
+      "Message": "",
+      "DecimalCode": -2142109429,
+      "HexCode": "0x8052010b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_PAGE_IN_DOCUMENT",
+      "Message": "",
+      "DecimalCode": -2142109428,
+      "HexCode": "0x8052010c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_PAGE_IN_PAGEREFERENCE",
+      "Message": "",
+      "DecimalCode": -2142109427,
+      "HexCode": "0x8052010d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_IMAGE_IN_IMAGEBRUSH",
+      "Message": "",
+      "DecimalCode": -2142109426,
+      "HexCode": "0x8052010e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_RESOURCE_KEY",
+      "Message": "",
+      "DecimalCode": -2142109425,
+      "HexCode": "0x8052010f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_PART_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2142109424,
+      "HexCode": "0x80520110",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_RESTRICTED_FONT_RELATIONSHIP",
+      "Message": "",
+      "DecimalCode": -2142109423,
+      "HexCode": "0x80520111",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_DISCARDCONTROL",
+      "Message": "",
+      "DecimalCode": -2142109422,
+      "HexCode": "0x80520112",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MISSING_PART_STREAM",
+      "Message": "",
+      "DecimalCode": -2142109421,
+      "HexCode": "0x80520113",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_UNAVAILABLE_PACKAGE",
+      "Message": "",
+      "DecimalCode": -2142109420,
+      "HexCode": "0x80520114",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_DUPLICATE_RESOURCE_KEYS",
+      "Message": "",
+      "DecimalCode": -2142109184,
+      "HexCode": "0x80520200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_RESOURCES",
+      "Message": "",
+      "DecimalCode": -2142109183,
+      "HexCode": "0x80520201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_DOCUMENTSEQUENCE_RELATIONSHIPS",
+      "Message": "",
+      "DecimalCode": -2142109182,
+      "HexCode": "0x80520202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_THUMBNAILS_ON_PAGE",
+      "Message": "",
+      "DecimalCode": -2142109181,
+      "HexCode": "0x80520203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_THUMBNAILS_ON_PACKAGE",
+      "Message": "",
+      "DecimalCode": -2142109180,
+      "HexCode": "0x80520204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_PRINTTICKETS_ON_PAGE",
+      "Message": "",
+      "DecimalCode": -2142109179,
+      "HexCode": "0x80520205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENT",
+      "Message": "",
+      "DecimalCode": -2142109178,
+      "HexCode": "0x80520206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_PRINTTICKETS_ON_DOCUMENTSEQUENCE",
+      "Message": "",
+      "DecimalCode": -2142109177,
+      "HexCode": "0x80520207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MULTIPLE_REFERENCES_TO_PART",
+      "Message": "",
+      "DecimalCode": -2142109176,
+      "HexCode": "0x80520208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_DUPLICATE_NAMES",
+      "Message": "",
+      "DecimalCode": -2142109175,
+      "HexCode": "0x80520209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_STRING_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -2142108928,
+      "HexCode": "0x80520300",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_TOO_MANY_INDICES",
+      "Message": "",
+      "DecimalCode": -2142108927,
+      "HexCode": "0x80520301",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MAPPING_OUT_OF_ORDER",
+      "Message": "",
+      "DecimalCode": -2142108926,
+      "HexCode": "0x80520302",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MAPPING_OUTSIDE_STRING",
+      "Message": "",
+      "DecimalCode": -2142108925,
+      "HexCode": "0x80520303",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_MAPPING_OUTSIDE_INDICES",
+      "Message": "",
+      "DecimalCode": -2142108924,
+      "HexCode": "0x80520304",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_CARET_OUTSIDE_STRING",
+      "Message": "",
+      "DecimalCode": -2142108923,
+      "HexCode": "0x80520305",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_CARET_OUT_OF_ORDER",
+      "Message": "",
+      "DecimalCode": -2142108922,
+      "HexCode": "0x80520306",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_ODD_BIDILEVEL",
+      "Message": "",
+      "DecimalCode": -2142108921,
+      "HexCode": "0x80520307",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_ONE_TO_ONE_MAPPING_EXPECTED",
+      "Message": "",
+      "DecimalCode": -2142108920,
+      "HexCode": "0x80520308",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_RESTRICTED_FONT_NOT_OBFUSCATED",
+      "Message": "",
+      "DecimalCode": -2142108919,
+      "HexCode": "0x80520309",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_NEGATIVE_FLOAT",
+      "Message": "",
+      "DecimalCode": -2142108918,
+      "HexCode": "0x8052030a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_XKEY_ATTR_PRESENT_OUTSIDE_RES_DICT",
+      "Message": "",
+      "DecimalCode": -2142108672,
+      "HexCode": "0x80520400",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_DICTIONARY_ITEM_NAMED",
+      "Message": "",
+      "DecimalCode": -2142108671,
+      "HexCode": "0x80520401",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_NESTED_REMOTE_DICTIONARY",
+      "Message": "",
+      "DecimalCode": -2142108670,
+      "HexCode": "0x80520402",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INDEX_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -2142108416,
+      "HexCode": "0x80520500",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_VISUAL_CIRCULAR_REF",
+      "Message": "",
+      "DecimalCode": -2142108415,
+      "HexCode": "0x80520501",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_NO_CUSTOM_OBJECTS",
+      "Message": "",
+      "DecimalCode": -2142108414,
+      "HexCode": "0x80520502",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_ALREADY_OWNED",
+      "Message": "",
+      "DecimalCode": -2142108413,
+      "HexCode": "0x80520503",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_RESOURCE_NOT_OWNED",
+      "Message": "",
+      "DecimalCode": -2142108412,
+      "HexCode": "0x80520504",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_UNEXPECTED_COLORPROFILE",
+      "Message": "",
+      "DecimalCode": -2142108411,
+      "HexCode": "0x80520505",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_COLOR_COMPONENT_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -2142108410,
+      "HexCode": "0x80520506",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_BOTH_PATHFIGURE_AND_ABBR_SYNTAX_PRESENT",
+      "Message": "",
+      "DecimalCode": -2142108409,
+      "HexCode": "0x80520507",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_BOTH_RESOURCE_AND_SOURCEATTR_PRESENT",
+      "Message": "",
+      "DecimalCode": -2142108408,
+      "HexCode": "0x80520508",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_BLEED_BOX_PAGE_DIMENSIONS_NOT_IN_SYNC",
+      "Message": "",
+      "DecimalCode": -2142108407,
+      "HexCode": "0x80520509",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_RELATIONSHIP_EXTERNAL",
+      "Message": "",
+      "DecimalCode": -2142108406,
+      "HexCode": "0x8052050a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_NOT_ENOUGH_GRADIENT_STOPS",
+      "Message": "",
+      "DecimalCode": -2142108405,
+      "HexCode": "0x8052050b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_PACKAGE_WRITER_NOT_CLOSED",
+      "Message": "",
+      "DecimalCode": -2142108404,
+      "HexCode": "0x8052050c",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

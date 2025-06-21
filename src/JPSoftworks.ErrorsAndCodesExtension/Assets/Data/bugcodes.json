@@ -3752,6 +3752,13 @@
       "DecimalCode": 8648,
       "HexCode": "0x000021C8",
       "Type": "HResult"
+    },
+    {
+      "Id": "XBOX_ERACTRL_CS_TIMEOUT",
+      "Message": "",
+      "DecimalCode": 854,
+      "HexCode": "0x356",
+      "Type": "Win32Error"
     }
   ],
   "Facilities": []

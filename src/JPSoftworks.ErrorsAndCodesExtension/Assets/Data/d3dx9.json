@@ -1,0 +1,69 @@
+{
+  "HeaderFileName": "d3dx9.h",
+  "ErrorCodes": [
+    {
+      "Id": "D3DXERR_CANNOTMODIFYINDEXBUFFER",
+      "Message": "",
+      "DecimalCode": -2005529772,
+      "HexCode": "0x88760b54",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_INVALIDMESH",
+      "Message": "",
+      "DecimalCode": -2005529771,
+      "HexCode": "0x88760b55",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_CANNOTATTRSORT",
+      "Message": "",
+      "DecimalCode": -2005529770,
+      "HexCode": "0x88760b56",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_SKINNINGNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2005529769,
+      "HexCode": "0x88760b57",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_TOOMANYINFLUENCES",
+      "Message": "",
+      "DecimalCode": -2005529768,
+      "HexCode": "0x88760b58",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_INVALIDDATA",
+      "Message": "",
+      "DecimalCode": -2005529767,
+      "HexCode": "0x88760b59",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_LOADEDMESHASNODATA",
+      "Message": "",
+      "DecimalCode": -2005529766,
+      "HexCode": "0x88760b5a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_DUPLICATENAMEDFRAGMENT",
+      "Message": "",
+      "DecimalCode": -2005529765,
+      "HexCode": "0x88760b5b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DXERR_CANNOTREMOVELASTITEM",
+      "Message": "",
+      "DecimalCode": -2005529764,
+      "HexCode": "0x88760b5c",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

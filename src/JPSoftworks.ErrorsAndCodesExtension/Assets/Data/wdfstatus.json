@@ -1,0 +1,146 @@
+{
+  "HeaderFileName": "wdfstatus.h",
+  "ErrorCodes": [
+    {
+      "Id": "STATUS_WDF_QUEUED",
+      "Message": "The request was queued internally and not immediately submitted to its target.",
+      "DecimalCode": 1075838976,
+      "HexCode": "0x40200000",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "STATUS_WDF_POSTED",
+      "Message": "The request was posted to a worker thread.",
+      "DecimalCode": 1075838978,
+      "HexCode": "0x40200002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "STATUS_WDF_NO_PACKAGE",
+      "Message": "No package of the selected type has been defined.",
+      "DecimalCode": -1071644160,
+      "HexCode": "0xc0200200",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_INTERNAL_ERROR",
+      "Message": "An internal error has occured.",
+      "DecimalCode": -1071644159,
+      "HexCode": "0xc0200201",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_PAUSED",
+      "Message": "The object is in a paused state.",
+      "DecimalCode": -1071644157,
+      "HexCode": "0xc0200203",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_BUSY",
+      "Message": "The object is busy with previous requests.",
+      "DecimalCode": -1071644156,
+      "HexCode": "0xc0200204",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_IO_TIMEOUT_NOT_SENT",
+      "Message": "The request timed out and was never sent to its target.",
+      "DecimalCode": -1071644155,
+      "HexCode": "0xc0200205",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_DEVICE_REMOVED_NOT_SENT",
+      "Message": "The request was never sent to its target and is now failed because the device has been removed.",
+      "DecimalCode": -1071644154,
+      "HexCode": "0xc0200206",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_REQUEST_ALREADY_PENDING",
+      "Message": "A request that was already pending with a IO target was submitted to a IO target.",
+      "DecimalCode": -1071644153,
+      "HexCode": "0xc0200207",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_REQUEST_INVALID_STATE",
+      "Message": "An invalid operation was attempted on a request based on its currents state.",
+      "DecimalCode": -1071644152,
+      "HexCode": "0xc0200208",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_OBJECT_ATTRIBUTES_INVALID",
+      "Message": "An invalid WDF_OBJECT_ATTRIBUTES parameter was passed.",
+      "DecimalCode": -1071644151,
+      "HexCode": "0xc0200209",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_TOO_FRAGMENTED",
+      "Message": "The DMA Request\u0026apos;s MDL has more SCATTER_GATHER_ELEMENTS that DMA Object\u0026apos;s MaximumFragments allows.",
+      "DecimalCode": -1071644150,
+      "HexCode": "0xc020020a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_NO_CALLBACK",
+      "Message": "A required Event Callback has not been registered.",
+      "DecimalCode": -1071644149,
+      "HexCode": "0xc020020b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_INCOMPATIBLE_EXECUTION_LEVEL",
+      "Message": "The object does not support the specified WDF_EXECUTION_LEVEL.",
+      "DecimalCode": -1071644148,
+      "HexCode": "0xc020020c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_PARENT_ALREADY_ASSIGNED",
+      "Message": "The object already has a parent assigned.",
+      "DecimalCode": -1071644147,
+      "HexCode": "0xc020020d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_PARENT_IS_SELF",
+      "Message": "The object can not be its own parent.",
+      "DecimalCode": -1071644146,
+      "HexCode": "0xc020020e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_PARENT_ASSIGNMENT_NOT_ALLOWED",
+      "Message": "The object can not have a driver specified parent assignment.",
+      "DecimalCode": -1071644145,
+      "HexCode": "0xc020020f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_SYNCHRONIZATION_SCOPE_INVALID",
+      "Message": "The object does not support the specified WDF_SYNCHRONIZATION_SCOPE.",
+      "DecimalCode": -1071644144,
+      "HexCode": "0xc0200210",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_EXECUTION_LEVEL_INVALID",
+      "Message": "The object does not support the specified WDF_EXECUTION_LEVEL.",
+      "DecimalCode": -1071644143,
+      "HexCode": "0xc0200211",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "STATUS_WDF_PARENT_NOT_SPECIFIED",
+      "Message": "A required parent object was not specified in WDF_OBJECT_ATTRIBUTES.",
+      "DecimalCode": -1071644142,
+      "HexCode": "0xc0200212",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,440 @@
+{
+  "HeaderFileName": "winsock2.h",
+  "ErrorCodes": [
+    {
+      "Id": "WSAEINTR",
+      "Message": "",
+      "DecimalCode": 10004,
+      "HexCode": "0x2714",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEBADF",
+      "Message": "",
+      "DecimalCode": 10009,
+      "HexCode": "0x2719",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEACCES",
+      "Message": "",
+      "DecimalCode": 10013,
+      "HexCode": "0x271d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEFAULT",
+      "Message": "",
+      "DecimalCode": 10014,
+      "HexCode": "0x271e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEINVAL",
+      "Message": "",
+      "DecimalCode": 10022,
+      "HexCode": "0x2726",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEMFILE",
+      "Message": "",
+      "DecimalCode": 10024,
+      "HexCode": "0x2728",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEWOULDBLOCK",
+      "Message": "",
+      "DecimalCode": 10035,
+      "HexCode": "0x2733",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEINPROGRESS",
+      "Message": "",
+      "DecimalCode": 10036,
+      "HexCode": "0x2734",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEALREADY",
+      "Message": "",
+      "DecimalCode": 10037,
+      "HexCode": "0x2735",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENOTSOCK",
+      "Message": "",
+      "DecimalCode": 10038,
+      "HexCode": "0x2736",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEDESTADDRREQ",
+      "Message": "",
+      "DecimalCode": 10039,
+      "HexCode": "0x2737",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEMSGSIZE",
+      "Message": "",
+      "DecimalCode": 10040,
+      "HexCode": "0x2738",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEPROTOTYPE",
+      "Message": "",
+      "DecimalCode": 10041,
+      "HexCode": "0x2739",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENOPROTOOPT",
+      "Message": "",
+      "DecimalCode": 10042,
+      "HexCode": "0x273a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEPROTONOSUPPORT",
+      "Message": "",
+      "DecimalCode": 10043,
+      "HexCode": "0x273b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAESOCKTNOSUPPORT",
+      "Message": "",
+      "DecimalCode": 10044,
+      "HexCode": "0x273c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEOPNOTSUPP",
+      "Message": "",
+      "DecimalCode": 10045,
+      "HexCode": "0x273d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEPFNOSUPPORT",
+      "Message": "",
+      "DecimalCode": 10046,
+      "HexCode": "0x273e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEAFNOSUPPORT",
+      "Message": "",
+      "DecimalCode": 10047,
+      "HexCode": "0x273f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEADDRINUSE",
+      "Message": "",
+      "DecimalCode": 10048,
+      "HexCode": "0x2740",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEADDRNOTAVAIL",
+      "Message": "",
+      "DecimalCode": 10049,
+      "HexCode": "0x2741",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENETDOWN",
+      "Message": "",
+      "DecimalCode": 10050,
+      "HexCode": "0x2742",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENETUNREACH",
+      "Message": "",
+      "DecimalCode": 10051,
+      "HexCode": "0x2743",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENETRESET",
+      "Message": "",
+      "DecimalCode": 10052,
+      "HexCode": "0x2744",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAECONNABORTED",
+      "Message": "",
+      "DecimalCode": 10053,
+      "HexCode": "0x2745",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAECONNRESET",
+      "Message": "",
+      "DecimalCode": 10054,
+      "HexCode": "0x2746",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENOBUFS",
+      "Message": "",
+      "DecimalCode": 10055,
+      "HexCode": "0x2747",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEISCONN",
+      "Message": "",
+      "DecimalCode": 10056,
+      "HexCode": "0x2748",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENOTCONN",
+      "Message": "",
+      "DecimalCode": 10057,
+      "HexCode": "0x2749",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAESHUTDOWN",
+      "Message": "",
+      "DecimalCode": 10058,
+      "HexCode": "0x274a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAETOOMANYREFS",
+      "Message": "",
+      "DecimalCode": 10059,
+      "HexCode": "0x274b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAETIMEDOUT",
+      "Message": "",
+      "DecimalCode": 10060,
+      "HexCode": "0x274c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAECONNREFUSED",
+      "Message": "",
+      "DecimalCode": 10061,
+      "HexCode": "0x274d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAELOOP",
+      "Message": "",
+      "DecimalCode": 10062,
+      "HexCode": "0x274e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENAMETOOLONG",
+      "Message": "",
+      "DecimalCode": 10063,
+      "HexCode": "0x274f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEHOSTDOWN",
+      "Message": "",
+      "DecimalCode": 10064,
+      "HexCode": "0x2750",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEHOSTUNREACH",
+      "Message": "",
+      "DecimalCode": 10065,
+      "HexCode": "0x2751",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENOTEMPTY",
+      "Message": "",
+      "DecimalCode": 10066,
+      "HexCode": "0x2752",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEPROCLIM",
+      "Message": "",
+      "DecimalCode": 10067,
+      "HexCode": "0x2753",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEUSERS",
+      "Message": "",
+      "DecimalCode": 10068,
+      "HexCode": "0x2754",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEDQUOT",
+      "Message": "",
+      "DecimalCode": 10069,
+      "HexCode": "0x2755",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAESTALE",
+      "Message": "",
+      "DecimalCode": 10070,
+      "HexCode": "0x2756",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEREMOTE",
+      "Message": "",
+      "DecimalCode": 10071,
+      "HexCode": "0x2757",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSASYSNOTREADY",
+      "Message": "",
+      "DecimalCode": 10091,
+      "HexCode": "0x276b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAVERNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": 10092,
+      "HexCode": "0x276c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSANOTINITIALISED",
+      "Message": "",
+      "DecimalCode": 10093,
+      "HexCode": "0x276d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEDISCON",
+      "Message": "",
+      "DecimalCode": 10101,
+      "HexCode": "0x2775",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAENOMORE",
+      "Message": "",
+      "DecimalCode": 10102,
+      "HexCode": "0x2776",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAECANCELLED",
+      "Message": "",
+      "DecimalCode": 10103,
+      "HexCode": "0x2777",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEINVALIDPROCTABLE",
+      "Message": "",
+      "DecimalCode": 10104,
+      "HexCode": "0x2778",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEINVALIDPROVIDER",
+      "Message": "",
+      "DecimalCode": 10105,
+      "HexCode": "0x2779",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEPROVIDERFAILEDINIT",
+      "Message": "",
+      "DecimalCode": 10106,
+      "HexCode": "0x277a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSASYSCALLFAILURE",
+      "Message": "",
+      "DecimalCode": 10107,
+      "HexCode": "0x277b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSASERVICE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 10108,
+      "HexCode": "0x277c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSATYPE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 10109,
+      "HexCode": "0x277d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_E_NO_MORE",
+      "Message": "",
+      "DecimalCode": 10110,
+      "HexCode": "0x277e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSA_E_CANCELLED",
+      "Message": "",
+      "DecimalCode": 10111,
+      "HexCode": "0x277f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAEREFUSED",
+      "Message": "",
+      "DecimalCode": 10112,
+      "HexCode": "0x2780",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSAHOST_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 11001,
+      "HexCode": "0x2af9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSATRY_AGAIN",
+      "Message": "",
+      "DecimalCode": 11002,
+      "HexCode": "0x2afa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSANO_RECOVERY",
+      "Message": "",
+      "DecimalCode": 11003,
+      "HexCode": "0x2afb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WSANO_DATA",
+      "Message": "",
+      "DecimalCode": 11004,
+      "HexCode": "0x2afc",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

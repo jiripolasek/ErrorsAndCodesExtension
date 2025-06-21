@@ -1,0 +1,69 @@
+{
+  "HeaderFileName": "mciavi.h",
+  "ErrorCodes": [
+    {
+      "Id": "MCIERR_AVI_OLDAVIFORMAT",
+      "Message": "",
+      "DecimalCode": 612,
+      "HexCode": "0x264",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_NOTINTERLEAVED",
+      "Message": "",
+      "DecimalCode": 613,
+      "HexCode": "0x265",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_NODISPDIB",
+      "Message": "",
+      "DecimalCode": 614,
+      "HexCode": "0x266",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_CANTPLAYFULLSCREEN",
+      "Message": "",
+      "DecimalCode": 615,
+      "HexCode": "0x267",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_TOOBIGFORVGA",
+      "Message": "",
+      "DecimalCode": 616,
+      "HexCode": "0x268",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_NOCOMPRESSOR",
+      "Message": "",
+      "DecimalCode": 617,
+      "HexCode": "0x269",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_DISPLAYERROR",
+      "Message": "",
+      "DecimalCode": 618,
+      "HexCode": "0x26a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_AUDIOERROR",
+      "Message": "",
+      "DecimalCode": 619,
+      "HexCode": "0x26b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "MCIERR_AVI_BADPALETTE",
+      "Message": "",
+      "DecimalCode": 620,
+      "HexCode": "0x26c",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

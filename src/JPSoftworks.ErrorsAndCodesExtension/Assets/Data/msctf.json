@@ -1,0 +1,160 @@
+{
+  "HeaderFileName": "msctf.h",
+  "ErrorCodes": [
+    {
+      "Id": "TF_E_LOCKED",
+      "Message": "",
+      "DecimalCode": -2147220224,
+      "HexCode": "0x80040500",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_STACKFULL",
+      "Message": "",
+      "DecimalCode": -2147220223,
+      "HexCode": "0x80040501",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOTOWNEDRANGE",
+      "Message": "",
+      "DecimalCode": -2147220222,
+      "HexCode": "0x80040502",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOPROVIDER",
+      "Message": "",
+      "DecimalCode": -2147220221,
+      "HexCode": "0x80040503",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_DISCONNECTED",
+      "Message": "",
+      "DecimalCode": -2147220220,
+      "HexCode": "0x80040504",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_INVALIDVIEW",
+      "Message": "",
+      "DecimalCode": -2147220219,
+      "HexCode": "0x80040505",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2147220218,
+      "HexCode": "0x80040506",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_RANGE_NOT_COVERED",
+      "Message": "",
+      "DecimalCode": -2147220217,
+      "HexCode": "0x80040507",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_COMPOSITION_REJECTED",
+      "Message": "",
+      "DecimalCode": -2147220216,
+      "HexCode": "0x80040508",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_EMPTYCONTEXT",
+      "Message": "",
+      "DecimalCode": -2147220215,
+      "HexCode": "0x80040509",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_INVALIDPOS",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOLOCK",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOOBJECT",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOSERVICE",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOINTERFACE",
+      "Message": "",
+      "DecimalCode": -2147220988,
+      "HexCode": "0x80040204",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOSELECTION",
+      "Message": "",
+      "DecimalCode": -2147220987,
+      "HexCode": "0x80040205",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_NOLAYOUT",
+      "Message": "",
+      "DecimalCode": -2147220986,
+      "HexCode": "0x80040206",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_INVALIDPOINT",
+      "Message": "",
+      "DecimalCode": -2147220985,
+      "HexCode": "0x80040207",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_SYNCHRONOUS",
+      "Message": "",
+      "DecimalCode": -2147220984,
+      "HexCode": "0x80040208",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_READONLY",
+      "Message": "",
+      "DecimalCode": -2147220983,
+      "HexCode": "0x80040209",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_E_FORMAT",
+      "Message": "",
+      "DecimalCode": -2147220982,
+      "HexCode": "0x8004020a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "TF_S_ASYNC",
+      "Message": "",
+      "DecimalCode": 262912,
+      "HexCode": "0x40300",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,27 @@
+{
+  "HeaderFileName": "activprof.h",
+  "ErrorCodes": [
+    {
+      "Id": "ACTIVPROF_E_PROFILER_PRESENT",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "ACTIVPROF_E_PROFILER_ABSENT",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "ACTIVPROF_E_UNABLE_TO_APPLY_ACTION",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

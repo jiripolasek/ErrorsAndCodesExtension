@@ -1,0 +1,153 @@
+{
+  "HeaderFileName": "wiadef.h",
+  "ErrorCodes": [
+    {
+      "Id": "WIA_ERROR_GENERAL_ERROR",
+      "Message": "",
+      "DecimalCode": -2145320959,
+      "HexCode": "0x80210001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_PAPER_JAM",
+      "Message": "",
+      "DecimalCode": -2145320958,
+      "HexCode": "0x80210002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_PAPER_EMPTY",
+      "Message": "",
+      "DecimalCode": -2145320957,
+      "HexCode": "0x80210003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_PAPER_PROBLEM",
+      "Message": "",
+      "DecimalCode": -2145320956,
+      "HexCode": "0x80210004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_OFFLINE",
+      "Message": "",
+      "DecimalCode": -2145320955,
+      "HexCode": "0x80210005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_BUSY",
+      "Message": "",
+      "DecimalCode": -2145320954,
+      "HexCode": "0x80210006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_WARMING_UP",
+      "Message": "",
+      "DecimalCode": -2145320953,
+      "HexCode": "0x80210007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_USER_INTERVENTION",
+      "Message": "",
+      "DecimalCode": -2145320952,
+      "HexCode": "0x80210008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_ITEM_DELETED",
+      "Message": "",
+      "DecimalCode": -2145320951,
+      "HexCode": "0x80210009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_DEVICE_COMMUNICATION",
+      "Message": "",
+      "DecimalCode": -2145320950,
+      "HexCode": "0x8021000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_INVALID_COMMAND",
+      "Message": "",
+      "DecimalCode": -2145320949,
+      "HexCode": "0x8021000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_INCORRECT_HARDWARE_SETTING",
+      "Message": "",
+      "DecimalCode": -2145320948,
+      "HexCode": "0x8021000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_DEVICE_LOCKED",
+      "Message": "",
+      "DecimalCode": -2145320947,
+      "HexCode": "0x8021000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_EXCEPTION_IN_DRIVER",
+      "Message": "",
+      "DecimalCode": -2145320946,
+      "HexCode": "0x8021000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_INVALID_DRIVER_RESPONSE",
+      "Message": "",
+      "DecimalCode": -2145320945,
+      "HexCode": "0x8021000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_COVER_OPEN",
+      "Message": "",
+      "DecimalCode": -2145320944,
+      "HexCode": "0x80210010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_LAMP_OFF",
+      "Message": "",
+      "DecimalCode": -2145320943,
+      "HexCode": "0x80210011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_DESTINATION",
+      "Message": "",
+      "DecimalCode": -2145320942,
+      "HexCode": "0x80210012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_NETWORK_RESERVATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2145320941,
+      "HexCode": "0x80210013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_MULTI_FEED",
+      "Message": "",
+      "DecimalCode": -2145320940,
+      "HexCode": "0x80210014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WIA_ERROR_MAXIMUM_PRINTER_ENDORSER_COUNTER",
+      "Message": "",
+      "DecimalCode": -2145320939,
+      "HexCode": "0x80210015",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

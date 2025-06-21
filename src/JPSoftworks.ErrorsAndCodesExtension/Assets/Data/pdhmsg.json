@@ -1,0 +1,608 @@
+{
+  "HeaderFileName": "pdhmsg.h",
+  "ErrorCodes": [
+    {
+      "Id": "PDH_CSTATUS_VALID_DATA",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDH_CSTATUS_NEW_DATA",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDH_CSTATUS_NO_MACHINE",
+      "Message": "",
+      "DecimalCode": -2147481648,
+      "HexCode": "0x800007d0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CSTATUS_NO_INSTANCE",
+      "Message": "",
+      "DecimalCode": -2147481647,
+      "HexCode": "0x800007d1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_MORE_DATA",
+      "Message": "",
+      "DecimalCode": -2147481646,
+      "HexCode": "0x800007d2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CSTATUS_ITEM_NOT_VALIDATED",
+      "Message": "",
+      "DecimalCode": -2147481645,
+      "HexCode": "0x800007d3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_RETRY",
+      "Message": "",
+      "DecimalCode": -2147481644,
+      "HexCode": "0x800007d4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_NO_DATA",
+      "Message": "",
+      "DecimalCode": -2147481643,
+      "HexCode": "0x800007d5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CALC_NEGATIVE_DENOMINATOR",
+      "Message": "",
+      "DecimalCode": -2147481642,
+      "HexCode": "0x800007d6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CALC_NEGATIVE_TIMEBASE",
+      "Message": "",
+      "DecimalCode": -2147481641,
+      "HexCode": "0x800007d7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CALC_NEGATIVE_VALUE",
+      "Message": "",
+      "DecimalCode": -2147481640,
+      "HexCode": "0x800007d8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_DIALOG_CANCELLED",
+      "Message": "",
+      "DecimalCode": -2147481639,
+      "HexCode": "0x800007d9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_END_OF_LOG_FILE",
+      "Message": "",
+      "DecimalCode": -2147481638,
+      "HexCode": "0x800007da",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_ASYNC_QUERY_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -2147481637,
+      "HexCode": "0x800007db",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CANNOT_SET_DEFAULT_REALTIME_DATASOURCE",
+      "Message": "",
+      "DecimalCode": -2147481636,
+      "HexCode": "0x800007dc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_UNABLE_MAP_NAME_FILES",
+      "Message": "",
+      "DecimalCode": -2147480619,
+      "HexCode": "0x80000bd5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_PLA_VALIDATION_WARNING",
+      "Message": "",
+      "DecimalCode": -2147480589,
+      "HexCode": "0x80000bf3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PDH_CSTATUS_NO_OBJECT",
+      "Message": "",
+      "DecimalCode": -1073738824,
+      "HexCode": "0xc0000bb8",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CSTATUS_NO_COUNTER",
+      "Message": "",
+      "DecimalCode": -1073738823,
+      "HexCode": "0xc0000bb9",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CSTATUS_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": -1073738822,
+      "HexCode": "0xc0000bba",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_MEMORY_ALLOCATION_FAILURE",
+      "Message": "",
+      "DecimalCode": -1073738821,
+      "HexCode": "0xc0000bbb",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_HANDLE",
+      "Message": "",
+      "DecimalCode": -1073738820,
+      "HexCode": "0xc0000bbc",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_ARGUMENT",
+      "Message": "",
+      "DecimalCode": -1073738819,
+      "HexCode": "0xc0000bbd",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_FUNCTION_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073738818,
+      "HexCode": "0xc0000bbe",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CSTATUS_NO_COUNTERNAME",
+      "Message": "",
+      "DecimalCode": -1073738817,
+      "HexCode": "0xc0000bbf",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CSTATUS_BAD_COUNTERNAME",
+      "Message": "",
+      "DecimalCode": -1073738816,
+      "HexCode": "0xc0000bc0",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_BUFFER",
+      "Message": "",
+      "DecimalCode": -1073738815,
+      "HexCode": "0xc0000bc1",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INSUFFICIENT_BUFFER",
+      "Message": "",
+      "DecimalCode": -1073738814,
+      "HexCode": "0xc0000bc2",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CANNOT_CONNECT_MACHINE",
+      "Message": "",
+      "DecimalCode": -1073738813,
+      "HexCode": "0xc0000bc3",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_PATH",
+      "Message": "",
+      "DecimalCode": -1073738812,
+      "HexCode": "0xc0000bc4",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_INSTANCE",
+      "Message": "",
+      "DecimalCode": -1073738811,
+      "HexCode": "0xc0000bc5",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_DATA",
+      "Message": "",
+      "DecimalCode": -1073738810,
+      "HexCode": "0xc0000bc6",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_NO_DIALOG_DATA",
+      "Message": "",
+      "DecimalCode": -1073738809,
+      "HexCode": "0xc0000bc7",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CANNOT_READ_NAME_STRINGS",
+      "Message": "",
+      "DecimalCode": -1073738808,
+      "HexCode": "0xc0000bc8",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOG_FILE_CREATE_ERROR",
+      "Message": "",
+      "DecimalCode": -1073738807,
+      "HexCode": "0xc0000bc9",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOG_FILE_OPEN_ERROR",
+      "Message": "",
+      "DecimalCode": -1073738806,
+      "HexCode": "0xc0000bca",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOG_TYPE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073738805,
+      "HexCode": "0xc0000bcb",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_NO_MORE_DATA",
+      "Message": "",
+      "DecimalCode": -1073738804,
+      "HexCode": "0xc0000bcc",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_ENTRY_NOT_IN_LOG_FILE",
+      "Message": "",
+      "DecimalCode": -1073738803,
+      "HexCode": "0xc0000bcd",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_DATA_SOURCE_IS_LOG_FILE",
+      "Message": "",
+      "DecimalCode": -1073738802,
+      "HexCode": "0xc0000bce",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_DATA_SOURCE_IS_REAL_TIME",
+      "Message": "",
+      "DecimalCode": -1073738801,
+      "HexCode": "0xc0000bcf",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_UNABLE_READ_LOG_HEADER",
+      "Message": "",
+      "DecimalCode": -1073738800,
+      "HexCode": "0xc0000bd0",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_FILE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073738799,
+      "HexCode": "0xc0000bd1",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_FILE_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -1073738798,
+      "HexCode": "0xc0000bd2",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": -1073738797,
+      "HexCode": "0xc0000bd3",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_STRING_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073738796,
+      "HexCode": "0xc0000bd4",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_UNKNOWN_LOG_FORMAT",
+      "Message": "",
+      "DecimalCode": -1073738794,
+      "HexCode": "0xc0000bd6",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_UNKNOWN_LOGSVC_COMMAND",
+      "Message": "",
+      "DecimalCode": -1073738793,
+      "HexCode": "0xc0000bd7",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOGSVC_QUERY_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073738792,
+      "HexCode": "0xc0000bd8",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOGSVC_NOT_OPENED",
+      "Message": "",
+      "DecimalCode": -1073738791,
+      "HexCode": "0xc0000bd9",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_WBEM_ERROR",
+      "Message": "",
+      "DecimalCode": -1073738790,
+      "HexCode": "0xc0000bda",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": -1073738789,
+      "HexCode": "0xc0000bdb",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOG_FILE_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -1073738788,
+      "HexCode": "0xc0000bdc",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_DATASOURCE",
+      "Message": "",
+      "DecimalCode": -1073738787,
+      "HexCode": "0xc0000bdd",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_SQLDB",
+      "Message": "",
+      "DecimalCode": -1073738786,
+      "HexCode": "0xc0000bde",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_NO_COUNTERS",
+      "Message": "",
+      "DecimalCode": -1073738785,
+      "HexCode": "0xc0000bdf",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_ALLOC_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738784,
+      "HexCode": "0xc0000be0",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_ALLOCCON_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738783,
+      "HexCode": "0xc0000be1",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_EXEC_DIRECT_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738782,
+      "HexCode": "0xc0000be2",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_FETCH_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738781,
+      "HexCode": "0xc0000be3",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_ROWCOUNT_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738780,
+      "HexCode": "0xc0000be4",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_MORE_RESULTS_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738779,
+      "HexCode": "0xc0000be5",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_CONNECT_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738778,
+      "HexCode": "0xc0000be6",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_BIND_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738777,
+      "HexCode": "0xc0000be7",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_CANNOT_CONNECT_WMI_SERVER",
+      "Message": "",
+      "DecimalCode": -1073738776,
+      "HexCode": "0xc0000be8",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_COLLECTION_ALREADY_RUNNING",
+      "Message": "",
+      "DecimalCode": -1073738775,
+      "HexCode": "0xc0000be9",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_SCHEDULE_OVERLAP",
+      "Message": "",
+      "DecimalCode": -1073738774,
+      "HexCode": "0xc0000bea",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_COLLECTION_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -1073738773,
+      "HexCode": "0xc0000beb",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_SCHEDULE_ELAPSED",
+      "Message": "",
+      "DecimalCode": -1073738772,
+      "HexCode": "0xc0000bec",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_NOSTART",
+      "Message": "",
+      "DecimalCode": -1073738771,
+      "HexCode": "0xc0000bed",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -1073738770,
+      "HexCode": "0xc0000bee",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_TYPE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1073738769,
+      "HexCode": "0xc0000bef",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_FILEPATH",
+      "Message": "",
+      "DecimalCode": -1073738768,
+      "HexCode": "0xc0000bf0",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_SERVICE_ERROR",
+      "Message": "",
+      "DecimalCode": -1073738767,
+      "HexCode": "0xc0000bf1",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_VALIDATION_ERROR",
+      "Message": "",
+      "DecimalCode": -1073738766,
+      "HexCode": "0xc0000bf2",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_PLA_ERROR_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1073738764,
+      "HexCode": "0xc0000bf4",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INVALID_SQL_LOG_FORMAT",
+      "Message": "",
+      "DecimalCode": -1073738763,
+      "HexCode": "0xc0000bf5",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_COUNTER_ALREADY_IN_QUERY",
+      "Message": "",
+      "DecimalCode": -1073738762,
+      "HexCode": "0xc0000bf6",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_BINARY_LOG_CORRUPT",
+      "Message": "",
+      "DecimalCode": -1073738761,
+      "HexCode": "0xc0000bf7",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_LOG_SAMPLE_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -1073738760,
+      "HexCode": "0xc0000bf8",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_OS_LATER_VERSION",
+      "Message": "",
+      "DecimalCode": -1073738759,
+      "HexCode": "0xc0000bf9",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_OS_EARLIER_VERSION",
+      "Message": "",
+      "DecimalCode": -1073738758,
+      "HexCode": "0xc0000bfa",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_INCORRECT_APPEND_TIME",
+      "Message": "",
+      "DecimalCode": -1073738757,
+      "HexCode": "0xc0000bfb",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_UNMATCHED_APPEND_COUNTER",
+      "Message": "",
+      "DecimalCode": -1073738756,
+      "HexCode": "0xc0000bfc",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_SQL_ALTER_DETAIL_FAILED",
+      "Message": "",
+      "DecimalCode": -1073738755,
+      "HexCode": "0xc0000bfd",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "PDH_QUERY_PERF_DATA_TIMEOUT",
+      "Message": "",
+      "DecimalCode": -1073738754,
+      "HexCode": "0xc0000bfe",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}

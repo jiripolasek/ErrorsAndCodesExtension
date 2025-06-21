@@ -1,0 +1,167 @@
+{
+  "HeaderFileName": "d3d9helper.h",
+  "ErrorCodes": [
+    {
+      "Id": "D3DERR_WRONGTEXTUREFORMAT",
+      "Message": "",
+      "DecimalCode": -2005530600,
+      "HexCode": "0x88760818",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDCOLOROPERATION",
+      "Message": "",
+      "DecimalCode": -2005530599,
+      "HexCode": "0x88760819",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDCOLORARG",
+      "Message": "",
+      "DecimalCode": -2005530598,
+      "HexCode": "0x8876081a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDALPHAOPERATION",
+      "Message": "",
+      "DecimalCode": -2005530597,
+      "HexCode": "0x8876081b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDALPHAARG",
+      "Message": "",
+      "DecimalCode": -2005530596,
+      "HexCode": "0x8876081c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_TOOMANYOPERATIONS",
+      "Message": "",
+      "DecimalCode": -2005530595,
+      "HexCode": "0x8876081d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_CONFLICTINGTEXTUREFILTER",
+      "Message": "",
+      "DecimalCode": -2005530594,
+      "HexCode": "0x8876081e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDFACTORVALUE",
+      "Message": "",
+      "DecimalCode": -2005530593,
+      "HexCode": "0x8876081f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_CONFLICTINGRENDERSTATE",
+      "Message": "",
+      "DecimalCode": -2005530591,
+      "HexCode": "0x88760821",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_UNSUPPORTEDTEXTUREFILTER",
+      "Message": "",
+      "DecimalCode": -2005530590,
+      "HexCode": "0x88760822",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_CONFLICTINGTEXTUREPALETTE",
+      "Message": "",
+      "DecimalCode": -2005530586,
+      "HexCode": "0x88760826",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_DRIVERINTERNALERROR",
+      "Message": "",
+      "DecimalCode": -2005530585,
+      "HexCode": "0x88760827",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_NOTFOUND",
+      "Message": "",
+      "DecimalCode": -2005530522,
+      "HexCode": "0x88760866",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_MOREDATA",
+      "Message": "",
+      "DecimalCode": -2005530521,
+      "HexCode": "0x88760867",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_DEVICELOST",
+      "Message": "",
+      "DecimalCode": -2005530520,
+      "HexCode": "0x88760868",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_DEVICENOTRESET",
+      "Message": "",
+      "DecimalCode": -2005530519,
+      "HexCode": "0x88760869",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_NOTAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2005530518,
+      "HexCode": "0x8876086a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_OUTOFVIDEOMEMORY",
+      "Message": "",
+      "DecimalCode": -2005532292,
+      "HexCode": "0x8876017c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDDEVICE",
+      "Message": "",
+      "DecimalCode": -2005530517,
+      "HexCode": "0x8876086b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_INVALIDCALL",
+      "Message": "",
+      "DecimalCode": -2005530516,
+      "HexCode": "0x8876086c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_DRIVERINVALIDCALL",
+      "Message": "",
+      "DecimalCode": -2005530515,
+      "HexCode": "0x8876086d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DERR_WASSTILLDRAWING",
+      "Message": "",
+      "DecimalCode": -2005532132,
+      "HexCode": "0x8876021c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "D3DOK_NOAUTOGEN",
+      "Message": "",
+      "DecimalCode": 141953135,
+      "HexCode": "0x876086f",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

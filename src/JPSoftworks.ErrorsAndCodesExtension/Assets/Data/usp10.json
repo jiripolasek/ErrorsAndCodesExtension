@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "usp10.h",
+  "ErrorCodes": [
+    {
+      "Id": "USP_E_SCRIPT_NOT_IN_FONT",
+      "Message": "Script doesn\u0026apos;t exist in font",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

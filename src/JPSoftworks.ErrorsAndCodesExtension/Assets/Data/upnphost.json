@@ -1,0 +1,97 @@
+{
+  "HeaderFileName": "upnphost.h",
+  "ErrorCodes": [
+    {
+      "Id": "UPNP_E_REQUIRED_ELEMENT_ERROR",
+      "Message": "",
+      "DecimalCode": -2147180512,
+      "HexCode": "0x8004a020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DUPLICATE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147180511,
+      "HexCode": "0x8004a021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DUPLICATE_SERVICE_ID",
+      "Message": "",
+      "DecimalCode": -2147180510,
+      "HexCode": "0x8004a022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_DESCRIPTION",
+      "Message": "",
+      "DecimalCode": -2147180509,
+      "HexCode": "0x8004a023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_SERVICE",
+      "Message": "",
+      "DecimalCode": -2147180508,
+      "HexCode": "0x8004a024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_ICON",
+      "Message": "",
+      "DecimalCode": -2147180507,
+      "HexCode": "0x8004a025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_XML",
+      "Message": "",
+      "DecimalCode": -2147180506,
+      "HexCode": "0x8004a026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_INVALID_ROOT_NAMESPACE",
+      "Message": "",
+      "DecimalCode": -2147180505,
+      "HexCode": "0x8004a027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_SUFFIX_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -2147180504,
+      "HexCode": "0x8004a028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_URLBASE_PRESENT",
+      "Message": "",
+      "DecimalCode": -2147180503,
+      "HexCode": "0x8004a029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_VALUE_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -2147180496,
+      "HexCode": "0x8004a030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DEVICE_RUNNING",
+      "Message": "",
+      "DecimalCode": -2147180495,
+      "HexCode": "0x8004a031",
+      "Type": "HResult"
+    },
+    {
+      "Id": "UPNP_E_DEVICE_NOTREGISTERED",
+      "Message": "",
+      "DecimalCode": -2147180494,
+      "HexCode": "0x8004a032",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

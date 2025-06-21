@@ -1,0 +1,398 @@
+{
+  "HeaderFileName": "mdmregistration.h",
+  "ErrorCodes": [
+    {
+      "Id": "MREGISTER_E_DEVICE_MESSAGE_FORMAT_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845247,
+      "HexCode": "0x80190001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_MESSAGE_FORMAT_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910783,
+      "HexCode": "0x80180001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_AUTHENTICATION_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845246,
+      "HexCode": "0x80190002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_AUTHENTICATION_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910782,
+      "HexCode": "0x80180002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_AUTHORIZATION_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845245,
+      "HexCode": "0x80190003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_AUTHORIZATION_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910781,
+      "HexCode": "0x80180003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_CERTIFCATEREQUEST_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845244,
+      "HexCode": "0x80190004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_CERTIFCATEREQUEST_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910780,
+      "HexCode": "0x80180004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_CONFIGMGRSERVER_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845243,
+      "HexCode": "0x80190005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_CONFIGMGRSERVER_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910779,
+      "HexCode": "0x80180005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_INTERNALSERVICE_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845242,
+      "HexCode": "0x80190006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_INTERNALSERVICE_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910778,
+      "HexCode": "0x80180006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_INVALIDSECURITY_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845241,
+      "HexCode": "0x80190007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_INVALIDSECURITY_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910777,
+      "HexCode": "0x80180007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_UNKNOWN_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845240,
+      "HexCode": "0x80190008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_UNKNOWN_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910776,
+      "HexCode": "0x80180008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_REGISTRATION_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": -2145845239,
+      "HexCode": "0x80190009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_ENROLLMENT_IN_PROGRESS",
+      "Message": "",
+      "DecimalCode": -2145910775,
+      "HexCode": "0x80180009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_ALREADY_REGISTERED",
+      "Message": "",
+      "DecimalCode": -2145845238,
+      "HexCode": "0x8019000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_ALREADY_ENROLLED",
+      "Message": "",
+      "DecimalCode": -2145910774,
+      "HexCode": "0x8018000a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_NOT_REGISTERED",
+      "Message": "",
+      "DecimalCode": -2145845237,
+      "HexCode": "0x8019000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_NOT_ENROLLED",
+      "Message": "",
+      "DecimalCode": -2145910773,
+      "HexCode": "0x8018000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DISCOVERY_REDIRECTED",
+      "Message": "",
+      "DecimalCode": -2145845236,
+      "HexCode": "0x8019000c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DEVICE_NOT_AD_REGISTERED_ERROR",
+      "Message": "",
+      "DecimalCode": -2145845235,
+      "HexCode": "0x8019000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DISCOVERY_SEC_CERT_DATE_INVALID",
+      "Message": "",
+      "DecimalCode": -2145910771,
+      "HexCode": "0x8018000d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MREGISTER_E_DISCOVERY_FAILED",
+      "Message": "",
+      "DecimalCode": -2145845234,
+      "HexCode": "0x8019000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PASSWORD_NEEDED",
+      "Message": "",
+      "DecimalCode": -2145910770,
+      "HexCode": "0x8018000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_WAB_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910769,
+      "HexCode": "0x8018000f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_CONNECTIVITY",
+      "Message": "",
+      "DecimalCode": -2145910768,
+      "HexCode": "0x80180010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_S_ENROLLMENT_SUSPENDED",
+      "Message": "",
+      "DecimalCode": 1572881,
+      "HexCode": "0x180011",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "MENROLL_E_INVALIDSSLCERT",
+      "Message": "",
+      "DecimalCode": -2145910766,
+      "HexCode": "0x80180012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICECAPREACHED",
+      "Message": "",
+      "DecimalCode": -2145910765,
+      "HexCode": "0x80180013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICENOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2145910764,
+      "HexCode": "0x80180014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_NOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2145910763,
+      "HexCode": "0x80180015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_NOTELIGIBLETORENEW",
+      "Message": "",
+      "DecimalCode": -2145910762,
+      "HexCode": "0x80180016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_INMAINTENANCE",
+      "Message": "",
+      "DecimalCode": -2145910761,
+      "HexCode": "0x80180017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_USERLICENSE",
+      "Message": "",
+      "DecimalCode": -2145910760,
+      "HexCode": "0x80180018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_ENROLLMENTDATAINVALID",
+      "Message": "",
+      "DecimalCode": -2145910759,
+      "HexCode": "0x80180019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_INSECUREREDIRECT",
+      "Message": "",
+      "DecimalCode": -2145910758,
+      "HexCode": "0x8018001a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PLATFORM_WRONG_STATE",
+      "Message": "",
+      "DecimalCode": -2145910757,
+      "HexCode": "0x8018001b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PLATFORM_LICENSE_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910756,
+      "HexCode": "0x8018001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PLATFORM_UNKNOWN_ERROR",
+      "Message": "",
+      "DecimalCode": -2145910755,
+      "HexCode": "0x8018001d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_CSP_CERTSTORE",
+      "Message": "",
+      "DecimalCode": -2145910754,
+      "HexCode": "0x8018001e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_CSP_W7",
+      "Message": "",
+      "DecimalCode": -2145910753,
+      "HexCode": "0x8018001f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_CSP_DMCLIENT",
+      "Message": "",
+      "DecimalCode": -2145910752,
+      "HexCode": "0x80180020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_CSP_PFW",
+      "Message": "",
+      "DecimalCode": -2145910751,
+      "HexCode": "0x80180021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_CSP_MISC",
+      "Message": "",
+      "DecimalCode": -2145910750,
+      "HexCode": "0x80180022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_UNKNOWN",
+      "Message": "",
+      "DecimalCode": -2145910749,
+      "HexCode": "0x80180023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_SSLCERTNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2145910748,
+      "HexCode": "0x80180024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_PROV_CSP_APPMGMT",
+      "Message": "",
+      "DecimalCode": -2145910747,
+      "HexCode": "0x80180025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_DEVICE_MANAGEMENT_BLOCKED",
+      "Message": "",
+      "DecimalCode": -2145910746,
+      "HexCode": "0x80180026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_CERTPOLICY_PRIVATEKEYCREATION_FAILED",
+      "Message": "",
+      "DecimalCode": -2145910745,
+      "HexCode": "0x80180027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_CERTAUTH_FAILED_TO_FIND_CERT",
+      "Message": "",
+      "DecimalCode": -2145910744,
+      "HexCode": "0x80180028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_EMPTY_MESSAGE",
+      "Message": "",
+      "DecimalCode": -2145910743,
+      "HexCode": "0x80180029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_USER_CANCELED",
+      "Message": "",
+      "DecimalCode": -2145910742,
+      "HexCode": "0x8018002a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "MENROLL_E_MDM_NOT_CONFIGURED",
+      "Message": "",
+      "DecimalCode": -2145910741,
+      "HexCode": "0x8018002b",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

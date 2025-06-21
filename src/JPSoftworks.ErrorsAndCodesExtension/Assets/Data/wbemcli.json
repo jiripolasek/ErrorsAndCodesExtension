@@ -1,0 +1,986 @@
+{
+  "HeaderFileName": "wbemcli.h",
+  "ErrorCodes": [
+    {
+      "Id": "WBEM_E_FAILED",
+      "Message": "",
+      "DecimalCode": -2147217407,
+      "HexCode": "0x80041001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147217406,
+      "HexCode": "0x80041002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": -2147217405,
+      "HexCode": "0x80041003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147217404,
+      "HexCode": "0x80041004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_TYPE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147217403,
+      "HexCode": "0x80041005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_OUT_OF_MEMORY",
+      "Message": "",
+      "DecimalCode": -2147217402,
+      "HexCode": "0x80041006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_CONTEXT",
+      "Message": "",
+      "DecimalCode": -2147217401,
+      "HexCode": "0x80041007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_PARAMETER",
+      "Message": "",
+      "DecimalCode": -2147217400,
+      "HexCode": "0x80041008",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147217399,
+      "HexCode": "0x80041009",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CRITICAL_ERROR",
+      "Message": "",
+      "DecimalCode": -2147217398,
+      "HexCode": "0x8004100a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_STREAM",
+      "Message": "",
+      "DecimalCode": -2147217397,
+      "HexCode": "0x8004100b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NOT_SUPPORTED",
+      "Message": "",
+      "DecimalCode": -2147217396,
+      "HexCode": "0x8004100c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_SUPERCLASS",
+      "Message": "",
+      "DecimalCode": -2147217395,
+      "HexCode": "0x8004100d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_NAMESPACE",
+      "Message": "",
+      "DecimalCode": -2147217394,
+      "HexCode": "0x8004100e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_OBJECT",
+      "Message": "",
+      "DecimalCode": -2147217393,
+      "HexCode": "0x8004100f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_CLASS",
+      "Message": "",
+      "DecimalCode": -2147217392,
+      "HexCode": "0x80041010",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147217391,
+      "HexCode": "0x80041011",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_PROVIDER_REGISTRATION",
+      "Message": "",
+      "DecimalCode": -2147217390,
+      "HexCode": "0x80041012",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_LOAD_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147217389,
+      "HexCode": "0x80041013",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INITIALIZATION_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147217388,
+      "HexCode": "0x80041014",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_TRANSPORT_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147217387,
+      "HexCode": "0x80041015",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_OPERATION",
+      "Message": "",
+      "DecimalCode": -2147217386,
+      "HexCode": "0x80041016",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_QUERY",
+      "Message": "",
+      "DecimalCode": -2147217385,
+      "HexCode": "0x80041017",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_QUERY_TYPE",
+      "Message": "",
+      "DecimalCode": -2147217384,
+      "HexCode": "0x80041018",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": -2147217383,
+      "HexCode": "0x80041019",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_OVERRIDE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147217382,
+      "HexCode": "0x8004101a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROPAGATED_QUALIFIER",
+      "Message": "",
+      "DecimalCode": -2147217381,
+      "HexCode": "0x8004101b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROPAGATED_PROPERTY",
+      "Message": "",
+      "DecimalCode": -2147217380,
+      "HexCode": "0x8004101c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNEXPECTED",
+      "Message": "",
+      "DecimalCode": -2147217379,
+      "HexCode": "0x8004101d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_ILLEGAL_OPERATION",
+      "Message": "",
+      "DecimalCode": -2147217378,
+      "HexCode": "0x8004101e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CANNOT_BE_KEY",
+      "Message": "",
+      "DecimalCode": -2147217377,
+      "HexCode": "0x8004101f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INCOMPLETE_CLASS",
+      "Message": "",
+      "DecimalCode": -2147217376,
+      "HexCode": "0x80041020",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_SYNTAX",
+      "Message": "",
+      "DecimalCode": -2147217375,
+      "HexCode": "0x80041021",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NONDECORATED_OBJECT",
+      "Message": "",
+      "DecimalCode": -2147217374,
+      "HexCode": "0x80041022",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_READ_ONLY",
+      "Message": "",
+      "DecimalCode": -2147217373,
+      "HexCode": "0x80041023",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_NOT_CAPABLE",
+      "Message": "",
+      "DecimalCode": -2147217372,
+      "HexCode": "0x80041024",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CLASS_HAS_CHILDREN",
+      "Message": "",
+      "DecimalCode": -2147217371,
+      "HexCode": "0x80041025",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CLASS_HAS_INSTANCES",
+      "Message": "",
+      "DecimalCode": -2147217370,
+      "HexCode": "0x80041026",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_QUERY_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": -2147217369,
+      "HexCode": "0x80041027",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_ILLEGAL_NULL",
+      "Message": "",
+      "DecimalCode": -2147217368,
+      "HexCode": "0x80041028",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_QUALIFIER_TYPE",
+      "Message": "",
+      "DecimalCode": -2147217367,
+      "HexCode": "0x80041029",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_PROPERTY_TYPE",
+      "Message": "",
+      "DecimalCode": -2147217366,
+      "HexCode": "0x8004102a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_VALUE_OUT_OF_RANGE",
+      "Message": "",
+      "DecimalCode": -2147217365,
+      "HexCode": "0x8004102b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CANNOT_BE_SINGLETON",
+      "Message": "",
+      "DecimalCode": -2147217364,
+      "HexCode": "0x8004102c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_CIM_TYPE",
+      "Message": "",
+      "DecimalCode": -2147217363,
+      "HexCode": "0x8004102d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_METHOD",
+      "Message": "",
+      "DecimalCode": -2147217362,
+      "HexCode": "0x8004102e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_METHOD_PARAMETERS",
+      "Message": "",
+      "DecimalCode": -2147217361,
+      "HexCode": "0x8004102f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_SYSTEM_PROPERTY",
+      "Message": "",
+      "DecimalCode": -2147217360,
+      "HexCode": "0x80041030",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_PROPERTY",
+      "Message": "",
+      "DecimalCode": -2147217359,
+      "HexCode": "0x80041031",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CALL_CANCELLED",
+      "Message": "",
+      "DecimalCode": -2147217358,
+      "HexCode": "0x80041032",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_SHUTTING_DOWN",
+      "Message": "",
+      "DecimalCode": -2147217357,
+      "HexCode": "0x80041033",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROPAGATED_METHOD",
+      "Message": "",
+      "DecimalCode": -2147217356,
+      "HexCode": "0x80041034",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNSUPPORTED_PARAMETER",
+      "Message": "",
+      "DecimalCode": -2147217355,
+      "HexCode": "0x80041035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_MISSING_PARAMETER_ID",
+      "Message": "",
+      "DecimalCode": -2147217354,
+      "HexCode": "0x80041036",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_PARAMETER_ID",
+      "Message": "",
+      "DecimalCode": -2147217353,
+      "HexCode": "0x80041037",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NONCONSECUTIVE_PARAMETER_IDS",
+      "Message": "",
+      "DecimalCode": -2147217352,
+      "HexCode": "0x80041038",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PARAMETER_ID_ON_RETVAL",
+      "Message": "",
+      "DecimalCode": -2147217351,
+      "HexCode": "0x80041039",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_OBJECT_PATH",
+      "Message": "",
+      "DecimalCode": -2147217350,
+      "HexCode": "0x8004103a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_OUT_OF_DISK_SPACE",
+      "Message": "",
+      "DecimalCode": -2147217349,
+      "HexCode": "0x8004103b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_BUFFER_TOO_SMALL",
+      "Message": "",
+      "DecimalCode": -2147217348,
+      "HexCode": "0x8004103c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNSUPPORTED_PUT_EXTENSION",
+      "Message": "",
+      "DecimalCode": -2147217347,
+      "HexCode": "0x8004103d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNKNOWN_OBJECT_TYPE",
+      "Message": "",
+      "DecimalCode": -2147217346,
+      "HexCode": "0x8004103e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNKNOWN_PACKET_TYPE",
+      "Message": "",
+      "DecimalCode": -2147217345,
+      "HexCode": "0x8004103f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_MARSHAL_VERSION_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147217344,
+      "HexCode": "0x80041040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_MARSHAL_INVALID_SIGNATURE",
+      "Message": "",
+      "DecimalCode": -2147217343,
+      "HexCode": "0x80041041",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_QUALIFIER",
+      "Message": "",
+      "DecimalCode": -2147217342,
+      "HexCode": "0x80041042",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_DUPLICATE_PARAMETER",
+      "Message": "",
+      "DecimalCode": -2147217341,
+      "HexCode": "0x80041043",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_TOO_MUCH_DATA",
+      "Message": "",
+      "DecimalCode": -2147217340,
+      "HexCode": "0x80041044",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_SERVER_TOO_BUSY",
+      "Message": "",
+      "DecimalCode": -2147217339,
+      "HexCode": "0x80041045",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_FLAVOR",
+      "Message": "",
+      "DecimalCode": -2147217338,
+      "HexCode": "0x80041046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CIRCULAR_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2147217337,
+      "HexCode": "0x80041047",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNSUPPORTED_CLASS_UPDATE",
+      "Message": "",
+      "DecimalCode": -2147217336,
+      "HexCode": "0x80041048",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CANNOT_CHANGE_KEY_INHERITANCE",
+      "Message": "",
+      "DecimalCode": -2147217335,
+      "HexCode": "0x80041049",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CANNOT_CHANGE_INDEX_INHERITANCE",
+      "Message": "",
+      "DecimalCode": -2147217328,
+      "HexCode": "0x80041050",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_TOO_MANY_PROPERTIES",
+      "Message": "",
+      "DecimalCode": -2147217327,
+      "HexCode": "0x80041051",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UPDATE_TYPE_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147217326,
+      "HexCode": "0x80041052",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UPDATE_OVERRIDE_NOT_ALLOWED",
+      "Message": "",
+      "DecimalCode": -2147217325,
+      "HexCode": "0x80041053",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UPDATE_PROPAGATED_METHOD",
+      "Message": "",
+      "DecimalCode": -2147217324,
+      "HexCode": "0x80041054",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_METHOD_NOT_IMPLEMENTED",
+      "Message": "",
+      "DecimalCode": -2147217323,
+      "HexCode": "0x80041055",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_METHOD_DISABLED",
+      "Message": "",
+      "DecimalCode": -2147217322,
+      "HexCode": "0x80041056",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_REFRESHER_BUSY",
+      "Message": "",
+      "DecimalCode": -2147217321,
+      "HexCode": "0x80041057",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNPARSABLE_QUERY",
+      "Message": "",
+      "DecimalCode": -2147217320,
+      "HexCode": "0x80041058",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NOT_EVENT_CLASS",
+      "Message": "",
+      "DecimalCode": -2147217319,
+      "HexCode": "0x80041059",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_MISSING_GROUP_WITHIN",
+      "Message": "",
+      "DecimalCode": -2147217318,
+      "HexCode": "0x8004105a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_MISSING_AGGREGATION_LIST",
+      "Message": "",
+      "DecimalCode": -2147217317,
+      "HexCode": "0x8004105b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROPERTY_NOT_AN_OBJECT",
+      "Message": "",
+      "DecimalCode": -2147217316,
+      "HexCode": "0x8004105c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_AGGREGATING_BY_OBJECT",
+      "Message": "",
+      "DecimalCode": -2147217315,
+      "HexCode": "0x8004105d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNINTERPRETABLE_PROVIDER_QUERY",
+      "Message": "",
+      "DecimalCode": -2147217313,
+      "HexCode": "0x8004105f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_BACKUP_RESTORE_WINMGMT_RUNNING",
+      "Message": "",
+      "DecimalCode": -2147217312,
+      "HexCode": "0x80041060",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_QUEUE_OVERFLOW",
+      "Message": "",
+      "DecimalCode": -2147217311,
+      "HexCode": "0x80041061",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PRIVILEGE_NOT_HELD",
+      "Message": "",
+      "DecimalCode": -2147217310,
+      "HexCode": "0x80041062",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_OPERATOR",
+      "Message": "",
+      "DecimalCode": -2147217309,
+      "HexCode": "0x80041063",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_LOCAL_CREDENTIALS",
+      "Message": "",
+      "DecimalCode": -2147217308,
+      "HexCode": "0x80041064",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CANNOT_BE_ABSTRACT",
+      "Message": "",
+      "DecimalCode": -2147217307,
+      "HexCode": "0x80041065",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_AMENDED_OBJECT",
+      "Message": "",
+      "DecimalCode": -2147217306,
+      "HexCode": "0x80041066",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CLIENT_TOO_SLOW",
+      "Message": "",
+      "DecimalCode": -2147217305,
+      "HexCode": "0x80041067",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NULL_SECURITY_DESCRIPTOR",
+      "Message": "",
+      "DecimalCode": -2147217304,
+      "HexCode": "0x80041068",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_TIMED_OUT",
+      "Message": "",
+      "DecimalCode": -2147217303,
+      "HexCode": "0x80041069",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_ASSOCIATION",
+      "Message": "",
+      "DecimalCode": -2147217302,
+      "HexCode": "0x8004106a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_AMBIGUOUS_OPERATION",
+      "Message": "",
+      "DecimalCode": -2147217301,
+      "HexCode": "0x8004106b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_QUOTA_VIOLATION",
+      "Message": "",
+      "DecimalCode": -2147217300,
+      "HexCode": "0x8004106c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_RESERVED_001",
+      "Message": "",
+      "DecimalCode": -2147217299,
+      "HexCode": "0x8004106d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_RESERVED_002",
+      "Message": "",
+      "DecimalCode": -2147217298,
+      "HexCode": "0x8004106e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_UNSUPPORTED_LOCALE",
+      "Message": "",
+      "DecimalCode": -2147217297,
+      "HexCode": "0x8004106f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_HANDLE_OUT_OF_DATE",
+      "Message": "",
+      "DecimalCode": -2147217296,
+      "HexCode": "0x80041070",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CONNECTION_FAILED",
+      "Message": "",
+      "DecimalCode": -2147217295,
+      "HexCode": "0x80041071",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_HANDLE_REQUEST",
+      "Message": "",
+      "DecimalCode": -2147217294,
+      "HexCode": "0x80041072",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROPERTY_NAME_TOO_WIDE",
+      "Message": "",
+      "DecimalCode": -2147217293,
+      "HexCode": "0x80041073",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_CLASS_NAME_TOO_WIDE",
+      "Message": "",
+      "DecimalCode": -2147217292,
+      "HexCode": "0x80041074",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_METHOD_NAME_TOO_WIDE",
+      "Message": "",
+      "DecimalCode": -2147217291,
+      "HexCode": "0x80041075",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_QUALIFIER_NAME_TOO_WIDE",
+      "Message": "",
+      "DecimalCode": -2147217290,
+      "HexCode": "0x80041076",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_RERUN_COMMAND",
+      "Message": "",
+      "DecimalCode": -2147217289,
+      "HexCode": "0x80041077",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_DATABASE_VER_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147217288,
+      "HexCode": "0x80041078",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_VETO_DELETE",
+      "Message": "",
+      "DecimalCode": -2147217287,
+      "HexCode": "0x80041079",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_VETO_PUT",
+      "Message": "",
+      "DecimalCode": -2147217286,
+      "HexCode": "0x8004107a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_INVALID_LOCALE",
+      "Message": "",
+      "DecimalCode": -2147217280,
+      "HexCode": "0x80041080",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_SUSPENDED",
+      "Message": "",
+      "DecimalCode": -2147217279,
+      "HexCode": "0x80041081",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_SYNCHRONIZATION_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2147217278,
+      "HexCode": "0x80041082",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NO_SCHEMA",
+      "Message": "",
+      "DecimalCode": -2147217277,
+      "HexCode": "0x80041083",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_ALREADY_REGISTERED",
+      "Message": "",
+      "DecimalCode": -2147217276,
+      "HexCode": "0x80041084",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_NOT_REGISTERED",
+      "Message": "",
+      "DecimalCode": -2147217275,
+      "HexCode": "0x80041085",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_FATAL_TRANSPORT_ERROR",
+      "Message": "",
+      "DecimalCode": -2147217274,
+      "HexCode": "0x80041086",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_ENCRYPTED_CONNECTION_REQUIRED",
+      "Message": "",
+      "DecimalCode": -2147217273,
+      "HexCode": "0x80041087",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_TIMED_OUT",
+      "Message": "",
+      "DecimalCode": -2147217272,
+      "HexCode": "0x80041088",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_NO_KEY",
+      "Message": "",
+      "DecimalCode": -2147217271,
+      "HexCode": "0x80041089",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_E_PROVIDER_DISABLED",
+      "Message": "",
+      "DecimalCode": -2147217270,
+      "HexCode": "0x8004108a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "WBEM_S_NO_ERROR",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WBEM_S_SAME",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WBEM_S_FALSE",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "WBEM_S_ALREADY_EXISTS",
+      "Message": "",
+      "DecimalCode": 262145,
+      "HexCode": "0x40001",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_RESET_TO_DEFAULT",
+      "Message": "",
+      "DecimalCode": 262146,
+      "HexCode": "0x40002",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_DIFFERENT",
+      "Message": "",
+      "DecimalCode": 262147,
+      "HexCode": "0x40003",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_TIMEDOUT",
+      "Message": "",
+      "DecimalCode": 262148,
+      "HexCode": "0x40004",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_NO_MORE_DATA",
+      "Message": "",
+      "DecimalCode": 262149,
+      "HexCode": "0x40005",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_OPERATION_CANCELLED",
+      "Message": "",
+      "DecimalCode": 262150,
+      "HexCode": "0x40006",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_PENDING",
+      "Message": "",
+      "DecimalCode": 262151,
+      "HexCode": "0x40007",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_DUPLICATE_OBJECTS",
+      "Message": "",
+      "DecimalCode": 262152,
+      "HexCode": "0x40008",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 262153,
+      "HexCode": "0x40009",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_PARTIAL_RESULTS",
+      "Message": "",
+      "DecimalCode": 262160,
+      "HexCode": "0x40010",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "WBEM_S_SOURCE_NOT_AVAILABLE",
+      "Message": "",
+      "DecimalCode": 262167,
+      "HexCode": "0x40017",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

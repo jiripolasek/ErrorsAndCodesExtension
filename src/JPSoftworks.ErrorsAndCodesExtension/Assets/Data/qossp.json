@@ -1,0 +1,1112 @@
+{
+  "HeaderFileName": "qossp.h",
+  "ErrorCodes": [
+    {
+      "Id": "GQOS_NET_ADMISSION",
+      "Message": "",
+      "DecimalCode": 56100,
+      "HexCode": "0xdb24",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_OTHER",
+      "Message": "",
+      "DecimalCode": 56101,
+      "HexCode": "0xdb25",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_DELAYBND",
+      "Message": "",
+      "DecimalCode": 56102,
+      "HexCode": "0xdb26",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BANDWIDTH",
+      "Message": "",
+      "DecimalCode": 56103,
+      "HexCode": "0xdb27",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_MTU",
+      "Message": "",
+      "DecimalCode": 56104,
+      "HexCode": "0xdb28",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56105,
+      "HexCode": "0xdb29",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56106,
+      "HexCode": "0xdb2a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_AGG_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56107,
+      "HexCode": "0xdb2b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NET_POLICY",
+      "Message": "",
+      "DecimalCode": 56200,
+      "HexCode": "0xdb88",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_ERROR_UNKNOWN",
+      "Message": "",
+      "DecimalCode": 56200,
+      "HexCode": "0xdb88",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_DEF_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56201,
+      "HexCode": "0xdb89",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_GRP_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56202,
+      "HexCode": "0xdb8a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_USER_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56203,
+      "HexCode": "0xdb8b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_UNK_USER_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56204,
+      "HexCode": "0xdb8c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_DEF_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56205,
+      "HexCode": "0xdb8d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_GRP_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56206,
+      "HexCode": "0xdb8e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_USER_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56207,
+      "HexCode": "0xdb8f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_UNK_USER_FLOW_COUNT",
+      "Message": "",
+      "DecimalCode": 56208,
+      "HexCode": "0xdb90",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_DEF_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56209,
+      "HexCode": "0xdb91",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_GRP_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56210,
+      "HexCode": "0xdb92",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_USER_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56211,
+      "HexCode": "0xdb93",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_UNK_USER_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56212,
+      "HexCode": "0xdb94",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_DEF_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56213,
+      "HexCode": "0xdb95",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_GRP_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56214,
+      "HexCode": "0xdb96",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_USER_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56215,
+      "HexCode": "0xdb97",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_UNK_USER_FLOW_DURATION",
+      "Message": "",
+      "DecimalCode": 56216,
+      "HexCode": "0xdb98",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_DEF_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56217,
+      "HexCode": "0xdb99",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_GRP_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56218,
+      "HexCode": "0xdb9a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_USER_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56219,
+      "HexCode": "0xdb9b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_UNK_USER_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56220,
+      "HexCode": "0xdb9c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_DEF_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56221,
+      "HexCode": "0xdb9d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_GRP_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56222,
+      "HexCode": "0xdb9e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_USER_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56223,
+      "HexCode": "0xdb9f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_UNK_USER_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56224,
+      "HexCode": "0xdba0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_DEF_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56225,
+      "HexCode": "0xdba1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_GRP_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56226,
+      "HexCode": "0xdba2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_USER_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56227,
+      "HexCode": "0xdba3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_UNK_USER_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56228,
+      "HexCode": "0xdba4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_DEF_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56229,
+      "HexCode": "0xdba5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_GRP_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56230,
+      "HexCode": "0xdba6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_USER_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56231,
+      "HexCode": "0xdba7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_UNK_USER_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56232,
+      "HexCode": "0xdba8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_DEF_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56233,
+      "HexCode": "0xdba9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_GRP_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56234,
+      "HexCode": "0xdbaa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_USER_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56235,
+      "HexCode": "0xdbab",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_UNK_USER_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56236,
+      "HexCode": "0xdbac",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_DEF_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56237,
+      "HexCode": "0xdbad",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_GRP_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56238,
+      "HexCode": "0xdbae",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_USER_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56239,
+      "HexCode": "0xdbaf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_UNK_USER_SUM_FLOW_RATE",
+      "Message": "",
+      "DecimalCode": 56240,
+      "HexCode": "0xdbb0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_DEF_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56241,
+      "HexCode": "0xdbb1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_GRP_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56242,
+      "HexCode": "0xdbb2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_USER_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56243,
+      "HexCode": "0xdbb3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_GLOBAL_UNK_USER_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56244,
+      "HexCode": "0xdbb4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_DEF_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56245,
+      "HexCode": "0xdbb5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_GRP_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56246,
+      "HexCode": "0xdbb6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_USER_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56247,
+      "HexCode": "0xdbb7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_SUBNET_UNK_USER_SUM_PEAK_RATE",
+      "Message": "",
+      "DecimalCode": 56248,
+      "HexCode": "0xdbb8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_UNKNOWN_USER",
+      "Message": "",
+      "DecimalCode": 56249,
+      "HexCode": "0xdbb9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_NO_PRIVILEGES",
+      "Message": "",
+      "DecimalCode": 56250,
+      "HexCode": "0xdbba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_EXPIRED_USER_TOKEN",
+      "Message": "",
+      "DecimalCode": 56251,
+      "HexCode": "0xdbbb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_NO_RESOURCES",
+      "Message": "",
+      "DecimalCode": 56252,
+      "HexCode": "0xdbbc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_PRE_EMPTED",
+      "Message": "",
+      "DecimalCode": 56253,
+      "HexCode": "0xdbbd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_USER_CHANGED",
+      "Message": "",
+      "DecimalCode": 56254,
+      "HexCode": "0xdbbe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_NO_ACCEPTS",
+      "Message": "",
+      "DecimalCode": 56255,
+      "HexCode": "0xdbbf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_NO_MEMORY",
+      "Message": "",
+      "DecimalCode": 56256,
+      "HexCode": "0xdbc0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_CRAZY_FLOWSPEC",
+      "Message": "",
+      "DecimalCode": 56257,
+      "HexCode": "0xdbc1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_NO_MORE_INFO",
+      "Message": "",
+      "DecimalCode": 56258,
+      "HexCode": "0xdbc2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_UNSUPPORTED_CREDENTIAL_TYPE",
+      "Message": "",
+      "DecimalCode": 56259,
+      "HexCode": "0xdbc3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_INSUFFICIENT_PRIVILEGES",
+      "Message": "",
+      "DecimalCode": 56260,
+      "HexCode": "0xdbc4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_EXPIRED_CREDENTIAL",
+      "Message": "",
+      "DecimalCode": 56261,
+      "HexCode": "0xdbc5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_IDENTITY_CHANGED",
+      "Message": "",
+      "DecimalCode": 56262,
+      "HexCode": "0xdbc6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_NO_QOS_PROVIDED",
+      "Message": "",
+      "DecimalCode": 56263,
+      "HexCode": "0xdbc7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_DO_NOT_SEND",
+      "Message": "",
+      "DecimalCode": 56264,
+      "HexCode": "0xdbc8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_POLICY_ERROR_USERID",
+      "Message": "",
+      "DecimalCode": 56299,
+      "HexCode": "0xdbeb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_RSVP",
+      "Message": "",
+      "DecimalCode": 56300,
+      "HexCode": "0xdbec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NO_PATH",
+      "Message": "",
+      "DecimalCode": 56301,
+      "HexCode": "0xdbed",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NO_SENDER",
+      "Message": "",
+      "DecimalCode": 56302,
+      "HexCode": "0xdbee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_STYLE",
+      "Message": "",
+      "DecimalCode": 56303,
+      "HexCode": "0xdbef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_UNKNOWN_STYLE",
+      "Message": "",
+      "DecimalCode": 56304,
+      "HexCode": "0xdbf0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_DSTPORT",
+      "Message": "",
+      "DecimalCode": 56305,
+      "HexCode": "0xdbf1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_SNDPORT",
+      "Message": "",
+      "DecimalCode": 56306,
+      "HexCode": "0xdbf2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_AMBIG_FILTER",
+      "Message": "",
+      "DecimalCode": 56307,
+      "HexCode": "0xdbf3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_PREEMPTED",
+      "Message": "",
+      "DecimalCode": 56308,
+      "HexCode": "0xdbf4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_UNKN_OBJ_CLASS",
+      "Message": "",
+      "DecimalCode": 56309,
+      "HexCode": "0xdbf5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_UNKNOWN_CTYPE",
+      "Message": "",
+      "DecimalCode": 56310,
+      "HexCode": "0xdbf6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_INVALID",
+      "Message": "",
+      "DecimalCode": 56311,
+      "HexCode": "0xdbf7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_API",
+      "Message": "",
+      "DecimalCode": 56400,
+      "HexCode": "0xdc50",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_API_BADSEND",
+      "Message": "",
+      "DecimalCode": 56401,
+      "HexCode": "0xdc51",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_API_BADRECV",
+      "Message": "",
+      "DecimalCode": 56402,
+      "HexCode": "0xdc52",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_API_BADSPORT",
+      "Message": "",
+      "DecimalCode": 56403,
+      "HexCode": "0xdc53",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_KERNEL_TC_SYS",
+      "Message": "",
+      "DecimalCode": 56500,
+      "HexCode": "0xdcb4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_TC_GENERIC",
+      "Message": "",
+      "DecimalCode": 56501,
+      "HexCode": "0xdcb5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_TC_INVALID",
+      "Message": "",
+      "DecimalCode": 56502,
+      "HexCode": "0xdcb6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NO_MEMORY",
+      "Message": "",
+      "DecimalCode": 56503,
+      "HexCode": "0xdcb7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_ADDRESSTYPE",
+      "Message": "",
+      "DecimalCode": 56504,
+      "HexCode": "0xdcb8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_DUPLICATE",
+      "Message": "",
+      "DecimalCode": 56505,
+      "HexCode": "0xdcb9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CONFLICT",
+      "Message": "",
+      "DecimalCode": 56506,
+      "HexCode": "0xdcba",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NOTREADY",
+      "Message": "",
+      "DecimalCode": 56507,
+      "HexCode": "0xdcbb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_WOULDBLOCK",
+      "Message": "",
+      "DecimalCode": 56508,
+      "HexCode": "0xdcbc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_INCOMPATIBLE",
+      "Message": "",
+      "DecimalCode": 56509,
+      "HexCode": "0xdcbd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_SDMODE",
+      "Message": "",
+      "DecimalCode": 56510,
+      "HexCode": "0xdcbe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_QOSPRIORITY",
+      "Message": "",
+      "DecimalCode": 56511,
+      "HexCode": "0xdcbf",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_TRAFFICCLASS",
+      "Message": "",
+      "DecimalCode": 56512,
+      "HexCode": "0xdcc0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NO_SYS_RESOURCES",
+      "Message": "",
+      "DecimalCode": 56513,
+      "HexCode": "0xdcc1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_RSVP_SYS",
+      "Message": "",
+      "DecimalCode": 56600,
+      "HexCode": "0xdd18",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_OTHER_SYS",
+      "Message": "",
+      "DecimalCode": 56601,
+      "HexCode": "0xdd19",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_MEMORY_SYS",
+      "Message": "",
+      "DecimalCode": 56602,
+      "HexCode": "0xdd1a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_API_SYS",
+      "Message": "",
+      "DecimalCode": 56603,
+      "HexCode": "0xdd1b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_NO_LOCAL_APPS",
+      "Message": "",
+      "DecimalCode": 56604,
+      "HexCode": "0xdd1c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_KERNEL_TC",
+      "Message": "",
+      "DecimalCode": 56700,
+      "HexCode": "0xdd7c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CONFLICT_SERV",
+      "Message": "",
+      "DecimalCode": 56701,
+      "HexCode": "0xdd7d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_NO_SERV",
+      "Message": "",
+      "DecimalCode": 56702,
+      "HexCode": "0xdd7e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_FLOWSPEC",
+      "Message": "",
+      "DecimalCode": 56703,
+      "HexCode": "0xdd7f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_TSPEC",
+      "Message": "",
+      "DecimalCode": 56704,
+      "HexCode": "0xdd80",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_BAD_ADSPEC",
+      "Message": "",
+      "DecimalCode": 56705,
+      "HexCode": "0xdd81",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_IOCTL_SYSTEMFAILURE",
+      "Message": "",
+      "DecimalCode": 56801,
+      "HexCode": "0xdde1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_IOCTL_NOBYTESRETURNED",
+      "Message": "",
+      "DecimalCode": 56802,
+      "HexCode": "0xdde2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_IOCTL_INVALIDSOCKET",
+      "Message": "",
+      "DecimalCode": 56803,
+      "HexCode": "0xdde3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_IOCTL_INV_FUNCPTR",
+      "Message": "",
+      "DecimalCode": 56804,
+      "HexCode": "0xdde4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_IOCTL_INV_OVERLAPPED",
+      "Message": "",
+      "DecimalCode": 56805,
+      "HexCode": "0xdde5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADINBUFFER",
+      "Message": "",
+      "DecimalCode": 56811,
+      "HexCode": "0xddeb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADFLOWSPEC",
+      "Message": "",
+      "DecimalCode": 56812,
+      "HexCode": "0xddec",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_COLLISION",
+      "Message": "",
+      "DecimalCode": 56813,
+      "HexCode": "0xdded",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADPROVSPECBUF",
+      "Message": "",
+      "DecimalCode": 56814,
+      "HexCode": "0xddee",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_ILLEGALOP",
+      "Message": "",
+      "DecimalCode": 56815,
+      "HexCode": "0xddef",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_INVALIDADDRESS",
+      "Message": "",
+      "DecimalCode": 56816,
+      "HexCode": "0xddf0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": 56817,
+      "HexCode": "0xddf1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_EXCEPTION",
+      "Message": "",
+      "DecimalCode": 56818,
+      "HexCode": "0xddf2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADADDRLEN",
+      "Message": "",
+      "DecimalCode": 56819,
+      "HexCode": "0xddf3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_NOSOCKNAME",
+      "Message": "",
+      "DecimalCode": 56820,
+      "HexCode": "0xddf4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_IPTOSFAIL",
+      "Message": "",
+      "DecimalCode": 56821,
+      "HexCode": "0xddf5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_OPENSESSIONFAIL",
+      "Message": "",
+      "DecimalCode": 56822,
+      "HexCode": "0xddf6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_SENDFAIL",
+      "Message": "",
+      "DecimalCode": 56823,
+      "HexCode": "0xddf7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_RECVFAIL",
+      "Message": "",
+      "DecimalCode": 56824,
+      "HexCode": "0xddf8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADPOLICYOBJECT",
+      "Message": "",
+      "DecimalCode": 56825,
+      "HexCode": "0xddf9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_UNKNOWNFILTEROBJ",
+      "Message": "",
+      "DecimalCode": 56826,
+      "HexCode": "0xddfa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADFILTERTYPE",
+      "Message": "",
+      "DecimalCode": 56827,
+      "HexCode": "0xddfb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADFILTERCOUNT",
+      "Message": "",
+      "DecimalCode": 56828,
+      "HexCode": "0xddfc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADOBJLENGTH",
+      "Message": "",
+      "DecimalCode": 56829,
+      "HexCode": "0xddfd",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADFLOWCOUNT",
+      "Message": "",
+      "DecimalCode": 56830,
+      "HexCode": "0xddfe",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_UNKNOWNPSOBJ",
+      "Message": "",
+      "DecimalCode": 56831,
+      "HexCode": "0xddff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADPOLICYOBJ",
+      "Message": "",
+      "DecimalCode": 56832,
+      "HexCode": "0xde00",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADFLOWDESC",
+      "Message": "",
+      "DecimalCode": 56833,
+      "HexCode": "0xde01",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_BADPROVSPECOBJ",
+      "Message": "",
+      "DecimalCode": 56834,
+      "HexCode": "0xde02",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_NOLOOPBACK",
+      "Message": "",
+      "DecimalCode": 56835,
+      "HexCode": "0xde03",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_MODENOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": 56836,
+      "HexCode": "0xde04",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_SETQOS_MISSINGFLOWDESC",
+      "Message": "",
+      "DecimalCode": 56837,
+      "HexCode": "0xde05",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_GETQOS_BADOUTBUFFER",
+      "Message": "",
+      "DecimalCode": 56841,
+      "HexCode": "0xde09",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_GETQOS_SYSTEMFAILURE",
+      "Message": "",
+      "DecimalCode": 56842,
+      "HexCode": "0xde0a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_GETQOS_EXCEPTION",
+      "Message": "",
+      "DecimalCode": 56843,
+      "HexCode": "0xde0b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_GETQOS_INTERNALFAILURE",
+      "Message": "",
+      "DecimalCode": 56844,
+      "HexCode": "0xde0c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CHKQOS_BADINBUFFER",
+      "Message": "",
+      "DecimalCode": 56851,
+      "HexCode": "0xde13",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CHKQOS_BADOUTBUFFER",
+      "Message": "",
+      "DecimalCode": 56852,
+      "HexCode": "0xde14",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CHKQOS_SYSTEMFAILURE",
+      "Message": "",
+      "DecimalCode": 56853,
+      "HexCode": "0xde15",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CHKQOS_INTERNALFAILURE",
+      "Message": "",
+      "DecimalCode": 56854,
+      "HexCode": "0xde16",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CHKQOS_BADPARAMETER",
+      "Message": "",
+      "DecimalCode": 56855,
+      "HexCode": "0xde17",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "GQOS_CHKQOS_EXCEPTION",
+      "Message": "",
+      "DecimalCode": 56856,
+      "HexCode": "0xde18",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

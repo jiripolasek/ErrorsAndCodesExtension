@@ -1,0 +1,48 @@
+{
+  "HeaderFileName": "xaudio2.h",
+  "ErrorCodes": [
+    {
+      "Id": "XAUDIO2_E_INVALID_CALL",
+      "Message": "An API call or one of its arguments was illegal",
+      "DecimalCode": -2003435519,
+      "HexCode": "0x88960001",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XAUDIO2_E_XMA_DECODER_ERROR",
+      "Message": "The XMA hardware suffered an unrecoverable error",
+      "DecimalCode": -2003435518,
+      "HexCode": "0x88960002",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XAUDIO2_E_XAPO_CREATION_FAILED",
+      "Message": "XAudio2 failed to initialize an XAPO effect",
+      "DecimalCode": -2003435517,
+      "HexCode": "0x88960003",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XAUDIO2_E_DEVICE_INVALIDATED",
+      "Message": "An audio device became unusable (unplugged, etc)",
+      "DecimalCode": -2003435516,
+      "HexCode": "0x88960004",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XAUDIO2_E_SHAPE_CONTEXTS_ALLOCATED_EXCLUSIVE",
+      "Message": "An instance of the XAudio2 engine was already allocated with exclusive access to SHAPE contexts",
+      "DecimalCode": -2003435515,
+      "HexCode": "0x88960005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XAUDIO2_E_INVALID_SHAPE_CONTEXT_RANGE",
+      "Message": "The range of SHAPE contexts to be shared is already in-use",
+      "DecimalCode": -2003435514,
+      "HexCode": "0x88960006",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

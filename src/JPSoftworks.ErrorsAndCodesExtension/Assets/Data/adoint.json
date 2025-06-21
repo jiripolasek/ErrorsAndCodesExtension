@@ -1,0 +1,440 @@
+{
+  "HeaderFileName": "adoint.h",
+  "ErrorCodes": [
+    {
+      "Id": "adErrProviderFailed",
+      "Message": "",
+      "DecimalCode": -2146825288,
+      "HexCode": "0x800a0bb8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrInvalidArgument",
+      "Message": "",
+      "DecimalCode": -2146825287,
+      "HexCode": "0x800a0bb9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrOpeningFile",
+      "Message": "",
+      "DecimalCode": -2146825286,
+      "HexCode": "0x800a0bba",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrReadFile",
+      "Message": "",
+      "DecimalCode": -2146825285,
+      "HexCode": "0x800a0bbb",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrWriteFile",
+      "Message": "",
+      "DecimalCode": -2146825284,
+      "HexCode": "0x800a0bbc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrNoCurrentRecord",
+      "Message": "",
+      "DecimalCode": -2146825267,
+      "HexCode": "0x800a0bcd",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrIllegalOperation",
+      "Message": "",
+      "DecimalCode": -2146825069,
+      "HexCode": "0x800a0c93",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrCantChangeProvider",
+      "Message": "",
+      "DecimalCode": -2146825068,
+      "HexCode": "0x800a0c94",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrInTransaction",
+      "Message": "",
+      "DecimalCode": -2146825042,
+      "HexCode": "0x800a0cae",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrFeatureNotAvailable",
+      "Message": "",
+      "DecimalCode": -2146825037,
+      "HexCode": "0x800a0cb3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrItemNotFound",
+      "Message": "",
+      "DecimalCode": -2146825023,
+      "HexCode": "0x800a0cc1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrObjectInCollection",
+      "Message": "",
+      "DecimalCode": -2146824921,
+      "HexCode": "0x800a0d27",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrObjectNotSet",
+      "Message": "",
+      "DecimalCode": -2146824868,
+      "HexCode": "0x800a0d5c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrDataConversion",
+      "Message": "",
+      "DecimalCode": -2146824867,
+      "HexCode": "0x800a0d5d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrObjectClosed",
+      "Message": "",
+      "DecimalCode": -2146824584,
+      "HexCode": "0x800a0e78",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrObjectOpen",
+      "Message": "",
+      "DecimalCode": -2146824583,
+      "HexCode": "0x800a0e79",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrProviderNotFound",
+      "Message": "",
+      "DecimalCode": -2146824582,
+      "HexCode": "0x800a0e7a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrBoundToCommand",
+      "Message": "",
+      "DecimalCode": -2146824581,
+      "HexCode": "0x800a0e7b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrInvalidParamInfo",
+      "Message": "",
+      "DecimalCode": -2146824580,
+      "HexCode": "0x800a0e7c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrInvalidConnection",
+      "Message": "",
+      "DecimalCode": -2146824579,
+      "HexCode": "0x800a0e7d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrNotReentrant",
+      "Message": "",
+      "DecimalCode": -2146824578,
+      "HexCode": "0x800a0e7e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrStillExecuting",
+      "Message": "",
+      "DecimalCode": -2146824577,
+      "HexCode": "0x800a0e7f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrOperationCancelled",
+      "Message": "",
+      "DecimalCode": -2146824576,
+      "HexCode": "0x800a0e80",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrStillConnecting",
+      "Message": "",
+      "DecimalCode": -2146824575,
+      "HexCode": "0x800a0e81",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrInvalidTransaction",
+      "Message": "",
+      "DecimalCode": -2146824574,
+      "HexCode": "0x800a0e82",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrNotExecuting",
+      "Message": "",
+      "DecimalCode": -2146824573,
+      "HexCode": "0x800a0e83",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrUnsafeOperation",
+      "Message": "",
+      "DecimalCode": -2146824572,
+      "HexCode": "0x800a0e84",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrIntegrityViolation",
+      "Message": "",
+      "DecimalCode": -2146824569,
+      "HexCode": "0x800a0e87",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPermissionDenied",
+      "Message": "",
+      "DecimalCode": -2146824568,
+      "HexCode": "0x800a0e88",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrDataOverflow",
+      "Message": "",
+      "DecimalCode": -2146824567,
+      "HexCode": "0x800a0e89",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrSchemaViolation",
+      "Message": "",
+      "DecimalCode": -2146824566,
+      "HexCode": "0x800a0e8a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrSignMismatch",
+      "Message": "",
+      "DecimalCode": -2146824565,
+      "HexCode": "0x800a0e8b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrCantConvertvalue",
+      "Message": "",
+      "DecimalCode": -2146824564,
+      "HexCode": "0x800a0e8c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrCantCreate",
+      "Message": "",
+      "DecimalCode": -2146824563,
+      "HexCode": "0x800a0e8d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrColumnNotOnThisRow",
+      "Message": "",
+      "DecimalCode": -2146824562,
+      "HexCode": "0x800a0e8e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrURLDoesNotExist",
+      "Message": "",
+      "DecimalCode": -2146824561,
+      "HexCode": "0x800a0e8f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrTreePermissionDenied",
+      "Message": "",
+      "DecimalCode": -2146824560,
+      "HexCode": "0x800a0e90",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrInvalidURL",
+      "Message": "",
+      "DecimalCode": -2146824559,
+      "HexCode": "0x800a0e91",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrResourceLocked",
+      "Message": "",
+      "DecimalCode": -2146824558,
+      "HexCode": "0x800a0e92",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrResourceExists",
+      "Message": "",
+      "DecimalCode": -2146824557,
+      "HexCode": "0x800a0e93",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrCannotComplete",
+      "Message": "",
+      "DecimalCode": -2146824556,
+      "HexCode": "0x800a0e94",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrVolumeNotFound",
+      "Message": "",
+      "DecimalCode": -2146824555,
+      "HexCode": "0x800a0e95",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrOutOfSpace",
+      "Message": "",
+      "DecimalCode": -2146824554,
+      "HexCode": "0x800a0e96",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrResourceOutOfScope",
+      "Message": "",
+      "DecimalCode": -2146824553,
+      "HexCode": "0x800a0e97",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrUnavailable",
+      "Message": "",
+      "DecimalCode": -2146824552,
+      "HexCode": "0x800a0e98",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrURLNamedRowDoesNotExist",
+      "Message": "",
+      "DecimalCode": -2146824551,
+      "HexCode": "0x800a0e99",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrDelResOutOfScope",
+      "Message": "",
+      "DecimalCode": -2146824550,
+      "HexCode": "0x800a0e9a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropInvalidColumn",
+      "Message": "",
+      "DecimalCode": -2146824549,
+      "HexCode": "0x800a0e9b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropInvalidOption",
+      "Message": "",
+      "DecimalCode": -2146824548,
+      "HexCode": "0x800a0e9c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropInvalidValue",
+      "Message": "",
+      "DecimalCode": -2146824547,
+      "HexCode": "0x800a0e9d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropConflicting",
+      "Message": "",
+      "DecimalCode": -2146824546,
+      "HexCode": "0x800a0e9e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropNotAllSettable",
+      "Message": "",
+      "DecimalCode": -2146824545,
+      "HexCode": "0x800a0e9f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropNotSet",
+      "Message": "",
+      "DecimalCode": -2146824544,
+      "HexCode": "0x800a0ea0",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropNotSettable",
+      "Message": "",
+      "DecimalCode": -2146824543,
+      "HexCode": "0x800a0ea1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrPropNotSupported",
+      "Message": "",
+      "DecimalCode": -2146824542,
+      "HexCode": "0x800a0ea2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrCatalogNotSet",
+      "Message": "",
+      "DecimalCode": -2146824541,
+      "HexCode": "0x800a0ea3",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrCantChangeConnection",
+      "Message": "",
+      "DecimalCode": -2146824540,
+      "HexCode": "0x800a0ea4",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrFieldsUpdateFailed",
+      "Message": "",
+      "DecimalCode": -2146824539,
+      "HexCode": "0x800a0ea5",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrDenyNotSupported",
+      "Message": "",
+      "DecimalCode": -2146824538,
+      "HexCode": "0x800a0ea6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrDenyTypeNotSupported",
+      "Message": "",
+      "DecimalCode": -2146824537,
+      "HexCode": "0x800a0ea7",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrProviderNotSpecified",
+      "Message": "",
+      "DecimalCode": -2146824535,
+      "HexCode": "0x800a0ea9",
+      "Type": "HResult"
+    },
+    {
+      "Id": "adErrConnectionStringTooLong",
+      "Message": "",
+      "DecimalCode": -2146824534,
+      "HexCode": "0x800a0eaa",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

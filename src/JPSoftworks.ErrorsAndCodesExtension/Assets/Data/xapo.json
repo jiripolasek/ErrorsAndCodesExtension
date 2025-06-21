@@ -1,0 +1,13 @@
+{
+  "HeaderFileName": "xapo.h",
+  "ErrorCodes": [
+    {
+      "Id": "XAPO_E_FORMAT_UNSUPPORTED",
+      "Message": "// requested audio format unsupported",
+      "DecimalCode": -2003369983,
+      "HexCode": "0x88970001",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

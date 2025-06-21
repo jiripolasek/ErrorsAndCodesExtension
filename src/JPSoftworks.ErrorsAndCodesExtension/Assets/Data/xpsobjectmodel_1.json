@@ -1,0 +1,27 @@
+{
+  "HeaderFileName": "xpsobjectmodel_1.h",
+  "ErrorCodes": [
+    {
+      "Id": "XPS_E_INVALID_NUMBER_OF_POINTS_IN_CURVE_SEGMENTS",
+      "Message": "",
+      "DecimalCode": -2142108160,
+      "HexCode": "0x80520600",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_ABSOLUTE_REFERENCE",
+      "Message": "",
+      "DecimalCode": -2142108159,
+      "HexCode": "0x80520601",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XPS_E_INVALID_NUMBER_OF_COLOR_CHANNELS",
+      "Message": "",
+      "DecimalCode": -2142108158,
+      "HexCode": "0x80520602",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

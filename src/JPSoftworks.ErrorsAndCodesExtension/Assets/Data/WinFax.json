@@ -1,4 +1,201 @@
 {
-  "IsHResult": false,
-  "ErrorCodes": []
+  "ErrorCodes": [
+    {
+      "Id": "FAX_ERR_START",
+      "Message": "",
+      "DecimalCode": 7001,
+      "HexCode": "0x1b59",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_SRV_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": 7001,
+      "HexCode": "0x1b59",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_GROUP_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 7002,
+      "HexCode": "0x1b5a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_BAD_GROUP_CONFIGURATION",
+      "Message": "",
+      "DecimalCode": 7003,
+      "HexCode": "0x1b5b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_GROUP_IN_USE",
+      "Message": "",
+      "DecimalCode": 7004,
+      "HexCode": "0x1b5c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_RULE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 7005,
+      "HexCode": "0x1b5d",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_NOT_NTFS",
+      "Message": "",
+      "DecimalCode": 7006,
+      "HexCode": "0x1b5e",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_DIRECTORY_IN_USE",
+      "Message": "",
+      "DecimalCode": 7007,
+      "HexCode": "0x1b5f",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_FILE_ACCESS_DENIED",
+      "Message": "",
+      "DecimalCode": 7008,
+      "HexCode": "0x1b60",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_MESSAGE_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": 7009,
+      "HexCode": "0x1b61",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_DEVICE_NUM_LIMIT_EXCEEDED",
+      "Message": "",
+      "DecimalCode": 7010,
+      "HexCode": "0x1b62",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_NOT_SUPPORTED_ON_THIS_SKU",
+      "Message": "",
+      "DecimalCode": 7011,
+      "HexCode": "0x1b63",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_VERSION_MISMATCH",
+      "Message": "",
+      "DecimalCode": 7012,
+      "HexCode": "0x1b64",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_RECIPIENTS_LIMIT",
+      "Message": "",
+      "DecimalCode": 7013,
+      "HexCode": "0x1b65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_ERR_END",
+      "Message": "",
+      "DecimalCode": 7013,
+      "HexCode": "0x1b65",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FAX_E_SRV_OUTOFMEMORY",
+      "Message": "The fax server failed to allocate memory.",
+      "DecimalCode": -2147214503,
+      "HexCode": "0x80041b59",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_GROUP_NOT_FOUND",
+      "Message": "The fax server failed to locate an outbound routing group by name.",
+      "DecimalCode": -2147214502,
+      "HexCode": "0x80041b5a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_BAD_GROUP_CONFIGURATION",
+      "Message": "The fax server encountered an outbound routing group with bad configuration.",
+      "DecimalCode": -2147214501,
+      "HexCode": "0x80041b5b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_GROUP_IN_USE",
+      "Message": "The fax server cannot remove an outbound routing group because it is in use by one or more outbound routing rules.",
+      "DecimalCode": -2147214500,
+      "HexCode": "0x80041b5c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_RULE_NOT_FOUND",
+      "Message": "The fax server failed to locate an outbound routing rule by country/region code and area code.",
+      "DecimalCode": -2147214499,
+      "HexCode": "0x80041b5d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_NOT_NTFS",
+      "Message": "The fax server cannot set an archive folder to a non-NTFS partition.",
+      "DecimalCode": -2147214498,
+      "HexCode": "0x80041b5e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_DIRECTORY_IN_USE",
+      "Message": "The fax server cannot use the same folder for both the inbox and the sent-items archives.",
+      "DecimalCode": -2147214497,
+      "HexCode": "0x80041b5f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_FILE_ACCESS_DENIED",
+      "Message": "The fax server cannot access the specified file or folder.",
+      "DecimalCode": -2147214496,
+      "HexCode": "0x80041b60",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_MESSAGE_NOT_FOUND",
+      "Message": "The fax server cannot find the job or message by its ID.",
+      "DecimalCode": -2147214495,
+      "HexCode": "0x80041b61",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_DEVICE_NUM_LIMIT_EXCEEDED",
+      "Message": "The fax server cannot complete the operation because the number of active fax devices allowed for this version of Windows was exceeded.",
+      "DecimalCode": -2147214494,
+      "HexCode": "0x80041b62",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_NOT_SUPPORTED_ON_THIS_SKU",
+      "Message": "The fax server cannot complete the operation because it is not supported for this version of Windows.",
+      "DecimalCode": -2147214493,
+      "HexCode": "0x80041b63",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_VERSION_MISMATCH",
+      "Message": "The fax server API version does not support the requested operation.",
+      "DecimalCode": -2147214492,
+      "HexCode": "0x80041b64",
+      "Type": "HResult"
+    },
+    {
+      "Id": "FAX_E_RECIPIENT_LIMIT",
+      "Message": "The limit on the number of recipients for a single fax broadcast was reached.",
+      "DecimalCode": -2147214491,
+      "HexCode": "0x80041b65",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
 }

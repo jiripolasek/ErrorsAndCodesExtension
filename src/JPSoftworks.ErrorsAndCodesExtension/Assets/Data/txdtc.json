@@ -1,0 +1,153 @@
+{
+  "HeaderFileName": "txdtc.h",
+  "ErrorCodes": [
+    {
+      "Id": "XACT_E_CONNECTION_REQUEST_DENIED",
+      "Message": "",
+      "DecimalCode": -2147168000,
+      "HexCode": "0x8004d100",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_TOOMANY_ENLISTMENTS",
+      "Message": "",
+      "DecimalCode": -2147167999,
+      "HexCode": "0x8004d101",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_DUPLICATE_GUID",
+      "Message": "",
+      "DecimalCode": -2147167998,
+      "HexCode": "0x8004d102",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_NOTSINGLEPHASE",
+      "Message": "",
+      "DecimalCode": -2147167997,
+      "HexCode": "0x8004d103",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_RECOVERYALREADYDONE",
+      "Message": "",
+      "DecimalCode": -2147167996,
+      "HexCode": "0x8004d104",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_PROTOCOL",
+      "Message": "",
+      "DecimalCode": -2147167995,
+      "HexCode": "0x8004d105",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_RM_FAILURE",
+      "Message": "",
+      "DecimalCode": -2147167994,
+      "HexCode": "0x8004d106",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_RECOVERY_FAILED",
+      "Message": "",
+      "DecimalCode": -2147167993,
+      "HexCode": "0x8004d107",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_NOT_FOUND",
+      "Message": "",
+      "DecimalCode": -2147167992,
+      "HexCode": "0x8004d108",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_DUPLICATE_LU",
+      "Message": "",
+      "DecimalCode": -2147167991,
+      "HexCode": "0x8004d109",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_NOT_CONNECTED",
+      "Message": "",
+      "DecimalCode": -2147167990,
+      "HexCode": "0x8004d10a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_DUPLICATE_TRANSID",
+      "Message": "",
+      "DecimalCode": -2147167989,
+      "HexCode": "0x8004d10b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_BUSY",
+      "Message": "",
+      "DecimalCode": -2147167988,
+      "HexCode": "0x8004d10c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_NO_RECOVERY_PROCESS",
+      "Message": "",
+      "DecimalCode": -2147167987,
+      "HexCode": "0x8004d10d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_DOWN",
+      "Message": "",
+      "DecimalCode": -2147167986,
+      "HexCode": "0x8004d10e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_RECOVERING",
+      "Message": "",
+      "DecimalCode": -2147167985,
+      "HexCode": "0x8004d10f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LU_RECOVERY_MISMATCH",
+      "Message": "",
+      "DecimalCode": -2147167984,
+      "HexCode": "0x8004d110",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_RM_UNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147167983,
+      "HexCode": "0x8004d111",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_LRMRECOVERYALREADYDONE",
+      "Message": "",
+      "DecimalCode": -2147167982,
+      "HexCode": "0x8004d112",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_E_NOLASTRESOURCEINTERFACE",
+      "Message": "",
+      "DecimalCode": -2147167981,
+      "HexCode": "0x8004d113",
+      "Type": "HResult"
+    },
+    {
+      "Id": "XACT_S_NONOTIFY",
+      "Message": "",
+      "DecimalCode": 315648,
+      "HexCode": "0x4d100",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

@@ -1,0 +1,265 @@
+{
+  "HeaderFileName": "cderr.h",
+  "ErrorCodes": [
+    {
+      "Id": "CDERR_DIALOGFAILURE",
+      "Message": "",
+      "DecimalCode": 65535,
+      "HexCode": "0xffff",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_GENERALCODES",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_STRUCTSIZE",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_INITIALIZATION",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_NOTEMPLATE",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_NOHINSTANCE",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_LOADSTRFAILURE",
+      "Message": "",
+      "DecimalCode": 5,
+      "HexCode": "0x5",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_FINDRESFAILURE",
+      "Message": "",
+      "DecimalCode": 6,
+      "HexCode": "0x6",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_LOADRESFAILURE",
+      "Message": "",
+      "DecimalCode": 7,
+      "HexCode": "0x7",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_LOCKRESFAILURE",
+      "Message": "",
+      "DecimalCode": 8,
+      "HexCode": "0x8",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_MEMALLOCFAILURE",
+      "Message": "",
+      "DecimalCode": 9,
+      "HexCode": "0x9",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_MEMLOCKFAILURE",
+      "Message": "",
+      "DecimalCode": 10,
+      "HexCode": "0xa",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_NOHOOK",
+      "Message": "",
+      "DecimalCode": 11,
+      "HexCode": "0xb",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CDERR_REGISTERMSGFAIL",
+      "Message": "",
+      "DecimalCode": 12,
+      "HexCode": "0xc",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_PRINTERCODES",
+      "Message": "",
+      "DecimalCode": 4096,
+      "HexCode": "0x1000",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_SETUPFAILURE",
+      "Message": "",
+      "DecimalCode": 4097,
+      "HexCode": "0x1001",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_PARSEFAILURE",
+      "Message": "",
+      "DecimalCode": 4098,
+      "HexCode": "0x1002",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_RETDEFFAILURE",
+      "Message": "",
+      "DecimalCode": 4099,
+      "HexCode": "0x1003",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_LOADDRVFAILURE",
+      "Message": "",
+      "DecimalCode": 4100,
+      "HexCode": "0x1004",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_GETDEVMODEFAIL",
+      "Message": "",
+      "DecimalCode": 4101,
+      "HexCode": "0x1005",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_INITFAILURE",
+      "Message": "",
+      "DecimalCode": 4102,
+      "HexCode": "0x1006",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_NODEVICES",
+      "Message": "",
+      "DecimalCode": 4103,
+      "HexCode": "0x1007",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_NODEFAULTPRN",
+      "Message": "",
+      "DecimalCode": 4104,
+      "HexCode": "0x1008",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_DNDMMISMATCH",
+      "Message": "",
+      "DecimalCode": 4105,
+      "HexCode": "0x1009",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_CREATEICFAILURE",
+      "Message": "",
+      "DecimalCode": 4106,
+      "HexCode": "0x100a",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_PRINTERNOTFOUND",
+      "Message": "",
+      "DecimalCode": 4107,
+      "HexCode": "0x100b",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "PDERR_DEFAULTDIFFERENT",
+      "Message": "",
+      "DecimalCode": 4108,
+      "HexCode": "0x100c",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CFERR_CHOOSEFONTCODES",
+      "Message": "",
+      "DecimalCode": 8192,
+      "HexCode": "0x2000",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CFERR_NOFONTS",
+      "Message": "",
+      "DecimalCode": 8193,
+      "HexCode": "0x2001",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CFERR_MAXLESSTHANMIN",
+      "Message": "",
+      "DecimalCode": 8194,
+      "HexCode": "0x2002",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FNERR_FILENAMECODES",
+      "Message": "",
+      "DecimalCode": 12288,
+      "HexCode": "0x3000",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FNERR_SUBCLASSFAILURE",
+      "Message": "",
+      "DecimalCode": 12289,
+      "HexCode": "0x3001",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FNERR_INVALIDFILENAME",
+      "Message": "",
+      "DecimalCode": 12290,
+      "HexCode": "0x3002",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FNERR_BUFFERTOOSMALL",
+      "Message": "",
+      "DecimalCode": 12291,
+      "HexCode": "0x3003",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FRERR_FINDREPLACECODES",
+      "Message": "",
+      "DecimalCode": 16384,
+      "HexCode": "0x4000",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "FRERR_BUFFERLENGTHZERO",
+      "Message": "",
+      "DecimalCode": 16385,
+      "HexCode": "0x4001",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "CCERR_CHOOSECOLORCODES",
+      "Message": "",
+      "DecimalCode": 20480,
+      "HexCode": "0x5000",
+      "Type": "Win32Error"
+    }
+  ],
+  "Facilities": []
+}

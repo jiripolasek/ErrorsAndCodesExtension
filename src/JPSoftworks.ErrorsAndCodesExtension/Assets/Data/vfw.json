@@ -1,0 +1,139 @@
+{
+  "HeaderFileName": "vfw.h",
+  "ErrorCodes": [
+    {
+      "Id": "ICERR_OK",
+      "Message": "",
+      "DecimalCode": 0,
+      "HexCode": "0x0",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ICERR_DONTDRAW",
+      "Message": "",
+      "DecimalCode": 1,
+      "HexCode": "0x1",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ICERR_NEWPALETTE",
+      "Message": "",
+      "DecimalCode": 2,
+      "HexCode": "0x2",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ICERR_GOTOKEYFRAME",
+      "Message": "",
+      "DecimalCode": 3,
+      "HexCode": "0x3",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ICERR_STOPDRAWING",
+      "Message": "",
+      "DecimalCode": 4,
+      "HexCode": "0x4",
+      "Type": "Win32Error"
+    },
+    {
+      "Id": "ICERR_UNSUPPORTED",
+      "Message": "",
+      "DecimalCode": -1,
+      "HexCode": "0xffffffff",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADFORMAT",
+      "Message": "",
+      "DecimalCode": -2,
+      "HexCode": "0xfffffffe",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_MEMORY",
+      "Message": "",
+      "DecimalCode": -3,
+      "HexCode": "0xfffffffd",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_INTERNAL",
+      "Message": "",
+      "DecimalCode": -4,
+      "HexCode": "0xfffffffc",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADFLAGS",
+      "Message": "",
+      "DecimalCode": -5,
+      "HexCode": "0xfffffffb",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADPARAM",
+      "Message": "",
+      "DecimalCode": -6,
+      "HexCode": "0xfffffffa",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADSIZE",
+      "Message": "",
+      "DecimalCode": -7,
+      "HexCode": "0xfffffff9",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADHANDLE",
+      "Message": "",
+      "DecimalCode": -8,
+      "HexCode": "0xfffffff8",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_CANTUPDATE",
+      "Message": "",
+      "DecimalCode": -9,
+      "HexCode": "0xfffffff7",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_ABORT",
+      "Message": "",
+      "DecimalCode": -10,
+      "HexCode": "0xfffffff6",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_ERROR",
+      "Message": "",
+      "DecimalCode": -100,
+      "HexCode": "0xffffff9c",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADBITDEPTH",
+      "Message": "",
+      "DecimalCode": -200,
+      "HexCode": "0xffffff38",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_BADIMAGESIZE",
+      "Message": "",
+      "DecimalCode": -201,
+      "HexCode": "0xffffff37",
+      "Type": "PlainNumber"
+    },
+    {
+      "Id": "ICERR_CUSTOM",
+      "Message": "",
+      "DecimalCode": -400,
+      "HexCode": "0xfffffe70",
+      "Type": "PlainNumber"
+    }
+  ],
+  "Facilities": []
+}

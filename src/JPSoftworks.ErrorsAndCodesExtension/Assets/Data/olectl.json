@@ -1,0 +1,342 @@
+{
+  "HeaderFileName": "olectl.h",
+  "ErrorCodes": [
+    {
+      "Id": "CTL_E_ILLEGALFUNCTIONCALL",
+      "Message": "",
+      "DecimalCode": -2146828283,
+      "HexCode": "0x800a0005",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_OVERFLOW",
+      "Message": "",
+      "DecimalCode": -2146828282,
+      "HexCode": "0x800a0006",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_OUTOFMEMORY",
+      "Message": "",
+      "DecimalCode": -2146828281,
+      "HexCode": "0x800a0007",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_DIVISIONBYZERO",
+      "Message": "",
+      "DecimalCode": -2146828277,
+      "HexCode": "0x800a000b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_OUTOFSTRINGSPACE",
+      "Message": "",
+      "DecimalCode": -2146828274,
+      "HexCode": "0x800a000e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_OUTOFSTACKSPACE",
+      "Message": "",
+      "DecimalCode": -2146828260,
+      "HexCode": "0x800a001c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_BADFILENAMEORNUMBER",
+      "Message": "",
+      "DecimalCode": -2146828236,
+      "HexCode": "0x800a0034",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_FILENOTFOUND",
+      "Message": "",
+      "DecimalCode": -2146828235,
+      "HexCode": "0x800a0035",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_BADFILEMODE",
+      "Message": "",
+      "DecimalCode": -2146828234,
+      "HexCode": "0x800a0036",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_FILEALREADYOPEN",
+      "Message": "",
+      "DecimalCode": -2146828233,
+      "HexCode": "0x800a0037",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_DEVICEIOERROR",
+      "Message": "",
+      "DecimalCode": -2146828231,
+      "HexCode": "0x800a0039",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_FILEALREADYEXISTS",
+      "Message": "",
+      "DecimalCode": -2146828230,
+      "HexCode": "0x800a003a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_BADRECORDLENGTH",
+      "Message": "",
+      "DecimalCode": -2146828229,
+      "HexCode": "0x800a003b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_DISKFULL",
+      "Message": "",
+      "DecimalCode": -2146828227,
+      "HexCode": "0x800a003d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_BADRECORDNUMBER",
+      "Message": "",
+      "DecimalCode": -2146828225,
+      "HexCode": "0x800a003f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_BADFILENAME",
+      "Message": "",
+      "DecimalCode": -2146828224,
+      "HexCode": "0x800a0040",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_TOOMANYFILES",
+      "Message": "",
+      "DecimalCode": -2146828221,
+      "HexCode": "0x800a0043",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_DEVICEUNAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2146828220,
+      "HexCode": "0x800a0044",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_PERMISSIONDENIED",
+      "Message": "",
+      "DecimalCode": -2146828218,
+      "HexCode": "0x800a0046",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_DISKNOTREADY",
+      "Message": "",
+      "DecimalCode": -2146828217,
+      "HexCode": "0x800a0047",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_PATHFILEACCESSERROR",
+      "Message": "",
+      "DecimalCode": -2146828213,
+      "HexCode": "0x800a004b",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_PATHNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2146828212,
+      "HexCode": "0x800a004c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDPATTERNSTRING",
+      "Message": "",
+      "DecimalCode": -2146828195,
+      "HexCode": "0x800a005d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDUSEOFNULL",
+      "Message": "",
+      "DecimalCode": -2146828194,
+      "HexCode": "0x800a005e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDFILEFORMAT",
+      "Message": "",
+      "DecimalCode": -2146827967,
+      "HexCode": "0x800a0141",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDPROPERTYVALUE",
+      "Message": "",
+      "DecimalCode": -2146827908,
+      "HexCode": "0x800a017c",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDPROPERTYARRAYINDEX",
+      "Message": "",
+      "DecimalCode": -2146827907,
+      "HexCode": "0x800a017d",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_SETNOTSUPPORTEDATRUNTIME",
+      "Message": "",
+      "DecimalCode": -2146827906,
+      "HexCode": "0x800a017e",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_SETNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2146827905,
+      "HexCode": "0x800a017f",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_NEEDPROPERTYARRAYINDEX",
+      "Message": "",
+      "DecimalCode": -2146827903,
+      "HexCode": "0x800a0181",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_SETNOTPERMITTED",
+      "Message": "",
+      "DecimalCode": -2146827901,
+      "HexCode": "0x800a0183",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_GETNOTSUPPORTEDATRUNTIME",
+      "Message": "",
+      "DecimalCode": -2146827895,
+      "HexCode": "0x800a0189",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_GETNOTSUPPORTED",
+      "Message": "",
+      "DecimalCode": -2146827894,
+      "HexCode": "0x800a018a",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_PROPERTYNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2146827866,
+      "HexCode": "0x800a01a6",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDCLIPBOARDFORMAT",
+      "Message": "",
+      "DecimalCode": -2146827828,
+      "HexCode": "0x800a01cc",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_INVALIDPICTURE",
+      "Message": "",
+      "DecimalCode": -2146827807,
+      "HexCode": "0x800a01e1",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_PRINTERERROR",
+      "Message": "",
+      "DecimalCode": -2146827806,
+      "HexCode": "0x800a01e2",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_CANTSAVEFILETOTEMP",
+      "Message": "",
+      "DecimalCode": -2146827553,
+      "HexCode": "0x800a02df",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_SEARCHTEXTNOTFOUND",
+      "Message": "",
+      "DecimalCode": -2146827544,
+      "HexCode": "0x800a02e8",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_REPLACEMENTSTOOLONG",
+      "Message": "",
+      "DecimalCode": -2146827542,
+      "HexCode": "0x800a02ea",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CTL_E_CUSTOM_FIRST",
+      "Message": "",
+      "DecimalCode": -2146827688,
+      "HexCode": "0x800a0258",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CONNECT_E_NOCONNECTION",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CONNECT_E_ADVISELIMIT",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CONNECT_E_CANNOTCONNECT",
+      "Message": "",
+      "DecimalCode": -2147220990,
+      "HexCode": "0x80040202",
+      "Type": "HResult"
+    },
+    {
+      "Id": "CONNECT_E_OVERRIDDEN",
+      "Message": "",
+      "DecimalCode": -2147220989,
+      "HexCode": "0x80040203",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SELFREG_E_TYPELIB",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    },
+    {
+      "Id": "SELFREG_E_CLASS",
+      "Message": "",
+      "DecimalCode": -2147220991,
+      "HexCode": "0x80040201",
+      "Type": "HResult"
+    },
+    {
+      "Id": "PERPROP_E_NOPAGEAVAILABLE",
+      "Message": "",
+      "DecimalCode": -2147220992,
+      "HexCode": "0x80040200",
+      "Type": "HResult"
+    }
+  ],
+  "Facilities": []
+}

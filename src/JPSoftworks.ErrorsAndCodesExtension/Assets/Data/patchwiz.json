@@ -1,0 +1,1301 @@
+{
+  "HeaderFileName": "patchwiz.h",
+  "ErrorCodes": [
+    {
+      "Id": "ERROR_PCW_BASE",
+      "Message": "",
+      "DecimalCode": -1072803583,
+      "HexCode": "0xc00e5101",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_PCP_DOESNT_EXIST",
+      "Message": "",
+      "DecimalCode": -1072803583,
+      "HexCode": "0xc00e5101",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_PCP_BAD_FORMAT",
+      "Message": "",
+      "DecimalCode": -1072803582,
+      "HexCode": "0xc00e5102",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_CREATE_TEMP_FOLDER",
+      "Message": "",
+      "DecimalCode": -1072803581,
+      "HexCode": "0xc00e5103",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MISSING_PATCH_PATH",
+      "Message": "",
+      "DecimalCode": -1072803580,
+      "HexCode": "0xc00e5104",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_OVERWRITE_PATCH",
+      "Message": "",
+      "DecimalCode": -1072803579,
+      "HexCode": "0xc00e5105",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_CREATE_PATCH_FILE",
+      "Message": "",
+      "DecimalCode": -1072803578,
+      "HexCode": "0xc00e5106",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MISSING_PATCH_GUID",
+      "Message": "",
+      "DecimalCode": -1072803577,
+      "HexCode": "0xc00e5107",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_PATCH_GUID",
+      "Message": "",
+      "DecimalCode": -1072803576,
+      "HexCode": "0xc00e5108",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_GUIDS_TO_REPLACE",
+      "Message": "",
+      "DecimalCode": -1072803575,
+      "HexCode": "0xc00e5109",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET_PRODUCT_CODE_LIST",
+      "Message": "",
+      "DecimalCode": -1072803574,
+      "HexCode": "0xc00e510a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_NO_UPGRADED_IMAGES_TO_PATCH",
+      "Message": "",
+      "DecimalCode": -1072803573,
+      "HexCode": "0xc00e510b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_API_PATCHING_OPTION_FLAGS",
+      "Message": "",
+      "DecimalCode": -1072803572,
+      "HexCode": "0xc00e510c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_API_PATCHING_SYMBOL_FLAGS",
+      "Message": "",
+      "DecimalCode": -1072803571,
+      "HexCode": "0xc00e510d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_OODS_COPYING_MSI",
+      "Message": "",
+      "DecimalCode": -1072803570,
+      "HexCode": "0xc00e510e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803569,
+      "HexCode": "0xc00e510f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_UPGRADED_IMAGE_NAME",
+      "Message": "",
+      "DecimalCode": -1072803568,
+      "HexCode": "0xc00e5110",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_DUP_UPGRADED_IMAGE_NAME",
+      "Message": "",
+      "DecimalCode": -1072803567,
+      "HexCode": "0xc00e5111",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATH_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803566,
+      "HexCode": "0xc00e5112",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATH_EMPTY",
+      "Message": "",
+      "DecimalCode": -1072803565,
+      "HexCode": "0xc00e5113",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATH_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -1072803564,
+      "HexCode": "0xc00e5114",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATH_NOT_MSI",
+      "Message": "",
+      "DecimalCode": -1072803563,
+      "HexCode": "0xc00e5115",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_COMPRESSED",
+      "Message": "",
+      "DecimalCode": -1072803562,
+      "HexCode": "0xc00e5116",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_IMAGE_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803561,
+      "HexCode": "0xc00e5117",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET_IMAGE_NAME",
+      "Message": "",
+      "DecimalCode": -1072803560,
+      "HexCode": "0xc00e5118",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_DUP_TARGET_IMAGE_NAME",
+      "Message": "",
+      "DecimalCode": -1072803559,
+      "HexCode": "0xc00e5119",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_IMAGE_PATH_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803558,
+      "HexCode": "0xc00e511a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_IMAGE_PATH_EMPTY",
+      "Message": "",
+      "DecimalCode": -1072803557,
+      "HexCode": "0xc00e511b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_IMAGE_PATH_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -1072803556,
+      "HexCode": "0xc00e511c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_IMAGE_PATH_NOT_MSI",
+      "Message": "",
+      "DecimalCode": -1072803555,
+      "HexCode": "0xc00e511d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_IMAGE_COMPRESSED",
+      "Message": "",
+      "DecimalCode": -1072803554,
+      "HexCode": "0xc00e511e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_BAD_PROD_VALIDATE",
+      "Message": "",
+      "DecimalCode": -1072803553,
+      "HexCode": "0xc00e511f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_BAD_PROD_CODE_VAL",
+      "Message": "",
+      "DecimalCode": -1072803552,
+      "HexCode": "0xc00e5120",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_MISSING_SRC_FILES",
+      "Message": "",
+      "DecimalCode": -1072803551,
+      "HexCode": "0xc00e5121",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_MISSING_SRC_FILES",
+      "Message": "",
+      "DecimalCode": -1072803550,
+      "HexCode": "0xc00e5122",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_IMAGE_FAMILY_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803549,
+      "HexCode": "0xc00e5123",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_IMAGE_FAMILY_NAME",
+      "Message": "",
+      "DecimalCode": -1072803548,
+      "HexCode": "0xc00e5124",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_DUP_IMAGE_FAMILY_NAME",
+      "Message": "",
+      "DecimalCode": -1072803547,
+      "HexCode": "0xc00e5125",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_IMAGE_FAMILY_SRC_PROP",
+      "Message": "",
+      "DecimalCode": -1072803546,
+      "HexCode": "0xc00e5126",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEDATA_LONG_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803545,
+      "HexCode": "0xc00e5127",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEDATA_BLANK_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803544,
+      "HexCode": "0xc00e5128",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEDATA_MISSING_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803543,
+      "HexCode": "0xc00e5129",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_LONG_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803542,
+      "HexCode": "0xc00e512a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_BLANK_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803541,
+      "HexCode": "0xc00e512b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_BAD_FAMILY_FIELD",
+      "Message": "",
+      "DecimalCode": -1072803540,
+      "HexCode": "0xc00e512c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_LONG_PATH_TO_FILE",
+      "Message": "",
+      "DecimalCode": -1072803539,
+      "HexCode": "0xc00e512d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_BLANK_PATH_TO_FILE",
+      "Message": "",
+      "DecimalCode": -1072803538,
+      "HexCode": "0xc00e512e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_MISSING_FILE",
+      "Message": "",
+      "DecimalCode": -1072803537,
+      "HexCode": "0xc00e512f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_LONG_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803536,
+      "HexCode": "0xc00e5130",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_BLANK_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803535,
+      "HexCode": "0xc00e5131",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_MISSING_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803534,
+      "HexCode": "0xc00e5132",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_LONG_PATH_TO_FILE",
+      "Message": "",
+      "DecimalCode": -1072803533,
+      "HexCode": "0xc00e5133",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_MISSING_FILE",
+      "Message": "",
+      "DecimalCode": -1072803532,
+      "HexCode": "0xc00e5134",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_INVALID_OFFSET",
+      "Message": "",
+      "DecimalCode": -1072803531,
+      "HexCode": "0xc00e5135",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_INVALID_SIZE",
+      "Message": "",
+      "DecimalCode": -1072803530,
+      "HexCode": "0xc00e5136",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FILERANGE_INVALID_RETAIN",
+      "Message": "",
+      "DecimalCode": -1072803529,
+      "HexCode": "0xc00e5137",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_MEDIA_SRC_PROP_NAME",
+      "Message": "",
+      "DecimalCode": -1072803528,
+      "HexCode": "0xc00e5138",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_MEDIA_DISK_ID",
+      "Message": "",
+      "DecimalCode": -1072803527,
+      "HexCode": "0xc00e5139",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_FILE_SEQUENCE_START",
+      "Message": "",
+      "DecimalCode": -1072803526,
+      "HexCode": "0xc00e513a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_COPY_FILE_TO_TEMP_FOLDER",
+      "Message": "",
+      "DecimalCode": -1072803525,
+      "HexCode": "0xc00e513b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_CREATE_ONE_PATCH_FILE",
+      "Message": "",
+      "DecimalCode": -1072803524,
+      "HexCode": "0xc00e513c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_IMAGE_FAMILY_DISKID",
+      "Message": "",
+      "DecimalCode": -1072803523,
+      "HexCode": "0xc00e513d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_IMAGE_FAMILY_FILESEQSTART",
+      "Message": "",
+      "DecimalCode": -1072803522,
+      "HexCode": "0xc00e513e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_UPGRADED_IMAGE_FAMILY",
+      "Message": "",
+      "DecimalCode": -1072803521,
+      "HexCode": "0xc00e513f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET_IMAGE_UPGRADED",
+      "Message": "",
+      "DecimalCode": -1072803520,
+      "HexCode": "0xc00e5140",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_DUP_TARGET_IMAGE_PACKCODE",
+      "Message": "",
+      "DecimalCode": -1072803519,
+      "HexCode": "0xc00e5141",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEDATA_BAD_UPGRADED_FIELD",
+      "Message": "",
+      "DecimalCode": -1072803518,
+      "HexCode": "0xc00e5142",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MISMATCHED_PRODUCT_CODES",
+      "Message": "",
+      "DecimalCode": -1072803517,
+      "HexCode": "0xc00e5143",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MISMATCHED_PRODUCT_VERSIONS",
+      "Message": "",
+      "DecimalCode": -1072803516,
+      "HexCode": "0xc00e5144",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_WRITE_DDF",
+      "Message": "",
+      "DecimalCode": -1072803515,
+      "HexCode": "0xc00e5145",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_RUN_MAKECAB",
+      "Message": "",
+      "DecimalCode": -1072803514,
+      "HexCode": "0xc00e5146",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_CREATE_STORAGE",
+      "Message": "",
+      "DecimalCode": -1072803513,
+      "HexCode": "0xc00e5147",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_CREATE_STREAM",
+      "Message": "",
+      "DecimalCode": -1072803512,
+      "HexCode": "0xc00e5148",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_WRITE_STREAM",
+      "Message": "",
+      "DecimalCode": -1072803511,
+      "HexCode": "0xc00e5149",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_READ_CABINET",
+      "Message": "",
+      "DecimalCode": -1072803510,
+      "HexCode": "0xc00e514a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_WRITE_SUMMARY_PROPERTIES",
+      "Message": "",
+      "DecimalCode": -1072803509,
+      "HexCode": "0xc00e514b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_LONG_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803508,
+      "HexCode": "0xc00e514c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_BLANK_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803507,
+      "HexCode": "0xc00e514d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_MISSING_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803506,
+      "HexCode": "0xc00e514e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_BAD_TARGET_FIELD",
+      "Message": "",
+      "DecimalCode": -1072803505,
+      "HexCode": "0xc00e514f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATCH_PATH_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803504,
+      "HexCode": "0xc00e5150",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATCH_PATH_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -1072803503,
+      "HexCode": "0xc00e5151",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UPGRADED_IMAGE_PATCH_PATH_NOT_MSI",
+      "Message": "",
+      "DecimalCode": -1072803502,
+      "HexCode": "0xc00e5152",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_DUP_UPGRADED_IMAGE_PACKCODE",
+      "Message": "",
+      "DecimalCode": -1072803501,
+      "HexCode": "0xc00e5153",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEIGNORE_BAD_UPGRADED_FIELD",
+      "Message": "",
+      "DecimalCode": -1072803500,
+      "HexCode": "0xc00e5154",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEIGNORE_LONG_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803499,
+      "HexCode": "0xc00e5155",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEIGNORE_BLANK_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803498,
+      "HexCode": "0xc00e5156",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UFILEIGNORE_BAD_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803497,
+      "HexCode": "0xc00e5157",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_NAME_TOO_LONG",
+      "Message": "",
+      "DecimalCode": -1072803496,
+      "HexCode": "0xc00e5158",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_FAMILY_RANGE_NAME",
+      "Message": "",
+      "DecimalCode": -1072803495,
+      "HexCode": "0xc00e5159",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_LONG_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803494,
+      "HexCode": "0xc00e515a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_BLANK_FILE_TABLE_KEY",
+      "Message": "",
+      "DecimalCode": -1072803493,
+      "HexCode": "0xc00e515b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_LONG_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803492,
+      "HexCode": "0xc00e515c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_BLANK_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803491,
+      "HexCode": "0xc00e515d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_BAD_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803490,
+      "HexCode": "0xc00e515e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_LONG_RETAIN_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803489,
+      "HexCode": "0xc00e515f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_BLANK_RETAIN_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803488,
+      "HexCode": "0xc00e5160",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_BAD_RETAIN_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803487,
+      "HexCode": "0xc00e5161",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAMILY_RANGE_COUNT_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1072803486,
+      "HexCode": "0xc00e5162",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_LONG_IGNORE_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803485,
+      "HexCode": "0xc00e5163",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_BAD_IGNORE_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803484,
+      "HexCode": "0xc00e5164",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_LONG_IGNORE_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803483,
+      "HexCode": "0xc00e5165",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_BAD_IGNORE_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803482,
+      "HexCode": "0xc00e5166",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_IGNORE_COUNT_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1072803481,
+      "HexCode": "0xc00e5167",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_LONG_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803480,
+      "HexCode": "0xc00e5168",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_BAD_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803479,
+      "HexCode": "0xc00e5169",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXTFILE_RETAIN_COUNT_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1072803478,
+      "HexCode": "0xc00e516a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_LONG_IGNORE_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803477,
+      "HexCode": "0xc00e516b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_BAD_IGNORE_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803476,
+      "HexCode": "0xc00e516c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_LONG_IGNORE_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803475,
+      "HexCode": "0xc00e516d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_BAD_IGNORE_LENGTHS",
+      "Message": "",
+      "DecimalCode": -1072803474,
+      "HexCode": "0xc00e516e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_IGNORE_COUNT_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1072803473,
+      "HexCode": "0xc00e516f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_LONG_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803472,
+      "HexCode": "0xc00e5170",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_BAD_RETAIN_OFFSETS",
+      "Message": "",
+      "DecimalCode": -1072803471,
+      "HexCode": "0xc00e5171",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TFILEDATA_RETAIN_COUNT_MISMATCH",
+      "Message": "",
+      "DecimalCode": -1072803470,
+      "HexCode": "0xc00e5172",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_GENERATE_TRANSFORM",
+      "Message": "",
+      "DecimalCode": -1072803469,
+      "HexCode": "0xc00e5173",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_CREATE_SUMMARY_INFO",
+      "Message": "",
+      "DecimalCode": -1072803468,
+      "HexCode": "0xc00e5174",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_GENERATE_TRANSFORM_POUND",
+      "Message": "",
+      "DecimalCode": -1072803467,
+      "HexCode": "0xc00e5175",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_CREATE_SUMMARY_INFO_POUND",
+      "Message": "",
+      "DecimalCode": -1072803466,
+      "HexCode": "0xc00e5176",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_UPGRADED_IMAGE_PRODUCT_CODE",
+      "Message": "",
+      "DecimalCode": -1072803465,
+      "HexCode": "0xc00e5177",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_UPGRADED_IMAGE_PRODUCT_VERSION",
+      "Message": "",
+      "DecimalCode": -1072803464,
+      "HexCode": "0xc00e5178",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_UPGRADED_IMAGE_UPGRADE_CODE",
+      "Message": "",
+      "DecimalCode": -1072803463,
+      "HexCode": "0xc00e5179",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET_IMAGE_PRODUCT_CODE",
+      "Message": "",
+      "DecimalCode": -1072803462,
+      "HexCode": "0xc00e517a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET_IMAGE_PRODUCT_VERSION",
+      "Message": "",
+      "DecimalCode": -1072803461,
+      "HexCode": "0xc00e517b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET_IMAGE_UPGRADE_CODE",
+      "Message": "",
+      "DecimalCode": -1072803460,
+      "HexCode": "0xc00e517c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MATCHED_PRODUCT_VERSIONS",
+      "Message": "",
+      "DecimalCode": -1072803459,
+      "HexCode": "0xc00e517d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_OBSOLETION_WITH_SEQUENCE_DATA",
+      "Message": "",
+      "DecimalCode": -1072803458,
+      "HexCode": "0xc00e517e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_OBSOLETION_WITH_MSI30",
+      "Message": "",
+      "DecimalCode": -1072803457,
+      "HexCode": "0xc00e517f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_OBSOLETION_WITH_PATCHSEQUENCE",
+      "Message": "",
+      "DecimalCode": -1072803456,
+      "HexCode": "0xc00e5180",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANNOT_CREATE_TABLE",
+      "Message": "",
+      "DecimalCode": -1072803455,
+      "HexCode": "0xc00e5181",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_GENERATE_SEQUENCEINFO_MAJORUPGD",
+      "Message": "",
+      "DecimalCode": -1072803454,
+      "HexCode": "0xc00e5182",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MAJOR_UPGD_WITHOUT_SEQUENCING",
+      "Message": "",
+      "DecimalCode": -1072803453,
+      "HexCode": "0xc00e5183",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_PRODUCTVERSION_VALIDATION",
+      "Message": "",
+      "DecimalCode": -1072803452,
+      "HexCode": "0xc00e5184",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TRANSFORMSET",
+      "Message": "",
+      "DecimalCode": -1072803451,
+      "HexCode": "0xc00e5185",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TGT_UPD_IMAGES",
+      "Message": "",
+      "DecimalCode": -1072803450,
+      "HexCode": "0xc00e5186",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_SUPERCEDENCE",
+      "Message": "",
+      "DecimalCode": -1072803449,
+      "HexCode": "0xc00e5187",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_SEQUENCE",
+      "Message": "",
+      "DecimalCode": -1072803448,
+      "HexCode": "0xc00e5188",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_TARGET",
+      "Message": "",
+      "DecimalCode": -1072803447,
+      "HexCode": "0xc00e5189",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_NULL_PATCHFAMILY",
+      "Message": "",
+      "DecimalCode": -1072803446,
+      "HexCode": "0xc00e518a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_NULL_SEQUENCE_NUMBER",
+      "Message": "",
+      "DecimalCode": -1072803445,
+      "HexCode": "0xc00e518b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_VERSION_STRING",
+      "Message": "",
+      "DecimalCode": -1072803444,
+      "HexCode": "0xc00e518c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_BAD_MAJOR_VERSION",
+      "Message": "",
+      "DecimalCode": -1072803443,
+      "HexCode": "0xc00e518d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_SEQUENCING_BAD_TARGET",
+      "Message": "",
+      "DecimalCode": -1072803442,
+      "HexCode": "0xc00e518e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_PATCHMETADATA_PROP_NOT_SET",
+      "Message": "",
+      "DecimalCode": -1072803441,
+      "HexCode": "0xc00e518f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PATCHMETADATA_PROP",
+      "Message": "",
+      "DecimalCode": -1072803440,
+      "HexCode": "0xc00e5190",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_SUPERCEDENCE",
+      "Message": "",
+      "DecimalCode": -1072803439,
+      "HexCode": "0xc00e5191",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_DUPLICATE_SEQUENCE_RECORD",
+      "Message": "",
+      "DecimalCode": -1072803438,
+      "HexCode": "0xc00e5192",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_WRONG_PATCHMETADATA_STRD_PROP",
+      "Message": "",
+      "DecimalCode": -1072803437,
+      "HexCode": "0xc00e5193",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PARAMETER",
+      "Message": "",
+      "DecimalCode": -1072803436,
+      "HexCode": "0xc00e5194",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CREATEFILE_LOG_FAILED",
+      "Message": "",
+      "DecimalCode": -1072803435,
+      "HexCode": "0xc00e5195",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_LOG_LEVEL",
+      "Message": "",
+      "DecimalCode": -1072803434,
+      "HexCode": "0xc00e5196",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_UI_LEVEL",
+      "Message": "",
+      "DecimalCode": -1072803433,
+      "HexCode": "0xc00e5197",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_ERROR_WRITING_TO_LOG",
+      "Message": "",
+      "DecimalCode": -1072803432,
+      "HexCode": "0xc00e5198",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_OUT_OF_MEMORY",
+      "Message": "",
+      "DecimalCode": -1072803431,
+      "HexCode": "0xc00e5199",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UNKNOWN_ERROR",
+      "Message": "",
+      "DecimalCode": -1072803430,
+      "HexCode": "0xc00e519a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UNKNOWN_INFO",
+      "Message": "",
+      "DecimalCode": -1072803429,
+      "HexCode": "0xc00e519b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_UNKNOWN_WARN",
+      "Message": "",
+      "DecimalCode": -1072803428,
+      "HexCode": "0xc00e519c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_OPEN_VIEW",
+      "Message": "",
+      "DecimalCode": -1072803427,
+      "HexCode": "0xc00e519d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_EXECUTE_VIEW",
+      "Message": "",
+      "DecimalCode": -1072803426,
+      "HexCode": "0xc00e519e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_VIEW_FETCH",
+      "Message": "",
+      "DecimalCode": -1072803425,
+      "HexCode": "0xc00e519f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAILED_EXPAND_PATH",
+      "Message": "",
+      "DecimalCode": -1072803424,
+      "HexCode": "0xc00e51a0",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INTERNAL_ERROR",
+      "Message": "",
+      "DecimalCode": -1072803327,
+      "HexCode": "0xc00e5201",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_PROPERTY",
+      "Message": "",
+      "DecimalCode": -1072803326,
+      "HexCode": "0xc00e5202",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_TARGETIMAGES",
+      "Message": "",
+      "DecimalCode": -1072803325,
+      "HexCode": "0xc00e5203",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_LAX_VALIDATION_FLAGS",
+      "Message": "",
+      "DecimalCode": -1072803324,
+      "HexCode": "0xc00e5204",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_FAILED_CREATE_TRANSFORM",
+      "Message": "",
+      "DecimalCode": -1072803323,
+      "HexCode": "0xc00e5205",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_DELETE_TEMP_FOLDER",
+      "Message": "",
+      "DecimalCode": -1072803322,
+      "HexCode": "0xc00e5206",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MISSING_DIRECTORY_TABLE",
+      "Message": "",
+      "DecimalCode": -1072803321,
+      "HexCode": "0xc00e5207",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_SUPERSEDENCE_VALUE",
+      "Message": "",
+      "DecimalCode": -1072803320,
+      "HexCode": "0xc00e5208",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PATCH_TYPE_SEQUENCING",
+      "Message": "",
+      "DecimalCode": -1072803319,
+      "HexCode": "0xc00e5209",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_CANT_READ_FILE",
+      "Message": "",
+      "DecimalCode": -1072803318,
+      "HexCode": "0xc00e520a",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_TARGET_WRONG_PRODUCT_VERSION_COMP",
+      "Message": "",
+      "DecimalCode": -1072803317,
+      "HexCode": "0xc00e520b",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_UPGRADEDFILESTOIGNORE",
+      "Message": "",
+      "DecimalCode": -1072803316,
+      "HexCode": "0xc00e520c",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_UPGRADEDIMAGES",
+      "Message": "",
+      "DecimalCode": -1072803315,
+      "HexCode": "0xc00e520d",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_EXTERNALFILES",
+      "Message": "",
+      "DecimalCode": -1072803314,
+      "HexCode": "0xc00e520e",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_IMAGEFAMILIES",
+      "Message": "",
+      "DecimalCode": -1072803313,
+      "HexCode": "0xc00e520f",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_PATCHSEQUENCE",
+      "Message": "",
+      "DecimalCode": -1072803312,
+      "HexCode": "0xc00e5210",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_TARGETFILES_OPTIONALDATA",
+      "Message": "",
+      "DecimalCode": -1072803311,
+      "HexCode": "0xc00e5211",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_UPGRADEDFILES_OPTIONALDATA",
+      "Message": "",
+      "DecimalCode": -1072803310,
+      "HexCode": "0xc00e5212",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_MISSING_PATCHMETADATA",
+      "Message": "",
+      "DecimalCode": -1072803309,
+      "HexCode": "0xc00e5213",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_IMAGE_PATH_NOT_EXIST",
+      "Message": "",
+      "DecimalCode": -1072803308,
+      "HexCode": "0xc00e5214",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_RANGE_ELEMENT",
+      "Message": "",
+      "DecimalCode": -1072803307,
+      "HexCode": "0xc00e5215",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_MAJOR_VERSION",
+      "Message": "",
+      "DecimalCode": -1072803306,
+      "HexCode": "0xc00e5216",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_PROPERTIES",
+      "Message": "",
+      "DecimalCode": -1072803305,
+      "HexCode": "0xc00e5217",
+      "Type": "NTStatus"
+    },
+    {
+      "Id": "ERROR_PCW_INVALID_PCP_FAMILYFILERANGES",
+      "Message": "",
+      "DecimalCode": -1072803304,
+      "HexCode": "0xc00e5218",
+      "Type": "NTStatus"
+    }
+  ],
+  "Facilities": []
+}
