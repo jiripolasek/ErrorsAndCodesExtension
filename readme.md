@@ -17,11 +17,20 @@ Spend less time searching, and more time solving problems—with error details j
 
 ### Microsoft Store installation (recommended)
 
-<a href="https://apps.microsoft.com/detail/9P2NM9KVRD3G"><img alt="alt_text" width="240px" src="https://get.microsoft.com/images/en-us%20dark.svg" /></a>
+<a href="https://apps.microsoft.com/detail/9P2NM9KVRD3G">
+
+<picture>
+  <source srcset="https://get.microsoft.com/images/en-us%20dark.svg" media="(prefers-color-scheme: dark)"
+  />
+  <img width="200px" src="https://get.microsoft.com/images/en-us%20light.svg" alt="Install from Microsoft Store"
+  />
+</picture>
+
+</a>
 
 ### Command Palette
 
-![Command Palette Installation Page](art/command_palette_installation_page.png)
+[![Command Palette Installation Page](art/command_palette_installation_page.png)](#)
 
 - Open the Command Palette.
 - Navigate to the page *Install Command Palette extensions*.
