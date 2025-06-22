@@ -14,7 +14,7 @@ using Microsoft.VisualStudio.Threading;
 
 namespace JPSoftworks.ErrorsAndCodes.Services;
 
-internal class ErrorDataService
+internal sealed class ErrorDataService
 {
     private readonly AsyncLazy<ErrorDataServiceModel> _lazyInit = new(InitializeAsync);
 
@@ -42,7 +42,7 @@ internal class ErrorDataService
         }
     }
 
-    public class ErrorDataServiceModel(IEnumerable<HeaderFile> headerFiles)
+    public sealed class ErrorDataServiceModel(IEnumerable<HeaderFile> headerFiles)
     {
         public WindowsErrorLookup Lookup { get; } = new WindowsErrorLookup(headerFiles);
     }

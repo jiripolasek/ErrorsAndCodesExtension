@@ -6,7 +6,6 @@
 
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -20,7 +19,7 @@ internal static class HeaderFilesLoader
 {
     public static async Task<List<HeaderFile>> LoadHeaderFiles(string dirPath)
     {
-        List<HeaderFile> headerFiles = new();
+        List<HeaderFile> headerFiles = [];
 
         try
         {
@@ -44,11 +43,6 @@ internal static class HeaderFilesLoader
                     {
                         Logger.LogError($"Failed to deserialize file '{file.Path}' into HeaderFile.");
                         continue;
-                    }
-
-                    if (string.IsNullOrEmpty(headerFile.HeaderFileName))
-                    {
-                        headerFile.HeaderFileName = Path.GetFileNameWithoutExtension(file.Name);
                     }
 
                     headerFiles.Add(headerFile);

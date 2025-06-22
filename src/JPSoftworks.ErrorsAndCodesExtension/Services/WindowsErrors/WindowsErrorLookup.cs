@@ -15,10 +15,9 @@ namespace JPSoftworks.ErrorsAndCodes.Services.WindowsErrors;
 /// <summary>
 /// Provides efficient lookup of Windows error codes from multiple header files with priority support
 /// </summary>
-public class WindowsErrorLookup : IErrorLookup
+internal sealed partial class WindowsErrorLookup : IErrorLookup
 {
-    private static readonly Regex HexPattern = new(@"^(?:0x|&h)([0-9a-f]+)$",
-        RegexOptions.IgnoreCase | RegexOptions.Compiled);
+    private static readonly Regex HexPattern = HexRegex();
 
     private static readonly Dictionary<string, HeaderFilePriority> DefaultPriorities
         = new(StringComparer.OrdinalIgnoreCase)
@@ -354,9 +353,9 @@ public class WindowsErrorLookup : IErrorLookup
         return new LookupResult(interpretation, entry, priority);
     }
 
-    private class ParsedInput
+    private sealed class ParsedInput
     {
-        public string Original { get; private set; }
+        public required string Original { get; internal init; }
 
         public ulong? HexValue { get; private set; }
         public long? DecimalValue { get; private set; }
@@ -400,9 +399,12 @@ public class WindowsErrorLookup : IErrorLookup
         }
     }
 
-    public sealed record PrioritizedErrorCodeWithSource(
+    internal sealed record PrioritizedErrorCodeWithSource(
         ErrorCodeDto ErrorCode,
         string SourceFile,
         HeaderFilePriority Priority)
         : ErrorCodeWithSource(ErrorCode, SourceFile);
+
+    [GeneratedRegex(@"^(?:0x|&h)([0-9a-f]+)$", RegexOptions.IgnoreCase | RegexOptions.Compiled)]
+    private static partial Regex HexRegex();
 }

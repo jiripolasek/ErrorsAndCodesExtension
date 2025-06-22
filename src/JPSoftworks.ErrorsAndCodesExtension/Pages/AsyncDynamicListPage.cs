@@ -14,7 +14,7 @@ using Microsoft.CommandPalette.Extensions.Toolkit;
 
 namespace JPSoftworks.ErrorsAndCodes.Pages;
 
-internal abstract class AsyncDynamicListPage : DynamicListPage
+internal abstract class AsyncDynamicListPage : DynamicListPage, IDisposable
 {
     private const int DebounceDelayMs = 300;
     private readonly Lock _itemsLock = new();
@@ -275,7 +275,7 @@ internal abstract class AsyncDynamicListPage : DynamicListPage
 
             this._updateCancellationSource?.Cancel();
             this._updateCancellationSource?.Dispose();
-            this._updateCancellationSource = null;
+            this._updateCancellationSource = null!;
 
             this._updateSemaphore?.Dispose();
 

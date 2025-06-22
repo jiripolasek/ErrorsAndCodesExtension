@@ -8,4 +8,4 @@ using JPSoftworks.ErrorsAndCodes.Models;
 
 namespace JPSoftworks.ErrorsAndCodes.Services.WindowsErrors;
 
-public record ErrorCodeWithSource(ErrorCodeDto ErrorCode, string SourceFile);
+internal record ErrorCodeWithSource(ErrorCodeDto ErrorCode, string SourceFile);

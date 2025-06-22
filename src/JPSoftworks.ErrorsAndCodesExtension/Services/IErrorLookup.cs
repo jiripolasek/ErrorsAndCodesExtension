@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace JPSoftworks.ErrorsAndCodes.Services;
 
-public interface IErrorLookup
+internal interface IErrorLookup
 {
     IEnumerable<LookupResult> Lookup(string input);
 }

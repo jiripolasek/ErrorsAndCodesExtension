@@ -8,7 +8,7 @@ using JPSoftworks.ErrorsAndCodes.Services.WindowsErrors;
 
 namespace JPSoftworks.ErrorsAndCodes.Services;
 
-public sealed record LookupResult(
+internal sealed record LookupResult(
     Interpretation Interpretation,
     ErrorCodeWithSource Entry,
     HeaderFilePriority Priority);

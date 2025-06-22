@@ -11,6 +11,8 @@
 		<SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
 		<RuntimeIdentifiers>win-x64;win-arm64</RuntimeIdentifiers>
 
+		<NeutralLanguage>en</NeutralLanguage>
+
 		<PublishProfile>win-$(Platform).pubxml</PublishProfile>
 		<EnableMsixTooling>true</EnableMsixTooling>
 		<AssemblyName>JPSoftworks.ErrorsAndCodes</AssemblyName>

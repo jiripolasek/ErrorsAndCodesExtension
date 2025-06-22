@@ -37,7 +37,7 @@ public class HResultProcessor
     /// <summary>
     /// Gets the facility description, prioritizing file-local definitions
     /// </summary>
-    public string GetFacilityDescription(int facility, IEnumerable<ErrorCodeWithSource>? matchingErrors = null)
+    internal string GetFacilityDescription(int facility, IEnumerable<ErrorCodeWithSource>? matchingErrors = null)
     {
         // First, try to find facility in the same files as matching errors
         if (matchingErrors != null)
@@ -81,7 +81,7 @@ public class HResultProcessor
     /// <summary>
     /// Formats HRESULT components with known matching errors
     /// </summary>
-    public string FormatComponents(HResultComponents components, List<ErrorCodeWithSource> matchingErrors)
+    internal string FormatComponents(HResultComponents components, List<ErrorCodeWithSource> matchingErrors)
     {
         var severityDesc = GetSeverityDescription(components.Severity);
         var facilityDesc = this.GetFacilityDescription(components.Facility, matchingErrors);

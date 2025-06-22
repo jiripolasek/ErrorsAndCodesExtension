@@ -5,42 +5,37 @@
 // ------------------------------------------------------------
 
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 
 namespace JPSoftworks.ErrorsAndCodes.Models;
 
-public sealed class HeaderFile
+internal sealed class HeaderFile
 {
-    public string HeaderFileName { get; set; }
+    public required string HeaderFileName { get; init; }
 
-    public List<ErrorCodeDto> ErrorCodes { get; set; } = [];
+    public required List<ErrorCodeDto> ErrorCodes { get; init; } = [];
 
-    public List<FacilityDto> Facilities { get; set; } = [];
+    public required List<FacilityDto> Facilities { get; init; } = [];
 }
 
-public sealed class FacilityDto(string Name, int Code)
+[SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
+internal sealed class FacilityDto(string name, int code)
 {
-    public string Name { get; init; } = Name;
-    public int Code { get; init; } = Code;
-
-    public void Deconstruct(out string Name, out int Code)
-    {
-        Name = this.Name;
-        Code = this.Code;
-    }
+    public required string Name { get; init; } = name;
+    public required int Code { get; init; } = code;
 }
 
-public sealed record ErrorCodeDto
+[SuppressMessage("ReSharper", "ClassNeverInstantiated.Global")]
+internal sealed record ErrorCodeDto
 {
-    public string Id { get; set; }
-    public string Message { get; set; }
-    public int DecimalCode { get; set; } // Decimal representation of the error code; value is equivalent to HexCode
+    public string Id { get; init; }
+    public string Message { get; init; }
+    public int DecimalCode { get; init; } // Decimal representation of the error code; value is equivalent to HexCode
+    public string HexCode { get; init; } // Hexadecimal representation of the error code; value is equivalent to DecimalCode
 
-    public string
-        HexCode { get; set; } // Hexadecimal representation of the error code; value is equivalent to DecimalCode
-
-    [JsonConverter(typeof(JsonStringEnumConverter))]
-    public CodeType Type { get; set; }
+    [JsonConverter(typeof(JsonStringEnumConverter<CodeType>))]
+    public CodeType Type { get; init; }
 
     public ErrorCodeDto(string id, string message, int decimalCode, string hexCode, CodeType type)
     {
@@ -50,27 +45,13 @@ public sealed record ErrorCodeDto
         this.HexCode = hexCode;
         this.Type = type;
     }
-
-    public void Deconstruct(
-        out string Id,
-        out string Message,
-        out int DecimalCode,
-        out string HexCode,
-        out CodeType Type)
-    {
-        Id = this.Id;
-        Message = this.Message;
-        DecimalCode = this.DecimalCode;
-        HexCode = this.HexCode;
-        Type = this.Type;
-    }
 }
 
-public enum CodeType
+internal enum CodeType
 {
     Unknown,
     HResult,
-    NTStatus,
+    NtStatus,
     Win32Error,
     PlainNumber
 }

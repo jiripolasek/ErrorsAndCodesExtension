@@ -13,4 +13,4 @@ namespace JPSoftworks.ErrorsAndCodes.Services;
 [JsonSourceGenerationOptions(WriteIndented = true)]
 [JsonSerializable(typeof(HeaderFile))]
 [SuppressMessage("ReSharper", "ClassNeverInstantiated.Global", Justification = "Instantiated implicitly by SourceGenerationContext.Default")]
-internal partial class SourceGenerationContext : JsonSerializerContext;
+internal sealed partial class SourceGenerationContext : JsonSerializerContext;
