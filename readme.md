@@ -42,7 +42,7 @@ Spend less time searching, and more time solving problems—with error details j
 - Enter the following command:
 
   ```pwsh
-  winget install -e --id JiriPolasek.ErrorsandCodesforCommandPalette
+  winget install -e --id JiriPolasek.ErrorsForCommandPalette
   ```
 
 ### Manual installation
