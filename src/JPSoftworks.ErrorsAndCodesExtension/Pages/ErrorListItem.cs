@@ -65,7 +65,7 @@ internal sealed partial class ErrorListItem : ListItem
         return new Details
         {
             Title = entry.ErrorCode.Id,
-            Body = entry.ErrorCode.Message,
+            Body = MarkdownHelper.EscapeMarkdown(entry.ErrorCode.Message),
             Metadata =
             [
                 new DetailsElement { Key = "Source", Data = new DetailsLink { Text = entry.SourceFile } },
