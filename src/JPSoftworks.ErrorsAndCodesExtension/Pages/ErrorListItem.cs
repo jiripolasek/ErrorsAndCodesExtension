@@ -4,9 +4,12 @@
 // 
 // ------------------------------------------------------------
 
+using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Text;
 using JPSoftworks.ErrorsAndCodes.Helpers;
+using JPSoftworks.ErrorsAndCodes.Models;
 using JPSoftworks.ErrorsAndCodes.Services.WindowsErrors;
 using Microsoft.CommandPalette.Extensions;
 using Microsoft.CommandPalette.Extensions.Toolkit;
@@ -44,11 +47,17 @@ internal sealed partial class ErrorListItem : ListItem
 
     private static string BuildSubtitle(ErrorCodeWithSource entry)
     {
-        return $"""
-                {entry.ErrorCode.HexCode} | {entry.ErrorCode.DecimalCode}
-                {entry.SourceFile}
-                {entry.ErrorCode.Message}
-                """;
+        var sb = new StringBuilder();
+        sb.Append("• ").Append(entry.ErrorCode.HexCode).Append(" / ").Append(entry.ErrorCode.DecimalCode).AppendLine()
+          .Append("• ").Append(entry.SourceFile);
+
+        if (!string.IsNullOrWhiteSpace(entry.ErrorCode.Message))
+        {
+            sb.AppendLine()
+              .Append("• ").Append(entry.ErrorCode.Message);
+        }
+
+        return sb.ToString();
     }
 
     private static Details BuildDetails(ErrorCodeWithSource entry)
