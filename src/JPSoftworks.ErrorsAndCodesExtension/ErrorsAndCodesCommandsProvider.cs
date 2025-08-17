@@ -1,7 +1,7 @@
 // ------------------------------------------------------------
-// 
+//
 // Copyright (c) Jiří Polášek. All rights reserved.
-// 
+//
 // ------------------------------------------------------------
 
 using JPSoftworks.ErrorsAndCodes.Helpers;
@@ -16,6 +16,7 @@ namespace JPSoftworks.ErrorsAndCodes;
 public sealed partial class ErrorsAndCodesCommandsProvider : CommandProvider
 {
     private readonly ICommandItem[] _commands;
+    private readonly IFallbackCommandItem[] _fallbackCommands;
     private readonly ErrorDataService _errorDataService;
     private readonly SettingsManager _settingsManager = new();
 
@@ -37,10 +38,23 @@ public sealed partial class ErrorsAndCodesCommandsProvider : CommandProvider
                 MoreCommands = [new CommandContextItem(this.Settings.SettingsPage!)]
             },
         ];
+
+        this._fallbackCommands =
+        [
+            new SearchErrorCodesFallbackCommand(this._errorDataService, this._settingsManager)
+        ];
+
+        // Initialize the error data service to load the header files and prepare the lookup
+        _ = this._errorDataService.GetModelAsync();
     }
 
     public override ICommandItem[] TopLevelCommands()
     {
         return this._commands;
+    }
+
+    public override IFallbackCommandItem[] FallbackCommands()
+    {
+        return this._fallbackCommands;
     }
 }
