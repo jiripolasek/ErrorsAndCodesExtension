@@ -16,18 +16,7 @@ using Microsoft.CommandPalette.Extensions.Toolkit;
 
 namespace JPSoftworks.ErrorsAndCodes.Pages;
 
-internal sealed partial class NoOpCommandWithId : NoOpCommand
-{
-    public override string Id { get; protected set; }
-
-    public NoOpCommandWithId(string id, IconInfo icon)
-    {
-        this.Id = id;
-        this.Icon = icon;
-    }
-}
-
-internal class SearchErrorCodesFallbackCommand : FallbackCommandItem
+internal sealed partial class SearchErrorCodesFallbackCommand : FallbackCommandItem
 {
     private static readonly NoOpCommandWithId BaseCommandWithId = new("com.jpsoftworks.cmdpal.errorsandcodes.index", Icons.ErrorsCodesIcon);
 
