@@ -1,7 +1,7 @@
 ﻿// ------------------------------------------------------------
-// 
+//
 // Copyright (c) Jiří Polášek. All rights reserved.
-// 
+//
 // ------------------------------------------------------------
 
 using System;
@@ -49,6 +49,7 @@ internal sealed partial class ErrorCodesListPage : AsyncDynamicListPage, IDispos
         this.Title = Strings.ErrorsAndCodesPage_Title!;
         this.Name = Strings.Command_Open!;
         this.ShowDetails = this._settingsManager.ShowDetails;
+        this.Id = "com.jpsoftworks.cmdpal.errorsandcodes.index";
 
         this._settingsManager.Settings.SettingsChanged += this.SettingsOnSettingsChanged;
     }

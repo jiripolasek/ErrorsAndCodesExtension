@@ -1,7 +1,7 @@
 ﻿// ------------------------------------------------------------
-// 
+//
 // Copyright (c) Jiří Polášek. All rights reserved.
-// 
+//
 // ------------------------------------------------------------
 
 using System;
@@ -18,7 +18,12 @@ internal sealed class ErrorDataService
 {
     private readonly AsyncLazy<ErrorDataServiceModel> _lazyInit = new(InitializeAsync);
 
-    public Task<ErrorDataServiceModel> GetModelAsync() => this._lazyInit.GetValueAsync();
+    public bool IsReady => this._lazyInit.IsValueCreated;
+
+    public Task<ErrorDataServiceModel> GetModelAsync()
+    {
+        return this._lazyInit.GetValueAsync();
+    }
 
     public async Task<WindowsErrorLookup> GetErrorLookup()
     {
